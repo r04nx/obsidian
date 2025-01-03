@@ -1,0 +1,67 @@
+name: Deploy Static Blog
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - 'Blog/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Update Blog Title, Metadata and URLs
+        run: |
+          # Update title and description
+          find Blog -type f -name "*.html" -exec sed -i 's/<title>.*<\/title>/<title>Rohan'\''s Digital Brain Dump<\/title>/' {} \;
+          find Blog -type f -name "*.html" -exec sed -i 's/<meta name="description" content=".*">/<meta name="description" content="Personal digital garden and knowledge base of Rohan Pawar">/' {} \;
+          
+          # Update relative URLs to include /Obsidian prefix
+          find Blog -type f -name "*.html" -exec sed -i 's/href="\//href="\/Obsidian\//g' {} \;
+          find Blog -type f -name "*.html" -exec sed -i 's/src="\//src="\/Obsidian\//g' {} \;
+          
+          # Update relative URLs without leading slash
+          find Blog -type f -name "*.html" -exec sed -i 's/href="\([^"\/][^"]*\)"/href="\/Obsidian\/\1"/g' {} \;
+          find Blog -type f -name "*.html" -exec sed -i 's/src="\([^"\/][^"]*\)"/src="\/Obsidian\/\1"/g' {} \;
+
+      - name: Add CNAME
+        run: |
+          echo "rohanpawar.me" > CNAME
+          cp CNAME Blog/CNAME
+
+      - name: Verify Updates
+        run: |
+          echo "Checking for updated titles..."
+          ! find Blog -type f -name "*.html" -exec grep -L "Rohan's Digital Brain Dump" {} \;
+          
+          echo "Checking for base URL updates..."
+          ! find Blog -type f -name "*.html" -exec grep -L "/Obsidian/" {} \;
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: './Blog'
+          retention-days: 1
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v3
