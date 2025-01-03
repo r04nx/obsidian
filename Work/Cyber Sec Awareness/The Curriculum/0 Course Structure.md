@@ -82,3 +82,31 @@ Each level consists of 5 core modules:
 - [[NPCI Security Guidelines]]
 - [[IBA Security Guidelines]]
 - [[SEBI Cyber Security Framework]] 
+
+## 🔗 External References & Links
+
+### RBI Guidelines & Frameworks
+- [RBI Cyber Security Framework](https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=10435)
+- [RBI Digital Payment Security Controls](https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12032)
+- [RBI Information Security Guidelines](https://www.rbi.org.in/Scripts/BS_CircularIndexDisplay.aspx?Id=9488)
+
+### Regulatory Bodies
+- [CERT-In Official Portal](https://www.cert-in.org.in/)
+- [SEBI Cyber Security Framework](https://www.sebi.gov.in/legal/circulars/jan-2019/cyber-security-and-cyber-resilience-framework_41513.html)
+- [IDRBT Guidelines](https://www.idrbt.ac.in/assets/publications/Best%20Practices/2018/Mobile_Security.pdf)
+
+### Industry Standards
+- [ISO 27001 Standards](https://www.iso.org/standard/27001.html)
+- [PCI DSS Requirements](https://www.pcisecuritystandards.org/document_library)
+- [SWIFT Security Controls](https://www.swift.com/myswift/customer-security-programme-csp)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+
+### Indian Legislative Resources
+- [IT Act 2000](https://www.meity.gov.in/content/information-technology-act-2000)
+- [Personal Data Protection Bill](https://prsindia.org/billtrack/the-personal-data-protection-bill-2019)
+- [Banking Regulation Act](https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/BANKI15122014.pdf)
+
+### Training & Certification
+- [IDRBT Certification Programs](https://www.idrbt.ac.in/certification.html)
+- [DSCI Certification Portal](https://www.dsci.in/certifications)
+- [IBA Training Programs](https://www.iibf.org.in/programs.asp) 
