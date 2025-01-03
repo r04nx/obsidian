@@ -1,3 +1,9 @@
+---
+title: "Cybersecurity Training Program Summary"
+tags: [summary, overview, program-structure]
+aliases: ["Program Summary", "Training Summary"]
+---
+
 # Comprehensive Banking Cybersecurity Training Program
 
 ## Program Overview
@@ -32,4 +38,17 @@ This multi-level cybersecurity training program is designed specifically for Ind
 - Regulatory requirement incorporation
 - Technology updates and tool adoption
 - Performance metric evaluation
-- Stakeholder feedback integration 
+- Stakeholder feedback integration
+
+> [!note] Course Navigation
+> - Previous: [[5 Non Technical Staff Curriculum|Non-Technical Staff Curriculum]]
+> - Home: [[0 Course Structure|Course Structure]]
+> - Program Complete: Return to main course structure
+
+## Related Documents
+- [[1 Executive Curriculum|Executive Level]]
+- [[2 Senior Management Curriculum|Senior Management]]
+- [[3 Middle Management Curriculum|Middle Management]]
+- [[4 Junior Officers Curriculum|Junior Officers]]
+- [[5 Non Technical Staff Curriculum|Non-Technical Staff]]
+- [[Outline of the Course|Course Outline]] 
