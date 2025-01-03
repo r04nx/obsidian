@@ -1,6 +1,6 @@
 {
   "vaultName": "Digital Brain Dump",
-  "lastExport": 1735922203037,
+  "lastExport": 1735923926872,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager show-inline-title show-ribbon theme-dark",
   "useCustomHeadContent": false,
@@ -54,176 +54,176 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/Recommended Courses/1_Executive_Level.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 987,
       "exportedPath": "Work/Cyber Sec Awareness/Recommended Courses/1_Executive_Level.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/Recommended Courses/2_Senior_Management.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 943,
       "exportedPath": "Work/Cyber Sec Awareness/Recommended Courses/2_Senior_Management.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/Recommended Courses/3_Middle_Management.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 970,
       "exportedPath": "Work/Cyber Sec Awareness/Recommended Courses/3_Middle_Management.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/Recommended Courses/4_Junior_Officers.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 897,
       "exportedPath": "Work/Cyber Sec Awareness/Recommended Courses/4_Junior_Officers.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/Recommended Courses/5_Non_Technical_Staff.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 841,
       "exportedPath": "Work/Cyber Sec Awareness/Recommended Courses/5_Non_Technical_Staff.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/Recommended Courses/Custom_Programs.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 668,
       "exportedPath": "Work/Cyber Sec Awareness/Recommended Courses/Custom_Programs.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/The Curriculum/0_Course_Structure.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 927,
       "exportedPath": "Work/Cyber Sec Awareness/The Curriculum/0_Course_Structure.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/The Curriculum/1_Executive_Curriculum.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 3532,
       "exportedPath": "Work/Cyber Sec Awareness/The Curriculum/1_Executive_Curriculum.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/The Curriculum/2_Senior_Management_Curriculum.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 2423,
       "exportedPath": "Work/Cyber Sec Awareness/The Curriculum/2_Senior_Management_Curriculum.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/The Curriculum/3_Middle_Management_Curriculum.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 2190,
       "exportedPath": "Work/Cyber Sec Awareness/The Curriculum/3_Middle_Management_Curriculum.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/The Curriculum/4_Junior_Officers_Curriculum.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 2232,
       "exportedPath": "Work/Cyber Sec Awareness/The Curriculum/4_Junior_Officers_Curriculum.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/The Curriculum/5_Non_Technical_Staff_Curriculum.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 2241,
       "exportedPath": "Work/Cyber Sec Awareness/The Curriculum/5_Non_Technical_Staff_Curriculum.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/The Curriculum/6_Program_Summary.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 1453,
       "exportedPath": "Work/Cyber Sec Awareness/The Curriculum/6_Program_Summary.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/The Curriculum/Outline of the Course.md": {
-      "modifiedTime": 1735922203037,
+      "modifiedTime": 1735923926872,
       "sourceSize": 4372,
       "exportedPath": "Work/Cyber Sec Awareness/The Curriculum/Outline of the Course.html",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1735922203037,
-      "sourceSize": 69,
+      "modifiedTime": 1735923926872,
+      "sourceSize": 15961,
       "exportedPath": "index.html",
       "dependencies": []
     }
