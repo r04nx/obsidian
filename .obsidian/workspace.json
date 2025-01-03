@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "d745776e0927261d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4094388618561b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f876283c97bc3d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work/Cyber Sec Awareness/Executives.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Executives"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4dcc945984b740f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "92059fb9edec6363",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1116964cb125c11b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "04e95b2e001b35b0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9b1fe5ec1543d8bc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9bbf985f5be29b3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "82909bb91aa05d20",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e55cb8d852b289d3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "5672ea78db15cd92",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d35e909eafdaa02b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bcd8c6b0191dcf25",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "webpage-html-export:Export Vault to HTML": false
+    }
+  },
+  "floating": {
+    "id": "9cf42f3ac5c2f066",
+    "type": "floating",
+    "children": [
+      {
+        "id": "e4bb264500d67b47",
+        "type": "window",
+        "children": [
+          {
+            "id": "e97cdea7fe38e94c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ca50325e29317243",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              },
+              {
+                "id": "2aa8ca845a019826",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              },
+              {
+                "id": "2ce5e97615a823f4",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical",
+        "x": 496,
+        "y": 343,
+        "width": 900,
+        "height": 472,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "2ce5e97615a823f4",
+  "lastOpenFiles": [
+    "Work/Cyber Sec Awareness/Executives.md",
+    "DSA Sheet.canvas",
+    "Work/Cyber Sec Awareness/Untitled.md",
+    "Work/Cyber Sec Awareness",
+    "Work",
+    "Reexams/ADC.md",
+    "Placements/DSA To do list.md",
+    "Placements/SQL/SQL Notes - r04nx.md",
+    "Placements/SQL/Pasted image 20250102163014.png",
+    "Placements/SQL/Pasted image 20250102162939.png",
+    "2025-01-02.md",
+    "Placements/SQL",
+    "Reexams/CS.md",
+    "Reexams",
+    "Placements"
+  ]
+}
