@@ -30,6 +30,7 @@ theme:
 plugins:
   - search
   - tags
+  - awesome-pages
 
 markdown_extensions:
   - toc:
@@ -39,6 +40,28 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Placements:
+    - "DSA To do list": "Placements/DSA To do list.md"
+    - SQL: "Placements/SQL/SQL Notes - r04nx.md"
+  - Reexams:
+    - ADC: "Reexams/ADC.md"
+    - CS: "Reexams/CS.md"
+  - Work:
+    - Executives: "Work/Executives.md"
+    - Cyber Sec Awareness:
+        - Course Structure: "Work/Cyber Sec Awareness/The Curriculum/0_Course_Structure.md"
+        - Executive Level: "Work/Cyber Sec Awareness/The Curriculum/1_Executive_Curriculum.md"
+        - Senior Management: "Work/Cyber Sec Awareness/The Curriculum/2_Senior_Management_Curriculum.md"
+        - Middle Management: "Work/Cyber Sec Awareness/The Curriculum/3_Middle_Management_Curriculum.md"
+        - Junior Officers: "Work/Cyber Sec Awareness/The Curriculum/4_Junior_Officers_Curriculum.md"
+        - Non-Technical Staff: "Work/Cyber Sec Awareness/The Curriculum/5_Non_Technical_Staff_Curriculum.md"
+        - Program Summary: "Work/Cyber Sec Awareness/The Curriculum/6_Program_Summary.md"
+        - Course Outline: "Work/Cyber Sec Awareness/The Curriculum/Outline of the Course.md"
