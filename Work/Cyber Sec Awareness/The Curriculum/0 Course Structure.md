@@ -36,12 +36,49 @@ Each level consists of 5 core modules:
 
 ---
 
-## 🗺️ Navigation Guide
-1. [[1 Executive Curriculum|Executive Level]]
-2. [[2 Senior Management Curriculum|Senior Management]]
-3. [[3 Middle Management Curriculum|Middle Management]]
-4. [[4 Junior Officers Curriculum|Junior Officers]]
-5. [[5 Non Technical Staff Curriculum|Non-Technical Staff]]
+## 🗺️ Navigation & Quick Links
 
-> [!tip] Getting Started
-> Begin your journey with the Executive Level Curriculum to understand the strategic aspects of cybersecurity in banking. 
+### Course Levels
+- [[1 Executive Curriculum|👔 Executive Level]]
+- [[2 Senior Management Curriculum|👥 Senior Management]]
+- [[3 Middle Management Curriculum|🔧 Middle Management]]
+- [[4 Junior Officers Curriculum|💼 Junior Officers]]
+- [[5 Non Technical Staff Curriculum|👤 Non-Technical Staff]]
+
+### Key Resources
+- [[Outline of the Course|📋 Course Outline]]
+- [[6 Program Summary|📊 Program Summary]]
+
+### Related Links
+- [[Training Components|🎯 Training Modules]]
+- [[Assessment Framework|📝 Assessment Methods]]
+- [[References and Resources|📚 Resource Library]]
+
+> [!tip] Quick Navigation
+> Use the links above to navigate between different sections of the course.
+
+## 📚 Extended Regulatory Framework
+
+### 🏦 RBI Guidelines
+- [[RBI Cyber Security Framework 2016|RBI/2016-17/35]]
+- [[RBI Master Direction Digital Payment Security Controls 2021]]
+- [[RBI Guidelines on Information Security 2011]]
+- [[RBI Cyber Security Controls for Third Party ATM Switch Application Service Providers]]
+
+### 🔐 Indian Legislative Framework
+- [[IT Act 2000]]
+- [[Personal Data Protection Bill]]
+- [[Banking Regulation Act 1949]]
+- [[Payment and Settlement Systems Act 2007]]
+
+### 🌏 International Standards
+- [[ISO 27001|ISO/IEC 27001:2013]]
+- [[PCI DSS v4.0]]
+- [[SWIFT Customer Security Controls Framework]]
+- [[Basel Framework on Cyber Resilience]]
+
+### 🛡️ Industry Guidelines
+- [[IDRBT Cyber Security Framework]]
+- [[NPCI Security Guidelines]]
+- [[IBA Security Guidelines]]
+- [[SEBI Cyber Security Framework]] 

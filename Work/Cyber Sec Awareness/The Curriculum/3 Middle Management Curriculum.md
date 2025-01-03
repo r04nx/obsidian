@@ -68,4 +68,36 @@ aliases: ["Middle Management Training"]
 ## Related Documents
 - [[0 Course Structure|Main Course Structure]]
 - [[6 Program Summary|Program Summary]]
-- [[Outline of the Course|Course Outline]] 
+- [[Outline of the Course|Course Outline]]
+
+## 📚 Reference Library
+
+### Technical Guidelines
+- [RBI Security Control Implementation](https://rbi.org.in/controls)
+- [CERT-In Technical Guidelines](https://cert-in.org.in/technical)
+- [IDRBT Security Operations Guide](https://idrbt.ac.in/secops)
+- [NPCI Technical Standards](https://npci.org.in/technical)
+
+### Security Operations
+- [SIEM Implementation Guide](https://www.splunk.com/banking)
+- [EDR Best Practices](https://www.crowdstrike.com/banking)
+- [Network Security Controls](https://www.cisco.com/banking)
+- [Cloud Security Framework](https://aws.amazon.com/banking)
+
+### Recommended Reading
+1. "Security Operations in Banking" - IDRBT
+2. "Incident Response for Banks" - CERT-In
+3. "Technical Controls Implementation" - IBA
+4. "Banking Infrastructure Security" - NPCI
+
+### Training Platforms
+- [[IDRBT Technical Training|https://idrbt.ac.in/technical]]
+- [[RBI Security Operations|https://rbi.org.in/secops]]
+- [[SANS Banking Security|https://sans.org/banking]]
+- [[EC-Council Banking|https://eccouncil.org/banking]]
+
+### Implementation Guides
+- "SIEM Deployment Guide" - IBM
+- "EDR Implementation" - Microsoft
+- "Access Control Framework" - Oracle
+- "Network Security Blueprint" - Palo Alto 

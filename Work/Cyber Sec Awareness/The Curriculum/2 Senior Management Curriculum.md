@@ -68,4 +68,36 @@ aliases: ["Senior Management Training"]
 ## Related Documents
 - [[0 Course Structure|Main Course Structure]]
 - [[6 Program Summary|Program Summary]]
-- [[Outline of the Course|Course Outline]] 
+- [[Outline of the Course|Course Outline]]
+
+## 📚 Reference Library
+
+### Regulatory Guidelines
+- [RBI Cyber Security Framework Implementation](https://rbi.org.in/implementation)
+- [NPCI Security Standards](https://www.npci.org.in/security)
+- [IDRBT Security Assessment Framework](https://idrbt.ac.in/assessment)
+- [IBA Security Guidelines](https://www.iba.org.in/security)
+
+### Technical Standards
+- [PCI DSS Implementation Guide](https://www.pcisecuritystandards.org)
+- [SWIFT Customer Security Controls](https://www.swift.com/security)
+- [ISO 27002 Implementation](https://www.iso.org/27002)
+- [OWASP Banking Security Guide](https://owasp.org/banking)
+
+### Recommended Reading
+1. "Banking Security Program Management" - IDRBT
+2. "Operational Risk Management in Banks" - RBI
+3. "Security Audit & Compliance Guide" - IBA
+4. "Digital Payment Security" - NPCI
+
+### Training Resources
+- [[RBI Security Training Portal|https://rbi.org.in/training]]
+- [[IDRBT Senior Management Programs|https://idrbt.ac.in/senior]]
+- [[IBA Certification Programs|https://iba.org.in/cert]]
+- [[NPCI Security Certification|https://npci.org.in/certification]]
+
+### Industry Reports
+- "Banking Security Maturity Assessment" - Gartner
+- "Indian Banking Security Landscape" - Forrester
+- "Digital Banking Security" - McKinsey
+- "Cyber Risk in Banking" - BCG 

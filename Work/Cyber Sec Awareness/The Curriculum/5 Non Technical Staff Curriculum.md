@@ -67,4 +67,37 @@ aliases: ["Non-Technical Staff Training"]
 
 ## Related Documents
 - [[0 Course Structure|Main Course Structure]]
+- [[Outline of the Course|Course Outline]]
+
+## 📚 Reference Library
+
+### Awareness Guidelines
+- [RBI Security Awareness](https://rbi.org.in/awareness)
+- [IDRBT Basic Security](https://idrbt.ac.in/basic)
+- [IBA Staff Guidelines](https://iba.org.in/staff)
+- [NPCI User Security](https://npci.org.in/users)
+
+### Security Basics
+- [Phishing Prevention Guide](https://phishing.banking.org)
+- [Social Engineering Awareness](https://social.banking.org)
+- [Password Security Basics](https://password.banking.org)
+- [Safe Banking Practices](https://safe.banking.org)
+
+### Recommended Reading
+1. "Security Awareness for Banking Staff" - IDRBT
+2. "Safe Banking Guide" - RBI
+3. "Cyber Hygiene Basics" - IBA
+4. "Digital Safety Manual" - NPCI
+
+### Training Resources
+- [[Basic Security Training|https://basic.banking.org]]
+- [[Awareness Modules|https://awareness.banking.org]]
+- [[Security Videos|https://videos.banking.org]]
+- [[Quick Guides|https://guides.banking.org]]
+
+### Practice Materials
+- "Security Awareness Posters" - DSCI
+- "Security Do's and Don'ts" - IBA
+- "Daily Security Tips" - CERT-In
+- "Banking Safety Guidelines" - RBI 
 - [[Outline of the Course|Course Outline]] 

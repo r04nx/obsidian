@@ -70,6 +70,37 @@ aliases: ["Junior Officers Training"]
 - [[6 Program Summary|Program Summary]]
 - [[Outline of the Course|Course Outline]] 
 
+## 📚 Reference Library
+
+### Operational Guidelines
+- [RBI Operational Security](https://rbi.org.in/opsec)
+- [IDRBT Hands-on Guidelines](https://idrbt.ac.in/practical)
+- [IBA Security Operations](https://iba.org.in/operations)
+- [NPCI Implementation Guide](https://npci.org.in/implement)
+
+### Technical Resources
+- [Security Tool Documentation](https://tools.banking.org)
+- [Vulnerability Management Guide](https://vulnmgmt.banking.org)
+- [Access Control Implementation](https://access.banking.org)
+- [Security Monitoring Basics](https://monitoring.banking.org)
+
+### Recommended Reading
+1. "Hands-on Banking Security" - IDRBT
+2. "Security Operations Manual" - RBI
+3. "Technical Security Guide" - IBA
+4. "Security Tools Handbook" - NPCI
+
+### Training Resources
+- [[IDRBT Practical Labs|https://idrbt.ac.in/labs]]
+- [[RBI Technical Training|https://rbi.org.in/tech]]
+- [[Security Tool Training|https://tools.banking.org/training]]
+- [[Certification Programs|https://cert.banking.org]]
+
+### Practice Materials
+- "Security Tool Exercises" - CompTIA
+- "Lab Workbook for Banking Security" - IDRBT
+- "Practical Security Scenarios" - IBA
+- "Hands-on Security Guide" - DSCI
 
 💡 **Where are we?** 
 Currently at Junior Officers Level (4/5) of the cybersecurity training program. 

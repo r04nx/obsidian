@@ -53,6 +53,64 @@ tags: [executive, CISO, CRO, CFO, leadership]
 | Lab Practical | • Digital banking security assessment<br>• Secure SDLC implementation |
 | References | • RBI Digital Banking Guidelines<br>• NPCI Security Framework |
 
+## 📚 Indian Banking Context
+
+### Required Reading Materials
+- "Cyber Security in Indian Banking" by RBI
+- "Digital Banking in India" by IDRBT
+- "Cyber Security Framework for Indian Banks" by IBA
+- "Information Security Governance" by ISACA India
+
+### 🎓 Recommended Certifications
+1. IDRBT Certified Banking CIO
+2. RBI Certified Cyber Security Professional
+3. DSCI Certified Privacy Professional
+4. IBA Certified Banking Security Professional
+
+### 🔗 Essential Resources
+- [[RBI Circulars on Cyber Security|RBI Circulars Database]]
+- [[CERT-In Advisory Database]]
+- [[IDRBT Knowledge Portal]]
+- [[IBA Security Guidelines Repository]]
+
+### 🛠️ Implementation Tools
+- [[GRC Implementation Guide for Indian Banks]]
+- [[Security Metrics for Indian Banking Sector]]
+- [[Risk Assessment Templates - RBI Compliant]]
+- [[Crisis Communication Templates - Indian Context]]
+
+## 📚 Reference Library
+
+### Regulatory Documents
+- [RBI Master Circular on Cyber Security](https://www.rbi.org.in/cybersecurity/mastercircular)
+- [SEBI Cyber Security Framework](https://www.sebi.gov.in/legal/circulars/cybersecurity)
+- [IDRBT Cyber Security Guidelines](https://www.idrbt.ac.in/guidelines)
+- [CERT-In Security Guidelines](https://www.cert-in.org.in/guidelines)
+
+### Industry Standards
+- [ISO/IEC 27001:2013 Framework](https://www.iso.org/standard/27001)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [COBIT for Financial Services](https://www.isaca.org/cobit)
+- [Basel Committee on Banking Supervision](https://www.bis.org/bcbs)
+
+### Essential Reading
+1. "Digital Banking Security Leadership" - IDRBT Publication
+2. "Cyber Risk Oversight" - NACD Director's Handbook Series
+3. "The Cyber Security Handbook for Financial Services" - IBA
+4. "Executive's Guide to Banking Cyber Security" - RBI Publication
+
+### Online Resources
+- [[RBI Knowledge Portal|https://rbi.org.in/knowledge]]
+- [[IDRBT Executive Training|https://idrbt.ac.in/executive]]
+- [[IBA Security Resources|https://iba.org.in/security]]
+- [[DSCI Banking Security|https://dsci.in/banking]]
+
+### Research & Whitepapers
+- "Future of Cyber Security in Indian Banking" - KPMG
+- "Digital Banking Security Trends" - Deloitte
+- "Cyber Security Maturity in Indian Banks" - EY
+- "Banking Cyber Threat Landscape" - PWC
+
 > [!note] Navigation
 > Previous: [[0 Course Structure|Course Structure]]
 > Next: [[2 Senior Management Curriculum|Senior Management Curriculum]]

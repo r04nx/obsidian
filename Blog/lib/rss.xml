@@ -1,4 +1,25 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Digital Brain Dump]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://rohanpawar.me/</link><image><url>https://rohanpawar.me/lib/media/favicon.png</url><title>Digital Brain Dump</title><link>https://rohanpawar.me/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 03 Jan 2025 17:55:52 GMT</lastBuildDate><atom:link href="https://rohanpawar.me/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 03 Jan 2025 17:55:49 GMT</pubDate><copyright><![CDATA[Rohan Pawar]]></copyright><ttl>60</ttl><dc:creator>Rohan Pawar</dc:creator><item><title><![CDATA[Cyber Security Training Program]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Digital Brain Dump]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://rohanpawar.me/</link><image><url>https://rohanpawar.me/lib/media/favicon.png</url><title>Digital Brain Dump</title><link>https://rohanpawar.me/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 03 Jan 2025 18:07:53 GMT</lastBuildDate><atom:link href="https://rohanpawar.me/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 03 Jan 2025 18:07:51 GMT</pubDate><copyright><![CDATA[Rohan Pawar]]></copyright><ttl>60</ttl><dc:creator>Rohan Pawar</dc:creator><item><title><![CDATA[Assessment Framework]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>RBI Guidelines Understanding
+<br>Security Control Knowledge
+<br>Regulatory Framework Comprehension
+<br>Risk Management Concepts
+<br><br>
+<br>Security Tool Implementation
+<br>Incident Response Simulation
+<br>Control Testing Exercises
+<br>Audit Preparation Drills
+<br><br>
+<br>Indian Banking Security Incidents
+<br>RBI Compliance Cases
+<br>Fraud Investigation Cases
+<br>Crisis Management Scenarios
+<br><br>
+<br>Cyber Attack Simulations
+<br>Crisis Management Drills
+<br>Social Engineering Tests
+<br>Business Continuity Exercises 
+]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/assessment-framework.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/Assessment Framework.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 18:01:36 GMT</pubDate></item><item><title><![CDATA[Cyber Security Training Program]]></title><description><![CDATA[ 
  <br><br>Author
 Created by r04nx
 <br><br>This comprehensive cybersecurity training program is designed specifically for Indian banking and financial institutions, adhering to RBI guidelines, IT Act 2000 (amended 2008), and international best practices.<br><br>
@@ -21,15 +42,315 @@ Created by r04nx
 <br>Case Studies (20%)
 <br>Simulation Exercises (10%)
 
+<br><br><br><br>
+<br><a data-tooltip-position="top" aria-label="1 Executive Curriculum" data-href="1 Executive Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">👔 Executive Level</a>
+<br><a data-tooltip-position="top" aria-label="2 Senior Management Curriculum" data-href="2 Senior Management Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">👥 Senior Management</a>
+<br><a data-tooltip-position="top" aria-label="3 Middle Management Curriculum" data-href="3 Middle Management Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">🔧 Middle Management</a>
+<br><a data-tooltip-position="top" aria-label="4 Junior Officers Curriculum" data-href="4 Junior Officers Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">💼 Junior Officers</a>
+<br><a data-tooltip-position="top" aria-label="5 Non Technical Staff Curriculum" data-href="5 Non Technical Staff Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">👤 Non-Technical Staff</a>
+<br><br>
+<br><a data-tooltip-position="top" aria-label="Outline of the Course" data-href="Outline of the Course" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html" class="internal-link" target="_self" rel="noopener nofollow">📋 Course Outline</a>
+<br><a data-tooltip-position="top" aria-label="6 Program Summary" data-href="6 Program Summary" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/6-program-summary.html" class="internal-link" target="_self" rel="noopener nofollow">📊 Program Summary</a>
+<br><br>
+<br><a data-tooltip-position="top" aria-label="Training Components" data-href="Training Components" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/training-components.html" class="internal-link" target="_self" rel="noopener nofollow">🎯 Training Modules</a>
+<br><a data-tooltip-position="top" aria-label="Assessment Framework" data-href="Assessment Framework" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/assessment-framework.html" class="internal-link" target="_self" rel="noopener nofollow">📝 Assessment Methods</a>
+<br><a data-tooltip-position="top" aria-label="References and Resources" data-href="References and Resources" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/references-and-resources.html" class="internal-link" target="_self" rel="noopener nofollow">📚 Resource Library</a>
+<br>Quick Navigation
+Use the links above to navigate between different sections of the course.
 <br><br><br>
-<br><a data-tooltip-position="top" aria-label="1 Executive Curriculum" data-href="1 Executive Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Executive Level</a>
-<br><a data-tooltip-position="top" aria-label="2 Senior Management Curriculum" data-href="2 Senior Management Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Senior Management</a>
-<br><a data-tooltip-position="top" aria-label="3 Middle Management Curriculum" data-href="3 Middle Management Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Middle Management</a>
-<br><a data-tooltip-position="top" aria-label="4 Junior Officers Curriculum" data-href="4 Junior Officers Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Junior Officers</a>
-<br><a data-tooltip-position="top" aria-label="5 Non Technical Staff Curriculum" data-href="5 Non Technical Staff Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Non-Technical Staff</a>
-<br>Getting Started
-Begin your journey with the Executive Level Curriculum to understand the strategic aspects of cybersecurity in banking. 
-]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/0-course-structure.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/0 Course Structure.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 17:46:07 GMT</pubDate></item><item><title><![CDATA[Cybersecurity Training Program Summary]]></title><description><![CDATA[ 
+<br><a data-tooltip-position="top" aria-label="RBI Cyber Security Framework 2016" data-href="RBI Cyber Security Framework 2016" href="https://rohanpawar.me/RBI Cyber Security Framework 2016" class="internal-link" target="_self" rel="noopener nofollow">RBI/2016-17/35</a>
+<br><a data-href="RBI Master Direction Digital Payment Security Controls 2021" href="https://rohanpawar.me/RBI Master Direction Digital Payment Security Controls 2021" class="internal-link" target="_self" rel="noopener nofollow">RBI Master Direction Digital Payment Security Controls 2021</a>
+<br><a data-href="RBI Guidelines on Information Security 2011" href="https://rohanpawar.me/RBI Guidelines on Information Security 2011" class="internal-link" target="_self" rel="noopener nofollow">RBI Guidelines on Information Security 2011</a>
+<br><a data-href="RBI Cyber Security Controls for Third Party ATM Switch Application Service Providers" href="https://rohanpawar.me/RBI Cyber Security Controls for Third Party ATM Switch Application Service Providers" class="internal-link" target="_self" rel="noopener nofollow">RBI Cyber Security Controls for Third Party ATM Switch Application Service Providers</a>
+<br><br>
+<br><a data-href="IT Act 2000" href="https://rohanpawar.me/IT Act 2000" class="internal-link" target="_self" rel="noopener nofollow">IT Act 2000</a>
+<br><a data-href="Personal Data Protection Bill" href="https://rohanpawar.me/Personal Data Protection Bill" class="internal-link" target="_self" rel="noopener nofollow">Personal Data Protection Bill</a>
+<br><a data-href="Banking Regulation Act 1949" href="https://rohanpawar.me/Banking Regulation Act 1949" class="internal-link" target="_self" rel="noopener nofollow">Banking Regulation Act 1949</a>
+<br><a data-href="Payment and Settlement Systems Act 2007" href="https://rohanpawar.me/Payment and Settlement Systems Act 2007" class="internal-link" target="_self" rel="noopener nofollow">Payment and Settlement Systems Act 2007</a>
+<br><br>
+<br><a data-tooltip-position="top" aria-label="ISO 27001" data-href="ISO 27001" href="https://rohanpawar.me/ISO 27001" class="internal-link" target="_self" rel="noopener nofollow">ISO/IEC 27001:2013</a>
+<br><a data-href="PCI DSS v4.0" href="https://rohanpawar.me/PCI DSS v4.0" class="internal-link" target="_self" rel="noopener nofollow">PCI DSS v4.0</a>
+<br><a data-href="SWIFT Customer Security Controls Framework" href="https://rohanpawar.me/SWIFT Customer Security Controls Framework" class="internal-link" target="_self" rel="noopener nofollow">SWIFT Customer Security Controls Framework</a>
+<br><a data-href="Basel Framework on Cyber Resilience" href="https://rohanpawar.me/Basel Framework on Cyber Resilience" class="internal-link" target="_self" rel="noopener nofollow">Basel Framework on Cyber Resilience</a>
+<br><br>
+<br><a data-href="IDRBT Cyber Security Framework" href="https://rohanpawar.me/IDRBT Cyber Security Framework" class="internal-link" target="_self" rel="noopener nofollow">IDRBT Cyber Security Framework</a>
+<br><a data-href="NPCI Security Guidelines" href="https://rohanpawar.me/NPCI Security Guidelines" class="internal-link" target="_self" rel="noopener nofollow">NPCI Security Guidelines</a>
+<br><a data-href="IBA Security Guidelines" href="https://rohanpawar.me/IBA Security Guidelines" class="internal-link" target="_self" rel="noopener nofollow">IBA Security Guidelines</a>
+<br><a data-href="SEBI Cyber Security Framework" href="https://rohanpawar.me/SEBI Cyber Security Framework" class="internal-link" target="_self" rel="noopener nofollow">SEBI Cyber Security Framework</a> 
+]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/0-course-structure.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/0 Course Structure.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 18:04:58 GMT</pubDate></item><item><title><![CDATA[Executive Level Cybersecurity Curriculum]]></title><description><![CDATA[ 
+ <br><br>
+For CEO/MD/Board Members/CISO/CRO/CFO
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>"Cyber Security in Indian Banking" by RBI
+<br>"Digital Banking in India" by IDRBT
+<br>"Cyber Security Framework for Indian Banks" by IBA
+<br>"Information Security Governance" by ISACA India
+<br><br>
+<br>IDRBT Certified Banking CIO
+<br>RBI Certified Cyber Security Professional
+<br>DSCI Certified Privacy Professional
+<br>IBA Certified Banking Security Professional
+<br><br>
+<br><a data-tooltip-position="top" aria-label="RBI Circulars on Cyber Security" data-href="RBI Circulars on Cyber Security" href="https://rohanpawar.me/RBI Circulars on Cyber Security" class="internal-link" target="_self" rel="noopener nofollow">RBI Circulars Database</a>
+<br><a data-href="CERT-In Advisory Database" href="https://rohanpawar.me/CERT-In Advisory Database" class="internal-link" target="_self" rel="noopener nofollow">CERT-In Advisory Database</a>
+<br><a data-href="IDRBT Knowledge Portal" href="https://rohanpawar.me/IDRBT Knowledge Portal" class="internal-link" target="_self" rel="noopener nofollow">IDRBT Knowledge Portal</a>
+<br><a data-href="IBA Security Guidelines Repository" href="https://rohanpawar.me/IBA Security Guidelines Repository" class="internal-link" target="_self" rel="noopener nofollow">IBA Security Guidelines Repository</a>
+<br><br>
+<br><a data-href="GRC Implementation Guide for Indian Banks" href="https://rohanpawar.me/GRC Implementation Guide for Indian Banks" class="internal-link" target="_self" rel="noopener nofollow">GRC Implementation Guide for Indian Banks</a>
+<br><a data-href="Security Metrics for Indian Banking Sector" href="https://rohanpawar.me/Security Metrics for Indian Banking Sector" class="internal-link" target="_self" rel="noopener nofollow">Security Metrics for Indian Banking Sector</a>
+<br><a data-href="Risk Assessment Templates - RBI Compliant" href="https://rohanpawar.me/Risk Assessment Templates - RBI Compliant" class="internal-link" target="_self" rel="noopener nofollow">Risk Assessment Templates - RBI Compliant</a>
+<br><a data-href="Crisis Communication Templates - Indian Context" href="https://rohanpawar.me/Crisis Communication Templates - Indian Context" class="internal-link" target="_self" rel="noopener nofollow">Crisis Communication Templates - Indian Context</a>
+<br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.rbi.org.in/cybersecurity/mastercircular" rel="noopener nofollow" class="external-link" href="https://www.rbi.org.in/cybersecurity/mastercircular" target="_blank">RBI Master Circular on Cyber Security</a>
+<br><a data-tooltip-position="top" aria-label="https://www.sebi.gov.in/legal/circulars/cybersecurity" rel="noopener nofollow" class="external-link" href="https://www.sebi.gov.in/legal/circulars/cybersecurity" target="_blank">SEBI Cyber Security Framework</a>
+<br><a data-tooltip-position="top" aria-label="https://www.idrbt.ac.in/guidelines" rel="noopener nofollow" class="external-link" href="https://www.idrbt.ac.in/guidelines" target="_blank">IDRBT Cyber Security Guidelines</a>
+<br><a data-tooltip-position="top" aria-label="https://www.cert-in.org.in/guidelines" rel="noopener nofollow" class="external-link" href="https://www.cert-in.org.in/guidelines" target="_blank">CERT-In Security Guidelines</a>
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.iso.org/standard/27001" rel="noopener nofollow" class="external-link" href="https://www.iso.org/standard/27001" target="_blank">ISO/IEC 27001:2013 Framework</a>
+<br><a data-tooltip-position="top" aria-label="https://www.nist.gov/cyberframework" rel="noopener nofollow" class="external-link" href="https://www.nist.gov/cyberframework" target="_blank">NIST Cybersecurity Framework</a>
+<br><a data-tooltip-position="top" aria-label="https://www.isaca.org/cobit" rel="noopener nofollow" class="external-link" href="https://www.isaca.org/cobit" target="_blank">COBIT for Financial Services</a>
+<br><a data-tooltip-position="top" aria-label="https://www.bis.org/bcbs" rel="noopener nofollow" class="external-link" href="https://www.bis.org/bcbs" target="_blank">Basel Committee on Banking Supervision</a>
+<br><br>
+<br>"Digital Banking Security Leadership" - IDRBT Publication
+<br>"Cyber Risk Oversight" - NACD Director's Handbook Series
+<br>"The Cyber Security Handbook for Financial Services" - IBA
+<br>"Executive's Guide to Banking Cyber Security" - RBI Publication
+<br><br>
+<br><a data-tooltip-position="top" aria-label="RBI Knowledge Portal" data-href="RBI Knowledge Portal" href="https://rohanpawar.me/RBI Knowledge Portal" class="internal-link" target="_self" rel="noopener nofollow">https://rbi.org.in/knowledge</a>
+<br><a data-tooltip-position="top" aria-label="IDRBT Executive Training" data-href="IDRBT Executive Training" href="https://rohanpawar.me/IDRBT Executive Training" class="internal-link" target="_self" rel="noopener nofollow">https://idrbt.ac.in/executive</a>
+<br><a data-tooltip-position="top" aria-label="IBA Security Resources" data-href="IBA Security Resources" href="https://rohanpawar.me/IBA Security Resources" class="internal-link" target="_self" rel="noopener nofollow">https://iba.org.in/security</a>
+<br><a data-tooltip-position="top" aria-label="DSCI Banking Security" data-href="DSCI Banking Security" href="https://rohanpawar.me/DSCI Banking Security" class="internal-link" target="_self" rel="noopener nofollow">https://dsci.in/banking</a>
+<br><br>
+<br>"Future of Cyber Security in Indian Banking" - KPMG
+<br>"Digital Banking Security Trends" - Deloitte
+<br>"Cyber Security Maturity in Indian Banks" - EY
+<br>"Banking Cyber Threat Landscape" - PWC
+<br>Navigation
+Previous: <a data-tooltip-position="top" aria-label="0 Course Structure" data-href="0 Course Structure" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/0-course-structure.html" class="internal-link" target="_self" rel="noopener nofollow">Course Structure</a><br>
+Next: <a data-tooltip-position="top" aria-label="2 Senior Management Curriculum" data-href="2 Senior Management Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Senior Management Curriculum</a><br>
+Current Level: Executive Level (1/5)
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=10435" rel="noopener nofollow" class="external-link" href="https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=10435" target="_blank">RBI Cyber Security Framework</a>
+<br><a data-tooltip-position="top" aria-label="https://www.cert-in.org.in/" rel="noopener nofollow" class="external-link" href="https://www.cert-in.org.in/" target="_blank">CERT-In Guidelines</a>
+<br><a data-tooltip-position="top" aria-label="https://www.idrbt.ac.in/" rel="noopener nofollow" class="external-link" href="https://www.idrbt.ac.in/" target="_blank">IDRBT Security Framework</a>
+<br><a data-tooltip-position="top" aria-label="https://www.nist.gov/cyberframework" rel="noopener nofollow" class="external-link" href="https://www.nist.gov/cyberframework" target="_blank">NIST Cybersecurity Framework</a>
+<br><a data-tooltip-position="top" aria-label="https://www.iso.org/isoiec-27001-information-security.html" rel="noopener nofollow" class="external-link" href="https://www.iso.org/isoiec-27001-information-security.html" target="_blank">ISO/IEC 27001 Standards</a>
+]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/1 Executive Curriculum.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 18:03:34 GMT</pubDate></item><item><title><![CDATA[Junior Officers Level Cybersecurity Curriculum]]></title><description><![CDATA[ 
+ <br><br>
+For Officers, Assistant Managers (Scale 1-2)
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>Weekly hands-on labs
+<br>Monthly security assessments
+<br>Quarterly practical exams
+<br>Continuous monitoring exercises
+<br>Course Navigation
+
+<br>Previous: <a data-tooltip-position="top" aria-label="3 Middle Management Curriculum" data-href="3 Middle Management Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Middle Management Curriculum</a>
+<br>Next: <a data-tooltip-position="top" aria-label="5 Non Technical Staff Curriculum" data-href="5 Non Technical Staff Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Non-Technical Staff Curriculum</a>
+<br>Current Level: Junior Officers (4/5)
+
+<br><br>
+<br><a data-tooltip-position="top" aria-label="0 Course Structure" data-href="0 Course Structure" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/0-course-structure.html" class="internal-link" target="_self" rel="noopener nofollow">Main Course Structure</a>
+<br><a data-tooltip-position="top" aria-label="6 Program Summary" data-href="6 Program Summary" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/6-program-summary.html" class="internal-link" target="_self" rel="noopener nofollow">Program Summary</a>
+<br><a data-tooltip-position="top" aria-label="Outline of the Course" data-href="Outline of the Course" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html" class="internal-link" target="_self" rel="noopener nofollow">Course Outline</a> 
+<br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://rbi.org.in/opsec" rel="noopener nofollow" class="external-link" href="https://rbi.org.in/opsec" target="_blank">RBI Operational Security</a>
+<br><a data-tooltip-position="top" aria-label="https://idrbt.ac.in/practical" rel="noopener nofollow" class="external-link" href="https://idrbt.ac.in/practical" target="_blank">IDRBT Hands-on Guidelines</a>
+<br><a data-tooltip-position="top" aria-label="https://iba.org.in/operations" rel="noopener nofollow" class="external-link" href="https://iba.org.in/operations" target="_blank">IBA Security Operations</a>
+<br><a data-tooltip-position="top" aria-label="https://npci.org.in/implement" rel="noopener nofollow" class="external-link" href="https://npci.org.in/implement" target="_blank">NPCI Implementation Guide</a>
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://tools.banking.org" rel="noopener nofollow" class="external-link" href="https://tools.banking.org" target="_blank">Security Tool Documentation</a>
+<br><a data-tooltip-position="top" aria-label="https://vulnmgmt.banking.org" rel="noopener nofollow" class="external-link" href="https://vulnmgmt.banking.org" target="_blank">Vulnerability Management Guide</a>
+<br><a data-tooltip-position="top" aria-label="https://access.banking.org" rel="noopener nofollow" class="external-link" href="https://access.banking.org" target="_blank">Access Control Implementation</a>
+<br><a data-tooltip-position="top" aria-label="https://monitoring.banking.org" rel="noopener nofollow" class="external-link" href="https://monitoring.banking.org" target="_blank">Security Monitoring Basics</a>
+<br><br>
+<br>"Hands-on Banking Security" - IDRBT
+<br>"Security Operations Manual" - RBI
+<br>"Technical Security Guide" - IBA
+<br>"Security Tools Handbook" - NPCI
+<br><br>
+<br><a data-tooltip-position="top" aria-label="IDRBT Practical Labs" data-href="IDRBT Practical Labs" href="https://rohanpawar.me/IDRBT Practical Labs" class="internal-link" target="_self" rel="noopener nofollow">https://idrbt.ac.in/labs</a>
+<br><a data-tooltip-position="top" aria-label="RBI Technical Training" data-href="RBI Technical Training" href="https://rohanpawar.me/RBI Technical Training" class="internal-link" target="_self" rel="noopener nofollow">https://rbi.org.in/tech</a>
+<br><a data-tooltip-position="top" aria-label="Security Tool Training" data-href="Security Tool Training" href="https://rohanpawar.me/Security Tool Training" class="internal-link" target="_self" rel="noopener nofollow">https://tools.banking.org/training</a>
+<br><a data-tooltip-position="top" aria-label="Certification Programs" data-href="Certification Programs" href="https://rohanpawar.me/Certification Programs" class="internal-link" target="_self" rel="noopener nofollow">https://cert.banking.org</a>
+<br><br>
+<br>"Security Tool Exercises" - CompTIA
+<br>"Lab Workbook for Banking Security" - IDRBT
+<br>"Practical Security Scenarios" - IBA
+<br>"Hands-on Security Guide" - DSCI
+<br>💡 Where are we?<br>
+Currently at Junior Officers Level (4/5) of the cybersecurity training program. ]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/4 Junior Officers Curriculum.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 18:03:18 GMT</pubDate></item><item><title><![CDATA[Middle Management Level Cybersecurity Curriculum]]></title><description><![CDATA[ 
+ <br><br>
+For Senior Manager, Chief Manager, AGM (Scale 3-5)
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>Access to security labs
+<br>Hands-on tool experience
+<br>Regular technical assessments
+<br>Monthly security drills
+<br>Course Navigation
+
+<br>Previous: <a data-tooltip-position="top" aria-label="2 Senior Management Curriculum" data-href="2 Senior Management Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Senior Management Curriculum</a>
+<br>Next: <a data-tooltip-position="top" aria-label="4 Junior Officers Curriculum" data-href="4 Junior Officers Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Junior Officers Curriculum</a>
+<br>Current Level: Middle Management (3/5)
+
+<br><br>
+<br><a data-tooltip-position="top" aria-label="0 Course Structure" data-href="0 Course Structure" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/0-course-structure.html" class="internal-link" target="_self" rel="noopener nofollow">Main Course Structure</a>
+<br><a data-tooltip-position="top" aria-label="6 Program Summary" data-href="6 Program Summary" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/6-program-summary.html" class="internal-link" target="_self" rel="noopener nofollow">Program Summary</a>
+<br><a data-tooltip-position="top" aria-label="Outline of the Course" data-href="Outline of the Course" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html" class="internal-link" target="_self" rel="noopener nofollow">Course Outline</a>
+<br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://rbi.org.in/controls" rel="noopener nofollow" class="external-link" href="https://rbi.org.in/controls" target="_blank">RBI Security Control Implementation</a>
+<br><a data-tooltip-position="top" aria-label="https://cert-in.org.in/technical" rel="noopener nofollow" class="external-link" href="https://cert-in.org.in/technical" target="_blank">CERT-In Technical Guidelines</a>
+<br><a data-tooltip-position="top" aria-label="https://idrbt.ac.in/secops" rel="noopener nofollow" class="external-link" href="https://idrbt.ac.in/secops" target="_blank">IDRBT Security Operations Guide</a>
+<br><a data-tooltip-position="top" aria-label="https://npci.org.in/technical" rel="noopener nofollow" class="external-link" href="https://npci.org.in/technical" target="_blank">NPCI Technical Standards</a>
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.splunk.com/banking" rel="noopener nofollow" class="external-link" href="https://www.splunk.com/banking" target="_blank">SIEM Implementation Guide</a>
+<br><a data-tooltip-position="top" aria-label="https://www.crowdstrike.com/banking" rel="noopener nofollow" class="external-link" href="https://www.crowdstrike.com/banking" target="_blank">EDR Best Practices</a>
+<br><a data-tooltip-position="top" aria-label="https://www.cisco.com/banking" rel="noopener nofollow" class="external-link" href="https://www.cisco.com/banking" target="_blank">Network Security Controls</a>
+<br><a data-tooltip-position="top" aria-label="https://aws.amazon.com/banking" rel="noopener nofollow" class="external-link" href="https://aws.amazon.com/banking" target="_blank">Cloud Security Framework</a>
+<br><br>
+<br>"Security Operations in Banking" - IDRBT
+<br>"Incident Response for Banks" - CERT-In
+<br>"Technical Controls Implementation" - IBA
+<br>"Banking Infrastructure Security" - NPCI
+<br><br>
+<br><a data-tooltip-position="top" aria-label="IDRBT Technical Training" data-href="IDRBT Technical Training" href="https://rohanpawar.me/IDRBT Technical Training" class="internal-link" target="_self" rel="noopener nofollow">https://idrbt.ac.in/technical</a>
+<br><a data-tooltip-position="top" aria-label="RBI Security Operations" data-href="RBI Security Operations" href="https://rohanpawar.me/RBI Security Operations" class="internal-link" target="_self" rel="noopener nofollow">https://rbi.org.in/secops</a>
+<br><a data-tooltip-position="top" aria-label="SANS Banking Security" data-href="SANS Banking Security" href="https://rohanpawar.me/SANS Banking Security" class="internal-link" target="_self" rel="noopener nofollow">https://sans.org/banking</a>
+<br><a data-tooltip-position="top" aria-label="EC-Council Banking" data-href="EC-Council Banking" href="https://rohanpawar.me/EC-Council Banking" class="internal-link" target="_self" rel="noopener nofollow">https://eccouncil.org/banking</a>
+<br><br>
+<br>"SIEM Deployment Guide" - IBM
+<br>"EDR Implementation" - Microsoft
+<br>"Access Control Framework" - Oracle
+<br>"Network Security Blueprint" - Palo Alto 
+]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/3 Middle Management Curriculum.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 18:03:09 GMT</pubDate></item><item><title><![CDATA[Non-Technical Staff Cybersecurity Curriculum]]></title><description><![CDATA[ 
+ <br><br>
+For Support Staff and General Employees
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>Monthly awareness assessments
+<br>Quarterly phishing simulations
+<br>Regular role-play exercises
+<br>Continuous feedback mechanisms
+<br>Course Navigation
+
+<br>Previous: <a data-tooltip-position="top" aria-label="4 Junior Officers Curriculum" data-href="4 Junior Officers Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Junior Officers Curriculum</a>
+<br>Next: <a data-tooltip-position="top" aria-label="6 Program Summary" data-href="6 Program Summary" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/6-program-summary.html" class="internal-link" target="_self" rel="noopener nofollow">Program Summary</a>
+<br>Current Level: Non-Technical Staff (5/5)
+
+<br><br>
+<br><a data-tooltip-position="top" aria-label="0 Course Structure" data-href="0 Course Structure" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/0-course-structure.html" class="internal-link" target="_self" rel="noopener nofollow">Main Course Structure</a>
+<br><a data-tooltip-position="top" aria-label="Outline of the Course" data-href="Outline of the Course" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html" class="internal-link" target="_self" rel="noopener nofollow">Course Outline</a>
+<br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://rbi.org.in/awareness" rel="noopener nofollow" class="external-link" href="https://rbi.org.in/awareness" target="_blank">RBI Security Awareness</a>
+<br><a data-tooltip-position="top" aria-label="https://idrbt.ac.in/basic" rel="noopener nofollow" class="external-link" href="https://idrbt.ac.in/basic" target="_blank">IDRBT Basic Security</a>
+<br><a data-tooltip-position="top" aria-label="https://iba.org.in/staff" rel="noopener nofollow" class="external-link" href="https://iba.org.in/staff" target="_blank">IBA Staff Guidelines</a>
+<br><a data-tooltip-position="top" aria-label="https://npci.org.in/users" rel="noopener nofollow" class="external-link" href="https://npci.org.in/users" target="_blank">NPCI User Security</a>
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://phishing.banking.org" rel="noopener nofollow" class="external-link" href="https://phishing.banking.org" target="_blank">Phishing Prevention Guide</a>
+<br><a data-tooltip-position="top" aria-label="https://social.banking.org" rel="noopener nofollow" class="external-link" href="https://social.banking.org" target="_blank">Social Engineering Awareness</a>
+<br><a data-tooltip-position="top" aria-label="https://password.banking.org" rel="noopener nofollow" class="external-link" href="https://password.banking.org" target="_blank">Password Security Basics</a>
+<br><a data-tooltip-position="top" aria-label="https://safe.banking.org" rel="noopener nofollow" class="external-link" href="https://safe.banking.org" target="_blank">Safe Banking Practices</a>
+<br><br>
+<br>"Security Awareness for Banking Staff" - IDRBT
+<br>"Safe Banking Guide" - RBI
+<br>"Cyber Hygiene Basics" - IBA
+<br>"Digital Safety Manual" - NPCI
+<br><br>
+<br><a data-tooltip-position="top" aria-label="Basic Security Training" data-href="Basic Security Training" href="https://rohanpawar.me/Basic Security Training" class="internal-link" target="_self" rel="noopener nofollow">https://basic.banking.org</a>
+<br><a data-tooltip-position="top" aria-label="Awareness Modules" data-href="Awareness Modules" href="https://rohanpawar.me/Awareness Modules" class="internal-link" target="_self" rel="noopener nofollow">https://awareness.banking.org</a>
+<br><a data-tooltip-position="top" aria-label="Security Videos" data-href="Security Videos" href="https://rohanpawar.me/Security Videos" class="internal-link" target="_self" rel="noopener nofollow">https://videos.banking.org</a>
+<br><a data-tooltip-position="top" aria-label="Quick Guides" data-href="Quick Guides" href="https://rohanpawar.me/Quick Guides" class="internal-link" target="_self" rel="noopener nofollow">https://guides.banking.org</a>
+<br><br>
+<br>"Security Awareness Posters" - DSCI
+<br>"Security Do's and Don'ts" - IBA
+<br>"Daily Security Tips" - CERT-In
+<br>"Banking Safety Guidelines" - RBI 
+<br><a data-tooltip-position="top" aria-label="Outline of the Course" data-href="Outline of the Course" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html" class="internal-link" target="_self" rel="noopener nofollow">Course Outline</a> 
+]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/5 Non Technical Staff Curriculum.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 18:03:30 GMT</pubDate></item><item><title><![CDATA[References and Resources]]></title><description><![CDATA[ 
+ <br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=10435" rel="noopener nofollow" class="external-link" href="https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=10435" target="_blank">RBI Cyber Security Framework</a>
+<br><a data-tooltip-position="top" aria-label="https://www.cert-in.org.in/" rel="noopener nofollow" class="external-link" href="https://www.cert-in.org.in/" target="_blank">CERT-In Guidelines</a>
+<br><a data-tooltip-position="top" aria-label="https://www.idrbt.ac.in/cybersecurity" rel="noopener nofollow" class="external-link" href="https://www.idrbt.ac.in/cybersecurity" target="_blank">IDRBT Security Framework</a>
+<br><a data-tooltip-position="top" aria-label="https://www.npci.org.in/security-guidelines" rel="noopener nofollow" class="external-link" href="https://www.npci.org.in/security-guidelines" target="_blank">NPCI Security Guidelines</a>
+<br><br>
+<br>"Cyber Security in Indian Banking" by Dr. A.S. Ramasastri
+<br>"Digital Banking Security" by IDRBT Press
+<br>"Information Security in Banking" by IBA
+<br>"RBI Guidelines Handbook" by Banking Publications
+<br><br>
+<br><a data-href="RBI Knowledge Center" href="https://rohanpawar.me/RBI Knowledge Center" class="internal-link" target="_self" rel="noopener nofollow">RBI Knowledge Center</a>
+<br><a data-href="IDRBT Digital Library" href="https://rohanpawar.me/IDRBT Digital Library" class="internal-link" target="_self" rel="noopener nofollow">IDRBT Digital Library</a>
+<br><a data-href="IBA Security Resources" href="https://rohanpawar.me/IBA Security Resources" class="internal-link" target="_self" rel="noopener nofollow">IBA Security Resources</a>
+<br><a data-href="DSCI Banking Security Portal" href="https://rohanpawar.me/DSCI Banking Security Portal" class="internal-link" target="_self" rel="noopener nofollow">DSCI Banking Security Portal</a>
+<br><br>
+<br>IDRBT Virtual Learning Platform
+<br>RBI Learning Management System
+<br>NPCI Certification Portal
+<br>IBA Training Modules 
+]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/references-and-resources.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/References and Resources.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 18:02:06 GMT</pubDate></item><item><title><![CDATA[Senior Management Level Cybersecurity Curriculum]]></title><description><![CDATA[ 
+ <br><br>
+For DGM, GM (Scale 6-7)
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>Weekly assessments through case studies
+<br>Monthly practical exercises
+<br>Quarterly crisis simulations
+<br>Annual certification requirements
+<br>Course Navigation
+
+<br>Previous: <a data-tooltip-position="top" aria-label="1 Executive Curriculum" data-href="1 Executive Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Executive Level Curriculum</a>
+<br>Next: <a data-tooltip-position="top" aria-label="3 Middle Management Curriculum" data-href="3 Middle Management Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Middle Management Curriculum</a>
+<br>Current Level: Senior Management (2/5)
+
+<br><br>
+<br><a data-tooltip-position="top" aria-label="0 Course Structure" data-href="0 Course Structure" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/0-course-structure.html" class="internal-link" target="_self" rel="noopener nofollow">Main Course Structure</a>
+<br><a data-tooltip-position="top" aria-label="6 Program Summary" data-href="6 Program Summary" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/6-program-summary.html" class="internal-link" target="_self" rel="noopener nofollow">Program Summary</a>
+<br><a data-tooltip-position="top" aria-label="Outline of the Course" data-href="Outline of the Course" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html" class="internal-link" target="_self" rel="noopener nofollow">Course Outline</a>
+<br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://rbi.org.in/implementation" rel="noopener nofollow" class="external-link" href="https://rbi.org.in/implementation" target="_blank">RBI Cyber Security Framework Implementation</a>
+<br><a data-tooltip-position="top" aria-label="https://www.npci.org.in/security" rel="noopener nofollow" class="external-link" href="https://www.npci.org.in/security" target="_blank">NPCI Security Standards</a>
+<br><a data-tooltip-position="top" aria-label="https://idrbt.ac.in/assessment" rel="noopener nofollow" class="external-link" href="https://idrbt.ac.in/assessment" target="_blank">IDRBT Security Assessment Framework</a>
+<br><a data-tooltip-position="top" aria-label="https://www.iba.org.in/security" rel="noopener nofollow" class="external-link" href="https://www.iba.org.in/security" target="_blank">IBA Security Guidelines</a>
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.pcisecuritystandards.org" rel="noopener nofollow" class="external-link" href="https://www.pcisecuritystandards.org" target="_blank">PCI DSS Implementation Guide</a>
+<br><a data-tooltip-position="top" aria-label="https://www.swift.com/security" rel="noopener nofollow" class="external-link" href="https://www.swift.com/security" target="_blank">SWIFT Customer Security Controls</a>
+<br><a data-tooltip-position="top" aria-label="https://www.iso.org/27002" rel="noopener nofollow" class="external-link" href="https://www.iso.org/27002" target="_blank">ISO 27002 Implementation</a>
+<br><a data-tooltip-position="top" aria-label="https://owasp.org/banking" rel="noopener nofollow" class="external-link" href="https://owasp.org/banking" target="_blank">OWASP Banking Security Guide</a>
+<br><br>
+<br>"Banking Security Program Management" - IDRBT
+<br>"Operational Risk Management in Banks" - RBI
+<br>"Security Audit &amp; Compliance Guide" - IBA
+<br>"Digital Payment Security" - NPCI
+<br><br>
+<br><a data-tooltip-position="top" aria-label="RBI Security Training Portal" data-href="RBI Security Training Portal" href="https://rohanpawar.me/RBI Security Training Portal" class="internal-link" target="_self" rel="noopener nofollow">https://rbi.org.in/training</a>
+<br><a data-tooltip-position="top" aria-label="IDRBT Senior Management Programs" data-href="IDRBT Senior Management Programs" href="https://rohanpawar.me/IDRBT Senior Management Programs" class="internal-link" target="_self" rel="noopener nofollow">https://idrbt.ac.in/senior</a>
+<br><a data-tooltip-position="top" aria-label="IBA Certification Programs" data-href="IBA Certification Programs" href="https://rohanpawar.me/IBA Certification Programs" class="internal-link" target="_self" rel="noopener nofollow">https://iba.org.in/cert</a>
+<br><a data-tooltip-position="top" aria-label="NPCI Security Certification" data-href="NPCI Security Certification" href="https://rohanpawar.me/NPCI Security Certification" class="internal-link" target="_self" rel="noopener nofollow">https://npci.org.in/certification</a>
+<br><br>
+<br>"Banking Security Maturity Assessment" - Gartner
+<br>"Indian Banking Security Landscape" - Forrester
+<br>"Digital Banking Security" - McKinsey
+<br>"Cyber Risk in Banking" - BCG 
+]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/2 Senior Management Curriculum.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 18:02:27 GMT</pubDate></item><item><title><![CDATA[Training Components]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>UPI Transaction Security
+<br>NPCI Guidelines Implementation
+<br>QR Code Security
+<br>Mobile Banking Security
+<br><br>
+<br>Finacle Security Configuration
+<br>CBS Security Controls
+<br>ATM Security Management
+<br>SWIFT Security Implementation
+<br><br>
+<br>RBI Compliance Framework
+<br>SEBI Guidelines Implementation
+<br>IDRBT Security Standards
+<br>Data Localization Requirements
+<br><br>
+<br>Internet Banking Security
+<br>Mobile Banking Protection
+<br>Digital Payment Systems
+<br>Fraud Prevention Mechanisms 
+]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/training-components.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/Training Components.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 18:01:26 GMT</pubDate></item><item><title><![CDATA[Cybersecurity Training Program Summary]]></title><description><![CDATA[ 
  <br><br><br>This multi-level cybersecurity training program is designed specifically for Indian banking institutions, ensuring compliance with RBI guidelines while building practical security capabilities across all organizational levels.<br><br><br><br>
 <br>Regular assessments and certifications
 <br>Practical labs and simulations
@@ -61,74 +382,7 @@ Begin your journey with the Executive Level Curriculum to understand the strateg
 <br><a data-tooltip-position="top" aria-label="4 Junior Officers Curriculum" data-href="4 Junior Officers Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Junior Officers</a>
 <br><a data-tooltip-position="top" aria-label="5 Non Technical Staff Curriculum" data-href="5 Non Technical Staff Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Non-Technical Staff</a>
 <br><a data-tooltip-position="top" aria-label="Outline of the Course" data-href="Outline of the Course" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html" class="internal-link" target="_self" rel="noopener nofollow">Course Outline</a> 
-]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/6-program-summary.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/6 Program Summary.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 17:53:10 GMT</pubDate></item><item><title><![CDATA[Executive Level Cybersecurity Curriculum]]></title><description><![CDATA[ 
- <br><br>
-For CEO/MD/Board Members/CISO/CRO/CFO
-<br><br><br><br><br><br><br><br><br><br><br><br>Navigation
-Previous: <a data-tooltip-position="top" aria-label="0 Course Structure" data-href="0 Course Structure" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/0-course-structure.html" class="internal-link" target="_self" rel="noopener nofollow">Course Structure</a><br>
-Next: <a data-tooltip-position="top" aria-label="2 Senior Management Curriculum" data-href="2 Senior Management Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Senior Management Curriculum</a><br>
-Current Level: Executive Level (1/5)
-<br><br>
-<br><a data-tooltip-position="top" aria-label="https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=10435" rel="noopener nofollow" class="external-link" href="https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=10435" target="_blank">RBI Cyber Security Framework</a>
-<br><a data-tooltip-position="top" aria-label="https://www.cert-in.org.in/" rel="noopener nofollow" class="external-link" href="https://www.cert-in.org.in/" target="_blank">CERT-In Guidelines</a>
-<br><a data-tooltip-position="top" aria-label="https://www.idrbt.ac.in/" rel="noopener nofollow" class="external-link" href="https://www.idrbt.ac.in/" target="_blank">IDRBT Security Framework</a>
-<br><a data-tooltip-position="top" aria-label="https://www.nist.gov/cyberframework" rel="noopener nofollow" class="external-link" href="https://www.nist.gov/cyberframework" target="_blank">NIST Cybersecurity Framework</a>
-<br><a data-tooltip-position="top" aria-label="https://www.iso.org/isoiec-27001-information-security.html" rel="noopener nofollow" class="external-link" href="https://www.iso.org/isoiec-27001-information-security.html" target="_blank">ISO/IEC 27001 Standards</a>
-]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/1 Executive Curriculum.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 17:49:06 GMT</pubDate></item><item><title><![CDATA[Junior Officers Level Cybersecurity Curriculum]]></title><description><![CDATA[ 
- <br><br>
-For Officers, Assistant Managers (Scale 1-2)
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br>Weekly hands-on labs
-<br>Monthly security assessments
-<br>Quarterly practical exams
-<br>Continuous monitoring exercises
-<br>Course Navigation
-
-<br>Previous: <a data-tooltip-position="top" aria-label="3 Middle Management Curriculum" data-href="3 Middle Management Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Middle Management Curriculum</a>
-<br>Next: <a data-tooltip-position="top" aria-label="5 Non Technical Staff Curriculum" data-href="5 Non Technical Staff Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Non-Technical Staff Curriculum</a>
-<br>Current Level: Junior Officers (4/5)
-
-<br><br>
-<br><a data-tooltip-position="top" aria-label="0 Course Structure" data-href="0 Course Structure" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/0-course-structure.html" class="internal-link" target="_self" rel="noopener nofollow">Main Course Structure</a>
-<br><a data-tooltip-position="top" aria-label="6 Program Summary" data-href="6 Program Summary" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/6-program-summary.html" class="internal-link" target="_self" rel="noopener nofollow">Program Summary</a>
-<br><a data-tooltip-position="top" aria-label="Outline of the Course" data-href="Outline of the Course" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html" class="internal-link" target="_self" rel="noopener nofollow">Course Outline</a> 
-<br>💡 Where are we?<br>
-Currently at Junior Officers Level (4/5) of the cybersecurity training program. ]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/4 Junior Officers Curriculum.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 17:53:49 GMT</pubDate></item><item><title><![CDATA[Middle Management Level Cybersecurity Curriculum]]></title><description><![CDATA[ 
- <br><br>
-For Senior Manager, Chief Manager, AGM (Scale 3-5)
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br>Access to security labs
-<br>Hands-on tool experience
-<br>Regular technical assessments
-<br>Monthly security drills
-<br>Course Navigation
-
-<br>Previous: <a data-tooltip-position="top" aria-label="2 Senior Management Curriculum" data-href="2 Senior Management Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Senior Management Curriculum</a>
-<br>Next: <a data-tooltip-position="top" aria-label="4 Junior Officers Curriculum" data-href="4 Junior Officers Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Junior Officers Curriculum</a>
-<br>Current Level: Middle Management (3/5)
-
-<br><br>
-<br><a data-tooltip-position="top" aria-label="0 Course Structure" data-href="0 Course Structure" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/0-course-structure.html" class="internal-link" target="_self" rel="noopener nofollow">Main Course Structure</a>
-<br><a data-tooltip-position="top" aria-label="6 Program Summary" data-href="6 Program Summary" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/6-program-summary.html" class="internal-link" target="_self" rel="noopener nofollow">Program Summary</a>
-<br><a data-tooltip-position="top" aria-label="Outline of the Course" data-href="Outline of the Course" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html" class="internal-link" target="_self" rel="noopener nofollow">Course Outline</a> 
-]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/3 Middle Management Curriculum.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 17:51:29 GMT</pubDate></item><item><title><![CDATA[Non-Technical Staff Cybersecurity Curriculum]]></title><description><![CDATA[ 
- <br><br>
-For Support Staff and General Employees
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br>Monthly awareness assessments
-<br>Quarterly phishing simulations
-<br>Regular role-play exercises
-<br>Continuous feedback mechanisms
-<br>Course Navigation
-
-<br>Previous: <a data-tooltip-position="top" aria-label="4 Junior Officers Curriculum" data-href="4 Junior Officers Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Junior Officers Curriculum</a>
-<br>Next: <a data-tooltip-position="top" aria-label="6 Program Summary" data-href="6 Program Summary" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/6-program-summary.html" class="internal-link" target="_self" rel="noopener nofollow">Program Summary</a>
-<br>Current Level: Non-Technical Staff (5/5)
-
-<br><br>
-<br><a data-tooltip-position="top" aria-label="0 Course Structure" data-href="0 Course Structure" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/0-course-structure.html" class="internal-link" target="_self" rel="noopener nofollow">Main Course Structure</a>
-<br><a data-tooltip-position="top" aria-label="Outline of the Course" data-href="Outline of the Course" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html" class="internal-link" target="_self" rel="noopener nofollow">Course Outline</a> 
-]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/5 Non Technical Staff Curriculum.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 17:52:55 GMT</pubDate></item><item><title><![CDATA[Outline of the Course]]></title><description><![CDATA[ 
+]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/6-program-summary.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/6 Program Summary.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 17:53:10 GMT</pubDate></item><item><title><![CDATA[Outline of the Course]]></title><description><![CDATA[ 
  <br>Here’s a segregation of industry-standard cybersecurity courses according to the hierarchy of roles/levels in banking institutions:<br><br><br>Focus: Strategic decision-making, risk management, compliance, and governance.  <br>
 <br>
 Certified Information Security Manager (CISM)  
@@ -287,25 +541,7 @@ Phishing and Social Engineering Awareness Workshops
 <br><br><br>
 <br>In-house training sessions on RBI’s Cybersecurity Framework or global standards like GDPR, PCI DSS.  
 <br>Simulated Cyberattack Drills to understand role-specific responsibilities during incidents.  
-<br>This hierarchy-based training ensures tailored cybersecurity knowledge and skills for the respective roles in banking institutions.]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/Outline of the Course.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 17:36:24 GMT</pubDate></item><item><title><![CDATA[Senior Management Level Cybersecurity Curriculum]]></title><description><![CDATA[ 
- <br><br>
-For DGM, GM (Scale 6-7)
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br>Weekly assessments through case studies
-<br>Monthly practical exercises
-<br>Quarterly crisis simulations
-<br>Annual certification requirements
-<br>Course Navigation
-
-<br>Previous: <a data-tooltip-position="top" aria-label="1 Executive Curriculum" data-href="1 Executive Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Executive Level Curriculum</a>
-<br>Next: <a data-tooltip-position="top" aria-label="3 Middle Management Curriculum" data-href="3 Middle Management Curriculum" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html" class="internal-link" target="_self" rel="noopener nofollow">Middle Management Curriculum</a>
-<br>Current Level: Senior Management (2/5)
-
-<br><br>
-<br><a data-tooltip-position="top" aria-label="0 Course Structure" data-href="0 Course Structure" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/0-course-structure.html" class="internal-link" target="_self" rel="noopener nofollow">Main Course Structure</a>
-<br><a data-tooltip-position="top" aria-label="6 Program Summary" data-href="6 Program Summary" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/6-program-summary.html" class="internal-link" target="_self" rel="noopener nofollow">Program Summary</a>
-<br><a data-tooltip-position="top" aria-label="Outline of the Course" data-href="Outline of the Course" href="https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html" class="internal-link" target="_self" rel="noopener nofollow">Course Outline</a> 
-]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/2 Senior Management Curriculum.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 17:50:22 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
+<br>This hierarchy-based training ensures tailored cybersecurity knowledge and skills for the respective roles in banking institutions.]]></description><link>https://rohanpawar.me/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/Outline of the Course.md</guid><dc:creator><![CDATA[Rohan Pawar]]></dc:creator><pubDate>Fri, 03 Jan 2025 17:36:24 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
  <br><br><br><br><br><br><br><br><br><br><br>
  _____  __ __ _____ _____ _____ _____ _____ _____ 
 |     ||  |  ||  _  ||   __| __  ||   __||   __| 
