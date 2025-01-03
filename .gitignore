@@ -1,0 +1,21 @@
+# Obsidian internal files
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/cache
+.trash/
+
+# Hugo generated files
+myblog/public/
+myblog/resources/
+
+# Node modules
+myblog/node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Private or sensitive content
+private/
+.env
+.obsidian/
