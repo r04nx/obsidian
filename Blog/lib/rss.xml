@@ -1,4 +1,152 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 06 Jan 2025 08:41:28 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 06 Jan 2025 08:41:26 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[RBI Cyber Security Framework 2016]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 08 Jan 2025 20:05:11 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 08 Jan 2025 20:05:02 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Executive Level Cybersecurity Training]]></title><description><![CDATA[ 
+ <br><br>(CEO/MD/Board Members, CISO, CRO, CFO)<br><br>Strategic decision-making, risk management, compliance, and governance.<br><br><br>
+<br>Emphasis on governance
+<br>Alignment of cybersecurity with business objectives
+<br>Strategic information security management
+<br><br>
+<br>Leadership-level information security strategies
+<br>Policy development and implementation
+<br>Enterprise security architecture
+<br><br>
+<br>Security management systems auditing
+<br>Compliance evaluation
+<br>Strategic assessment methodologies
+<br><br>
+<br>Strategic risk management
+<br>Business-cybersecurity alignment
+<br>Executive decision-making framework
+<br><br>
+<br>Framework implementation strategies
+<br>Organizational risk management
+<br>Security program development 
+]]></description><link>work/cyber-sec-awareness/recommended-courses/1_executive_level.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Recommended Courses/1_Executive_Level.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[Senior Management Level Cybersecurity Training]]></title><description><![CDATA[ 
+ <br><br>(Scale 6: DGM, Scale 7: GM)<br><br>Oversight, compliance enforcement, and risk assessments.<br><br><br>
+<br>IT systems auditing
+<br>Control assessment
+<br>Compliance management
+<br>System evaluation
+<br><br>
+<br>Financial systems risk mitigation
+<br>Banking-specific security controls
+<br>Risk assessment methodologies
+<br><br>
+<br>IT risk management
+<br>Control implementation
+<br>Risk identification and assessment
+<br>Response strategies
+<br><br>
+<br>Financial transaction security
+<br>SWIFT ecosystem protection
+<br>Security controls implementation
+<br><br>
+<br>PCI DSS compliance
+<br>GDPR requirements
+<br>RBI guidelines
+<br>FFIEC standards implementation 
+]]></description><link>work/cyber-sec-awareness/recommended-courses/2_senior_management.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Recommended Courses/2_Senior_Management.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[Middle Management Level Cybersecurity Training]]></title><description><![CDATA[ 
+ <br><br>(Scale 3: Senior Manager, Scale 4: Chief Manager, Scale 5: AGM)<br><br>Operational cybersecurity, incident response, and implementing policies.<br><br><br>
+<br>Vulnerability assessment
+<br>Banking systems security
+<br>Penetration testing basics
+<br>Security tool usage
+<br><br>
+<br>Network security
+<br>System security
+<br>Foundational cybersecurity concepts
+<br>Security controls implementation
+<br><br>
+<br>ISMS implementation
+<br>Security controls maintenance
+<br>Documentation management
+<br>Operational security procedures
+<br><br>
+<br>UPI security
+<br>SWIFT platform protection
+<br>Payment system vulnerabilities
+<br>Security control implementation
+<br><br>
+<br>Banking fraud identification
+<br>Prevention techniques
+<br>Monitoring systems
+<br>Response procedures 
+]]></description><link>work/cyber-sec-awareness/recommended-courses/3_middle_management.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Recommended Courses/3_Middle_Management.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[Junior Officers Level Cybersecurity Training]]></title><description><![CDATA[ 
+ <br><br>(Scale 1: Asst. Manager, Scale 2: Manager)<br><br>Technical skill-building, compliance implementation, and daily cybersecurity tasks.<br><br><br>
+<br>Basic security concepts
+<br>Network security
+<br>Compliance basics
+<br>Security operations
+<br><br>
+<br>Incident detection
+<br>Response procedures
+<br>Resolution techniques
+<br>Documentation
+<br><br>
+<br>System testing
+<br>Security assessment
+<br>Vulnerability identification
+<br>Basic penetration testing
+<br><br>
+<br>Role-specific security skills
+<br>Basic security concepts
+<br>Business impact understanding
+<br>Security best practices
+<br><br>
+<br>Financial sector security basics
+<br>Security principles
+<br>Basic controls
+<br>Compliance fundamentals 
+]]></description><link>work/cyber-sec-awareness/recommended-courses/4_junior_officers.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Recommended Courses/4_Junior_Officers.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[Non-Technical &amp; Admin Staff Cybersecurity Training]]></title><description><![CDATA[ 
+ <br><br>(Support, Clerical, and Account Staff)<br><br>Awareness and adherence to cybersecurity policies.<br><br><br>
+<br>Safe online behavior
+<br>Phishing detection
+<br>Password security
+<br>Basic security practices
+<br><br>
+<br>Payment card data handling
+<br>Security requirements
+<br>Basic compliance understanding
+<br>Data protection practices
+<br><br>
+<br>Human error prevention
+<br>Security best practices
+<br>Risk awareness
+<br>Security policy compliance
+<br><br>
+<br>Email security
+<br>Scam prevention
+<br>Device security
+<br>Data protection basics
+<br><br>
+<br>Attack identification
+<br>Prevention techniques
+<br>Response procedures
+<br>Reporting protocols 
+]]></description><link>work/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Recommended Courses/5_Non_Technical_Staff.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[Custom Cybersecurity Programs]]></title><description><![CDATA[ 
+ <br><br>(Applicable to All Levels)<br><br><br>
+<br>Regulatory requirements
+<br>Implementation guidelines
+<br>Compliance procedures
+<br>Reporting requirements
+<br><br>
+<br>GDPR compliance
+<br>PCI DSS requirements
+<br>International best practices
+<br>Cross-border considerations
+<br><br>
+<br>Role-specific responsibilities
+<br>Incident response procedures
+<br>Communication protocols
+<br>Recovery processes
+<br><br>
+<br>Regular updates based on new threats
+<br>Role-specific customization
+<br>Practical exercises and scenarios
+<br>Performance assessment metrics 
+]]></description><link>work/cyber-sec-awareness/recommended-courses/custom_programs.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Recommended Courses/Custom_Programs.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[Executives]]></title><description><![CDATA[ 
+ <br><br>
+Recommended Topics
+<br><br>need to mention Objective  &amp;  Tools Technique Procedure ]]></description><link>work/cyber-sec-awareness/executives.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Executives.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[How to get started with Bug Hunting]]></title><description><![CDATA[ 
+ <br>lmao do hacking]]></description><link>how-to-get-started-with-bug-hunting.html</link><guid isPermaLink="false">How to get started with Bug Hunting.md</guid><pubDate>Wed, 08 Jan 2025 20:04:19 GMT</pubDate></item><item><title><![CDATA[RBI Cyber Security Framework 2016]]></title><description><![CDATA[ 
  <br>Framework Overview
 Circular No. RBI/2016-17/35<br>
 Date: June 2, 2016<br>
