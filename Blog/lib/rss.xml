@@ -1,4 +1,16 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 08 Jan 2025 20:05:11 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 08 Jan 2025 20:05:02 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Executive Level Cybersecurity Training]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 09 Jan 2025 09:21:42 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 09 Jan 2025 09:21:42 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Connecting Hostmonster to VPS]]></title><description><![CDATA[<a class="tag" href="?query=tag:PV" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#PV</a> 
+ <br>Postgres SQL db passwd:<br>
+User:  stepheo0_rohan<br>
+Passwd : =B:VncdT6gfXQ.&amp;<br>
+DB name : stepheo0_osm-data<br>
+DB Host : host285.hostmonster.com <br>MySQL DB<br>
+Passwd: <a href=".?query=tag:PV" class="tag" target="_blank" rel="noopener nofollow">#PV</a>!?~_b5haC-;b<br>
+User: stepheo0_rohan<br>
+Database: stepheo0_test<br>
+DB Host : host285.hostmonster.com<br>SSH Passwd<br>
+passphrase: U%7Tikug;G=W]]></description><link>work/connecting-hostmonster-to-vps.html</link><guid isPermaLink="false">Work/Connecting Hostmonster to VPS.md</guid><pubDate>Sun, 05 Jan 2025 18:14:07 GMT</pubDate></item><item><title><![CDATA[IT Solution Implementations]]></title><description><![CDATA[ 
+ <br>this is random text<br>
+<img alt="Pasted image 20250109145021.png" src="pasted-image-20250109145021.png">]]></description><link>it-solution-implementations.html</link><guid isPermaLink="false">IT Solution Implementations.md</guid><pubDate>Thu, 09 Jan 2025 09:20:23 GMT</pubDate><enclosure url="pasted-image-20250109145021.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250109145021.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Executive Level Cybersecurity Training]]></title><description><![CDATA[ 
  <br><br>(CEO/MD/Board Members, CISO, CRO, CFO)<br><br>Strategic decision-making, risk management, compliance, and governance.<br><br><br>
 <br>Emphasis on governance
 <br>Alignment of cybersecurity with business objectives
@@ -145,8 +157,7 @@
 ]]></description><link>work/cyber-sec-awareness/recommended-courses/custom_programs.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Recommended Courses/Custom_Programs.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[Executives]]></title><description><![CDATA[ 
  <br><br>
 Recommended Topics
-<br><br>need to mention Objective  &amp;  Tools Technique Procedure ]]></description><link>work/cyber-sec-awareness/executives.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Executives.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[How to get started with Bug Hunting]]></title><description><![CDATA[ 
- <br>lmao do hacking]]></description><link>how-to-get-started-with-bug-hunting.html</link><guid isPermaLink="false">How to get started with Bug Hunting.md</guid><pubDate>Wed, 08 Jan 2025 20:04:19 GMT</pubDate></item><item><title><![CDATA[RBI Cyber Security Framework 2016]]></title><description><![CDATA[ 
+<br><br>need to mention Objective  &amp;  Tools Technique Procedure ]]></description><link>work/cyber-sec-awareness/executives.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Executives.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[RBI Cyber Security Framework 2016]]></title><description><![CDATA[ 
  <br>Framework Overview
 Circular No. RBI/2016-17/35<br>
 Date: June 2, 2016<br>
