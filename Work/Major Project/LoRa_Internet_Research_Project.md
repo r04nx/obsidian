@@ -273,7 +273,7 @@ gantt
     section Traditional LoRaWAN
     Data Rate     :0, 5
     Latency      :0, 3
-    Packet Loss  :0, 15
+    Packet Loss  :0, 10
     
     section Our System
     Enhanced Rate :0, 7
@@ -572,6 +572,6 @@ graph LR
 
 ## References
 1. LoRa Alliance Technical Committee. "LoRaWAN Specification v1.0.3"
-2. [[Research Papers/Wireless Communication]]
-3. [[Research Papers/Network Protocol Engineering]]
+2. [[Wireless Communication]]
+3. [[Network Protocol Engineering]]
 
