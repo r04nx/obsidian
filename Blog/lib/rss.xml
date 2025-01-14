@@ -1,7 +1,234 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 09 Jan 2025 09:24:57 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 09 Jan 2025 09:24:57 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[How to get started with Bug Hunting]]></title><description><![CDATA[ 
- <br>lmao do hacking]]></description><link>how-to-get-started-with-bug-hunting.html</link><guid isPermaLink="false">How to get started with Bug Hunting.md</guid><pubDate>Wed, 08 Jan 2025 20:04:19 GMT</pubDate></item><item><title><![CDATA[IT Solution Implementations]]></title><description><![CDATA[ 
- <br>this is random text<br>
-<img alt="Pasted image 20250109145021.png" src="pasted-image-20250109145021.png">]]></description><link>it-solution-implementations.html</link><guid isPermaLink="false">IT Solution Implementations.md</guid><pubDate>Thu, 09 Jan 2025 09:20:23 GMT</pubDate><enclosure url="pasted-image-20250109145021.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="pasted-image-20250109145021.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Executive Level Cybersecurity Training]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 14 Jan 2025 07:39:39 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 14 Jan 2025 07:39:36 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[LoRa Internet Research Project]]></title><description><![CDATA[ 
+ <br>make the usp more detailed and specific<br><br><br>
+<br><a data-href="#Project Overview" href="about:blank#Project_Overview" class="internal-link" target="_self" rel="noopener nofollow">Project Overview</a>
+<br><a data-href="#Technical Diagrams and Visualizations" href="about:blank#Technical_Diagrams_and_Visualizations" class="internal-link" target="_self" rel="noopener nofollow">Technical Diagrams and Visualizations</a>
+<br><a data-href="#Technical Background" href="about:blank#Technical_Background" class="internal-link" target="_self" rel="noopener nofollow">Technical Background</a>
+<br><a data-href="#Innovation Framework" href="about:blank#Innovation_Framework" class="internal-link" target="_self" rel="noopener nofollow">Innovation Framework</a>
+<br><a data-href="#Implementation Strategy" href="about:blank#Implementation_Strategy" class="internal-link" target="_self" rel="noopener nofollow">Implementation Strategy</a>
+<br><a data-href="#Performance Metrics" href="about:blank#Performance_Metrics" class="internal-link" target="_self" rel="noopener nofollow">Performance Metrics</a>
+<br><a data-href="#Research Validation" href="about:blank#Research_Validation" class="internal-link" target="_self" rel="noopener nofollow">Research Validation</a>
+<br><a data-href="#Future Work" href="about:blank#Future_Work" class="internal-link" target="_self" rel="noopener nofollow">Future Work</a>
+<br><br>Project Mission
+Bringing internet connectivity to remote rural schools through innovative LoRa-based communication infrastructure.
+<br><br>
+<br>Protocol adaptation layer between TCP/IP and LoRa
+<br>Advanced data compression techniques
+<br>Smart gateway architecture
+<br>Information theory optimizations
+<br><br><br><br><br><br><br><br><br>
+<br>Text Optimization:
+<br>
+<br>HTML minification (60% reduction)
+<br>CSS/JS compression
+<br>Image transcoding
+<br>
+<br>Content Adaptation:
+<br>
+<br>Resolution downscaling
+<br>Format conversion
+<br>Quality adjustment
+<br>
+<br>Request Optimization:
+<br>
+<br>Header compression
+<br>Cookie management
+<br>Resource prioritization
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Physical Layer Specifications
+
+<br>Frequency Bands: 433/868/915 MHz ISM bands
+<br>Link Budget: 154 dB maximum
+<br>Sensitivity: -137 dBm at SF12/BW125
+<br>Maximum Range: 15km (line of sight), 2-5km (urban)
+
+<br><br><br><br>
+<br>MAC Layer: LoRaWAN Class A/B/C
+<br>Maximum Payload: 243 bytes
+<br>Duty Cycle: 1% (EU868)
+<br>Channel Access: ALOHA-based
+<br>Security: AES-128 encryption
+<br><br><br>Layer 1 - Physical Enhancement
+
+def adaptiveSF(SNR, distance):
+    if SNR &gt; -5dB:
+        return SF7  # Highest data rate
+    elif SNR &gt; -10dB:
+        return SF8
+    # Continue for other thresholds
+
+<br>Layer 2 - MAC Layer Enhancement
+
+
+<br>Replaces ALOHA with scheduled transmissions
+<br>Collision reduction: 60%
+<br>Throughput increase: 45%
+<br>Time slot duration: 100ms
+
+<br><br>Compression Techniques
+
+<br>Context-Aware Compression
+
+<br>HTTP Header Compression (75% ratio)
+<br>Custom Huffman coding
+
+
+<br>Content-Type Specific
+
+<br>Text: Modified LZ77 (65-80% ratio)
+<br>Images: Progressive JPEG (85-95% ratio)
+
+
+<br>Delta Compression
+
+<br>Hash-based chunk detection
+<br>Cache hit ratio target: 60%
+
+
+
+<br><br>Smart Routing Algorithm
+def calculate_route_score(path):
+    return (0.4 * link_quality + 
+           0.3 * energy_level +
+           0.2 * queue_length +
+           0.1 * expected_throughput)
+
+<br><br><br>Gateway Setup
+
+<br>TTGO ESP32 LoRa (primary radio)
+<br>Raspberry Pi 4 (processing unit)
+<br>Storage: 32GB SD card
+<br>Estimated cost: $150
+
+<br>School Node Setup
+
+<br>TTGO ESP32 LoRa
+<br>Solar panel (10W)
+<br>Battery backup (10000mAh)
+<br>Local Wi-Fi router
+<br>Cost per node: $100
+
+<br><br>Enhanced System Performance
+
+<br>Throughput: 500 bps - 7.2 kbps
+<br>Latency: 0.8-2 seconds
+<br>Packet loss: &lt; 8%
+<br>Web page load: 15-30 seconds
+<br>Email delivery: &lt; 60 seconds
+
+<br><br>
+<br>Node battery life: 9 months
+<br>Power consumption:
+<br>Sleep mode: 10µA
+<br>Active transmission: 120mA
+<br>Reception: 12mA
+<br><br>Testing Framework
+
+<br>Laboratory Testing
+
+<br>RF chamber measurements
+<br>Protocol analyzer tools
+<br>Power consumption monitoring
+
+
+<br>Field Testing
+
+<br>3 schools pilot deployment
+<br>6-month test period
+<br>Performance data collection
+
+
+
+<br><br>
+<br>95% uptime target
+<br>30 concurrent users support
+<br>Sustainable power usage
+<br>Web browsing capability
+<br>Email functionality
+<br>Basic file sharing
+<br><br>Key Architectural Differences
+
+<br>Protocol Stack
+
+<br>Traditional: Simple ALOHA-based MAC, basic Class A/B/C devices
+<br>Our System: TDMA-based MAC, intelligent routing, TCP/IP adaptation
+
+
+<br>Network Architecture
+
+<br>Traditional: Star topology with limited gateway functions
+<br>Our System: Mesh-capable smart gateways with caching and routing
+
+
+
+<br><br><br><br><br>Innovative Features
+
+<br>TCP/IP Adaptation Layer
+
+<br>Enables standard internet protocols
+<br>Intelligent fragmentation and reassembly
+
+
+<br>Content-Aware Compression
+
+<br>HTTP header optimization
+<br>Progressive image loading
+<br>Delta compression for repeated content
+
+
+<br>Smart Gateway Features
+
+<br>Local content caching
+<br>Predictive data fetching
+<br>Load balancing
+
+
+
+<br><br>Educational Focus
+
+<br>Traditional LoRaWAN: Designed for IoT sensors and telemetry
+<br>Our System: Optimized for:
+
+<br>Web browsing
+<br>Email communication
+<br>Educational content delivery
+<br>File sharing capabilities
+
+
+
+<br><br>
+<br>Scalability
+<br>
+<br>Enhanced network capacity through intelligent routing
+<br>Support for concurrent users vs. simple sensors
+<br>Mesh network expandability
+<br>
+<br>Reliability
+<br>
+<br>Reduced packet collisions through TDMA
+<br>Improved error correction
+<br>Redundant path routing
+<br>
+<br>Flexibility
+<br>
+<br>Adaptive data rates based on content type
+<br>Dynamic protocol adjustments
+<br>Content-specific optimizations
+<br><br>Research Extensions
+
+<br>Machine learning for traffic optimization
+<br>Advanced error correction techniques
+<br>Integration with satellite backhaul
+<br>Mobile node support
+
+<br><br>
+<br><a data-href="Information Theory" href="Information Theory" class="internal-link" target="_self" rel="noopener nofollow">Information Theory</a>
+<br><a data-href="Rural Computing" href="rural-computing.html" class="internal-link" target="_self" rel="noopener nofollow">Rural Computing</a>
+<br><a data-href="Network Protocols" href="Network Protocols" class="internal-link" target="_self" rel="noopener nofollow">Network Protocols</a>
+<br><a data-href="Edge Computing" href="Edge Computing" class="internal-link" target="_self" rel="noopener nofollow">Edge Computing</a>
+<br><br>
+<br>LoRa Alliance Technical Committee. "LoRaWAN Specification v1.0.3"
+<br><a data-href="Research Papers/Wireless Communication" href="research-papers/wireless-communication.html" class="internal-link" target="_self" rel="noopener nofollow">Research Papers/Wireless Communication</a>
+<br><a data-href="Research Papers/Network Protocol Engineering" href="Research Papers/Network Protocol Engineering" class="internal-link" target="_self" rel="noopener nofollow">Research Papers/Network Protocol Engineering</a>
+]]></description><link>work/lora_internet_research_project.html</link><guid isPermaLink="false">Work/LoRa_Internet_Research_Project.md</guid><pubDate>Tue, 14 Jan 2025 07:27:24 GMT</pubDate></item><item><title><![CDATA[Executive Level Cybersecurity Training]]></title><description><![CDATA[ 
  <br><br>(CEO/MD/Board Members, CISO, CRO, CFO)<br><br>Strategic decision-making, risk management, compliance, and governance.<br><br><br>
 <br>Emphasis on governance
 <br>Alignment of cybersecurity with business objectives
@@ -268,95 +495,7 @@ Use the links above to navigate between different sections of the course.
 <br><a data-tooltip-position="top" aria-label="https://www.idrbt.ac.in/certification.html" rel="noopener nofollow" class="external-link" href="https://www.idrbt.ac.in/certification.html" target="_blank">IDRBT Certification Programs</a>
 <br><a data-tooltip-position="top" aria-label="https://www.dsci.in/certifications" rel="noopener nofollow" class="external-link" href="https://www.dsci.in/certifications" target="_blank">DSCI Certification Portal</a>
 <br><a data-tooltip-position="top" aria-label="https://www.iibf.org.in/programs.asp" rel="noopener nofollow" class="external-link" href="https://www.iibf.org.in/programs.asp" target="_blank">IBA Training Programs</a> 
-]]></description><link>work/cyber-sec-awareness/the-curriculum/0-course-structure.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/0 Course Structure.md</guid><pubDate>Sun, 05 Jan 2025 12:41:20 GMT</pubDate></item><item><title><![CDATA[VPC Solution Comparison for SPIT Student Developers 🎓]]></title><description><![CDATA[ 
- <br><br><br>Key Requirements
-
-<br>🖥️ VNC/desktop environment (optional)
-<br>🔐 SSH system access
-<br>🔒 Isolated environment
-<br>💾 Arbitrary storage allocation
-<br>🐧 Linux tools compatibility
-<br>👥 Role-based access control
-<br>📦 Simple installation
-<br>⚡ Resource efficiency
-
-<br><br><br><br>Enterprise Cloud Solution<br><br>
-<br>Enterprise-grade solution
-<br>Comprehensive feature set
-<br>Built-in role-based access control
-<br>Extensive API support
-<br>Strong isolation between instances
-<br><br>
-<br>Complex installation process
-<br>Heavy resource requirements
-<br>Steep learning curve for administrators
-<br>Requires significant maintenance
-<br>Overkill for basic VPC needs
-<br><br><br>Container-based Solution<br><br>
-<br>Lightweight installation
-<br>Efficient resource usage
-<br>Fast container deployment
-<br>Native Linux integration
-<br>Simple command-line interface
-<br>Excellent storage management
-<br>Built-in resource limits
-<br><br>
-<br>No built-in VNC support (requires Apache Guacamole)
-<br>Limited GUI management tools
-<br>Requires additional setup for role-based access
-<br>Less isolation than full virtualization
-<br><br><br>Web-based VM Management<br><br>
-<br>User-friendly web interface
-<br>Integrated with Linux system management
-<br>Easy installation
-<br>Built-in user management
-<br>Native QEMU/KVM integration
-<br>Full VM isolation
-<br><br>
-<br>Higher resource usage than containers
-<br>Limited enterprise-scale features
-<br>Less flexible than OpenStack
-<br>Storage management less sophisticated
-<br><br><br>LXD is Recommended
-Based on the requirements, LXD appears to be the most suitable solution for SPIT
-<br><br>
-<br>
-Base Setup:
-
-<br>Install LXD on Ubuntu Server
-<br>Configure storage pools for student workspaces
-<br>Set up network bridges for isolation
-
-
-<br>
-Access Control:
-
-<br>Implement Apache Guacamole for VNC access
-<br>Configure SSH access with key-based authentication
-<br>Set up user groups for role-based access
-
-
-<br>
-Resource Management:
-
-<br>Define container profiles with resource limits
-<br>Implement storage quotas per student
-<br>Configure network limitations
-
-
-<br>
-Monitoring:
-
-<br>Set up basic monitoring with LXD built-in tools
-<br>Optional integration with Prometheus/Grafana
-
-
-<br><br><br><br>Final Verdict
-LXD provides the optimal balance of features, simplicity, and resource efficiency for SPIT's requirements.
-<br><br><a data-footref="[inline0" href="about:blank#fn-1-de3dc4050777a242" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a><br>
-<br>
-<br>Created for SPIT - Mumbai<a href="about:blank#fnref-1-de3dc4050777a242" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
-]]></description><link>work/vpc@spit/comparison.html</link><guid isPermaLink="false">Work/VPC@SPIT/Comparison.md</guid><pubDate>Mon, 06 Jan 2025 08:38:33 GMT</pubDate></item><item><title><![CDATA[Executive Level Cybersecurity Curriculum]]></title><description><![CDATA[ 
+]]></description><link>work/cyber-sec-awareness/the-curriculum/0-course-structure.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/0 Course Structure.md</guid><pubDate>Sun, 05 Jan 2025 12:41:20 GMT</pubDate></item><item><title><![CDATA[Executive Level Cybersecurity Curriculum]]></title><description><![CDATA[ 
  <br><br>
 For CEO/MD/Board Members/CISO/CRO/CFO
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
