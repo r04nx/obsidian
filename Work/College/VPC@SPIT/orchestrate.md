@@ -1,18 +1,76 @@
-# VPC Service Deployment - Comprehensive Implementation Guide
+# 🚀 VPC Service Deployment Guide
 
-## Phase 1: Base Infrastructure Setup
+> [!NOTE]
+> This document provides a comprehensive guide for implementing a Virtual Private Cloud (VPC) service infrastructure. Follow each phase sequentially for optimal deployment.
 
-### 1. Server Hardware Requirements
-Minimum Requirements (Production):
-- 3+ Physical Servers for High Availability
-- Each Server:
-    - CPU: 16+ cores
-    - RAM: 128GB+
-    - Storage: 1TB+ SSD for OS/apps
-    - Storage: 4TB+ for Ceph
-    - Network: 10GbE NICs (2 per server)
+## Table of Contents
+1. [[#Infrastructure|🏗️ Infrastructure]]
+2. [[#Storage|💾 Storage Layer]]
+3. [[#Containers|🐳 Container Platform]]
+4. [[#Authentication|🔐 Authentication]]
+5. [[#Management|⚙️ Container Management]]
+6. [[#Access|🔑 Remote Access]]
+7. [[#Portal|🌐 Student Portal]]
+8. [[#Faculty|👨‍🏫 Faculty Tools]]
+9. [[#Monitoring|📊 Monitoring & Logging]]
+10. [[#Automation|🤖 Automation & CI/CD]]
+11. [[#Backup|💾 Backup & Recovery]]
+12. [[#Security|🔒 Security]]
+13. [[#Integration|🔄 System Integration]]
+14. [[#DNS|🌍 DNS Management]]
+15. [[#Workflow|⚡ Development Workflow]]
+16. [[#Architecture|📐 System Architecture]]
+17. [[#Entities|📋 Entity Relationships]]
+18. [[#Guacamole|💻 Guacamole Integration]]
+19. [[#Portfolio|📂 Project Portfolio]]
+
+> [!TIP] 
+> Click on any section in the table of contents to jump directly to it.
+
+---
+
+# 🏗️ Phase 1: Infrastructure {: #Infrastructure}
+
+> [!INFO]
+> This phase establishes the fundamental infrastructure components required for the VPC service.
+
+## Server Hardware Requirements
+
+> [!IMPORTANT]
+> These specifications are minimum requirements for a production environment. Scale resources based on expected workload.
+
+### Minimum Requirements (Production)
+
+#### Hardware Per Server
+| Component    | Specification |
+|--------------|---------------|
+| Servers      | 3+ for HA     |
+| CPU          | 16+ cores     |
+| RAM          | 128GB+        |
+| OS Storage   | 1TB+ SSD      |
+| Ceph Storage | 4TB+          |
+| Network      | 2x 10GbE NICs |
 
 ### 2. Network Setup
+
+> [!TIP]
+> Proper network segmentation is crucial for security and performance.
+
+```mermaid
+graph TD
+    A[Public Network] --> B[Firewall/Gateway]
+    B --> C[Management Network]
+    B --> D[Storage Network]
+    B --> E[Container Network]
+    B --> F[Public Services]
+    
+    C -->|10.0.0.0/24| G[Admin Access]
+    D -->|10.0.1.0/24| H[Ceph Storage]
+    E -->|10.0.2.0/24| I[Containers]
+    F -->|X.X.X.X/24| J[External Access]
+```
+
+#### Network Configuration:
 1. Create VLANs:
     - Management Network: 10.0.0.0/24
     - Storage Network: 10.0.1.0/24
@@ -653,79 +711,58 @@ script:
 ## Phase 16: System Architecture and Infrastructure Diagrams
 
 ### 1. Complete System Block Diagram
-```
-+----------------------------------+
-|        Student/Faculty Portal    |
-+----------------------------------+
-        ^               ^
-        |               |
-+---------------+ +-------------+
-| Authentication| |  Admin      |
-| (Keycloak)    | |  Panel     |
-+---------------+ +-------------+
-        ^               ^
-        |               |
-+----------------------------------+
-|         API Gateway              |
-+----------------------------------+
-    ^        ^         ^
-    |        |         |
-+--------+ +--------+ +--------+
-|Container| |Project | |Resource|
-|Manager  | |Manager | |Manager |
-+--------+ +--------+ +--------+
-    ^        ^         ^
-    |        |         |
-+----------------------------------+
-|     Infrastructure Layer         |
-|  +----------+ +--------------+   |
-|  |LXD/K8s   | |Storage (Ceph)|   |
-|  +----------+ +--------------+   |
-|  +----------+ +--------------+   |
-|  |Networking| |Monitoring    |   |
-|  +----------+ +--------------+   |
-+----------------------------------+
+
+```mermaid
+graph TD
+    Portal[Student/Faculty Portal] --> Auth[Authentication/Keycloak]
+    Portal --> Admin[Admin Panel]
+    Auth --> Gateway[API Gateway]
+    Admin --> Gateway
+    Gateway --> CM[Container Manager]
+    Gateway --> PM[Project Manager] 
+    Gateway --> RM[Resource Manager]
+    CM --> Infra[Infrastructure Layer]
+    PM --> Infra
+    RM --> Infra
+    
+    subgraph Infra[Infrastructure Layer]
+    LXD[LXD/K8s]
+    Ceph[Storage - Ceph]
+    Net[Networking]
+    Mon[Monitoring]
+    end
 ```
 
 ### 2. Network Topology
-```
-[Public Internet]
-    |
-[Institute Gateway/Firewall]
-    |
-    +----------------+
-    |                |
-[Management Net]  [Public Net]
-(10.0.0.0/24)    (X.X.X.X/24)
-    |                |
-+-----------+    +-----------+
-|Containers |    |Load       |
-|Internal   |    |Balancer   |
-+-----------+    +-----------+
-    |                |
-[Storage Net]     [Container Net]
-(10.0.1.0/24)    (10.0.2.0/24)
+
+```mermaid
+graph TB
+    Internet[Public Internet] --> Gateway[Institute Gateway/Firewall]
+    Gateway --> ManagementNet[Management Net<br/>10.0.0.0/24]
+    Gateway --> PublicNet[Public Net<br/>X.X.X.X/24]
+    ManagementNet --> Containers[Containers<br/>Internal]
+    PublicNet --> LoadBalancer[Load Balancer]
+    Containers --> StorageNet[Storage Net<br/>10.0.1.0/24]
+    LoadBalancer --> ContainerNet[Container Net<br/>10.0.2.0/24]
 ```
 
+
 ### 3. Service Dependency Map
+
+```mermaid
+graph TB
+    Portal[Web Portal] --> Keycloak --> LDAP
+    Portal --> Gateway[API Gateway]
+    Keycloak --> Gateway
+    Gateway --> DNS[DNS Service]
+    Gateway --> Resource[Resource Manager]
+    Resource --> LXD[LXD API]
+    Resource --> K8s[K8s API]
+    LXD --> Ceph
+    LXD --> Storage 
+    K8s --> Registry[Container Registry]
 ```
-[Web Portal] --> [Keycloak] --> [LDAP]
-    |             |
-    v             v
-[API Gateway] --> [DNS Service]
-    |             |
-    +----+--------+
-        |
-[Resource Manager]
-        |
-+-------+--------+
-|              |
-[LXD API]    [K8s API]
-|              |
-[Ceph]      [Container]
-|         [Registry]
-[Storage]
-```
+
 
 ### 4. Resource Flow Diagram
 ```
@@ -765,12 +802,12 @@ v            v
 v            v
 [Audit Logs] [Monitoring]
 ```
-```
 
 ## Phase 17: System Entity Relationships and Privileges
 
 ### 1. Entity Relationship Diagram
 ```
+
 +---------------+     +----------------+     +---------------+
 |    Student    |     |    Project     |     |   Container   |
 +---------------+     +----------------+     +---------------+

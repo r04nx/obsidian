@@ -1,3 +1,4 @@
+
 <!-- Matrix-style canvas background -->
 <canvas id="matrix" style="position:fixed; top:0; left:0; width:100%; height:100%; z-index:-1;"></canvas>
 <script src="https://cdn.jsdelivr.net/npm/matrix-effect@1.0.1/matrix.min.js"></script>
@@ -462,3 +463,5 @@ SYSTEM SHUTDOWN SEQUENCE
 Connection terminated...
 </pre>
 </div>
+
+![[Pasted image 20250115231412.png]]
