@@ -1,4 +1,4 @@
-# Local Product Finder Application
+# DealSphere - Local Product Finder
 
 ## 1. Project Overview
 The Local Product Finder is an innovative web application that bridges the gap between local retailers and consumers. It provides real-time product availability information, price comparisons, and store details through an interactive OSM map interface. The application features voice search capabilities, LLM-powered search enhancement, and a product reservation system, making local shopping more efficient and user-friendly.
@@ -8,6 +8,10 @@ The Local Product Finder is an innovative web application that bridges the gap b
 - Real-time product availability tracking
 - Voice search functionality
 - AI-powered search enhancement
+- Google Lens product search integration
+- Product availability notifications
+- Search history tracking
+- Advanced shop filtering system
 - Price comparison tools
 - Store ratings and reviews
 - Product reservation system
@@ -23,7 +27,7 @@ A unified platform is needed to bridge this gap, leveraging real-time data and c
 ## 3. Mind Map
 ```mermaid
 mindmap
-root((Local Product Finder))
+root((DealSphere))
     User Interface
     Map View
         OSM Integration
@@ -33,15 +37,20 @@ root((Local Product Finder))
         Text Search
         Voice Search
         LLM Enhancement
+        Google Lens
+        Search History
     Filters
         Price Range
         Distance
         Availability
+        Store Rating
+        Operating Hours
     Features
     Product Management
         Real-time Updates
         Image Gallery
         Price Tracking
+        Notifications
     Store Features
         Ratings
         Reviews
@@ -50,6 +59,8 @@ root((Local Product Finder))
         Product Reservation
         Shipping Requests
         Favorites
+        Notification Settings
+        Search History
     Technical
     Frontend
         HTML/CSS
@@ -62,6 +73,8 @@ root((Local Product Finder))
         Product Data
         User Data
         Store Data
+        Search History
+        Notifications
 ```
 
 ## 4. Technical Stack
@@ -72,6 +85,7 @@ root((Local Product Finder))
 - TailwindCSS
 - OpenStreetMap API
 - Web Speech API
+- Google Cloud Vision API Integration
 
 ### Backend
 - Python 3.x
@@ -79,6 +93,9 @@ root((Local Product Finder))
 - SQLAlchemy ORM
 - RESTful API
 - LLM Integration
+- Firebase Cloud Messaging
+- Elasticsearch
+- Google Cloud Vision API
 
 ### Database
 - PostgreSQL
@@ -100,10 +117,13 @@ root((Local Product Finder))
 - User Dashboard
 
 2. **Business Logic Layer**
-- Search Engine
+- Search Engine with Elasticsearch
 - Price Comparison Engine
 - Voice Processing System
 - LLM Integration Service
+- Google Lens Integration Service
+- Notification Management System
+- Search History Tracking System
 - Inventory Management
 - Rating System
 
@@ -119,10 +139,13 @@ root((Local Product Finder))
 erDiagram
     USERS ||--o{ RESERVATIONS : makes
     USERS ||--o{ REVIEWS : writes
+    USERS ||--o{ SEARCH_HISTORY : has
+    USERS ||--o{ NOTIFICATIONS : receives
     STORES ||--o{ PRODUCTS : has
     STORES ||--o{ REVIEWS : receives
     PRODUCTS ||--o{ RESERVATIONS : includes
     PRODUCTS ||--o{ INVENTORY : has
+    PRODUCTS ||--o{ NOTIFICATIONS : triggers
 
     USERS {
         int user_id PK
@@ -174,6 +197,25 @@ erDiagram
         int quantity
         datetime last_updated
     }
+
+    SEARCH_HISTORY {
+        int search_id PK
+        int user_id FK
+        string search_query
+        string search_type
+        datetime search_date
+        json search_params
+    }
+
+    NOTIFICATIONS {
+        int notification_id PK
+        int user_id FK
+        int product_id FK
+        string notification_type
+        text message
+        boolean is_read
+        datetime created_at
+    }
 ```
 
 ## 7. Data Flow Diagram
@@ -181,7 +223,9 @@ erDiagram
 flowchart TD
     U[User] --> |Search Query| S[Search System]
     U --> |Voice Input| V[Voice Processing]
+    U --> |Image Input| GL[Google Lens]
     V --> S
+    GL --> S
     S --> |Query| L[LLM Enhancement]
     L --> |Enhanced Query| DB[(Database)]
     DB --> |Results| M[Map View]
@@ -194,25 +238,38 @@ flowchart TD
     REV --> |Store| DB
     ST[Store Owner] --> |Update Inventory| I[Inventory System]
     I --> |Update| DB
+    I --> |Trigger| N[Notification System]
+    N --> |Send| U
+    S --> |Store| SH[Search History]
+    SH --> |Save| DB
+    U --> |Manage| NS[Notification Settings]
+    NS --> |Update| DB
 ```
 
 ## 8. User Workflow
+
 ```mermaid
 graph TB
     A[Start] --> B[Open Application]
     B --> C{Search Method}
     C --> |Text| D[Enter Text Search]
     C --> |Voice| E[Voice Input]
-    D --> F[View Results on Map]
-    E --> F
-    F --> G[View Product Details]
-    G --> H{User Action}
-    H --> |Reserve| I[Make Reservation]
-    H --> |Request Shipping| J[Submit Shipping Request]
-    H --> |Review| K[Write Review]
-    I --> L[End]
-    J --> L
-    K --> L
+    C --> |Image| F[Google Lens Search]
+    D --> G[View Results on Map]
+    E --> G
+    F --> G
+    G --> H[View Product Details]
+    H --> I{User Action}
+    I --> |Reserve| J[Make Reservation]
+    I --> |Request Shipping| K[Submit Shipping Request]
+    I --> |Review| L[Write Review]
+    I --> |Set Notification| M[Configure Alerts]
+    J --> N[End]
+    K --> N
+    L --> N
+    M --> N
+    B --> O[View Search History]
+    O --> C
 ```
 
 ## 9. UI Components
@@ -253,10 +310,14 @@ graph TB
 stateDiagram-v2
     [*] --> OpenApp
     OpenApp --> SearchProduct
+    OpenApp --> ViewHistory
+    OpenApp --> ManageNotifications
     SearchProduct --> UseVoiceSearch
     SearchProduct --> UseTextSearch
+    SearchProduct --> UseGoogleLens
     UseVoiceSearch --> ProcessSearch
     UseTextSearch --> ProcessSearch
+    UseGoogleLens --> ProcessSearch
     ProcessSearch --> ViewMapResults
     ViewMapResults --> SelectStore
     SelectStore --> ViewProductDetails
@@ -264,12 +325,18 @@ stateDiagram-v2
     MakeDecision --> MakeReservation
     MakeDecision --> RequestShipping
     MakeDecision --> WriteReview
+    MakeDecision --> SetNotification
+    ViewHistory --> SearchProduct
+    ManageNotifications --> ConfigureAlerts
     MakeReservation --> [*]
     RequestShipping --> [*]
     WriteReview --> [*]
+    SetNotification --> [*]
+    ConfigureAlerts --> [*]
 ```
 
 ## 11. Block Diagram
+
 ```mermaid
 graph TB
     subgraph Frontend
@@ -277,6 +344,9 @@ graph TB
         MAP[Map Component]
         SEARCH[Search Component]
         VOICE[Voice Input]
+        LENS[Google Lens]
+        NOTIF[Notifications UI]
+        HIST[Search History]
     end
 
     subgraph Backend
@@ -284,24 +354,37 @@ graph TB
         LLM[LLM Service]
         PROC[Data Processor]
         CACHE[Cache]
+        VISION[Vision API]
+        NOTIFY[Notification Service]
+        HISTORY[History Service]
     end
 
     subgraph Database
         PROD[Product DB]
         USER[User DB]
         STORE[Store DB]
+        SRCH[Search History DB]
+        NTFY[Notifications DB]
     end
 
     UI --> API
     MAP --> API
     SEARCH --> API
     VOICE --> API
+    LENS --> VISION
+    VISION --> API
+    NOTIF --> API
+    HIST --> API
     API --> LLM
     API --> PROC
+    API --> NOTIFY
+    API --> HISTORY
     PROC --> CACHE
     PROC --> PROD
     PROC --> USER
     PROC --> STORE
+    HISTORY --> SRCH
+    NOTIFY --> NTFY
 ```
 
 ## 12. Project Phases
@@ -342,9 +425,10 @@ graph TB
 - Documentation
 
 ## 13. Gantt Chart
+
 ```mermaid
 gantt
-    title Local Product Finder Development Schedule
+    title DealSphere Development Schedule
     dateFormat  YYYY-MM-DD
     section Planning
     Requirement Analysis    :2023-01-01, 7d
@@ -358,19 +442,22 @@ gantt
     section Features
     Search Implementation  :2023-02-26, 14d
     Voice & LLM Integration:2023-03-12, 14d
-    Product Management    :2023-03-26, 14d
+    Google Lens Integration:2023-03-26, 14d
+    Product Management    :2023-04-09, 14d
     
     section Advanced Features
-    Reservation System    :2023-04-09, 14d
-    Review System        :2023-04-23, 14d
-    Shipping System      :2023-05-07, 14d
+    Reservation System    :2023-04-23, 14d
+    Review System        :2023-05-07, 14d
+    Shipping System      :2023-05-21, 14d
+    Notification System  :2023-06-04, 14d
+    Search History       :2023-06-18, 14d
     
     section Testing
-    Unit Testing         :2023-05-21, 7d
-    Integration Testing  :2023-05-28, 7d
+    Unit Testing         :2023-07-02, 7d
+    Integration Testing  :2023-07-09, 7d
     
     section Deployment
-    Beta Testing         :2023-06-04, 7d
-    Production Launch    :2023-06-11, 7d
+    Beta Testing         :2023-07-16, 7d
+    Production Launch    :2023-07-23, 7d
 ```
 

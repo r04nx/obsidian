@@ -1,4 +1,549 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 20 Jan 2025 14:28:39 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 20 Jan 2025 14:28:06 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[DSA Cheatsheet for Technical Interviews]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 26 Jan 2025 11:45:24 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 26 Jan 2025 11:44:51 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[index]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br><br><br><br><br>
+ _____  __ __ _____ _____ _____ _____ _____ _____ 
+|     ||  |  ||  _  ||   __| __  ||   __||   __| 
+|   --||_   _||     ||   __| __ -||__   ||   __| 
+|_____| |_|  |__|__||_____|_____||_____||_____| 
+
+<br><br>
+<img style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px; margin: 20px 0;" src="https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif" referrerpolicy="no-referrer">
+
+
+
+<br><br><br><br>
+[SYSTEM STATUS: ONLINE]<br>
+[LOCATION: MUMBAI, INDIA]<br>
+[MISSION: ACTIVE]<br>
+
+Loading security protocols... ████████████ 100%
+
+<br><br>
+<a style="margin: 0 10px;" href="mailto:r04nx@outlook.com" target="_blank" rel="noopener nofollow"></a><img alt="Email" src="https://img.shields.io/badge/-r04nx@outlook.com-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;color=000000" referrerpolicy="no-referrer">
+<a style="margin: 0 10px;" href="https://r04nx.tech" target="_blank" rel="noopener nofollow"></a><img alt="Website" src="https://img.shields.io/badge/-r04nx.tech-0A0A0A?style=for-the-badge&amp;logo=dev.to&amp;logoColor=white&amp;color=000000" referrerpolicy="no-referrer">
+<a style="margin: 0 10px;" href="https://github.com/r04nx" target="_blank" rel="noopener nofollow"></a><img alt="GitHub" src="https://img.shields.io/badge/-r04nx-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;color=000000" referrerpolicy="no-referrer">
+<br><br>
+
+
+<br><br>
+<img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=r04nx&amp;show_icons=true&amp;theme=radical" referrerpolicy="no-referrer">
+<br><br>
+root@r04nx:~# cat experience.log<br>[CURRENT_ROLE]<br>
+└─ Server &amp; Security Administrator @ Alesa.ai<br>
+├─ Infrastructure Management<br>
+├─ Security Implementation<br>
+└─ AI/ML Operations<br>[PREVIOUS_ROLES]<br>
+└─ System Operations @ SPIT<br>
+└─ MLOps Engineer @ Quotientica<br><br><br>
+root@r04nx:~# ls -la /projects/<br>[ACTIVE_PROJECTS]<br>
+└─📡 LoRAid SOS Connect<br>
+├─ Range: 10km+<br>
+└─ Status: Operational<br>└─🌐 Netflask<br>
+├─ Network Diagnostics<br>
+└─ Status: Deployed<br><br><br>
+<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white&amp;color=000000" referrerpolicy="no-referrer">
+<img alt="Kali" src="https://img.shields.io/badge/-Kali_Linux-557C94?style=for-the-badge&amp;logo=kali-linux&amp;logoColor=white&amp;color=000000" referrerpolicy="no-referrer">
+<img alt="AWS" src="https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&amp;logo=amazon-aws&amp;logoColor=white&amp;color=000000" referrerpolicy="no-referrer">
+<br><br>
+<img alt="Visitor Count" src="https://profile-counter.glitch.me/r04nx/count.svg" referrerpolicy="no-referrer">
+<br><br>
+
+<br><br><br><br><br>
+<br>B.Tech in Electronics &amp; Telecommunication (2023 - Present)<br>
+Sardar Patel Institute of Technology, Mumbai
+<br>Diploma in Computer Engineering (2020 - 2023)<br>
+Government Polytechnic Hingoli | 84.80%
+<br><br>
+🌟 Server and Security Administrator @ Alesa.ai (Nov 2024 - Present)<br>
+<br>Led NoULEZ project infrastructure management
+<br>Optimized geospatial data with OSM server
+<br>Enhanced security &amp; deployed LLM environments
+<br>Streamlined deployments with Docker
+<br>Managed remote team collaboration
+<br>Maintained AI/ML infrastructure
+
+
+<br>
+🔧 System and Network Operations Intern @ SPIT (July 2024 - Present)<br>
+<br>Deployed Cisco Meraki network devices
+<br>Implemented on-premises VPC server solution
+<br>Managed network security &amp; troubleshooting
+
+
+<br>
+💻 Backend and MLOps Engineer @ Quotientica (Nov 2023 - Mar 2024)<br>
+<br>Developed ML models for fraud detection
+<br>Optimized APIs for reduced latency
+<br>Implemented AWS serverless architecture
+
+
+<br><br>
+🆘 LoRAid SOS Connect | Disaster Communication System<br>
+<br>Achieved 10km+ low-power wireless communication
+<br>Implemented MQTT-based cloud DMS
+<br>Programmed NodeMCU microcontrollers
+<br>Status: Active Development
+
+
+<br>
+🌐 Netflask | Network Utility Tool<br>
+<br>Built Flask-based network diagnostic suite
+<br>Features: DNS lookup, traceroute, port scanning
+<br>Focused on security and performance
+
+
+<br><br><img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" referrerpolicy="no-referrer">
+<img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" referrerpolicy="no-referrer">
+<img alt="AWS" src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&amp;logo=amazon-aws&amp;logoColor=white" referrerpolicy="no-referrer">
+<img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" referrerpolicy="no-referrer">
+<img alt="Linux" src="https://img.shields.io/badge/-Linux-FCC624?style=flat-square&amp;logo=linux&amp;logoColor=black" referrerpolicy="no-referrer">
+<img alt="Kali Linux" src="https://img.shields.io/badge/-Kali_Linux-557C94?style=flat-square&amp;logo=kali-linux&amp;logoColor=white" referrerpolicy="no-referrer">
+<img alt="React" src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black" referrerpolicy="no-referrer">
+<img alt="Node.js" src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&amp;logo=node.js&amp;logoColor=white" referrerpolicy="no-referrer">
+<img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&amp;logo=mongodb&amp;logoColor=white" referrerpolicy="no-referrer">
+<img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" referrerpolicy="no-referrer"><br><br>
+<br>EC-Council Ethical Hacking Essentials (EHE)
+<br>Kaggle Machine Learning &amp; Python
+<br>TCS iON Career Edge - Young Professional
+<br>Infosys Penetration Testing
+<br>
+root@r04nx:~# cat /etc/motd
+Welcome to my digital fortress! 
+Exploring the intersection of Cybersecurity and AI
+
+<br>
+<img alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=r04nx&amp;theme=radical" referrerpolicy="no-referrer">
+<br><br>
+<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" referrerpolicy="no-referrer">
+<img alt="Kali Linux" src="https://img.shields.io/badge/-Kali_Linux-557C94?style=for-the-badge&amp;logo=kali-linux&amp;logoColor=white" referrerpolicy="no-referrer">
+<br><br>
+root@r04nx:~# whoami
+┌──(r04nx㉿kali)-[~/projects]
+└─$ cat /etc/motd
+Welcome to my digital fortress! 
+Exploring the intersection of Cybersecurity and AI
+
+<br><br>
+<img alt="Visitor Count" src="https://profile-counter.glitch.me/r04nx/count.svg" referrerpolicy="no-referrer">
+<br><br>
+
+<br><br>
+root@r04nx:~# fortune | cowsay
+ _________________________________________
+/ "First, solve the problem. Then, write   \
+\ the code." - John Johnson                /
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+Generate Quote
+<br><br>
+root@r04nx:~# cat skills_tree.txt<br><br>🔒 Security [■■■■■■■■■□] 90%<br>
+├── Penetration Testing [■■■■■■■■□□] 80%<br>
+├── Network Security   [■■■■■■■■■□] 90%<br>
+└── Cloud Security    [■■■■■■■□□□] 70%<br>🤖 AI/ML [■■■■■■■■□□] 80%<br>
+├── Deep Learning     [■■■■■■■□□□] 70%<br>
+├── NLP              [■■■■■■□□□□] 60%<br>
+└── Computer Vision  [■■■■■■■□□□] 70%<br>💻 Development [■■■■■■■■□□] 80%<br>
+├── Backend          [■■■■■■■■■□] 90%<br>
+├── DevOps           [■■■■■■■□□□] 70%<br>
+└── System Design    [■■■■■■■■□□] 80%<br><br><br>
+
+
+<img style="width: 100%; border-radius: 5px;" alt="Hacking in Progress" src="https://media.giphy.com/media/115BJle6N2Av0A/giphy.gif" referrerpolicy="no-referrer">
+<img style="width: 100%; border-radius: 5px;" alt="Matrix Code" src="https://media.giphy.com/media/ZY3W96Mvat8EFTCclA/giphy.gif" referrerpolicy="no-referrer">
+<img style="width: 100%; border-radius: 5px;" alt="Bug Finding" src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" referrerpolicy="no-referrer">
+<img style="width: 100%; border-radius: 5px;" alt="Cyber Security" src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" referrerpolicy="no-referrer">
+
+<br><br>
+root@r04nx:~# Type 'help' for available commands
+
+
+<br><br>
+
+"The only way to do great work is to love what you do." - Steve Jobs
+
+<br><br>
+
+
+
+🏆 Bug Hunter
+<br>Level: Elite
+
+
+🚀 Code Ninja
+<br>Level: Master
+
+
+🤖 AI Wizard
+<br>Level: Advanced
+
+
+<br><br>
+root@r04nx:~# systemctl status r04nx
+● r04nx.service - Cyber Security Researcher
+     Active: active (running)
+     Status: Currently working on AI Security
+     CPU: 98.2%
+     RAM: 16GB/32GB
+     Uptime: 42 days
+     Last Commit: 2 hours ago
+
+<br><br>
+You found the secret! Here's a cookie 🍪
+
+<br><br><br><br>
+SYSTEM SHUTDOWN SEQUENCE
+[■■■■■■■■■■] 100%
+Connection terminated...
+
+<br><img alt="Pasted image 20250115231412.png" src="assets/pasted-image-20250115231412.png">]]></description><link>assets/index.html</link><guid isPermaLink="false">assets/index.md</guid><pubDate>Wed, 15 Jan 2025 17:44:13 GMT</pubDate><enclosure url="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAABGJJREFUeF7t1AEJAAAMAsHZv/RyPNwSyDncOQIECEQEFskpJgECBM5geQICBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAgQdWMQCX4yW9owAAAABJRU5ErkJggg==" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAABGJJREFUeF7t1AEJAAAMAsHZv/RyPNwSyDncOQIECEQEFskpJgECBM5geQICBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAgQdWMQCX4yW9owAAAABJRU5ErkJggg=="&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
+ <br>Hi r04nx, here]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Sun, 26 Jan 2025 11:43:52 GMT</pubDate></item><item><title><![CDATA[Machine Learning Learning Path]]></title><description><![CDATA[ 
+ <br><br>Navigation Tip
+Use the checkboxes to track your progress through each topic. Create individual notes for each topic and link them back to this main roadmap.
+<br>Prerequisites
+Before diving deep into ML, ensure you have a solid foundation in the basics. These are essential building blocks for understanding ML concepts.
+<br><br>
+<br>Linear Algebra
+<br>Matrices and Vectors
+<br>Eigenvalues and Eigenvectors
+<br><a data-tooltip-position="top" aria-label="Linear Algebra for ML" data-href="Linear Algebra for ML" href="Linear Algebra for ML" class="internal-link" target="_self" rel="noopener nofollow">Detailed Notes</a>
+<br>Statistics &amp; Probability
+<br>Descriptive Statistics
+<br>Inferential Statistics
+<br><a data-tooltip-position="top" aria-label="Statistics for ML" data-href="Statistics for ML" href="Statistics for ML" class="internal-link" target="_self" rel="noopener nofollow">Detailed Notes</a>
+<br>Calculus
+<br>Derivatives
+<br>Gradients
+<br>Chain Rule
+<br><a data-tooltip-position="top" aria-label="Calculus for ML" data-href="Calculus for ML" href="Calculus for ML" class="internal-link" target="_self" rel="noopener nofollow">Detailed Notes</a>
+<br>Python Programming
+<br>Basic Syntax
+<br>OOP Concepts
+<br><a data-tooltip-position="top" aria-label="Python for ML" data-href="Python for ML" href="Python for ML" class="internal-link" target="_self" rel="noopener nofollow">Detailed Notes</a>
+<br><br>Foundation
+These skills form the backbone of any ML project. Master these before moving to complex algorithms.
+<br>
+<br>NumPy
+<br>Array Operations
+<br>Vectorization
+<br><a data-tooltip-position="top" aria-label="NumPy Deep Dive" data-href="NumPy Deep Dive" href="NumPy Deep Dive" class="internal-link" target="_self" rel="noopener nofollow">Detailed Notes</a>
+<br>Pandas
+<br>Data Manipulation
+<br>Data Cleaning
+<br><a data-tooltip-position="top" aria-label="Pandas for ML" data-href="Pandas for ML" href="Pandas for ML" class="internal-link" target="_self" rel="noopener nofollow">Detailed Notes</a>
+<br>Data Preprocessing
+<br>Feature Scaling
+<br>Encoding
+<br><a data-tooltip-position="top" aria-label="Data Preprocessing Guide" data-href="Data Preprocessing Guide" href="Data Preprocessing Guide" class="internal-link" target="_self" rel="noopener nofollow">Detailed Notes</a>
+<br>Exploratory Data Analysis
+<br>Data Visualization
+<br><a data-tooltip-position="top" aria-label="EDA Techniques" data-href="EDA Techniques" href="EDA Techniques" class="internal-link" target="_self" rel="noopener nofollow">Detailed Notes</a>
+<br><br><br>
+<br>Linear Regression <a data-tooltip-position="top" aria-label="Linear Regression" data-href="Linear Regression" href="Linear Regression" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Logistic Regression <a data-tooltip-position="top" aria-label="Logistic Regression" data-href="Logistic Regression" href="Logistic Regression" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Decision Trees <a data-tooltip-position="top" aria-label="Decision Trees" data-href="Decision Trees" href="Decision Trees" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Random Forests <a data-tooltip-position="top" aria-label="Random Forests" data-href="Random Forests" href="Random Forests" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Support Vector Machines <a data-tooltip-position="top" aria-label="SVM" data-href="SVM" href="SVM" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>K-Nearest Neighbors <a data-tooltip-position="top" aria-label="KNN" data-href="KNN" href="KNN" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Naive Bayes <a data-tooltip-position="top" aria-label="Naive Bayes" data-href="Naive Bayes" href="Naive Bayes" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br><br>
+<br>K-Means Clustering <a data-tooltip-position="top" aria-label="K-Means" data-href="K-Means" href="K-Means" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Hierarchical Clustering <a data-tooltip-position="top" aria-label="Hierarchical Clustering" data-href="Hierarchical Clustering" href="Hierarchical Clustering" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Principal Component Analysis <a data-tooltip-position="top" aria-label="PCA" data-href="PCA" href="PCA" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Dimensionality Reduction <a data-tooltip-position="top" aria-label="Dimensionality Reduction" data-href="Dimensionality Reduction" href="Dimensionality Reduction" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br><br>Modern ML
+Deep Learning is at the forefront of modern ML applications.
+<br>
+<br>Neural Network Basics <a data-tooltip-position="top" aria-label="NN Basics" data-href="NN Basics" href="NN Basics" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Activation Functions <a data-tooltip-position="top" aria-label="Activation Functions" data-href="Activation Functions" href="Activation Functions" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Backpropagation <a data-tooltip-position="top" aria-label="Backpropagation" data-href="Backpropagation" href="Backpropagation" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Optimization Algorithms <a data-tooltip-position="top" aria-label="ML Optimization" data-href="ML Optimization" href="ML Optimization" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Advanced Architectures
+<br>CNN <a data-tooltip-position="top" aria-label="CNN" data-href="CNN" href="CNN" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>RNN <a data-tooltip-position="top" aria-label="RNN" data-href="RNN" href="RNN" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>LSTM <a data-tooltip-position="top" aria-label="LSTM" data-href="LSTM" href="LSTM" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Transformers <a data-tooltip-position="top" aria-label="Transformers" data-href="Transformers" href="Transformers" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Transfer Learning <a data-tooltip-position="top" aria-label="Transfer Learning" data-href="Transfer Learning" href="Transfer Learning" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>GANs <a data-tooltip-position="top" aria-label="GANs" data-href="GANs" href="GANs" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br><br>
+<br>Cross-Validation <a data-tooltip-position="top" aria-label="Cross Validation" data-href="Cross Validation" href="Cross Validation" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Evaluation Metrics <a data-tooltip-position="top" aria-label="ML Metrics" data-href="ML Metrics" href="ML Metrics" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Bias-Variance Tradeoff <a data-tooltip-position="top" aria-label="Bias Variance" data-href="Bias Variance" href="Bias Variance" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Regularization <a data-tooltip-position="top" aria-label="Regularization" data-href="Regularization" href="Regularization" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Hyperparameter Tuning <a data-tooltip-position="top" aria-label="Hyperparameter Optimization" data-href="Hyperparameter Optimization" href="Hyperparameter Optimization" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br><br>Essential Skills
+These practical skills are crucial for real-world ML applications.
+<br>
+<br>ML Frameworks
+<br>Scikit-learn <a data-tooltip-position="top" aria-label="Scikit-learn" data-href="Scikit-learn" href="Scikit-learn" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>TensorFlow <a data-tooltip-position="top" aria-label="TensorFlow" data-href="TensorFlow" href="TensorFlow" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>PyTorch <a data-tooltip-position="top" aria-label="PyTorch" data-href="PyTorch" href="PyTorch" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Version Control
+<br>Model Deployment <a data-tooltip-position="top" aria-label="ML Deployment" data-href="ML Deployment" href="ML Deployment" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>MLOps Basics <a data-tooltip-position="top" aria-label="MLOps" data-href="MLOps" href="MLOps" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Cloud Platforms <a data-tooltip-position="top" aria-label="ML in Cloud" data-href="ML in Cloud" href="ML in Cloud" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br><br>
+<br>Reinforcement Learning <a data-tooltip-position="top" aria-label="RL" data-href="RL" href="RL" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Natural Language Processing <a data-tooltip-position="top" aria-label="NLP" data-href="NLP" href="NLP" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Computer Vision <a data-tooltip-position="top" aria-label="Computer Vision" data-href="Computer Vision" href="Computer Vision" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Time Series Analysis <a data-tooltip-position="top" aria-label="Time Series" data-href="Time Series" href="Time Series" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Recommendation Systems <a data-tooltip-position="top" aria-label="RecSys" data-href="RecSys" href="RecSys" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>AutoML <a data-tooltip-position="top" aria-label="AutoML" data-href="AutoML" href="AutoML" class="internal-link" target="_self" rel="noopener nofollow">Notes</a>
+<br>Remember
+The journey of a thousand miles begins with a single step. Focus on one topic at a time and build your knowledge systematically.
+]]></description><link>ml/learning-path.html</link><guid isPermaLink="false">ML/Learning Path.md</guid><pubDate>Mon, 20 Jan 2025 14:19:43 GMT</pubDate></item><item><title><![CDATA[SQL Notes - r04nx]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20250102162939.png" src="placements/sql/pasted-image-20250102162939.png"><br><img alt="Pasted image 20250102163014.png" src="placements/sql/pasted-image-20250102163014.png">]]></description><link>placements/sql/sql-notes-r04nx.html</link><guid isPermaLink="false">Placements/SQL/SQL Notes - r04nx.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate><enclosure url="placements/sql/pasted-image-20250102162939.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="placements/sql/pasted-image-20250102162939.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[DSA To do list]]></title><description><![CDATA[ 
+ <br>
+<br>Arrays and strings
+<br>Hashmaps and sets
+<br>Linked lists
+<br>Stacks and queues
+<br>Trees and graphs
+<br>Heaps
+<br>Greedy algorithms
+<br>Binary search
+<br>Backtracking
+<br>Dynamic programming
+]]></description><link>placements/dsa-to-do-list.html</link><guid isPermaLink="false">Placements/DSA To do list.md</guid><pubDate>Fri, 03 Jan 2025 16:22:14 GMT</pubDate></item><item><title><![CDATA[🛍️ DealSphere Documentation]]></title><description><![CDATA[ 
+ <br><br><br>
+<br><a class="internal-link" data-href="#overview" href="about:blank#overview" target="_self" rel="noopener nofollow">Overview</a>
+<br><a class="internal-link" data-href="#features" href="about:blank#features" target="_self" rel="noopener nofollow">Features</a>
+<br><a class="internal-link" data-href="#system-architecture" href="about:blank#system-architecture" target="_self" rel="noopener nofollow">System Architecture</a>
+<br><a class="internal-link" data-href="#user-flow" href="about:blank#user-flow" target="_self" rel="noopener nofollow">User Flow</a>
+<br><a class="internal-link" data-href="#database-schema" href="about:blank#database-schema" target="_self" rel="noopener nofollow">Database Schema</a>
+<br><a class="internal-link" data-href="#feature-interactions" href="about:blank#feature-interactions" target="_self" rel="noopener nofollow">Feature Interactions</a>
+<br><a class="internal-link" data-href="#technical-specifications" href="about:blank#technical-specifications" target="_self" rel="noopener nofollow">Technical Specifications</a>
+<br><a class="internal-link" data-href="#implementation-guidelines" href="about:blank#implementation-guidelines" target="_self" rel="noopener nofollow">Implementation Guidelines</a>
+<br><a class="internal-link" data-href="#use-cases" href="about:blank#use-cases" target="_self" rel="noopener nofollow">Use Cases</a>
+<br><br>🎯 DealSphere is a smart shopping platform that helps users discover, track, and purchase products at the best prices. The app combines advanced image recognition, real-time notifications, and intelligent filtering to create a seamless shopping experience.<br><br><br>
+<br>Visual search capability using Google Cloud Vision API
+<br>Real-time product recognition and matching
+<br>Support for multiple image formats
+<br>Accuracy score threshold: 85%
+<br><br>
+<br>Real-time stock monitoring
+<br>Push notifications system
+<br>Price drop alerts
+<br>Custom notification preferences
+<br>Notification frequency control
+<br><br>
+<br>Persistent search history storage
+<br>Search analytics and trends
+<br>Personalized recommendations
+<br>Export functionality
+<br>Privacy controls
+<br><br>
+<br>Location-based filtering
+<br>Rating-based sorting
+<br>Price range filters
+<br>Category specialization
+<br>Delivery options filter
+<br><br><br><br><br><br><br><br><br><br><br>
+<br>Language: Node.js/Python
+<br>Framework: Express.js/Django
+<br>Database: PostgreSQL
+<br>Cache: Redis
+<br>Search Engine: Elasticsearch
+<br>Cloud Provider: AWS/Google Cloud
+<br><br>
+<br>Google Cloud Vision API v1
+<br>Firebase Cloud Messaging
+<br>Elastic Search API v7.x
+<br>Payment Gateway APIs
+<br><br>
+<br>Response Time: &lt; 2 seconds
+<br>Availability: 99.9%
+<br>Image Processing: &lt; 5 seconds
+<br>Concurrent Users: 10,000+
+<br><br><br>// Example implementation
+async function processImage(imageData) {
+    const vision = require('@google-cloud/vision');
+    const client = new vision.ImageAnnotatorClient();
+    
+    const [result] = await client.productSearch(imageData);
+    return result.products;
+}
+<br><br>// Example implementation
+class NotificationService {
+    async sendNotification(userId, productId, type) {
+        const notification = {
+            userId,
+            productId,
+            type,
+            timestamp: new Date()
+        };
+        await this.notificationRepository.save(notification);
+        await this.pushService.send(userId, notification);
+    }
+}
+<br><br><br>Scenario: User wants to find a product using an image<br>
+<br>User captures/uploads product image
+<br>System processes image through Google Lens
+<br>System displays matching products
+<br>User can filter results by shop
+<br><br>Scenario: User wants to be notified when a product price drops<br>
+<br>User sets price alert threshold
+<br>System monitors product price
+<br>System sends notification when condition met
+<br>User receives real-time alert
+<br><br>Scenario: User wants to compare shops for a product<br>
+<br>User selects product
+<br>System shows available shops
+<br>User applies filters (rating, location, etc.)
+<br>System displays filtered results
+]]></description><link>work/spit-hackathon/dealsphere_documentation.html</link><guid isPermaLink="false">Work/SPIT Hackathon/DealSphere_Documentation.md</guid><pubDate>Sun, 26 Jan 2025 11:29:04 GMT</pubDate></item><item><title><![CDATA[DealSphere - Local Product Finder]]></title><description><![CDATA[ 
+ <br><br><br>The Local Product Finder is an innovative web application that bridges the gap between local retailers and consumers. It provides real-time product availability information, price comparisons, and store details through an interactive OSM map interface. The application features voice search capabilities, LLM-powered search enhancement, and a product reservation system, making local shopping more efficient and user-friendly.<br><br>
+<br>Interactive OSM Map integration
+<br>Real-time product availability tracking
+<br>Voice search functionality
+<br>AI-powered search enhancement
+<br>Google Lens product search integration
+<br>Product availability notifications
+<br>Search history tracking
+<br>Advanced shop filtering system
+<br>Price comparison tools
+<br>Store ratings and reviews
+<br>Product reservation system
+<br>Shipping request management
+<br>Product image gallery
+<br>Real-time inventory updates
+<br><br>In today's fast-paced world, consumers face significant challenges in finding specific products in their local stores. The process often involves multiple store visits, phone calls, or unreliable online searches that fail to provide accurate local information. This disconnect between buyers and local retailers affects both consumers and small businesses, particularly those with outdated inventory systems.<br>A unified platform is needed to bridge this gap, leveraging real-time data and crowd-sourced updates to create a dynamic marketplace. This solution would enable users to locate products in nearby stores, compare prices, view inventory status, and access store-specific details, enhancing local commerce and fostering stronger community ties. By integrating modern technology into traditional shopping, the system aims to streamline the shopping experience, save time for consumers, and boost the visibility and profitability of local businesses.<br><br><br><br><br>
+<br>HTML5
+<br>CSS3
+<br>JavaScript (ES6+)
+<br>TailwindCSS
+<br>OpenStreetMap API
+<br>Web Speech API
+<br>Google Cloud Vision API Integration
+<br><br>
+<br>Python 3.x
+<br>Flask Framework
+<br>SQLAlchemy ORM
+<br>RESTful API
+<br>LLM Integration
+<br>Firebase Cloud Messaging
+<br>Elasticsearch
+<br>Google Cloud Vision API
+<br><br>
+<br>PostgreSQL
+<br>Redis (Caching)
+<br><br>
+<br>OpenStreetMap
+<br>Language Model API
+<br>Payment Gateway
+<br>Cloud Storage (Images)
+<br><br>
+<br>User Interface Layer
+<br>
+<br>Map Component
+<br>Search Interface
+<br>Product Cards
+<br>Store Details Panel
+<br>Reservation System
+<br>User Dashboard
+<br>
+<br>Business Logic Layer
+<br>
+<br>Search Engine with Elasticsearch
+<br>Price Comparison Engine
+<br>Voice Processing System
+<br>LLM Integration Service
+<br>Google Lens Integration Service
+<br>Notification Management System
+<br>Search History Tracking System
+<br>Inventory Management
+<br>Rating System
+<br>
+<br>Data Layer
+<br>
+<br>Product Database
+<br>User Database
+<br>Store Database
+<br>Cache System
+<br>File Storage
+<br><br><br><br><br><br><br><br>
+<br>Header Section
+<br>
+<br>Logo
+<br>Search Bar
+<br>Voice Search Button
+<br>User Profile Menu
+<br>
+<br>Map View
+<br>
+<br>Interactive OSM Map
+<br>Store Markers
+<br>Product Information Popups
+<br>Filter Controls
+<br>
+<br>Product Details Panel
+<br>
+<br>Product Images
+<br>Price Information
+<br>Store Details
+<br>Availability Status
+<br>Reservation Button
+<br>Shipping Request Button
+<br>
+<br>Store Information
+<br>
+<br>Ratings Display
+<br>Review Section
+<br>Operating Hours
+<br>Contact Information
+<br>
+<br>User Dashboard
+<br>
+<br>Reservation History
+<br>Favorite Products
+<br>Reviews Given
+<br>Settings
+<br><br><br><br><br><br>
+<br>Phase 1: Planning and Design (Weeks 1-2)
+<br>
+<br>Requirement Analysis
+<br>System Architecture Design
+<br>Database Schema Design
+<br>UI/UX Design
+<br>
+<br>Phase 2: Core Development (Weeks 3-6)
+<br>
+<br>Database Setup
+<br>Basic Backend Development
+<br>Frontend Framework Setup
+<br>Map Integration
+<br>
+<br>Phase 3: Feature Implementation (Weeks 7-10)
+<br>
+<br>Search Functionality
+<br>Voice Recognition
+<br>LLM Integration
+<br>Product Management System
+<br>
+<br>Phase 4: Advanced Features (Weeks 11-14)
+<br>
+<br>Reservation System
+<br>Review System
+<br>Shipping Request System
+<br>Real-time Updates
+<br>
+<br>Phase 5: Testing and Optimization (Weeks 15-16)
+<br>
+<br>Unit Testing
+<br>Integration Testing
+<br>Performance Optimization
+<br>Security Testing
+<br>
+<br>Phase 6: Deployment and Launch (Weeks 17-18)
+<br>
+<br>Beta Testing
+<br>Production Deployment
+<br>User Training
+<br>Documentation
+<br><br>]]></description><link>work/spit-hackathon/main-document.html</link><guid isPermaLink="false">Work/SPIT Hackathon/Main Document.md</guid><pubDate>Sun, 26 Jan 2025 11:37:19 GMT</pubDate></item><item><title><![CDATA[DSA Cheatsheet for Technical Interviews]]></title><description><![CDATA[ 
  <br><br>About This Guide
 A comprehensive guide for DSA interview preparation with Python implementations, common patterns, and interview tips.
 <br><br>Big-O Cheatsheet
@@ -310,1837 +855,7 @@ except_ends = arr[1:-1]         # All but first and last
 <br>List comprehensions for cleaner, more readable code
 <br>lru_cache for dynamic programming problems
 
-]]></description><link>placements/dsa-cheatsheet.html</link><guid isPermaLink="false">Placements/DSA Cheatsheet.md</guid><pubDate>Mon, 20 Jan 2025 14:25:52 GMT</pubDate></item><item><title><![CDATA[VPC Solution Comparison for SPIT Student Developers 🎓]]></title><description><![CDATA[ 
- <br><br><br>Key Requirements
-
-<br>🖥️ VNC/desktop environment (optional)
-<br>🔐 SSH system access
-<br>🔒 Isolated environment
-<br>💾 Arbitrary storage allocation
-<br>🐧 Linux tools compatibility
-<br>👥 Role-based access control
-<br>📦 Simple installation
-<br>⚡ Resource efficiency
-
-<br><br><br><br>Enterprise Cloud Solution<br><br>
-<br>Enterprise-grade solution
-<br>Comprehensive feature set
-<br>Built-in role-based access control
-<br>Extensive API support
-<br>Strong isolation between instances
-<br><br>
-<br>Complex installation process
-<br>Heavy resource requirements
-<br>Steep learning curve for administrators
-<br>Requires significant maintenance
-<br>Overkill for basic VPC needs
-<br><br><br>Container-based Solution<br><br>
-<br>Lightweight installation
-<br>Efficient resource usage
-<br>Fast container deployment
-<br>Native Linux integration
-<br>Simple command-line interface
-<br>Excellent storage management
-<br>Built-in resource limits
-<br><br>
-<br>No built-in VNC support (requires Apache Guacamole)
-<br>Limited GUI management tools
-<br>Requires additional setup for role-based access
-<br>Less isolation than full virtualization
-<br><br><br>Web-based VM Management<br><br>
-<br>User-friendly web interface
-<br>Integrated with Linux system management
-<br>Easy installation
-<br>Built-in user management
-<br>Native QEMU/KVM integration
-<br>Full VM isolation
-<br><br>
-<br>Higher resource usage than containers
-<br>Limited enterprise-scale features
-<br>Less flexible than OpenStack
-<br>Storage management less sophisticated
-<br><br><br>LXD is Recommended
-Based on the requirements, LXD appears to be the most suitable solution for SPIT
-<br><br>
-<br>
-Base Setup:
-
-<br>Install LXD on Ubuntu Server
-<br>Configure storage pools for student workspaces
-<br>Set up network bridges for isolation
-
-
-<br>
-Access Control:
-
-<br>Implement Apache Guacamole for VNC access
-<br>Configure SSH access with key-based authentication
-<br>Set up user groups for role-based access
-
-
-<br>
-Resource Management:
-
-<br>Define container profiles with resource limits
-<br>Implement storage quotas per student
-<br>Configure network limitations
-
-
-<br>
-Monitoring:
-
-<br>Set up basic monitoring with LXD built-in tools
-<br>Optional integration with Prometheus/Grafana
-
-
-<br><br><br><br>Final Verdict
-LXD provides the optimal balance of features, simplicity, and resource efficiency for SPIT's requirements.
-<br><br><a data-footref="[inline0" href="about:blank#fn-1-5d9f09782217262c" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a><br>
-<br>
-<br>Created for SPIT - Mumbai<a href="about:blank#fnref-1-5d9f09782217262c" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
-]]></description><link>work/college/vpc@spit/comparison.html</link><guid isPermaLink="false">Work/College/VPC@SPIT/Comparison.md</guid><pubDate>Mon, 06 Jan 2025 08:38:33 GMT</pubDate></item><item><title><![CDATA[🚀 VPC Service Deployment Guide]]></title><description><![CDATA[<a class="tag" href="?query=tag:Infrastructure" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Infrastructure</a> 
- <br><br>Note
-This document provides a comprehensive guide for implementing a Virtual Private Cloud (VPC) service infrastructure. Follow each phase sequentially for optimal deployment.
-<br><br>
-<br><a data-tooltip-position="top" aria-label="Infrastructure" data-href="#Infrastructure" href="about:blank#Infrastructure" class="internal-link" target="_self" rel="noopener nofollow">🏗️ Infrastructure</a>
-<br><a data-tooltip-position="top" aria-label="Storage" data-href="#Storage" href="about:blank#Storage" class="internal-link" target="_self" rel="noopener nofollow">💾 Storage Layer</a>
-<br><a data-tooltip-position="top" aria-label="Containers" data-href="#Containers" href="about:blank#Containers" class="internal-link" target="_self" rel="noopener nofollow">🐳 Container Platform</a>
-<br><a data-tooltip-position="top" aria-label="Authentication" data-href="#Authentication" href="about:blank#Authentication" class="internal-link" target="_self" rel="noopener nofollow">🔐 Authentication</a>
-<br><a data-tooltip-position="top" aria-label="Management" data-href="#Management" href="about:blank#Management" class="internal-link" target="_self" rel="noopener nofollow">⚙️ Container Management</a>
-<br><a data-tooltip-position="top" aria-label="Access" data-href="#Access" href="about:blank#Access" class="internal-link" target="_self" rel="noopener nofollow">🔑 Remote Access</a>
-<br><a data-tooltip-position="top" aria-label="Portal" data-href="#Portal" href="about:blank#Portal" class="internal-link" target="_self" rel="noopener nofollow">🌐 Student Portal</a>
-<br><a data-tooltip-position="top" aria-label="Faculty" data-href="#Faculty" href="about:blank#Faculty" class="internal-link" target="_self" rel="noopener nofollow">👨‍🏫 Faculty Tools</a>
-<br><a data-tooltip-position="top" aria-label="Monitoring" data-href="#Monitoring" href="about:blank#Monitoring" class="internal-link" target="_self" rel="noopener nofollow">📊 Monitoring &amp; Logging</a>
-<br><a data-tooltip-position="top" aria-label="Automation" data-href="#Automation" href="about:blank#Automation" class="internal-link" target="_self" rel="noopener nofollow">🤖 Automation &amp; CI/CD</a>
-<br><a data-tooltip-position="top" aria-label="Backup" data-href="#Backup" href="about:blank#Backup" class="internal-link" target="_self" rel="noopener nofollow">💾 Backup &amp; Recovery</a>
-<br><a data-tooltip-position="top" aria-label="Security" data-href="#Security" href="about:blank#Security" class="internal-link" target="_self" rel="noopener nofollow">🔒 Security</a>
-<br><a data-tooltip-position="top" aria-label="Integration" data-href="#Integration" href="about:blank#Integration" class="internal-link" target="_self" rel="noopener nofollow">🔄 System Integration</a>
-<br><a data-tooltip-position="top" aria-label="DNS" data-href="#DNS" href="about:blank#DNS" class="internal-link" target="_self" rel="noopener nofollow">🌍 DNS Management</a>
-<br><a data-tooltip-position="top" aria-label="Workflow" data-href="#Workflow" href="about:blank#Workflow" class="internal-link" target="_self" rel="noopener nofollow">⚡ Development Workflow</a>
-<br><a data-tooltip-position="top" aria-label="Architecture" data-href="#Architecture" href="about:blank#Architecture" class="internal-link" target="_self" rel="noopener nofollow">📐 System Architecture</a>
-<br><a data-tooltip-position="top" aria-label="Entities" data-href="#Entities" href="about:blank#Entities" class="internal-link" target="_self" rel="noopener nofollow">📋 Entity Relationships</a>
-<br><a data-tooltip-position="top" aria-label="Guacamole" data-href="#Guacamole" href="about:blank#Guacamole" class="internal-link" target="_self" rel="noopener nofollow">💻 Guacamole Integration</a>
-<br><a data-tooltip-position="top" aria-label="Portfolio" data-href="#Portfolio" href="about:blank#Portfolio" class="internal-link" target="_self" rel="noopener nofollow">📂 Project Portfolio</a>
-<br>Tip
-Click on any section in the table of contents to jump directly to it.
-<br><br><br>Info
-This phase establishes the fundamental infrastructure components required for the VPC service.
-<br><br>Important
-These specifications are minimum requirements for a production environment. Scale resources based on expected workload.
-<br><br><br><br><br>Tip
-Proper network segmentation is crucial for security and performance.
-<br><br><br>
-<br>
-Create VLANs:
-
-<br>Management Network: 10.0.0.0/24
-<br>Storage Network: 10.0.1.0/24
-<br>Container Network: 10.0.2.0/24
-<br>Public Network: X.X.X.X/24 (Your public IP range)
-
-
-<br>
-Configure Network Security:
-
-<br>Setup firewall rules
-<br>Configure VLANs on switches
-<br>Setup SDN (Software-Defined Networking)
-
-
-<br><br># On all nodes:
-1. Install Ubuntu Server 22.04 LTS
-2. Configure network interfaces
-3. Update system
-4. Configure NTP
-<br><br><br># On all storage nodes
-sudo apt install -y ceph-common ceph-mon ceph-osd
-
-# On the first node (ceph-admin)
-sudo ceph-deploy new node1 node2 node3
-sudo ceph-deploy mon create-initial
-sudo ceph-deploy osd create node1:/dev/sdb node2:/dev/sdb node3:/dev/sdb
-<br><br># Create pools
-sudo ceph osd pool create volumes 128
-sudo ceph osd pool create images 128
-sudo ceph osd pool create backups 128
-<br><br><br># On all nodes
-sudo snap install lxd
-sudo lxd init --auto
-
-# Configure LXD Clustering
-sudo lxc cluster create cluster-name
-<br><br># Configure Ceph storage backend
-sudo lxc storage create ceph-pool ceph \
-    ceph.cluster_name=ceph \
-    ceph.user_name=admin \
-    source=volumes
-<br><br># Create networks
-sudo lxc network create lxdbr0 \
-    ipv4.address=10.0.2.1/24 \
-    ipv4.nat=true \
-    ipv6.address=none
-<br><br><br># Deploy Keycloak
-sudo docker run -d \
-    -p 8080:8080 \
-    -e KEYCLOAK_ADMIN=admin \
-    -e KEYCLOAK_ADMIN_PASSWORD=password \
-    quay.io/keycloak/keycloak:latest start-dev
-<br><br>
-<br>Create new realm 'student-vpc'
-<br>Configure email domain restrictions
-<br>Setup LDAP/Active Directory integration
-<br>Create roles:
-
-<br>student-cloud
-<br>student-desktop
-<br>faculty
-<br>admin
-
-
-<br><br><br># On all nodes
-sudo apt install -y kubelet kubeadm kubectl
-
-# Initialize control plane
-sudo kubeadm init --pod-network-cidr=10.244.0.0/16
-
-# Install CNI (Calico)
-kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
-<br><br># Create StorageClass
-apiVersion: storage.k8s.io/v1
-kind: StorageClass
-metadata:
-name: ceph-rbd
-provisioner: ceph.com/rbd
-parameters:
-monitors: 10.0.0.1:6789,10.0.0.2:6789,10.0.0.3:6789
-pool: k8s-pool
-adminSecretNamespace: default
-adminSecretName: ceph-admin-secret
-<br><br><br># Deploy using Docker
-docker run --name guacd \
-    -d guacamole/guacd
-
-docker run --name guacamole \
-    -e MYSQL_DATABASE=guacamole_db \
-    -e MYSQL_USER=guacamole_user \
-    -e MYSQL_PASSWORD=password \
-    --link guacd:guacd \
-    -d guacamole/guacamole
-<br><br>
-<br>Setup connection templates
-<br>Integrate with Keycloak
-<br>Configure desktop profiles
-<br><br><br># Create React/Vue.js application with:
-1. Container management interface
-2. Resource monitoring
-3. Course selection
-4. Profile management
-<br><br># Create FastAPI/Django backend with:
-1. Container management API
-2. Resource tracking
-3. Authentication middleware
-4. Quota management
-<br><br><br># Create base images
-lxc launch ubuntu:22.04 template-base
-
-# Configure and snapshot
-lxc snapshot template-base snap1
-
-# Export image
-lxc publish template-base/snap1 --alias=course-python
-<br><br>
-<br>Create image templates
-<br>Manage student access
-<br>Monitor resource usage
-<br><br><br># Deploy monitoring stack
-helm install monitoring prometheus-community/kube-prometheus-stack
-
-# Configure dashboards for:
-1. Resource usage
-2. Container health
-3. Student metrics
-<br><br># Deploy logging stack
-helm install logging elastic/elasticsearch
-helm install kibana elastic/kibana
-helm install filebeat elastic/filebeat
-<br><br><br># Deploy GitLab
-helm install gitlab gitlab/gitlab \
-    --set global.hosts.domain=your.domain
-<br><br># .gitlab-ci.yml example
-stages:
-- build
-- test
-- deploy
-
-build_image:
-stage: build
-script:
-    - lxc image build
-    
-deploy_containers:
-stage: deploy
-script:
-    - kubectl apply -f manifests/
-<br><br><br># Setup automated backups
-1. Container snapshots
-2. Volume backups
-3. Configuration backups
-<br><br>
-<br>Document recovery procedures
-<br>Test restoration processes
-<br>Create automated recovery scripts
-<br><br><br># Apply security configurations
-1. FirewallD/UFW rules
-2. SELinux/AppArmor profiles
-3. SSH hardening
-<br><br># Create update schedule
-1. Security patches
-2. System updates
-3. Application updates
-<br><br><br>vpc.spit.ac.in          # Main portal
-auth.vpc.spit.ac.in     # Keycloak
-guac.vpc.spit.ac.in     # Guacamole
-admin.vpc.spit.ac.in    # Admin panel
-*.lab.vpc.spit.ac.in    # Wildcard for student containers
-*.lab.vpc.example.edu    # Legacy wildcard (to be removed)
-<br><br># docker-compose.yml
-version: '3'
-services:
-traefik:
-    image: traefik:v2.4
-    command:
-    - "--api.insecure=false"
-    - "--providers.docker=true"
-    - "--providers.docker.exposedbydefault=false"
-    - "--entrypoints.websecure.address=:443"
-    - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
-    ports:
-    - "443:443"
-    volumes:
-    - "/var/run/docker.sock:/var/run/docker.sock:ro"
-    - "./acme.json:/acme.json"
-    labels:
-    - "traefik.enable=true"
-<br><br># FastAPI-based unified admin panel
-from fastapi import FastAPI, Depends
-from keycloak import KeycloakAdmin
-
-app = FastAPI()
-
-# Admin panel endpoints
-@app.get("/api/v1/containers")
-async def get_containers():
-    # LXD container management
-    pass
-
-@app.get("/api/v1/users")
-async def get_users():
-    # Keycloak user management
-    pass
-
-@app.get("/api/v1/resources")
-async def get_resources():
-    # Resource monitoring
-    pass
-<br><br># Configure service communication
-1. Setup internal network: 
-docker network create vpc-internal
-
-2. Connect services:
-- Portal -&gt; Keycloak (OpenID Connect)
-- Portal -&gt; LXD (REST API)
-- Portal -&gt; Kubernetes (kubectl)
-- Guacamole -&gt; Containers (Direct)
-
-3. Configure internal DNS:
-- Use CoreDNS for service discovery
-- Setup internal routing
-<br><br># Install certbot
-apt install certbot
-
-# Obtain wildcard certificate
-certbot certonly --manual \
---preferred-challenges=dns \
---email admin@spit.ac.in \
---server https://acme-v02.api.letsencrypt.org/directory \
---agree-tos \
--d \"*.vpc.spit.ac.in\"\n
-
-# Configure auto-renewal
-echo "0 0 1 * * /usr/bin/certbot renew --quiet" | sudo tee -a /etc/crontab
-<br><br># Configure security policies
-1. Enable CORS policies:
-- Restrict to *.vpc.spit.ac.in
-
-2. Setup rate limiting:
-- 100 req/min per IP
-- 1000 req/min per auth user
-
-3. Configure WAF rules:
-- XSS protection
-- SQL injection prevention
-- SQL injection prevention 
-- Request size limits
-<br><br><br># Install PowerDNS and PostgreSQL
-apt install -y pdns-server pdns-backend-pgsql postgresql
-
-# Create PowerDNS database and user
-sudo -u postgres psql
-CREATE DATABASE pdns;
-CREATE USER pdns WITH PASSWORD 'secure_password';
-GRANT ALL PRIVILEGES ON DATABASE pdns TO pdns;
-
-# Import schema
-sudo -u postgres psql pdns &lt; /usr/share/doc/pdns-backend-pgsql/schema.pgsql.sql
-
-# Configure PowerDNS
-cat &gt; /etc/powerdns/pdns.conf &lt;&lt; EOF
-launch=gpgsql
-gpgsql-host=localhost
-gpgsql-user=pdns
-gpgsql-dbname=pdns
-gpgsql-password=secure_password
-api=yes
-api-key=your_secure_api_key
-webserver=yes
-webserver-port=8081
-webserver-address=0.0.0.0
-EOF
-<br><br># DNS Management API (FastAPI)
-from fastapi import FastAPI, HTTPException
-import powerdns
-
-app = FastAPI()
-api_client = powerdns.PDNSApiClient(
-    api_endpoint='http://localhost:8081',
-    api_key='your_secure_api_key'
-)
-
-@app.post("/api/v1/dns/record")
-async def create_dns_record(domain: str, record_type: str, content: str):
-    try:
-        zone = api_client.zones[domain]
-        record_set = zone.create_record(
-            name=domain,
-            rtype=record_type,
-            content=content
-        )
-        return {"status": "success", "record": record_set}
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-<br><br># Container Lifecycle Hook
-from kubernetes import client, config, watch
-import requests
-
-def container_dns_handler():
-    config.load_incluster_config()
-    v1 = client.CoreV1Api()
-    w = watch.Watch()
-    
-    for event in w.stream(v1.list_pod_for_all_namespaces):
-        pod = event['object']
-        if event['type'] == 'ADDED':
-            # Create DNS record
-            create_dns_record(
-                f"{pod.metadata.name}.lab.vpc.spit.ac.in",
-                "A",
-                pod.status.pod_ip
-            )
-        elif event['type'] == 'DELETED':
-            # Delete DNS record
-            delete_dns_record(
-                f"{pod.metadata.name}.lab.vpc.example.edu"
-            )
-<br><br>#!/bin/bash
-# DNS Record Management Script
-
-DNS_API="http://localhost:8000/api/v1/dns"
-
-function create_container_dns() {
-    container_name=$1
-    container_ip=$2
-    
-    curl -X POST $DNS_API/record \
-        -H "Content-Type: application/json" \
-        -d "{
-            \"domain\\\": \\\"${container_name}.lab.vpc.spit.ac.in\\\",
-            \"record_type\\\": \\\"A\\\",
-            \"content\": \"${container_ip}\"
-        }"
-}
-
-# Hook into LXD events
-lxc config set core.https_address [::]
-lxc monitor | while read line; do
-    if echo $line | grep -q "started"; then
-        container=$(echo $line | jq -r .metadata.source)
-        ip=$(lxc list $container -f json | jq -r '.[0].state.network.eth0.addresses[0].address')
-        create_container_dns $container $ip
-    fi
-done
-<br><br># Prometheus Configuration
-- job_name: 'powerdns'
-static_configs:
-    - targets: ['localhost:8081']
-metrics_path: /metrics
-scheme: http
-basic_auth:
-    username: pdns
-    password: secure_password
-
-# Grafana Dashboard
-{
-"title": "PowerDNS Monitoring",
-"panels": [
-    {
-    "title": "DNS Queries per Second",
-    "type": "graph",
-    "datasource": "Prometheus",
-    "targets": [
-        {
-        "expr": "rate(pdns_auth_queries_total[5m])"
-        }
-    ]
-    },
-    {
-    "title": "Record Updates",
-    "type": "graph",
-    "targets": [
-        {
-        "expr": "rate(pdns_auth_zone_updates[5m])"
-        }
-    ]
-    }
-]
-}
-<br><br><br># Project Container Creation Workflow
-1. Student initiates project creation via portal
-2. System checks resource quota:
-- Available container slots
-- Storage pool capacity
-- Network quota
-3. Container provisioning:
-- Base image selection
-- Resource allocation
-- Network configuration
-- Volume mounting
-<br><br># Resource Tracking Service
-class ResourceTracker:
-    def calculate_student_usage(student_id):
-        used_resources = {
-            'containers': get_container_count(student_id),
-            'storage': calculate_storage_usage(student_id),
-            'networks': get_network_count(student_id)
-        }
-        return check_against_quota(used_resources)
-    
-    def reserve_resources(project_id, requirements):
-        with transaction.atomic():
-            validate_quota()
-            allocate_resources()
-            update_usage_metrics()
-<br><br># Project DNS Handler
-class ProjectDNS:
-    f"{project.name}.projects.vpc.spit.ac.in",
-        # Main project subdomain
-        create_dns_record(
-            f\"{project.name}.projects.vpc.spit.ac.in\",
-            \"A\",
-            project.gateway_ip
-        )
-        
-        # Service-specific records
-        for service in project.services:
-            f"{service.name}.{project.name}.projects.vpc.spit.ac.in",
-                f\"{service.name}.{project.name}.projects.vpc.spit.ac.in\",
-                \"A\",
-                service.ip
-            )
-<br><br># Student Quota Configuration
-quotas:
-default:
-    containers: 3
-    storage_gb: 30
-    networks: 2
-    public_ips: 1
-
-project_additional:
-    storage_gb: 10
-    containers: 2
-    
-# Quota Management Service
-class QuotaManager:
-    def validate_project_creation(student_id, project_spec):
-        current_usage = get_student_usage(student_id)
-        project_requirements = calculate_requirements(project_spec)
-        return check_quota_availability(current_usage, project_requirements)
-<br><br># Project Pipeline Configuration
-stages:
-- validate
-- build
-- test
-- deploy
-- dns_setup
-
-validate_resources:
-stage: validate
-script:
-    - check_student_quota
-    - validate_resource_requirements
-    
-build_containers:
-stage: build
-script:
-    - build_project_containers
-    - push_to_registry
-    
-deploy_project:
-stage: deploy
-script:
-    - apply_kubernetes_manifests
-    - configure_networking
-    - setup_project_dns
-<br><br><br><br><br><br><br><br><br>[Student Request] --&gt; [Portal]
-    |                  ^
-    v                  |
-[Quota Check] --&gt; [Resource Pool]
-    |                  ^
-    v                  |
-[Container Create] --&gt; [Storage]
-    |                  ^
-    v                  |
-[Network Setup] --&gt; [DNS Update]
-    |                  ^
-    v                  |
-[Monitor/Metrics] --&gt; [Backup]
-<br><br>[External Access]
-    |
-[WAF/DDoS Protection]
-    |
-[SSL Termination]
-    |
-[Authentication Layer]
-    |
-+-----+------+
-|            |
-v            v
-[RBAC]    [Network ACLs]
-|            |
-v            v
-[Resources]  [Services]
-|            |
-v            v
-[Audit Logs] [Monitoring]
-<br><br><br>
-+---------------+     +----------------+     +---------------+
-|    Student    |     |    Project     |     |   Container   |
-+---------------+     +----------------+     +---------------+
-| id (PK)       |     | id (PK)        |     | id (PK)       |
-| email         |&lt;-+  | name           |     | name          |
-| role_id (FK)  |  |  | student_id(FK) |&lt;-+  | project_id(FK)|
-| quota_id (FK) |  |  | created_at     |  |  | image_id (FK) |
-| created_at    |  |  | status         |  |  | status        |
-+---------------+  |  +----------------+  |  | ip_address    |
-    ^           |         ^            |  | dns_record    |
-    |           |         |            |  +---------------+
-+---------------+ |  +----------------+  |         ^
-|     Role      | |  |    Resource    |  |         |
-+---------------+ |  +----------------+  |  +---------------+
-| id (PK)       | |  | id (PK)        |  |  |    Image      |
-| name          | |  | project_id(FK) |  |  +---------------+
-| permissions   | |  | type           |  |  | id (PK)       |
-+---------------+ |  | amount         |  |  | name          |
-    ^          |  | created_at     |  |  | created_by    |
-    |          |  +----------------+  |  | type          |
-+---------------+|                     |  +---------------+
-|    Quota      ||   +----------------+|          ^
-+---------------+|   |    Network     ||          |
-| id (PK)       ||   +----------------+|    +---------------+
-| storage_limit |+--&gt;| id (PK)        ||    |   Faculty     |
-| container_limit|    | project_id(FK) |+---&gt;+---------------+
-| network_limit |    | type           |     | id (PK)       |
-+---------------+    | subnet         |     | email         |
-                    +----------------+     | role_id (FK)  |
-                                        +---------------+
-<br><br>Student:
-- id: UUID (Primary Key)
-- email: String (Institute email)
-- role_id: Foreign Key to Role
-- quota_id: Foreign Key to Quota
-- created_at: Timestamp
-- status: Enum (active/suspended)
-- last_login: Timestamp
-
-Project:
-- id: UUID (Primary Key)
-- name: String
-- student_id: Foreign Key to Student
-- created_at: Timestamp
-- status: Enum (active/archived)
-- description: Text
-- resource_usage: JSON
-
-Container:
-- id: UUID (Primary Key)
-- name: String
-- project_id: Foreign Key to Project
-- image_id: Foreign Key to Image
-- status: Enum (running/stopped/failed)
-- ip_address: String
-- dns_record: String
-- created_at: Timestamp
-- resources: JSON
-- exposed_ports: Array
-
-Image:
-- id: UUID (Primary Key)
-- name: String
-- created_by: Foreign Key to Faculty
-- type: Enum (base/course)
-- description: Text
-- requirements: JSON
-- version: String
-<br><br>Role: Student-Cloud
-+-------------------------+------------------+
-| Resource               | Permissions      |
-+-------------------------+------------------+
-| Containers             | CRUD (max 3)     |
-| Storage                | CRUD (max 30GB)  |
-| Networks               | CRUD (max 2)     |
-| Public IPs             | Create (max 1)   |
-| Images                 | Read             |
-| Projects               | CRUD (max 3)     |
-| DNS Records            | Read             |
-+-------------------------+------------------+
-
-Role: Student-Desktop
-+-------------------------+------------------+
-| Resource               | Permissions      |
-+-------------------------+------------------+
-| Assigned Containers    | RU               |
-| Storage                | CRUD (max 10GB)  |
-| Course Images          | Read             |
-| DNS Records            | Read             |
-+-------------------------+------------------+
-
-Role: Faculty
-+-------------------------+------------------+
-| Resource               | Permissions      |
-+-------------------------+------------------+
-| Course Images          | CRUD             |
-| Student Access         | CRUD             |
-| Course Containers      | CRUD             |
-| Resource Quotas        | Read, Update     |
-| Monitoring Data        | Read             |
-| DNS Records            | Read             |
-+-------------------------+------------------+
-
-Role: Admin
-+-------------------------+------------------+
-| Resource               | Permissions      |
-+-------------------------+------------------+
-| All Resources          | CRUD             |
-| User Management        | CRUD             |
-| System Configuration   | CRUD             |
-| Monitoring &amp; Logs      | CRUD             |
-| Security Policies      | CRUD             |
-| DNS Management         | CRUD             |
-+-------------------------+------------------+
-<br><br><br># Container Event Handler Service
-class ContainerEventHandler:
-    def __init__(self):
-        self.lxd_client = pylxd.Client()
-        self.guacamole_client = GuacamoleClient()
-        self.ssh_manager = SSHKeyManager()
-
-    async def watch_container_events(self):
-        async for event in self.lxd_client.events.listen():
-            if event.type == "lifecycle":
-                await self.handle_container_event(event)
-
-    async def handle_container_event(self, event):
-        if event.action == "created":
-            await self.setup_container_access(event.container)
-        elif event.action == "deleted":
-            await self.cleanup_container_access(event.container)
-<br><br>class GuacamoleConnectionManager:
-    def create_connection(self, container, student):
-        connection = {
-            "name": f"{container.name} - {student.course}",
-            "protocol": "ssh",
-            "parameters": {
-                "hostname": container.ip,
-                "port": "22",
-                "username": student.username,
-                "private-key": get_student_ssh_key(student.id)
-            },
-            "attributes": {
-                "max-connections": "1",
-                "max-connections-per-user": "1"
-            }
-        }
-        self.guac_client.add_connection(connection)
-
-    def assign_connection_permissions(self, connection_id, student_id):
-        permission = {
-            "connection": connection_id,
-            "user": student_id,
-            "permissions": ["READ"]
-        }
-        self.guac_client.add_permission(permission)
-<br><br>class SSHKeyManager:
-    def generate_student_keys(self, student):
-        # Generate SSH key pair
-        private_key = crypto.PKey()
-        private_key.generate_key(crypto.TYPE_RSA, 4096)
-        
-        # Store private key securely
-        self.store_private_key(student.id, private_key)
-        
-        # Deploy public key to container
-        public_key = private_key.get_public_key()
-        self.deploy_public_key(student.containers, public_key)
-
-    def rotate_keys(self, student):
-        # Key rotation logic for security
-        new_key_pair = self.generate_key_pair()
-        self.update_container_keys(student.containers, new_key_pair)
-        self.update_guacamole_connections(student.id, new_key_pair)
-<br><br>class AccessAutomation:
-    def setup_new_container(self, container, student):
-        # Generate and configure SSH access
-        ssh_key = self.ssh_manager.generate_student_keys(student)
-        
-        # Configure container
-        self.configure_container_ssh(container, ssh_key)
-        
-        # Create Guacamole connection
-        conn_id = self.guac_manager.create_connection(container, student)
-        
-        # Set permissions
-        self.guac_manager.assign_connection_permissions(conn_id, student.id)
-        
-        # Update DNS
-        self.dns_manager.create_container_record(container)
-
-    def cleanup_container_access(self, container_id):
-        # Remove Guacamole connections
-        self.guac_manager.remove_container_connections(container_id)
-        
-        # Revoke SSH keys
-        self.ssh_manager.revoke_container_keys(container_id)
-        
-        # Remove DNS records
-        self.dns_manager.remove_container_records(container_id)
-<br><br># Event Workflow Configuration
-events:
-container_created:
-    - validate_student_quota
-    - generate_ssh_credentials
-    - configure_container_access
-    - create_guacamole_connection
-    - update_dns_records
-    - notify_student
-
-container_deleted:
-    - remove_guacamole_connections
-    - revoke_ssh_credentials
-    - remove_dns_records
-    - update_student_quota
-    - cleanup_resources
-
-student_enrollment:
-    - create_student_workspace
-    - generate_base_credentials
-    - setup_resource_quota
-    - configure_permissions
-    - create_dns_zone
-
-course_container_deployment:
-    - validate_course_template
-    - clone_base_container
-    - configure_course_environment
-    - setup_student_access
-    - create_course_connection
-    - update_student_dashboard
-<br><br># Container Creation Hook
-@app.post("/api/v1/containers/create")
-async def create_container(container_spec: ContainerSpec):
-    try:
-        # Create container
-        container = await lxd_client.create_container(container_spec)
-        
-        # Setup access
-        automation = AccessAutomation()
-        await automation.setup_new_container(container, container_spec.student)
-        
-        # Update student dashboard
-        await update_student_portal(container_spec.student.id)
-        
-        return {"status": "success", "container": container.name}
-    except Exception as e:
-        return {"status": "error", "message": str(e)}
-
-# Course Container Deployment
-@app.post("/api/v1/course/deploy")
-async def deploy_course_containers(course_spec: CourseSpec):
-    try:
-        for student in course_spec.students:
-            # Create container from course template
-            container = await create_course_container(course_spec, student)
-            
-            # Setup access and integration
-            await setup_course_container_access(container, student)
-            
-            # Update student's Guacamole connections
-            await update_student_guacamole(student.id)
-        
-        return {"status": "success", "deployed": len(course_spec.students)}
-    except Exception as e:
-        return {"status": "error", "message": str(e)}
-<br><br>class SecurityManager:
-    def validate_access_request(self, student, container):
-        # Check student quota
-        if not self.quota_manager.has_available_resources(student):
-            raise QuotaExceeded("Student quota exceeded")
-        
-        # Validate permissions
-        if not self.permission_manager.can_access_container(student, container):
-            raise PermissionDenied("Student does not have required permissions")
-        
-        # Check container status
-        if not self.container_manager.is_container_available(container):
-            raise ContainerUnavailable("Container is not in valid state")
-        
-    def secure_container_access(self, container):
-        # Configure firewall rules
-        self.firewall_manager.configure_container_rules(container)
-        
-        # Setup access logging
-        self.logging_manager.setup_container_logging(container)
-        
-        # Configure SSH hardening
-        self.ssh_manager.harden_container_ssh(container)
-        
-        # Setup monitoring
-        self.monitoring_manager.configure_container_monitoring(container)
-<br><br># Access Control Matrix
-
-## Network Access Control
-+------------------+------------------------+------------------+
-| Source           | Destination            | Ports/Protocols |
-+------------------+------------------------+------------------+
-| Student          | Own Containers         | TCP 22,80,443   |
-| Student          | Course Containers      | TCP 80,443      |
-| Faculty          | Course Containers      | TCP ALL         |
-| Admin            | All Resources          | ALL             |
-| Public           | Public Container IPs   | TCP 80,443      |
-+------------------+------------------------+------------------+
-
-## Resource Access Control
-+------------------+------------------------+------------------+
-| Role             | Resource               | Access Level    |
-+------------------+------------------------+------------------+
-| Student-Cloud    | Container Registry     | Pull           |
-| Student-Cloud    | Volume Storage         | ReadWrite      |
-| Student-Desktop  | Course Images          | Read           |
-| Faculty          | Image Registry         | Push/Pull      |
-| Admin            | All Storage            | Full           |
-+------------------+------------------------+------------------+
-<br>Student Entity:
-Capabilities:
-    - Self-service registration with institute email
-    - Container management within quota
-    - Resource usage monitoring
-    - Project creation and management
-    - DNS record viewing for owned resources
-
-Constraints:
-    - Must use institute email domain
-    - Resource usage within assigned quota
-    - Cannot modify system configurations
-    - Project limit based on role
-
-Faculty Entity:
-Capabilities:
-    - Course image creation and management
-    - Student resource monitoring
-    - Course container deployment
-    - Resource quota adjustment requests
-    - Batch container operations
-
-Constraints:
-    - Cannot modify system infrastructure
-    - Limited to course-related resources
-    - Must follow image naming conventions
-    - Cannot access student data outside courses
-
-Container Entity:
-Capabilities:
-    - Dynamic resource allocation
-    - Network isolation
-    - Volume attachment
-    - DNS record generation
-    - Monitoring integration
-
-Constraints:
-    - Must be associated with a project
-    - Resource limits from quota
-    - Network security policies
-    - Required metadata tags
-
-Project Entity:
-Capabilities:
-    - Resource grouping
-    - Quota management
-    - Network isolation
-    - Access control
-    - Usage tracking
-
-Constraints:
-    - Single owner
-    - Resource limit enforcement
-    - Required metadata
-    - Lifecycle policies
-
-    ## Phase 20: Comprehensive Domain and DNS Architecture
-
-    ### 1. Main Domain Structure (spit.ac.in)
-    ```ascii
-    spit.ac.in
-    ├── vpc.spit.ac.in            # Main VPC Portal
-    ├── auth.vpc.spit.ac.in       # Keycloak Authentication
-    ├── guac.vpc.spit.ac.in       # Guacamole Access
-    ├── monitor.vpc.spit.ac.in    # Monitoring Dashboard
-    ├── gitlab.vpc.spit.ac.in     # GitLab Instance
-    └── *.vpc.spit.ac.in          # Wildcard for Services
-    ```
-
-    ### 2. VPC Service Subdomains
-    ```ascii
-    vpc.spit.ac.in/
-    ├── admin/              # Administrative Interface
-    ├── faculty/           # Faculty Dashboard
-    ├── api/              # API Gateway
-    └── docs/            # Documentation
-    ```
-
-    ### 3. Student Project Domains
-    ```ascii
-    [studentid].projects.vpc.spit.ac.in    # Student Project Space
-    ├── dev.{projectid}.*                 # Development Environment
-    ├── stage.{projectid}.*              # Staging Environment
-    └── prod.{projectid}.*              # Production Environment
-    ```
-
-    ### 4. Service-Specific Domains
-    ```ascii
-    services.vpc.spit.ac.in/
-    ├── container-registry.*   # Container Registry
-    ├── storage.*             # Object Storage
-    ├── monitoring.*          # Monitoring Services
-    └── backup.*             # Backup Services
-    ```
-
-    ### 5. DNS Management Automation
-    ```python
-    class DNSAutomation:
-        def __init__(self):
-            self.pdns_client = PowerDNSClient(
-                api_url="https://dns.vpc.spit.ac.in",
-                api_key=config.PDNS_API_KEY
-            )
-            
-        async def create_project_domain(self, project_id: str, student_id: str):
-            domain = f"{student_id}.projects.vpc.spit.ac.in"
-            
-            # Create main project domain
-            await self.pdns_client.create_zone(domain)
-            
-            # Setup environment subdomains
-            envs = ['dev', 'stage', 'prod']
-            for env in envs:
-                subdomain = f"{env}.{project_id}.{domain}"
-                await self.pdns_client.create_record(
-                    zone=domain,
-                    name=subdomain,
-                    record_type="A",
-                    ttl=300
-                )
-    ```
-
-    ### 6. DNS Zone Configurations
-    ```yaml
-    # Primary DNS Zone Configuration
-    vpc.spit.ac.in:
-    soa:
-        primary: ns1.vpc.spit.ac.in
-        email: dns-admin@spit.ac.in
-        refresh: 10800
-        retry: 3600
-        expire: 604800
-        ttl: 3600
-    
-    records:
-        - name: "*.vpc"
-        type: A
-        ttl: 300
-        value: "10.0.0.10"  # HAProxy VIP
-        
-        - name: "*.projects"
-        type: CNAME
-        ttl: 300
-        value: "project-lb.vpc.spit.ac.in."
-    ```
-
-    ### 7. Subdomain Mapping Diagrams
-    ```ascii
-    External Access
-        ↓
-    [Institute Gateway]
-        ↓
-    [HAProxy/Load Balancer]
-        ↓
-    +----+----+----+----+
-    ↓    ↓    ↓    ↓    ↓
-    Web  API  Git  Mon  Guac
-    Srv  GW   Lab  Srv  Srv
-
-    Container Access Flow:
-    Student → guac.vpc.spit.ac.in
-                ↓
-    [Keycloak Authentication]
-                ↓
-    [Container DNS Lookup]
-                ↓
-    [Container Access]
-    ```
-
-    ### 8. Access Control and Routing
-    ```yaml
-    # Traefik Routing Configuration
-    http:
-    routers:
-        web-portal:
-        rule: "Host(`vpc.spit.ac.in`)"
-        service: "portal-service"
-        middlewares:
-            - auth-middleware
-            - ssl-redirect
-        
-        student-projects:
-        rule: "Host(`*.projects.vpc.spit.ac.in`)"
-        service: "project-service"
-        middlewares:
-            - project-auth
-            - rate-limit
-
-    middlewares:
-    auth-middleware:
-        forwardAuth:
-        address: "http://keycloak:8080/auth"
-        
-    rate-limit:
-        rateLimit:
-        average: 100
-        burst: 50
-    ```
-
-    ### 9. SSL/TLS Management
-    ```python
-    class SSLManager:
-        def __init__(self):
-            self.certbot = CertbotClient()
-            
-        async def provision_certificate(self, domain: str):
-            """Provision SSL certificate for domain"""
-            try:
-                cert = await self.certbot.create_certificate(
-                    domains=[domain, f"*.{domain}"],
-                    email="admin@spit.ac.in",
-                    agree_tos=True,
-                    force_renewal=False
-                )
-                
-                await self.configure_haproxy(domain, cert)
-                await self.update_dns_records(domain)
-                
-            except Exception as e:
-                log.error(f"Certificate provisioning failed: {str(e)}")
-                raise
-                
-        async def configure_haproxy(self, domain: str, cert: Certificate):
-            """Configure HAProxy with the new certificate"""
-            config = f"""
-            frontend {domain.replace('.','_')}
-                bind *:443 ssl crt {cert.fullchain_path}
-                acl host_{domain} hdr(host) -i {domain}
-                use_backend bk_{domain} if host_{domain}
-            """
-            await self.haproxy.update_config(config)
-            await self.haproxy.reload()
-    ```
-<br><br><br># GitLab Integration Configuration
-
-# Project Archival Pipeline
-stages:
-- archive
-- document
-- deploy
-
-variables:
-GITLAB_DOMAIN: gitlab.spit.ac.in
-PORTFOLIO_PATH: public/portfolio
-
-archive_project:
-stage: archive
-script:
-    - archive_container_state.sh
-    - package_resources.sh
-    - create_archive_metadata.sh
-
-generate_docs:
-stage: document
-script:
-    - generate_project_docs.sh
-    - create_portfolio_page.sh
-
-deploy_portfolio:
-stage: deploy
-script:
-    - gitlab-pages-deploy.sh
-<br>Key Features:<br>
-<br>GitLab Pages for portfolio hosting
-<br>
-<br>Static site generation from project data
-<br>Custom domain support (*.portfolio.vpc.spit.ac.in)
-<br>SSL/TLS via Let's Encrypt
-<br>
-<br>Project Archival with GitLab CI/CD
-<br>
-<br>Automated container state capture
-<br>Resource packaging and optimization
-<br>Metadata generation
-<br>Version control integration
-<br>
-<br>Access Control
-<br>
-<br>Project visibility (public/private/internal)
-<br>Group-based access management
-<br>Portfolio sharing controls
-<br>Integration with institute SSO
-<br>
-<br>Project Templates
-<br>
-<br>Standardized project structures
-<br>Automated setup workflows
-<br>Resource allocation templates
-<br>Documentation templates
-<br>
-<br>System Integration
-<br>
-<br>VPC resource tracking
-<br>Container state management
-<br>Storage quota enforcement
-<br>Analytics and monitoring
-<br><br><br># GitLab Integration Configuration
-
-# Project Archival Pipeline
-stages:
-- archive
-- document
-- deploy
-
-variables:
-GITLAB_DOMAIN: gitlab.spit.ac.in
-PORTFOLIO_PATH: public/portfolio
-
-archive_project:
-stage: archive
-script:
-    - archive_container_state.sh
-    - package_resources.sh
-    - create_archive_metadata.sh
-
-generate_docs:
-stage: document
-script:
-    - generate_project_docs.sh
-    - create_portfolio_page.sh
-
-deploy_portfolio:
-stage: deploy
-script:
-    - gitlab-pages-deploy.sh
-<br>Key Features:<br>
-<br>GitLab Pages for portfolio hosting
-<br>
-<br>Static site generation from project data
-<br>Custom domain support (*.portfolio.vpc.spit.ac.in)
-<br>SSL/TLS via Let's Encrypt
-<br>
-<br>Project Archival with GitLab CI/CD
-<br>
-<br>Automated container state capture
-<br>Resource packaging and optimization
-<br>Metadata generation
-<br>Version control integration
-<br>
-<br>Access Control
-<br>
-<br>Project visibility (public/private/internal)
-<br>Group-based access management
-<br>Portfolio sharing controls
-<br>Integration with institute SSO
-<br>
-<br>Project Templates
-<br>
-<br>Standardized project structures
-<br>Automated setup workflows
-<br>Resource allocation templates
-<br>Documentation templates
-<br>
-<br>System Integration
-<br>
-<br>VPC resource tracking
-<br>Container state management
-<br>Storage quota enforcement
-<br>Analytics and monitoring
-<br><br>-- Project Archive Table (For GitLab integration and custom fallback)
-CREATE TABLE project_archives (
-    id UUID PRIMARY KEY,
-    project_id UUID REFERENCES projects(id),
-    student_id UUID REFERENCES students(id),
-    name VARCHAR(255),
-    description TEXT,
-    visibility VARCHAR(20) CHECK (visibility IN ('public', 'private', 'institute')),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    archived_at TIMESTAMP,
-    size_bytes BIGINT,
-    storage_path VARCHAR(255),
-    metadata JSONB,
-    tags TEXT[],
-    status VARCHAR(50),
-    CONSTRAINT unique_project_archive UNIQUE (project_id, archived_at)
-);
-
--- Archive Resources Table
-CREATE TABLE archive_resources (
-    id UUID PRIMARY KEY,
-    archive_id UUID REFERENCES project_archives(id),
-    resource_type VARCHAR(50),
-    resource_data JSONB,
-    storage_reference VARCHAR(255)
-);
-
--- Portfolio Settings Table
-CREATE TABLE portfolio_settings (
-    student_id UUID PRIMARY KEY REFERENCES students(id),
-    theme VARCHAR(50),
-    visibility VARCHAR(20),
-    custom_domain VARCHAR(255),
-    bio TEXT,
-    social_links JSONB,
-    showcase_projects UUID[]
-);
-
--- Project Access Control Table
-CREATE TABLE project_access_control (
-    project_id UUID REFERENCES project_archives(id),
-    entity_id UUID,
-    entity_type VARCHAR(20),
-    access_level VARCHAR(20),
-    granted_at TIMESTAMP,
-    granted_by UUID,
-    expiry_date TIMESTAMP,
-    PRIMARY KEY (project_id, entity_id)
-);
-<br><br><br>stages:<br>
-<br>archive
-<br>document
-<br>deploy
-<br>variables:<br>
-GITLAB_DOMAIN: gitlab.spit.ac.in<br>
-PORTFOLIO_PATH: public/portfolio<br>archive_project:<br>
-stage: archive<br>
-script:<br>
-- archive_container_state.sh<br>
-- package_resources.sh<br>
-- create_archive_metadata.sh<br>generate_docs:<br>
-stage: document<br>
-script:<br>
-- generate_project_docs.sh<br>
-- create_portfolio_page.sh<br>deploy_portfolio:<br>
-stage: deploy<br>
-script:<br>
-- gitlab-pages-deploy.sh<br>
-Key Features:
-1. GitLab Pages for portfolio hosting
-- Static site generation from project data
-- Custom domain support (*.portfolio.vpc.spit.ac.in)
-- SSL/TLS via Let's Encrypt
-
-2. Project Archival with GitLab CI/CD
-- Automated container state capture
-- Resource packaging and optimization
-- Metadata generation
-- Version control integration
-
-3. Access Control
-- Project visibility (public/private/internal)
-- Group-based access management
-- Portfolio sharing controls
-- Integration with institute SSO
-
-4. Project Templates
-- Standardized project structures
-- Automated setup workflows
-- Resource allocation templates
-- Documentation templates
-
-5. System Integration
-- VPC resource tracking
-- Container state management
-- Storage quota enforcement
-- Analytics and monitoring
-
-### 2. Secondary Solution: Custom Implementation
--- Project Archive Table (For GitLab integration and custom fallback)
-CREATE TABLE project_archives
-    id UUID PRIMARY KEY,
-    project_id UUID REFERENCES projects(id),
-    student_id UUID REFERENCES students(id),
-    name VARCHAR(255),
-    description TEXT,
-    visibility VARCHAR(20) CHECK (visibility IN ('public', 'private', 'institute')),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    archived_at TIMESTAMP,
-    size_bytes BIGINT,
-    storage_path VARCHAR(255),
-    metadata JSONB,
-    tags TEXT[],
-    status VARCHAR(50),
-    CONSTRAINT unique_project_archive UNIQUE (project_id, archived_at)
-);
-
--- Archive Resources Table
-CREATE TABLE archive_resources (
-    id UUID PRIMARY KEY,
-    archive_id UUID REFERENCES project_archives(id),
-    resource_type VARCHAR(50),
-    resource_data JSONB,
-    storage_reference VARCHAR(255)
-);
-
--- Portfolio Settings Table
-CREATE TABLE portfolio_settings (
-    student_id UUID PRIMARY KEY REFERENCES students(id),
-    theme VARCHAR(50),
-    visibility VARCHAR(20),
-    custom_domain VARCHAR(255),
-    bio TEXT,
-    social_links JSONB,
-    showcase_projects UUID[]
-);
-
--- Project Access Control Table
-CREATE TABLE project_access_control (
-    project_id UUID REFERENCES project_archives(id),
-    entity_id UUID,
-    entity_type VARCHAR(20),
-    access_level VARCHAR(20),
-    granted_at TIMESTAMP,
-    granted_by UUID,
-    expiry_date TIMESTAMP,
-    PRIMARY KEY (project_id, entity_id)
-);
-<br><br>class ProjectArchiveManager:
-    def __init__(self):
-        self.storage_client = CephStorageClient()
-        self.db = DatabaseConnection()
-        
-    async def create_archive(self, project_id: UUID, metadata: dict):
-        try:
-            # Create archive storage structure
-            archive_path = f"archives/{project_id}/{datetime.now().strftime('%Y%m%d')}"
-            
-            # Export container data
-            container_data = await self.export_container_state(project_id)
-            
-            # Store in Ceph
-            archive_ref = await self.storage_client.store_archive(
-                path=archive_path,
-                data=container_data,
-                metadata=metadata
-            )
-            
-            # Update database
-            await self.db.execute("""
-                INSERT INTO project_archives 
-                (project_id, storage_path, metadata, size_bytes)
-                VALUES ($1, $2, $3, $4)
-            """, project_id, archive_path, metadata, len(container_data))
-            
-            return archive_ref
-        except Exception as e:
-            log.error(f"Archive creation failed: {str(e)}")
-            raise ArchiveCreationError(str(e))
-
-    async def restore_archive(self, archive_id: UUID, target_environment: dict):
-        # Implementation of archive restoration logic
-        pass
-<br><br># FastAPI Routes for Portfolio Management
-@router.post("/api/v1/projects/{project_id}/archive")
-async def create_project_archive(
-    project_id: UUID,
-    archive_request: ArchiveRequest,
-    current_user: User = Depends(get_current_user)
-):
-    # Verify permissions
-    if not await has_project_access(current_user, project_id):
-        raise HTTPException(status_code=403)
-        
-    # Create archive
-    archive_manager = ProjectArchiveManager()
-    archive_ref = await archive_manager.create_archive(
-        project_id,
-        archive_request.metadata
-    )
-    
-    return {"status": "success", "archive_id": archive_ref}
-
-@router.get("/api/v1/students/{student_id}/portfolio")
-async def get_student_portfolio(
-    student_id: UUID,
-    visibility: str = "public"
-):
-    # Retrieve portfolio data
-    portfolio = await get_portfolio_data(student_id, visibility)
-    return portfolio
-
-@router.put("/api/v1/portfolio/settings")
-async def update_portfolio_settings(
-    settings: PortfolioSettings,
-    current_user: User = Depends(get_current_user)
-):
-    # Update student's portfolio settings
-    pass
-<br><br>// React/Vue.js Portfolio Management Components
-interface ProjectArchive {
-    id: string;
-    name: string;
-    description: string;
-    visibility: 'public' | 'private' | 'institute';
-    created_at: string;
-    size_bytes: number;
-    metadata: any;
-}
-
-// Archive Management Component
-const ArchiveManager: React.FC = () =&gt; {
-    const [archives, setArchives] = useState&lt;ProjectArchive[]&gt;([]);
-    
-    const createArchive = async (projectId: string) =&gt; {
-        // Archive creation logic
-    };
-    
-    const restoreArchive = async (archiveId: string) =&gt; {
-        // Archive restoration logic
-    };
-    
-    return (
-        &lt;div className="archive-manager"&gt;
-            &lt;ArchiveList archives={archives} /&gt;
-            &lt;ArchiveControls onArchive={createArchive} onRestore={restoreArchive} /&gt;
-            &lt;ArchiveMetadata /&gt;
-        &lt;/div&gt;
-    );
-};
-
-// Portfolio Showcase Component
-const PortfolioShowcase: React.FC = () =&gt; {
-    const [settings, setSettings] = useState&lt;PortfolioSettings&gt;({});
-    
-    const updateVisibility = async (visibility: string) =&gt; {
-        // Update visibility settings
-    };
-    
-    return (
-        &lt;div className="portfolio-showcase"&gt;
-            &lt;PortfolioHeader /&gt;
-            &lt;ProjectGrid projects={projects} /&gt;
-            &lt;VisibilityControls onChange={updateVisibility} /&gt;
-        &lt;/div&gt;
-    );
-};
-<br><br># Prometheus metrics configuration
-- job_name: 'portfolio_metrics'
-    static_configs:
-    - targets: ['localhost:9090']
-    metrics_path: '/metrics'
-    scheme: http
-
-# Grafana Dashboard Definition
-{
-    "title": "Project Portfolio Analytics",
-    "panels": [
-    {
-        "title": "Archive Storage Usage",
-        "type": "graph",
-        "datasource": "Prometheus",
-        "targets": [
-        {
-            "expr": "sum(project_archive_size_bytes) by (student_id)"
-        }
-        ]
-    },
-    {
-        "title": "Portfolio Views",
-        "type": "graph",
-        "targets": [
-        {
-            "expr": "rate(portfolio_views_total[5m])"
-        }
-        ]
-    }
-    ]
-}
-<br><br># Archive retention configuration
-retention_policies:
-    default:
-    keep_daily: 7
-    keep_weekly: 4
-    keep_monthly: 6
-    keep_yearly: 2
-    
-    extended:
-    keep_daily: 30
-    keep_weekly: 12
-    keep_monthly: 12
-    keep_yearly: 5
-
-# Backup schedule configuration
-backup_schedule:
-    archive_metadata:
-    frequency: "daily"
-    time: "00:00"
-    type: "incremental"
-    
-    portfolio_data:
-    frequency: "hourly"
-    retention: "168h"
-    type: "full"
-<br><br># Access Control Manager
-class ProjectAccessManager:
-    def check_access(self, user_id: UUID, project_id: UUID) -&gt; bool:
-        # Check user permissions
-        access_level = self.get_access_level(user_id, project_id)
-        return self.validate_access(access_level, required_level)
-
-    def grant_access(self, project_id: UUID, user_id: UUID, level: str):
-        # Grant access to user
-        self.db.execute("""
-            INSERT INTO project_access_control 
-            (project_id, entity_id, access_level, granted_at)
-            VALUES ($1, $2, $3, CURRENT_TIMESTAMP)
-        """, project_id, user_id, level)
-
-    def revoke_access(self, project_id: UUID, user_id: UUID):
-        # Revoke user access
-        self.db.execute("""
-            DELETE FROM project_access_control 
-            WHERE project_id = $1 AND entity_id = $2
-        """, project_id, user_id)
-
-# Access Control Middleware
-@app.middleware("http")
-async def access_control_middleware(request: Request, call_next):
-    # Verify access permissions
-    project_id = request.path_params.get("project_id")
-    if project_id:
-        user = request.state.user
-        access_manager = ProjectAccessManager()
-        if not access_manager.check_access(user.id, project_id):
-            raise HTTPException(status_code=403)
-    
-    response = await call_next(request)
-    return response
-<br><br>class PortfolioShowcaseManager:
-    def generate_portfolio_page(self, student_id: UUID) -&gt; dict:
-        # Get student portfolio data
-        portfolio_data = self.get_portfolio_settings(student_id)
-        showcase_projects = self.get_showcase_projects(student_id)
-        
-        # Generate HTML content
-        portfolio_html = self.render_portfolio_template(
-            student=portfolio_data,
-            projects=showcase_projects
-        )
-        
-        # Update cache
-        self.cache_portfolio_page(student_id, portfolio_html)
-        
-        return {
-            "portfolio_url": f"portfolio.vpc.spit.ac.in/{student_id}",
-            "last_updated": datetime.now()
-        }
-
-    def update_showcase_projects(self, student_id: UUID, project_ids: List[UUID]):
-        # Update student's showcase projects
-        self.db.execute("""
-            UPDATE portfolio_settings 
-            SET showcase_projects = $1 
-            WHERE student_id = $2
-        """, project_ids, student_id)
-        
-        # Regenerate portfolio page
-        self.generate_portfolio_page(student_id)
-]]></description><link>work/college/vpc@spit/orchestrate.html</link><guid isPermaLink="false">Work/College/VPC@SPIT/orchestrate.md</guid><pubDate>Sat, 18 Jan 2025 15:26:29 GMT</pubDate></item><item><title><![CDATA[orchestrate_obsidian]]></title><description><![CDATA[ 
- ]]></description><link>work/college/vpc@spit/orchestrate_obsidian.html</link><guid isPermaLink="false">Work/College/VPC@SPIT/orchestrate_obsidian.md</guid><pubDate>Tue, 14 Jan 2025 12:39:43 GMT</pubDate></item><item><title><![CDATA[Executive Level Cybersecurity Training]]></title><description><![CDATA[ 
- <br><br>(CEO/MD/Board Members, CISO, CRO, CFO)<br><br>Strategic decision-making, risk management, compliance, and governance.<br><br><br>
-<br>Emphasis on governance
-<br>Alignment of cybersecurity with business objectives
-<br>Strategic information security management
-<br><br>
-<br>Leadership-level information security strategies
-<br>Policy development and implementation
-<br>Enterprise security architecture
-<br><br>
-<br>Security management systems auditing
-<br>Compliance evaluation
-<br>Strategic assessment methodologies
-<br><br>
-<br>Strategic risk management
-<br>Business-cybersecurity alignment
-<br>Executive decision-making framework
-<br><br>
-<br>Framework implementation strategies
-<br>Organizational risk management
-<br>Security program development 
-]]></description><link>work/cyber-sec-awareness/recommended-courses/1_executive_level.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Recommended Courses/1_Executive_Level.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[Senior Management Level Cybersecurity Training]]></title><description><![CDATA[ 
- <br><br>(Scale 6: DGM, Scale 7: GM)<br><br>Oversight, compliance enforcement, and risk assessments.<br><br><br>
-<br>IT systems auditing
-<br>Control assessment
-<br>Compliance management
-<br>System evaluation
-<br><br>
-<br>Financial systems risk mitigation
-<br>Banking-specific security controls
-<br>Risk assessment methodologies
-<br><br>
-<br>IT risk management
-<br>Control implementation
-<br>Risk identification and assessment
-<br>Response strategies
-<br><br>
-<br>Financial transaction security
-<br>SWIFT ecosystem protection
-<br>Security controls implementation
-<br><br>
-<br>PCI DSS compliance
-<br>GDPR requirements
-<br>RBI guidelines
-<br>FFIEC standards implementation 
-]]></description><link>work/cyber-sec-awareness/recommended-courses/2_senior_management.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Recommended Courses/2_Senior_Management.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[Middle Management Level Cybersecurity Training]]></title><description><![CDATA[ 
- <br><br>(Scale 3: Senior Manager, Scale 4: Chief Manager, Scale 5: AGM)<br><br>Operational cybersecurity, incident response, and implementing policies.<br><br><br>
-<br>Vulnerability assessment
-<br>Banking systems security
-<br>Penetration testing basics
-<br>Security tool usage
-<br><br>
-<br>Network security
-<br>System security
-<br>Foundational cybersecurity concepts
-<br>Security controls implementation
-<br><br>
-<br>ISMS implementation
-<br>Security controls maintenance
-<br>Documentation management
-<br>Operational security procedures
-<br><br>
-<br>UPI security
-<br>SWIFT platform protection
-<br>Payment system vulnerabilities
-<br>Security control implementation
-<br><br>
-<br>Banking fraud identification
-<br>Prevention techniques
-<br>Monitoring systems
-<br>Response procedures 
-]]></description><link>work/cyber-sec-awareness/recommended-courses/3_middle_management.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Recommended Courses/3_Middle_Management.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[Junior Officers Level Cybersecurity Training]]></title><description><![CDATA[ 
- <br><br>(Scale 1: Asst. Manager, Scale 2: Manager)<br><br>Technical skill-building, compliance implementation, and daily cybersecurity tasks.<br><br><br>
-<br>Basic security concepts
-<br>Network security
-<br>Compliance basics
-<br>Security operations
-<br><br>
-<br>Incident detection
-<br>Response procedures
-<br>Resolution techniques
-<br>Documentation
-<br><br>
-<br>System testing
-<br>Security assessment
-<br>Vulnerability identification
-<br>Basic penetration testing
-<br><br>
-<br>Role-specific security skills
-<br>Basic security concepts
-<br>Business impact understanding
-<br>Security best practices
-<br><br>
-<br>Financial sector security basics
-<br>Security principles
-<br>Basic controls
-<br>Compliance fundamentals 
-]]></description><link>work/cyber-sec-awareness/recommended-courses/4_junior_officers.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Recommended Courses/4_Junior_Officers.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[Non-Technical &amp; Admin Staff Cybersecurity Training]]></title><description><![CDATA[ 
- <br><br>(Support, Clerical, and Account Staff)<br><br>Awareness and adherence to cybersecurity policies.<br><br><br>
-<br>Safe online behavior
-<br>Phishing detection
-<br>Password security
-<br>Basic security practices
-<br><br>
-<br>Payment card data handling
-<br>Security requirements
-<br>Basic compliance understanding
-<br>Data protection practices
-<br><br>
-<br>Human error prevention
-<br>Security best practices
-<br>Risk awareness
-<br>Security policy compliance
-<br><br>
-<br>Email security
-<br>Scam prevention
-<br>Device security
-<br>Data protection basics
-<br><br>
-<br>Attack identification
-<br>Prevention techniques
-<br>Response procedures
-<br>Reporting protocols 
-]]></description><link>work/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Recommended Courses/5_Non_Technical_Staff.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[Custom Cybersecurity Programs]]></title><description><![CDATA[ 
- <br><br>(Applicable to All Levels)<br><br><br>
-<br>Regulatory requirements
-<br>Implementation guidelines
-<br>Compliance procedures
-<br>Reporting requirements
-<br><br>
-<br>GDPR compliance
-<br>PCI DSS requirements
-<br>International best practices
-<br>Cross-border considerations
-<br><br>
-<br>Role-specific responsibilities
-<br>Incident response procedures
-<br>Communication protocols
-<br>Recovery processes
-<br><br>
-<br>Regular updates based on new threats
-<br>Role-specific customization
-<br>Practical exercises and scenarios
-<br>Performance assessment metrics 
-]]></description><link>work/cyber-sec-awareness/recommended-courses/custom_programs.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Recommended Courses/Custom_Programs.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[RBI Cyber Security Framework 2016]]></title><description><![CDATA[ 
+]]></description><link>placements/dsa-cheatsheet.html</link><guid isPermaLink="false">Placements/DSA Cheatsheet.md</guid><pubDate>Mon, 20 Jan 2025 14:25:52 GMT</pubDate></item><item><title><![CDATA[RBI Cyber Security Framework 2016]]></title><description><![CDATA[ 
  <br>Framework Overview
 Circular No. RBI/2016-17/35<br>
 Date: June 2, 2016<br>
@@ -2745,10 +1460,7 @@ For DGM, GM (Scale 6-7)
 <br>Mobile Banking Protection
 <br>Digital Payment Systems
 <br>Fraud Prevention Mechanisms 
-]]></description><link>work/cyber-sec-awareness/the-curriculum/training-components.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/Training Components.md</guid><pubDate>Fri, 03 Jan 2025 18:01:26 GMT</pubDate></item><item><title><![CDATA[Executives]]></title><description><![CDATA[ 
- <br><br>
-Recommended Topics
-<br><br>need to mention Objective  &amp;  Tools Technique Procedure ]]></description><link>work/cyber-sec-awareness/executives.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/Executives.md</guid><pubDate>Fri, 03 Jan 2025 15:43:13 GMT</pubDate></item><item><title><![CDATA[Network Protocol Engineering]]></title><description><![CDATA[ 
+]]></description><link>work/cyber-sec-awareness/the-curriculum/training-components.html</link><guid isPermaLink="false">Work/Cyber Sec Awareness/The Curriculum/Training Components.md</guid><pubDate>Fri, 03 Jan 2025 18:01:26 GMT</pubDate></item><item><title><![CDATA[Network Protocol Engineering]]></title><description><![CDATA[ 
  ]]></description><link>work/major-project/research-papers/network-protocol-engineering.html</link><guid isPermaLink="false">Work/Major Project/Research Papers/Network Protocol Engineering.md</guid><pubDate>Tue, 14 Jan 2025 08:45:18 GMT</pubDate></item><item><title><![CDATA[Wireless Communication]]></title><description><![CDATA[ 
  ]]></description><link>work/major-project/research-papers/wireless-communication.html</link><guid isPermaLink="false">Work/Major Project/Research Papers/Wireless Communication.md</guid><pubDate>Tue, 14 Jan 2025 07:12:30 GMT</pubDate></item><item><title><![CDATA[1. Bandwidth Optimization]]></title><description><![CDATA[ 
  <br><br>To improve the throughput in LoRa communication systems, optimizing key parameters is crucial. The factors listed (Bandwidth, Coding Rate, and Header configurations) are essential for balancing data rate, reliability, and efficiency. Below is a detailed explanation of each concept:<br>]]></description><link>work/major-project/1.-bandwidth-optimization.html</link><guid isPermaLink="false">Work/Major Project/1. Bandwidth Optimization.md</guid><pubDate>Wed, 15 Jan 2025 05:56:48 GMT</pubDate></item><item><title><![CDATA[LoRa Internet Research Project]]></title><description><![CDATA[ 
@@ -3319,205 +2031,4 @@ These references cover various aspects of LoRa technology, from fundamental netw
 <br>Primary Focus: LoRa Networks and IoT Applications
 
 <br><a href=".?query=tag:research" class="tag" target="_blank" rel="noopener nofollow">#research</a> <a href=".?query=tag:LoRa" class="tag" target="_blank" rel="noopener nofollow">#LoRa</a> <a href=".?query=tag:IoT" class="tag" target="_blank" rel="noopener nofollow">#IoT</a> <a href=".?query=tag:wireless-networks" class="tag" target="_blank" rel="noopener nofollow">#wireless-networks</a> <a href=".?query=tag:smart-agriculture" class="tag" target="_blank" rel="noopener nofollow">#smart-agriculture</a>]]></description><link>work/major-project/loraid-connect.html</link><guid isPermaLink="false">Work/Major Project/Loraid Connect.md</guid><pubDate>Thu, 16 Jan 2025 05:41:03 GMT</pubDate><enclosure url="https://img.shields.io/badge/References-8-blue" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="https://img.shields.io/badge/References-8-blue"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Rural Computing]]></title><description><![CDATA[ 
- ]]></description><link>work/major-project/rural-computing.html</link><guid isPermaLink="false">Work/Major Project/Rural Computing.md</guid><pubDate>Thu, 16 Jan 2025 09:56:37 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
- <br><br><br><br><br><br><br><br><br><br><br>
- _____  __ __ _____ _____ _____ _____ _____ _____ 
-|     ||  |  ||  _  ||   __| __  ||   __||   __| 
-|   --||_   _||     ||   __| __ -||__   ||   __| 
-|_____| |_|  |__|__||_____|_____||_____||_____| 
-
-<br><br>
-<img style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px; margin: 20px 0;" src="https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif" referrerpolicy="no-referrer">
-
-
-
-<br><br><br><br>
-[SYSTEM STATUS: ONLINE]<br>
-[LOCATION: MUMBAI, INDIA]<br>
-[MISSION: ACTIVE]<br>
-
-Loading security protocols... ████████████ 100%
-
-<br><br>
-<a style="margin: 0 10px;" href="mailto:r04nx@outlook.com" target="_blank" rel="noopener nofollow"></a><img alt="Email" src="https://img.shields.io/badge/-r04nx@outlook.com-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;color=000000" referrerpolicy="no-referrer">
-<a style="margin: 0 10px;" href="https://r04nx.tech" target="_blank" rel="noopener nofollow"></a><img alt="Website" src="https://img.shields.io/badge/-r04nx.tech-0A0A0A?style=for-the-badge&amp;logo=dev.to&amp;logoColor=white&amp;color=000000" referrerpolicy="no-referrer">
-<a style="margin: 0 10px;" href="https://github.com/r04nx" target="_blank" rel="noopener nofollow"></a><img alt="GitHub" src="https://img.shields.io/badge/-r04nx-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;color=000000" referrerpolicy="no-referrer">
-<br><br>
-
-
-<br><br>
-<img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=r04nx&amp;show_icons=true&amp;theme=radical" referrerpolicy="no-referrer">
-<br><br>
-root@r04nx:~# cat experience.log<br>[CURRENT_ROLE]<br>
-└─ Server &amp; Security Administrator @ Alesa.ai<br>
-├─ Infrastructure Management<br>
-├─ Security Implementation<br>
-└─ AI/ML Operations<br>[PREVIOUS_ROLES]<br>
-└─ System Operations @ SPIT<br>
-└─ MLOps Engineer @ Quotientica<br><br><br>
-root@r04nx:~# ls -la /projects/<br>[ACTIVE_PROJECTS]<br>
-└─📡 LoRAid SOS Connect<br>
-├─ Range: 10km+<br>
-└─ Status: Operational<br>└─🌐 Netflask<br>
-├─ Network Diagnostics<br>
-└─ Status: Deployed<br><br><br>
-<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white&amp;color=000000" referrerpolicy="no-referrer">
-<img alt="Kali" src="https://img.shields.io/badge/-Kali_Linux-557C94?style=for-the-badge&amp;logo=kali-linux&amp;logoColor=white&amp;color=000000" referrerpolicy="no-referrer">
-<img alt="AWS" src="https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&amp;logo=amazon-aws&amp;logoColor=white&amp;color=000000" referrerpolicy="no-referrer">
-<br><br>
-<img alt="Visitor Count" src="https://profile-counter.glitch.me/r04nx/count.svg" referrerpolicy="no-referrer">
-<br><br>
-
-<br><br><br><br><br>
-<br>B.Tech in Electronics &amp; Telecommunication (2023 - Present)<br>
-Sardar Patel Institute of Technology, Mumbai
-<br>Diploma in Computer Engineering (2020 - 2023)<br>
-Government Polytechnic Hingoli | 84.80%
-<br><br>
-🌟 Server and Security Administrator @ Alesa.ai (Nov 2024 - Present)<br>
-<br>Led NoULEZ project infrastructure management
-<br>Optimized geospatial data with OSM server
-<br>Enhanced security &amp; deployed LLM environments
-<br>Streamlined deployments with Docker
-<br>Managed remote team collaboration
-<br>Maintained AI/ML infrastructure
-
-
-<br>
-🔧 System and Network Operations Intern @ SPIT (July 2024 - Present)<br>
-<br>Deployed Cisco Meraki network devices
-<br>Implemented on-premises VPC server solution
-<br>Managed network security &amp; troubleshooting
-
-
-<br>
-💻 Backend and MLOps Engineer @ Quotientica (Nov 2023 - Mar 2024)<br>
-<br>Developed ML models for fraud detection
-<br>Optimized APIs for reduced latency
-<br>Implemented AWS serverless architecture
-
-
-<br><br>
-🆘 LoRAid SOS Connect | Disaster Communication System<br>
-<br>Achieved 10km+ low-power wireless communication
-<br>Implemented MQTT-based cloud DMS
-<br>Programmed NodeMCU microcontrollers
-<br>Status: Active Development
-
-
-<br>
-🌐 Netflask | Network Utility Tool<br>
-<br>Built Flask-based network diagnostic suite
-<br>Features: DNS lookup, traceroute, port scanning
-<br>Focused on security and performance
-
-
-<br><br><img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" referrerpolicy="no-referrer">
-<img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" referrerpolicy="no-referrer">
-<img alt="AWS" src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&amp;logo=amazon-aws&amp;logoColor=white" referrerpolicy="no-referrer">
-<img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" referrerpolicy="no-referrer">
-<img alt="Linux" src="https://img.shields.io/badge/-Linux-FCC624?style=flat-square&amp;logo=linux&amp;logoColor=black" referrerpolicy="no-referrer">
-<img alt="Kali Linux" src="https://img.shields.io/badge/-Kali_Linux-557C94?style=flat-square&amp;logo=kali-linux&amp;logoColor=white" referrerpolicy="no-referrer">
-<img alt="React" src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black" referrerpolicy="no-referrer">
-<img alt="Node.js" src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&amp;logo=node.js&amp;logoColor=white" referrerpolicy="no-referrer">
-<img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&amp;logo=mongodb&amp;logoColor=white" referrerpolicy="no-referrer">
-<img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" referrerpolicy="no-referrer"><br><br>
-<br>EC-Council Ethical Hacking Essentials (EHE)
-<br>Kaggle Machine Learning &amp; Python
-<br>TCS iON Career Edge - Young Professional
-<br>Infosys Penetration Testing
-<br>
-root@r04nx:~# cat /etc/motd
-Welcome to my digital fortress! 
-Exploring the intersection of Cybersecurity and AI
-
-<br>
-<img alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=r04nx&amp;theme=radical" referrerpolicy="no-referrer">
-<br><br>
-<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" referrerpolicy="no-referrer">
-<img alt="Kali Linux" src="https://img.shields.io/badge/-Kali_Linux-557C94?style=for-the-badge&amp;logo=kali-linux&amp;logoColor=white" referrerpolicy="no-referrer">
-<br><br>
-root@r04nx:~# whoami
-┌──(r04nx㉿kali)-[~/projects]
-└─$ cat /etc/motd
-Welcome to my digital fortress! 
-Exploring the intersection of Cybersecurity and AI
-
-<br><br>
-<img alt="Visitor Count" src="https://profile-counter.glitch.me/r04nx/count.svg" referrerpolicy="no-referrer">
-<br><br>
-
-<br><br>
-root@r04nx:~# fortune | cowsay
- _________________________________________
-/ "First, solve the problem. Then, write   \
-\ the code." - John Johnson                /
- -----------------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
-
-Generate Quote
-<br><br>
-root@r04nx:~# cat skills_tree.txt<br><br>🔒 Security [■■■■■■■■■□] 90%<br>
-├── Penetration Testing [■■■■■■■■□□] 80%<br>
-├── Network Security   [■■■■■■■■■□] 90%<br>
-└── Cloud Security    [■■■■■■■□□□] 70%<br>🤖 AI/ML [■■■■■■■■□□] 80%<br>
-├── Deep Learning     [■■■■■■■□□□] 70%<br>
-├── NLP              [■■■■■■□□□□] 60%<br>
-└── Computer Vision  [■■■■■■■□□□] 70%<br>💻 Development [■■■■■■■■□□] 80%<br>
-├── Backend          [■■■■■■■■■□] 90%<br>
-├── DevOps           [■■■■■■■□□□] 70%<br>
-└── System Design    [■■■■■■■■□□] 80%<br><br><br>
-
-
-<img style="width: 100%; border-radius: 5px;" alt="Hacking in Progress" src="https://media.giphy.com/media/115BJle6N2Av0A/giphy.gif" referrerpolicy="no-referrer">
-<img style="width: 100%; border-radius: 5px;" alt="Matrix Code" src="https://media.giphy.com/media/ZY3W96Mvat8EFTCclA/giphy.gif" referrerpolicy="no-referrer">
-<img style="width: 100%; border-radius: 5px;" alt="Bug Finding" src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" referrerpolicy="no-referrer">
-<img style="width: 100%; border-radius: 5px;" alt="Cyber Security" src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" referrerpolicy="no-referrer">
-
-<br><br>
-root@r04nx:~# Type 'help' for available commands
-
-
-<br><br>
-
-"The only way to do great work is to love what you do." - Steve Jobs
-
-<br><br>
-
-
-
-🏆 Bug Hunter
-<br>Level: Elite
-
-
-🚀 Code Ninja
-<br>Level: Master
-
-
-🤖 AI Wizard
-<br>Level: Advanced
-
-
-<br><br>
-root@r04nx:~# systemctl status r04nx
-● r04nx.service - Cyber Security Researcher
-     Active: active (running)
-     Status: Currently working on AI Security
-     CPU: 98.2%
-     RAM: 16GB/32GB
-     Uptime: 42 days
-     Last Commit: 2 hours ago
-
-<br><br>
-You found the secret! Here's a cookie 🍪
-
-<br><br><br><br>
-SYSTEM SHUTDOWN SEQUENCE
-[■■■■■■■■■■] 100%
-Connection terminated...
-
-<br><img alt="Pasted image 20250115231412.png" src="assets/pasted-image-20250115231412.png">]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Wed, 15 Jan 2025 17:44:13 GMT</pubDate><enclosure url="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAABGJJREFUeF7t1AEJAAAMAsHZv/RyPNwSyDncOQIECEQEFskpJgECBM5geQICBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAgQdWMQCX4yW9owAAAABJRU5ErkJggg==" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAABGJJREFUeF7t1AEJAAAMAsHZv/RyPNwSyDncOQIECEQEFskpJgECBM5geQICBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAAYPlBwgQyAgYrExVghIgYLD8AAECGQGDlalKUAIEDJYfIEAgI2CwMlUJSoCAwfIDBAhkBAxWpipBCRAwWH6AAIGMgMHKVCUoAQIGyw8QIJARMFiZqgQlQMBg+QECBDICBitTlaAECBgsP0CAQEbAYGWqEpQAgQdWMQCX4yW9owAAAABJRU5ErkJggg=="&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+ ]]></description><link>work/major-project/rural-computing.html</link><guid isPermaLink="false">Work/Major Project/Rural Computing.md</guid><pubDate>Thu, 16 Jan 2025 09:56:37 GMT</pubDate></item></channel></rss>

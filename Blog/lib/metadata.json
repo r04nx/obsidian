@@ -1,21 +1,19 @@
 {
   "vaultName": "Obsidian Vault",
-  "lastExport": 1737383286230,
+  "lastExport": 1737891891368,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
+    "assets/index.md",
+    "ML/Learning Path.md",
+    "Placements/SQL/Pasted image 20250102162939.png",
+    "Placements/SQL/Pasted image 20250102163014.png",
+    "Placements/SQL/SQL Notes - r04nx.md",
     "Placements/DSA Cheatsheet.md",
-    "Work/College/VPC@SPIT/Comparison.md",
-    "Work/College/VPC@SPIT/orchestrate.md",
-    "Work/College/VPC@SPIT/orchestrate_obsidian.md",
-    "Work/Cyber Sec Awareness/Recommended Courses/1_Executive_Level.md",
-    "Work/Cyber Sec Awareness/Recommended Courses/2_Senior_Management.md",
-    "Work/Cyber Sec Awareness/Recommended Courses/3_Middle_Management.md",
-    "Work/Cyber Sec Awareness/Recommended Courses/4_Junior_Officers.md",
-    "Work/Cyber Sec Awareness/Recommended Courses/5_Non_Technical_Staff.md",
-    "Work/Cyber Sec Awareness/Recommended Courses/Custom_Programs.md",
+    "Placements/DSA Sheet.canvas",
+    "Placements/DSA To do list.md",
     "Work/Cyber Sec Awareness/The Curriculum/Regulatory Frameworks/RBI Cyber Security Framework 2016.md",
     "Work/Cyber Sec Awareness/The Curriculum/Assessment Framework.md",
     "Work/Cyber Sec Awareness/The Curriculum/0 Course Structure.md",
@@ -28,7 +26,6 @@
     "Work/Cyber Sec Awareness/The Curriculum/References and Resources.md",
     "Work/Cyber Sec Awareness/The Curriculum/2 Senior Management Curriculum.md",
     "Work/Cyber Sec Awareness/The Curriculum/Training Components.md",
-    "Work/Cyber Sec Awareness/Executives.md",
     "Work/Major Project/Research Papers/Network Protocol Engineering.md",
     "Work/Major Project/Research Papers/Wireless Communication.md",
     "Work/Major Project/1. Bandwidth Optimization.md",
@@ -37,6 +34,8 @@
     "Work/Major Project/LoRa_Core_Innovations.md",
     "Work/Major Project/Loraid Connect.md",
     "Work/Major Project/Rural Computing.md",
+    "Work/SPIT Hackathon/DealSphere_Documentation.md",
+    "Work/SPIT Hackathon/Main Document.md",
     "index.md",
     "assets/pasted-image-20250115231412.png",
     "lib/scripts/graph-wasm.wasm",
@@ -54,28 +53,6 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
-    "lib/fonts/mathjax_zero.woff",
-    "lib/fonts/mathjax_main-regular.woff",
-    "lib/fonts/mathjax_main-bold.woff",
-    "lib/fonts/mathjax_math-italic.woff",
-    "lib/fonts/mathjax_main-italic.woff",
-    "lib/fonts/mathjax_math-bolditalic.woff",
-    "lib/fonts/mathjax_size1-regular.woff",
-    "lib/fonts/mathjax_size2-regular.woff",
-    "lib/fonts/mathjax_size3-regular.woff",
-    "lib/fonts/mathjax_size4-regular.woff",
-    "lib/fonts/mathjax_ams-regular.woff",
-    "lib/fonts/mathjax_calligraphic-regular.woff",
-    "lib/fonts/mathjax_calligraphic-bold.woff",
-    "lib/fonts/mathjax_fraktur-regular.woff",
-    "lib/fonts/mathjax_fraktur-bold.woff",
-    "lib/fonts/mathjax_sansserif-regular.woff",
-    "lib/fonts/mathjax_sansserif-bold.woff",
-    "lib/fonts/mathjax_sansserif-italic.woff",
-    "lib/fonts/mathjax_script-regular.woff",
-    "lib/fonts/mathjax_typewriter-regular.woff",
-    "lib/fonts/mathjax_vector-regular.woff",
-    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -89,7 +66,9 @@
     "lib/styles/obsidian.css",
     "lib/styles/other-plugins.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "placements/sql/pasted-image-20250102162939.png",
+    "placements/sql/pasted-image-20250102163014.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -107,28 +86,6 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
-    "lib/fonts/mathjax_zero.woff",
-    "lib/fonts/mathjax_main-regular.woff",
-    "lib/fonts/mathjax_main-bold.woff",
-    "lib/fonts/mathjax_math-italic.woff",
-    "lib/fonts/mathjax_main-italic.woff",
-    "lib/fonts/mathjax_math-bolditalic.woff",
-    "lib/fonts/mathjax_size1-regular.woff",
-    "lib/fonts/mathjax_size2-regular.woff",
-    "lib/fonts/mathjax_size3-regular.woff",
-    "lib/fonts/mathjax_size4-regular.woff",
-    "lib/fonts/mathjax_ams-regular.woff",
-    "lib/fonts/mathjax_calligraphic-regular.woff",
-    "lib/fonts/mathjax_calligraphic-bold.woff",
-    "lib/fonts/mathjax_fraktur-regular.woff",
-    "lib/fonts/mathjax_fraktur-bold.woff",
-    "lib/fonts/mathjax_sansserif-regular.woff",
-    "lib/fonts/mathjax_sansserif-bold.woff",
-    "lib/fonts/mathjax_sansserif-italic.woff",
-    "lib/fonts/mathjax_script-regular.woff",
-    "lib/fonts/mathjax_typewriter-regular.woff",
-    "lib/fonts/mathjax_vector-regular.woff",
-    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -146,183 +103,181 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 16000,
+      "modifiedTime": 1737891891368,
+      "sourceSize": 14,
       "exportedPath": "index.html",
-      "dependencies": [
-        "assets/pasted-image-20250115231412.png"
-      ]
+      "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 18949,
+      "modifiedTime": 1737891891368,
+      "sourceSize": 19133,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 3649,
+      "modifiedTime": 1737891891368,
+      "sourceSize": 3192,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 131021,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 83,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
@@ -331,60 +286,6 @@
       "modifiedTime": 1737383286230,
       "sourceSize": 10043,
       "exportedPath": "placements/dsa-cheatsheet.html",
-      "dependencies": []
-    },
-    "Work/College/VPC@SPIT/Comparison.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 3357,
-      "exportedPath": "work/college/vpc@spit/comparison.html",
-      "dependencies": []
-    },
-    "Work/College/VPC@SPIT/orchestrate.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 52852,
-      "exportedPath": "work/college/vpc@spit/orchestrate.html",
-      "dependencies": []
-    },
-    "Work/College/VPC@SPIT/orchestrate_obsidian.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 0,
-      "exportedPath": "work/college/vpc@spit/orchestrate_obsidian.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/Recommended Courses/1_Executive_Level.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 987,
-      "exportedPath": "work/cyber-sec-awareness/recommended-courses/1_executive_level.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/Recommended Courses/2_Senior_Management.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 943,
-      "exportedPath": "work/cyber-sec-awareness/recommended-courses/2_senior_management.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/Recommended Courses/3_Middle_Management.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 970,
-      "exportedPath": "work/cyber-sec-awareness/recommended-courses/3_middle_management.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/Recommended Courses/4_Junior_Officers.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 897,
-      "exportedPath": "work/cyber-sec-awareness/recommended-courses/4_junior_officers.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/Recommended Courses/5_Non_Technical_Staff.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 841,
-      "exportedPath": "work/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/Recommended Courses/Custom_Programs.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 668,
-      "exportedPath": "work/cyber-sec-awareness/recommended-courses/custom_programs.html",
       "dependencies": []
     },
     "Work/Cyber Sec Awareness/The Curriculum/Regulatory Frameworks/RBI Cyber Security Framework 2016.md": {
@@ -459,12 +360,6 @@
       "exportedPath": "work/cyber-sec-awareness/the-curriculum/training-components.html",
       "dependencies": []
     },
-    "Work/Cyber Sec Awareness/Executives.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 896,
-      "exportedPath": "work/cyber-sec-awareness/executives.html",
-      "dependencies": []
-    },
     "Work/Major Project/Research Papers/Network Protocol Engineering.md": {
       "modifiedTime": 1737383286230,
       "sourceSize": 0,
@@ -514,7 +409,7 @@
       "dependencies": []
     },
     "assets/pasted-image-20250115231412.png": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1737891891368,
       "sourceSize": 240733,
       "exportedPath": "assets/pasted-image-20250115231412.png",
       "dependencies": []
@@ -650,6 +545,77 @@
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
+    },
+    "ML/Learning Path.md": {
+      "modifiedTime": 1737891798873,
+      "sourceSize": 3962,
+      "exportedPath": "ml/learning-path.html",
+      "dependencies": []
+    },
+    "Placements/SQL/Pasted image 20250102162939.png": {
+      "modifiedTime": 1737891798873,
+      "sourceSize": 461922,
+      "exportedPath": "placements/sql/pasted-image-20250102162939.png",
+      "dependencies": []
+    },
+    "Placements/SQL/Pasted image 20250102163014.png": {
+      "modifiedTime": 1737891798873,
+      "sourceSize": 385452,
+      "exportedPath": "placements/sql/pasted-image-20250102163014.png",
+      "dependencies": []
+    },
+    "Placements/SQL/SQL Notes - r04nx.md": {
+      "modifiedTime": 1737891798873,
+      "sourceSize": 75,
+      "exportedPath": "placements/sql/sql-notes-r04nx.html",
+      "dependencies": [
+        "placements/sql/pasted-image-20250102162939.png",
+        "placements/sql/pasted-image-20250102163014.png"
+      ]
+    },
+    "Placements/DSA Sheet.canvas": {
+      "modifiedTime": 1737891798873,
+      "sourceSize": 404,
+      "exportedPath": "placements/dsa-sheet.html",
+      "dependencies": []
+    },
+    "Placements/DSA To do list.md": {
+      "modifiedTime": 1737891798873,
+      "sourceSize": 215,
+      "exportedPath": "placements/dsa-to-do-list.html",
+      "dependencies": []
+    },
+    "Work/SPIT Hackathon/DealSphere_Documentation.md": {
+      "modifiedTime": 1737891798873,
+      "sourceSize": 5203,
+      "exportedPath": "work/spit-hackathon/dealsphere_documentation.html",
+      "dependencies": []
+    },
+    "Work/SPIT Hackathon/Main Document.md": {
+      "modifiedTime": 1737891798873,
+      "sourceSize": 11415,
+      "exportedPath": "work/spit-hackathon/main-document.html",
+      "dependencies": []
+    },
+    "placements/sql/pasted-image-20250102162939.png": {
+      "modifiedTime": 1737891798873,
+      "sourceSize": 461922,
+      "exportedPath": "placements/sql/pasted-image-20250102162939.png",
+      "dependencies": []
+    },
+    "placements/sql/pasted-image-20250102163014.png": {
+      "modifiedTime": 1737891798873,
+      "sourceSize": 385452,
+      "exportedPath": "placements/sql/pasted-image-20250102163014.png",
+      "dependencies": []
+    },
+    "assets/index.md": {
+      "modifiedTime": 1737891891368,
+      "sourceSize": 16000,
+      "exportedPath": "assets/index.html",
+      "dependencies": [
+        "assets/pasted-image-20250115231412.png"
+      ]
     }
   }
 }
