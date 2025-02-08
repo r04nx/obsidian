@@ -1,4 +1,566 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 26 Jan 2025 11:45:24 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 26 Jan 2025 11:44:51 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[index]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 08 Feb 2025 06:58:11 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 08 Feb 2025 06:58:08 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[PokemonGo: Community Edition]]></title><description><![CDATA[<a class="tag" href="?query=tag:FF5D00" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#FF5D00</a> <a class="tag" href="?query=tag:CC4A00" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#CC4A00</a> <a class="tag" href="?query=tag:FF8533" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#FF8533</a> <a class="tag" href="?query=tag:1A1A1A" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#1A1A1A</a> <a class="tag" href="?query=tag:4A4A4A" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#4A4A4A</a> <a class="tag" href="?query=tag:E0E0E0" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#E0E0E0</a> <a class="tag" href="?query=tag:2ECC71" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#2ECC71</a> <a class="tag" href="?query=tag:FFB900" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#FFB900</a> <a class="tag" href="?query=tag:E74C3C" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#E74C3C</a> 
+ <br><br>Info
+This document outlines the complete architecture and design of PokemonGo: Community Edition, a gamified community issue reporting platform that transforms civic engagement into an exciting Pokemon-inspired adventure.
+<br><br>CivicQuest transforms community issue reporting into an engaging, gamified experience while maintaining the seriousness of civic responsibility. By combining proven crowdsourcing methodologies with game-like elements, we create a sustainable platform for community engagement and problem resolution.<br>Mission
+"To empower communities to identify, track, and resolve local issues through collaborative effort and gamified engagement."
+<br><br><br><br><br><br>Key Components
+
+<br>Frontend Applications
+<br>API Gateway
+<br>Microservices Architecture
+<br>Real-time Processing Engine
+<br>Data Storage Solutions
+
+<br><br><br><br>
+<br>Issue Map: Interactive map showing reported issues
+<br>Profile Dashboard: User achievements and history
+<br>Report Creation: Streamlined issue reporting flow
+<br>Community Hub: Discussion and collaboration space
+<br>Design Principles
+
+<br>Intuitive Navigation
+<br>Clear Visual Hierarchy
+<br>Responsive Design
+<br>Accessibility First
+
+<br><br><br><br><br><br><br>
+<br>PokeRanger Levels: Progress from Novice Trainer to Elite PokeRanger
+<br>PokeBadges: Themed badges (Environmental Guardian, Infrastructure Master, Safety Champion)
+<br>CivicDex: Catalog of discovered and resolved community issues
+<br>Challenge System: Daily quests and weekly missions
+<br>CivicCoin System
+
+<br>Issue Reporting: 50 CivicCoins
+<br>MasterBall Issues (Critical): 150 CivicCoins
+<br>Verification at PokeStops: 20 CivicCoins
+<br>Solution Safari Proposal: 30 CivicCoins
+<br>Community Implementation: 100 CivicCoins
+
+<br><br>
+<br>Novice Trainer (0-500 CivicCoins)
+<br>Issue Scout (501-1000 CivicCoins)
+<br>Community Guardian (1001-2500 CivicCoins)
+<br>District Champion (2501-5000 CivicCoins)
+<br>Elite PokeRanger (5000+ CivicCoins)
+<br>Each rank unlocks new abilities and responsibilities in the community.<br><br>
+<br>Daily Point Caps: Maximum 500 points per day to prevent gaming
+<br>Weekly Challenges: Bonus points for completing themed tasks
+<br>Seasonal Rankings: Quarterly resets with special rewards
+<br>Anti-Farming Measures: 
+<br>Cooldown periods between similar reports
+<br>Location verification requirements
+<br>Activity pattern analysis
+<br>Global and Local Leaderboards:
+<br>City-wide rankings
+<br>Neighborhood champions
+<br>Category specialists
+<br>Point Multipliers:
+<br>Streak bonuses for consistent activity
+<br>Critical issue bonuses
+<br>Expert verification bonuses
+<br><br>
+<br>Initial Report:
+<br>
+<br>Photo evidence required
+<br>Location metadata validation
+<br>Basic AI screening
+<br>
+<br>Community Verification:
+<br>
+<br>Minimum 3 independent verifications
+<br>On-site photo comparison
+<br>Proximity-based validator selection
+<br>
+<br>Expert Review Process:
+<br>
+<br>Verified experts get priority queue
+<br>Document-based verification (degrees, certifications)
+<br>Professional registration numbers
+<br>Background checks
+<br>Regular performance reviews
+<br>
+<br>Trust Score Algorithm:
+<br>
+<br>Report accuracy history
+<br>Verification success rate
+<br>Community feedback weight
+<br>Professional credentials multiplier
+<br>Activity consistency factor
+<br><br>
+<br>Smart Location Features:
+<br>
+<br>Geofenced notifications
+<br>Area-based issue clustering
+<br>Hotspot identification
+<br>Route-based alerts
+<br>
+<br>Travel Blog Components:
+<br>
+<br>Area improvement stories
+<br>Before/After comparisons
+<br>Community success stories
+<br>Local hero spotlights
+<br>Impact metrics visualization
+<br>
+<br>Local Community Hub:
+<br>
+<br>Area statistics dashboard
+<br>Community meetup organization
+<br>Local expert directory
+<br>Historical issue tracking
+<br>Improvement trends analysis
+<br>
+<br>Geofencing Rules:
+<br>
+<br>Radius-based verification requirements
+<br>Time-stamped location checks
+<br>Movement pattern validation
+<br>Cross-reference with known locations
+<br><br>PokeGuide: Your friendly AI companion that helps navigate through the app, provides tips on issue reporting, and suggests nearby IssueNests that need attention.<br><br><br>
+<br>Map Services (Google Maps/OpenStreetMap)
+<br>Government APIs
+<br>Weather Services
+<br>Social Media Platforms
+<br><br><br>Primary Colors:<br>
+<br>Main Orange: <a href=".?query=tag:FF5D00" class="tag" target="_blank" rel="noopener nofollow">#FF5D00</a> (Energy, Action)
+<br>Deep Orange: <a href=".?query=tag:CC4A00" class="tag" target="_blank" rel="noopener nofollow">#CC4A00</a> (Focus, Depth)
+<br>Light Orange: <a href=".?query=tag:FF8533" class="tag" target="_blank" rel="noopener nofollow">#FF8533</a> (Interaction, Highlights)
+<br>Neutral Colors:<br>
+<br>Dark Grey: <a href=".?query=tag:1A1A1A" class="tag" target="_blank" rel="noopener nofollow">#1A1A1A</a> (Text, Backgrounds)
+<br>Medium Grey: <a href=".?query=tag:4A4A4A" class="tag" target="_blank" rel="noopener nofollow">#4A4A4A</a> (Interface Elements)
+<br>Light Grey: <a href=".?query=tag:E0E0E0" class="tag" target="_blank" rel="noopener nofollow">#E0E0E0</a> (Borders, Inactive States)
+<br>Accent Colors:<br>
+<br>Success: <a href=".?query=tag:2ECC71" class="tag" target="_blank" rel="noopener nofollow">#2ECC71</a> (Completion, Positive)
+<br>Warning: <a href=".?query=tag:FFB900" class="tag" target="_blank" rel="noopener nofollow">#FFB900</a> (Caution, Pending)
+<br>Error: <a href=".?query=tag:E74C3C" class="tag" target="_blank" rel="noopener nofollow">#E74C3C</a> (Alert, Critical)
+<br><br>
+<br>Main logo combines a Pokeball silhouette with civic elements
+<br>Icon features a simplified Pokeball with a gear/cog overlay
+<br>Use gradient from Main Orange to Deep Orange
+<br>Must be recognizable at small sizes (32x32px)
+<br><br>
+<br>Friendly AI assistant inspired by Rotom-Dex
+<br>Professional appearance with civic worker elements
+<br>Expressions: Helper, Alert, Celebration, Thinking
+<br>Animations for different states and interactions
+<br>Should wear a small safety vest and hard hat
+<br><br>Trainer Customization:<br>
+<br>Multiple body types and diverse representation
+<br>Civic-themed clothing (safety vests, utility belts)
+<br>Professional attire options (business casual to work gear)
+<br>Unlockable special items based on achievements
+<br>Color variations for all clothing items
+<br><br>Design Style:<br>
+<br>Circular badge format with distinct icons
+<br>Metallic finish (Bronze, Silver, Gold, Platinum)
+<br>Environmental Badge: Leaf with recycle symbol
+<br>Infrastructure Badge: Bridge/road design
+<br>Safety Badge: Shield with exclamation mark
+<br>Community Badge: Connected people icons
+<br><br>CivicCoins:<br>
+<br>Coin design combines Pokecoin with civic symbols
+<br>Metallic gold with blue accent
+<br>Animated spinning effect for earnings
+<br>Level Indicators:<br>
+<br>Progress bars in Main Orange
+<br>Level-up animation with particle effects
+<br>Rank icons reflect PokeRanger progression
+<br><br>Issue Severity:<br>
+<br>Light Orange: Minor issues (Clean-up needed)
+<br>Deep Orange: Moderate issues (Maintenance required)
+<br>Error Red: Critical issues (Immediate attention)
+<br>Status Indicators:<br>
+<br>New: Pulsing effect
+<br>Verified: Check mark overlay
+<br>In Progress: Rotating progress indicator
+<br>Resolved: Star burst effect
+<br><br>
+<br>Pixel-perfect 64x64 achievement icons
+<br>Consistent line weight (2px)
+<br>Simple, recognizable silhouettes
+<br>Ambient animation on hover
+<br>Locked state: Grayscale with question mark
+<br><br>Principles:<br>
+<br>Smooth, playful transitions (300ms default)
+<br>Responsive feedback for user actions
+<br>Pokemon-inspired effects for rewards
+<br>Subtle UI state changes
+<br>Progressive loading animations
+<br>Key Animations:<br>
+<br>Issue Report: Pokeball throw and capture
+<br>Level Up: Evolving silhouette effect
+<br>Badge Earn: Spinning reveal with sparkles
+<br>Status Change: Smooth color transitions
+<br><br><br><br>Frontend:<br>
+<br>React Native v0.71+ (Mobile App)
+<br>TailwindCSS 3.0+
+<br>React Query for data fetching
+<br>Zustand for state management
+<br>Backend:<br>
+<br>Supabase for database, authentication, and real-time features
+<br>Edge Functions for serverless compute
+<br>Node.js microservices (where needed)
+<br>Redis for caching
+<br><br>src/
+├── app/                 # App-wide configurations
+├── components/          # Reusable UI components
+├── features/           # Feature-based modules
+│   ├── issues/         # Issue reporting
+│   ├── map/           # Map integration
+│   ├── gamification/   # Game mechanics
+│   └── auth/          # Authentication
+├── hooks/              # Custom React hooks
+├── services/           # API services
+├── utils/              # Helper functions
+└── types/              # TypeScript definitions
+<br><br>Supabase Setup:<br>import { createClient } from '@supabase/supabase-js'
+
+export const supabase = createClient(
+process.env.NEXT_PUBLIC_SUPABASE_URL!,
+process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+)
+<br>OSM Integration:<br>const mapConfig = {
+tileServer: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+nominatim: 'https://nominatim.openstreetmap.org',
+valhalla: process.env.VALHALLA_API_URL
+}
+
+// Geocoding example
+async function geocodeAddress(address: string) {
+const response = await fetch(
+    `${mapConfig.nominatim}/search?format=json&amp;q=${encodeURIComponent(address)}`
+)
+return await response.json()
+}
+<br><br>// Subscribe to real-time issue updates
+// Lost &amp; Found subscriptions
+const lostItemSubscription = supabase
+.channel('lost_items')
+.on(
+    'postgres_changes',
+    {
+        event: '*',
+        schema: 'public',
+        table: 'lost_items',
+        filter: `location &amp;&amp; ST_MakeEnvelope(${bounds}, 4326)`
+    },
+    (payload) =&gt; {
+        updateLostItems(payload.new)
+    }
+)
+.subscribe()
+
+// Route collaboration subscriptions
+const routeSubscription = supabase
+.channel('route_updates')
+.on(
+    'postgres_changes',
+    {
+        event: '*',
+        schema: 'public',
+        table: 'routes',
+        filter: `id=eq.${currentRouteId}`
+    },
+    (payload) =&gt; {
+        updateRouteDetails(payload.new)
+    }
+)
+.subscribe()
+
+// Waypoint updates subscription
+const waypointSubscription = supabase
+.channel('waypoint_updates')
+.on(
+    'postgres_changes',
+    {
+        event: '*',
+        schema: 'public',
+        table: 'waypoints',
+        filter: `route_id=eq.${currentRouteId}`
+    },
+    (payload) =&gt; {
+        updateWaypoints(payload.new)
+    }
+)
+.subscribe()
+
+// Real-time leaderboard updates
+// Real-time leaderboard updates
+const leaderboardSubscription = supabase
+.channel('leaderboard_updates')
+.on(
+    'postgres_changes',
+    {
+    event: 'UPDATE',
+    schema: 'public',
+    table: 'leaderboards',
+    filter: `category=eq.${currentCategory}`
+    },
+    (payload) =&gt; {
+    updateLeaderboardDisplay(payload.new)
+    }
+)
+.subscribe()
+
+// Expert verification status tracking
+const expertStatusSubscription = supabase
+.channel('expert_updates')
+.on(
+    'postgres_changes',
+    {
+    event: 'UPDATE',
+    schema: 'public',
+    table: 'expert_verifications',
+    filter: `user_id=eq.${currentUser.id}`
+    },
+    (payload) =&gt; {
+    updateExpertStatus(payload.new)
+    }
+)
+.subscribe()
+
+// Location-based issue monitoring
+const locationSubscription = supabase
+.channel('local_issues')
+.on(
+    'postgres_changes',
+    {
+    event: 'INSERT',
+    schema: 'public',
+    table: 'issues',
+    filter: `ST_DWithin(location, ST_SetSRID(ST_MakePoint(${userLong}, ${userLat}), 4326), 1000)`
+    },
+    (payload) =&gt; {
+    handleNearbyIssue(payload.new)
+    }
+)
+.subscribe()
+
+const issueSubscription = supabase
+.channel('public:issues')
+.on(
+    'postgres_changes',
+    {
+    event: '*',
+    schema: 'public',
+    table: 'issues'
+    },
+    (payload) =&gt; {
+    updateIssueInStore(payload.new)
+    }
+)
+.subscribe()
+
+// Listen for specific issue updates
+const specificIssueSubscription = supabase
+.channel('issue_updates')
+.on(
+    'postgres_changes',
+    {
+    event: 'UPDATE',
+    schema: 'public',
+    table: 'issues',
+    filter: 'id=eq.' + issueId
+    },
+    (payload) =&gt; {
+    handleIssueUpdate(payload.new)
+    }
+)
+.subscribe()
+
+// Presence for active users
+const presenceChannel = supabase.channel('online-users')
+
+presenceChannel
+.on('presence', { event: 'sync' }, () =&gt; {
+    const state = presenceChannel.presenceState()
+    updateOnlineUsers(state)
+})
+.subscribe(async (status) =&gt; {
+    if (status === 'SUBSCRIBED') {
+    await presenceChannel.track({ 
+        user_id: currentUser.id,
+        online_at: new Date().toISOString()
+    })
+    }
+})
+<br>})<br>
+### Map Integration Details
+
+**Tile Layer Setup:**
+```typescript
+import { TileLayer } from 'react-leaflet'
+
+const MapTiles = () =&gt; (
+&lt;TileLayer
+    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+    attribution='&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
+    maxZoom={19}
+/&gt;
+)
+<br><br>-- Lost &amp; Found Tables
+create table lost_items (
+    id uuid default uuid_generate_v4() primary key,
+    title text not null,
+    description text,
+    location geometry(Point, 4326),
+    status text default 'lost',
+    reporter_id uuid references auth.users,
+    photos text[],
+    item_type text,
+    last_seen timestamptz,
+    contact_info jsonb,
+    created_at timestamptz default now()
+);
+
+create table found_items (
+    id uuid default uuid_generate_v4() primary key,
+    lost_item_id uuid references lost_items,
+    finder_id uuid references auth.users,
+    location geometry(Point, 4326),
+    photos text[],
+    holding_venue_id uuid references venues,
+    status text default 'found',
+    created_at timestamptz default now()
+);
+
+create table venues (
+    id uuid default uuid_generate_v4() primary key,
+    name text not null,
+    location geometry(Point, 4326),
+    contact_info jsonb,
+    verification_status text default 'pending',
+    operating_hours jsonb,
+    created_at timestamptz default now()
+);
+
+-- Adventure Planning Tables
+create table routes (
+    id uuid default uuid_generate_v4() primary key,
+    title text not null,
+    description text,
+    creator_id uuid references auth.users,
+    status text default 'draft',
+    privacy text default 'private',
+    created_at timestamptz default now()
+);
+
+create table waypoints (
+    id uuid default uuid_generate_v4() primary key,
+    route_id uuid references routes,
+    location geometry(Point, 4326),
+    title text,
+    description text,
+    sequence_number integer,
+    poi_type text,
+    created_at timestamptz default now()
+);
+
+create table route_collaborators (
+    route_id uuid references routes,
+    user_id uuid references auth.users,
+    role text default 'viewer',
+    joined_at timestamptz default now(),
+    primary key (route_id, user_id)
+);
+
+-- Points and Leaderboard Tables
+create table point_transactions (
+    id uuid default uuid_generate_v4() primary key,
+    user_id uuid references auth.users,
+    amount integer not null,
+    type text not null,
+    metadata jsonb,
+    created_at timestamptz default now()
+);
+
+create table leaderboards (
+    id uuid default uuid_generate_v4() primary key,
+    user_id uuid references auth.users,
+    points integer default 0,
+    rank integer,
+    category text,
+    period text,
+    updated_at timestamptz default now()
+);
+
+create table expert_verifications (
+    id uuid default uuid_generate_v4() primary key,
+    user_id uuid references auth.users,
+    expertise_area text[],
+    credentials jsonb,
+    verification_status text default 'pending',
+    verified_by uuid references auth.users,
+    valid_until timestamptz
+);
+
+create table location_stats (
+    id uuid default uuid_generate_v4() primary key,
+    area_id text not null,
+    stat_type text not null,
+    value jsonb,
+    calculated_at timestamptz default now()
+);
+
+-- Issues Table
+create table issues (
+id uuid default uuid_generate_v4() primary key,
+title text not null,
+description text,
+location geometry(Point, 4326),
+status text default 'pending',
+reporter_id uuid references auth.users,
+created_at timestamptz default now()
+);
+
+-- Achievements Table
+create table achievements (
+id uuid default uuid_generate_v4() primary key,
+user_id uuid references auth.users,
+type text not null,
+earned_at timestamptz default now()
+);
+<br><br>// Sign in with Supabase
+async function signIn(email: string, password: string) {
+const { data, error } = await supabase.auth.signInWithPassword({
+    email,
+    password
+})
+
+if (error) throw error
+return data
+}
+
+// Protected route wrapper
+const ProtectedRoute = ({ children }) =&gt; {
+const session = useSession()
+if (!session) return &lt;Navigate to="/login" /&gt;
+return children
+}
+<br><br>Living Document
+This documentation is continuously updated as the platform evolves. Last updated: [Current Date]<br>
+Key Features<br>
+Live Issue Reporting &amp; Verification<br>
+Users can report real-world issues like damaged roads, water leaks, or public transport<br>
+delays. Each report includes location data, timestamps, and optional images. To prevent<br>
+false alarms, PokemonGo cross-verifies multiple reports before marking them as<br>
+“verified.” Users earn contribution points for accurate submissions, creating a system of<br>
+accountability and engagement. The more reports a user makes that get verified, the<br>
+higher their credibility rank, encouraging meaningful participation.<br>
+Community Discussion &amp; Solutions Hub<br>
+A problem doesn’t always need to wait for authorities - sometimes, the community can<br>
+solve it themselves. PokemonGo includes discussion threads where users can brainstorm<br>
+solutions, organize community cleanups, or request help from local businesses. Users<br>
+vote on the best course of action, and verified experts (engineers, city planners,<br>
+volunteers) can weigh in. This feature fosters grassroots-level problem-solving while also<br>
+notifying authorities when larger interventions are needed.<br>
+Smart Alerts &amp; Proximity-Based Notifications<br>
+When users report an issue, others in the area receive a notification - whether it’s a<br>
+blocked road, a power cut, or a safety concern. Smart filters ensure only relevant alerts<br>
+reach users based on their preferences. Critical alerts like emergencies are prioritized,<br>
+while minor issues can be viewed in a community feed. Once an issue is resolved, the app<br>
+sends an automatic closure update, ensuring users don’t receive redundant reports
+]]></description><link>work/spit-hackathon/context.html</link><guid isPermaLink="false">Work/SPIT Hackathon/CONTEXT.md</guid><pubDate>Sat, 08 Feb 2025 06:56:46 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
  <br><br><br><br><br><br><br><br><br><br><br>
  _____  __ __ _____ _____ _____ _____ _____ _____ 
 |     ||  |  ||  _  ||   __| __  ||   __||   __| 
@@ -307,243 +869,7 @@ The journey of a thousand miles begins with a single step. Focus on one topic at
 <br>Binary search
 <br>Backtracking
 <br>Dynamic programming
-]]></description><link>placements/dsa-to-do-list.html</link><guid isPermaLink="false">Placements/DSA To do list.md</guid><pubDate>Fri, 03 Jan 2025 16:22:14 GMT</pubDate></item><item><title><![CDATA[🛍️ DealSphere Documentation]]></title><description><![CDATA[ 
- <br><br><br>
-<br><a class="internal-link" data-href="#overview" href="about:blank#overview" target="_self" rel="noopener nofollow">Overview</a>
-<br><a class="internal-link" data-href="#features" href="about:blank#features" target="_self" rel="noopener nofollow">Features</a>
-<br><a class="internal-link" data-href="#system-architecture" href="about:blank#system-architecture" target="_self" rel="noopener nofollow">System Architecture</a>
-<br><a class="internal-link" data-href="#user-flow" href="about:blank#user-flow" target="_self" rel="noopener nofollow">User Flow</a>
-<br><a class="internal-link" data-href="#database-schema" href="about:blank#database-schema" target="_self" rel="noopener nofollow">Database Schema</a>
-<br><a class="internal-link" data-href="#feature-interactions" href="about:blank#feature-interactions" target="_self" rel="noopener nofollow">Feature Interactions</a>
-<br><a class="internal-link" data-href="#technical-specifications" href="about:blank#technical-specifications" target="_self" rel="noopener nofollow">Technical Specifications</a>
-<br><a class="internal-link" data-href="#implementation-guidelines" href="about:blank#implementation-guidelines" target="_self" rel="noopener nofollow">Implementation Guidelines</a>
-<br><a class="internal-link" data-href="#use-cases" href="about:blank#use-cases" target="_self" rel="noopener nofollow">Use Cases</a>
-<br><br>🎯 DealSphere is a smart shopping platform that helps users discover, track, and purchase products at the best prices. The app combines advanced image recognition, real-time notifications, and intelligent filtering to create a seamless shopping experience.<br><br><br>
-<br>Visual search capability using Google Cloud Vision API
-<br>Real-time product recognition and matching
-<br>Support for multiple image formats
-<br>Accuracy score threshold: 85%
-<br><br>
-<br>Real-time stock monitoring
-<br>Push notifications system
-<br>Price drop alerts
-<br>Custom notification preferences
-<br>Notification frequency control
-<br><br>
-<br>Persistent search history storage
-<br>Search analytics and trends
-<br>Personalized recommendations
-<br>Export functionality
-<br>Privacy controls
-<br><br>
-<br>Location-based filtering
-<br>Rating-based sorting
-<br>Price range filters
-<br>Category specialization
-<br>Delivery options filter
-<br><br><br><br><br><br><br><br><br><br><br>
-<br>Language: Node.js/Python
-<br>Framework: Express.js/Django
-<br>Database: PostgreSQL
-<br>Cache: Redis
-<br>Search Engine: Elasticsearch
-<br>Cloud Provider: AWS/Google Cloud
-<br><br>
-<br>Google Cloud Vision API v1
-<br>Firebase Cloud Messaging
-<br>Elastic Search API v7.x
-<br>Payment Gateway APIs
-<br><br>
-<br>Response Time: &lt; 2 seconds
-<br>Availability: 99.9%
-<br>Image Processing: &lt; 5 seconds
-<br>Concurrent Users: 10,000+
-<br><br><br>// Example implementation
-async function processImage(imageData) {
-    const vision = require('@google-cloud/vision');
-    const client = new vision.ImageAnnotatorClient();
-    
-    const [result] = await client.productSearch(imageData);
-    return result.products;
-}
-<br><br>// Example implementation
-class NotificationService {
-    async sendNotification(userId, productId, type) {
-        const notification = {
-            userId,
-            productId,
-            type,
-            timestamp: new Date()
-        };
-        await this.notificationRepository.save(notification);
-        await this.pushService.send(userId, notification);
-    }
-}
-<br><br><br>Scenario: User wants to find a product using an image<br>
-<br>User captures/uploads product image
-<br>System processes image through Google Lens
-<br>System displays matching products
-<br>User can filter results by shop
-<br><br>Scenario: User wants to be notified when a product price drops<br>
-<br>User sets price alert threshold
-<br>System monitors product price
-<br>System sends notification when condition met
-<br>User receives real-time alert
-<br><br>Scenario: User wants to compare shops for a product<br>
-<br>User selects product
-<br>System shows available shops
-<br>User applies filters (rating, location, etc.)
-<br>System displays filtered results
-]]></description><link>work/spit-hackathon/dealsphere_documentation.html</link><guid isPermaLink="false">Work/SPIT Hackathon/DealSphere_Documentation.md</guid><pubDate>Sun, 26 Jan 2025 11:29:04 GMT</pubDate></item><item><title><![CDATA[DealSphere - Local Product Finder]]></title><description><![CDATA[ 
- <br><br><br>The Local Product Finder is an innovative web application that bridges the gap between local retailers and consumers. It provides real-time product availability information, price comparisons, and store details through an interactive OSM map interface. The application features voice search capabilities, LLM-powered search enhancement, and a product reservation system, making local shopping more efficient and user-friendly.<br><br>
-<br>Interactive OSM Map integration
-<br>Real-time product availability tracking
-<br>Voice search functionality
-<br>AI-powered search enhancement
-<br>Google Lens product search integration
-<br>Product availability notifications
-<br>Search history tracking
-<br>Advanced shop filtering system
-<br>Price comparison tools
-<br>Store ratings and reviews
-<br>Product reservation system
-<br>Shipping request management
-<br>Product image gallery
-<br>Real-time inventory updates
-<br><br>In today's fast-paced world, consumers face significant challenges in finding specific products in their local stores. The process often involves multiple store visits, phone calls, or unreliable online searches that fail to provide accurate local information. This disconnect between buyers and local retailers affects both consumers and small businesses, particularly those with outdated inventory systems.<br>A unified platform is needed to bridge this gap, leveraging real-time data and crowd-sourced updates to create a dynamic marketplace. This solution would enable users to locate products in nearby stores, compare prices, view inventory status, and access store-specific details, enhancing local commerce and fostering stronger community ties. By integrating modern technology into traditional shopping, the system aims to streamline the shopping experience, save time for consumers, and boost the visibility and profitability of local businesses.<br><br><br><br><br>
-<br>HTML5
-<br>CSS3
-<br>JavaScript (ES6+)
-<br>TailwindCSS
-<br>OpenStreetMap API
-<br>Web Speech API
-<br>Google Cloud Vision API Integration
-<br><br>
-<br>Python 3.x
-<br>Flask Framework
-<br>SQLAlchemy ORM
-<br>RESTful API
-<br>LLM Integration
-<br>Firebase Cloud Messaging
-<br>Elasticsearch
-<br>Google Cloud Vision API
-<br><br>
-<br>PostgreSQL
-<br>Redis (Caching)
-<br><br>
-<br>OpenStreetMap
-<br>Language Model API
-<br>Payment Gateway
-<br>Cloud Storage (Images)
-<br><br>
-<br>User Interface Layer
-<br>
-<br>Map Component
-<br>Search Interface
-<br>Product Cards
-<br>Store Details Panel
-<br>Reservation System
-<br>User Dashboard
-<br>
-<br>Business Logic Layer
-<br>
-<br>Search Engine with Elasticsearch
-<br>Price Comparison Engine
-<br>Voice Processing System
-<br>LLM Integration Service
-<br>Google Lens Integration Service
-<br>Notification Management System
-<br>Search History Tracking System
-<br>Inventory Management
-<br>Rating System
-<br>
-<br>Data Layer
-<br>
-<br>Product Database
-<br>User Database
-<br>Store Database
-<br>Cache System
-<br>File Storage
-<br><br><br><br><br><br><br><br>
-<br>Header Section
-<br>
-<br>Logo
-<br>Search Bar
-<br>Voice Search Button
-<br>User Profile Menu
-<br>
-<br>Map View
-<br>
-<br>Interactive OSM Map
-<br>Store Markers
-<br>Product Information Popups
-<br>Filter Controls
-<br>
-<br>Product Details Panel
-<br>
-<br>Product Images
-<br>Price Information
-<br>Store Details
-<br>Availability Status
-<br>Reservation Button
-<br>Shipping Request Button
-<br>
-<br>Store Information
-<br>
-<br>Ratings Display
-<br>Review Section
-<br>Operating Hours
-<br>Contact Information
-<br>
-<br>User Dashboard
-<br>
-<br>Reservation History
-<br>Favorite Products
-<br>Reviews Given
-<br>Settings
-<br><br><br><br><br><br>
-<br>Phase 1: Planning and Design (Weeks 1-2)
-<br>
-<br>Requirement Analysis
-<br>System Architecture Design
-<br>Database Schema Design
-<br>UI/UX Design
-<br>
-<br>Phase 2: Core Development (Weeks 3-6)
-<br>
-<br>Database Setup
-<br>Basic Backend Development
-<br>Frontend Framework Setup
-<br>Map Integration
-<br>
-<br>Phase 3: Feature Implementation (Weeks 7-10)
-<br>
-<br>Search Functionality
-<br>Voice Recognition
-<br>LLM Integration
-<br>Product Management System
-<br>
-<br>Phase 4: Advanced Features (Weeks 11-14)
-<br>
-<br>Reservation System
-<br>Review System
-<br>Shipping Request System
-<br>Real-time Updates
-<br>
-<br>Phase 5: Testing and Optimization (Weeks 15-16)
-<br>
-<br>Unit Testing
-<br>Integration Testing
-<br>Performance Optimization
-<br>Security Testing
-<br>
-<br>Phase 6: Deployment and Launch (Weeks 17-18)
-<br>
-<br>Beta Testing
-<br>Production Deployment
-<br>User Training
-<br>Documentation
-<br><br>]]></description><link>work/spit-hackathon/main-document.html</link><guid isPermaLink="false">Work/SPIT Hackathon/Main Document.md</guid><pubDate>Sun, 26 Jan 2025 11:37:19 GMT</pubDate></item><item><title><![CDATA[DSA Cheatsheet for Technical Interviews]]></title><description><![CDATA[ 
+]]></description><link>placements/dsa-to-do-list.html</link><guid isPermaLink="false">Placements/DSA To do list.md</guid><pubDate>Fri, 03 Jan 2025 16:22:14 GMT</pubDate></item><item><title><![CDATA[DSA Cheatsheet for Technical Interviews]]></title><description><![CDATA[ 
  <br><br>About This Guide
 A comprehensive guide for DSA interview preparation with Python implementations, common patterns, and interview tips.
 <br><br>Big-O Cheatsheet
