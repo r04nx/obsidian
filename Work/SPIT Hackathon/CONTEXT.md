@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/ehsu938c#yo0hI8//CEdaEkrspBo8YS95GF72zvznXEERglcBiQ8
+share_updated: 2025-02-08T12:45:13+05:30
+---
 # PokemonGo: Community Edition
 
 > [!info]
