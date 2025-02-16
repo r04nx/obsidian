@@ -289,3 +289,6 @@ flowchart LR
 
 **Note:** Internal services should only be accessed from within their respective network segments or through appropriate network controls/VPN for security purposes.
 
+
+Drupal Password:
+target@123#
