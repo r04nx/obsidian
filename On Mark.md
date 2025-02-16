@@ -291,4 +291,7 @@ flowchart LR
 
 
 Drupal Password:
-target@123#
+admin : target@123#
+
+Wordpress password:
+target : target@123#target@123#
