@@ -1,0 +1,241 @@
+networks:
+  hr_network:
+    ipam:
+      config:
+        - subnet: 10.1.1.0/24
+  marketing_network:
+    ipam:
+      config:
+        - subnet: 10.1.2.0/24
+  it_network:
+    ipam:
+      config:
+        - subnet: 10.1.3.0/24
+  public_subnet:
+    ipam:
+      config:
+        - subnet: 10.1.4.0/24
+  private_subnet:
+    ipam:
+      config:
+        - subnet: 10.1.5.0/24
+
+services:
+  # [Previous services remain unchanged up to private subnet]
+
+  # DMZ Private Subnet (10.1.5.0/24)
+  internal_ldap:
+    image: osixia/openldap:latest
+    networks:
+      private_subnet:
+        ipv4_address: 10.1.5.7
+    environment:
+      LDAP_ORGANISATION: "TargetORG"
+      LDAP_DOMAIN: "targetorg.local"
+      LDAP_ADMIN_PASSWORD: "Ldap@dm1n2024!"
+    volumes:
+      - ldap_data:/var/lib/ldap
+      - ldap_config:/etc/ldap/slapd.d
+
+  main_db:
+    image: mysql:8.0
+    networks:
+      private_subnet:
+        ipv4_address: 10.1.5.8
+    environment:
+      MYSQL_ROOT_PASSWORD: Db@dm1n2024!
+      MYSQL_DATABASE: targetorg_main
+      MYSQL_USER: db_admin
+      MYSQL_PASSWORD: Db@dm1n2024!
+    volumes:
+      - main_db_data:/var/lib/mysql
+
+  # New FTP Server in Private DMZ
+  internal_ftp:
+    image: fauria/vsftpd
+    networks:
+      private_subnet:
+        ipv4_address: 10.1.5.9
+    environment:
+      FTP_USER: internal_ftp
+      FTP_PASS: IntFtp@2024!
+      PASV_ADDRESS: 10.1.5.9
+      PASV_MIN_PORT: 21100
+      PASV_MAX_PORT: 21110
+    volumes:
+      - internal_ftp_data:/home/vsftpd
+    ports:
+      - "21100-21110:21100-21110"
+
+  # New Rsyslog Server in Private DMZ
+  rsyslog_server:
+    image: rsyslog/syslog_appliance_alpine
+    networks:
+      private_subnet:
+        ipv4_address: 10.1.5.10
+    volumes:
+      - rsyslog_data:/logs
+      - ./config/rsyslog/rsyslog.conf:/etc/rsyslog.conf:ro
+    ports:
+      - "514:514/udp"
+      - "514:514/tcp"
+    restart: unless-stopped
+
+  # [Previous services remain unchanged]
+  hr_portal:
+    image: wordpress:latest
+    networks:
+      hr_network:
+        ipv4_address: 10.1.1.4
+    environment:
+      WORDPRESS_DB_HOST: hr_db
+      WORDPRESS_DB_USER: hr_admin
+      WORDPRESS_DB_PASSWORD: Hr@dm1n2024!
+      WORDPRESS_DB_NAME: hr_portal
+    volumes:
+      - hr_portal_data:/var/www/html
+    depends_on:
+      - hr_db
+
+  hr_db:
+    image: mysql:5.7
+    networks:
+      hr_network:
+        ipv4_address: 10.1.1.5
+    environment:
+      MYSQL_ROOT_PASSWORD: Hr@dm1n2024!
+      MYSQL_DATABASE: hr_portal
+      MYSQL_USER: hr_admin
+      MYSQL_PASSWORD: Hr@dm1n2024!
+    volumes:
+      - hr_db_data:/var/lib/mysql
+
+  hr_file_server:
+    image: fauria/vsftpd
+    networks:
+      hr_network:
+        ipv4_address: 10.1.1.6
+    environment:
+      FTP_USER: hr_ftp
+      FTP_PASS: HrFtp@2024!
+      PASV_ADDRESS: 10.1.1.6
+    volumes:
+      - hr_ftp_data:/home/vsftpd
+
+  marketing_cms:
+    image: drupal:latest
+    networks:
+      marketing_network:
+        ipv4_address: 10.1.2.8
+    environment:
+      DRUPAL_DB_HOST: marketing_db
+      DRUPAL_DB_USER: marketing_admin
+      DRUPAL_DB_PASSWORD: Mkt@dm1n2024!
+      DRUPAL_DB_NAME: marketing_cms
+    volumes:
+      - marketing_cms_data:/var/www/html
+
+  marketing_db:
+    image: postgres:12
+    networks:
+      marketing_network:
+        ipv4_address: 10.1.2.9
+    environment:
+      POSTGRES_DB: marketing_cms
+      POSTGRES_USER: marketing_admin
+      POSTGRES_PASSWORD: Mkt@dm1n2024!
+    volumes:
+      - marketing_db_data:/var/lib/postgresql/data
+
+  it_monitoring:
+    image: grafana/grafana:latest
+    networks:
+      it_network:
+        ipv4_address: 10.1.3.8
+    environment:
+      GF_SECURITY_ADMIN_USER: it_admin
+      GF_SECURITY_ADMIN_PASSWORD: It@dm1n2024!
+    volumes:
+      - grafana_data:/var/lib/grafana
+
+  jenkins_server:
+    image: jenkins/jenkins:lts
+    networks:
+      it_network:
+        ipv4_address: 10.1.3.11
+    environment:
+      JENKINS_ADMIN_ID: jenkins_admin
+      JENKINS_ADMIN_PASSWORD: Jnk@dm1n2024!
+    volumes:
+      - jenkins_data:/var/jenkins_home
+
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: unraveled2-portainer
+    restart: always
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - portainer_data:/data
+    ports:
+      - "9444:9443"
+      - "8000:8000"
+    networks:
+      it_network:
+        ipv4_address: 10.1.3.12
+
+  public_web:
+    image: nginx:latest
+    networks:
+      public_subnet:
+        ipv4_address: 10.1.4.10
+    volumes:
+      - ./config/nginx/public.conf:/etc/nginx/conf.d/default.conf
+      - public_web_data:/usr/share/nginx/html
+
+  mail_server:
+    image: tvial/docker-mailserver:latest
+    networks:
+      public_subnet:
+        ipv4_address: 10.1.4.16
+    environment:
+      MAIL_USER: admin@targetorg.local
+      MAIL_PASS: M@il@dm1n2024!
+    volumes:
+      - mail_data:/var/mail
+      - mail_state:/var/mail-state
+
+  honeypot:
+    image: cowrie/cowrie
+    networks:
+      public_subnet:
+        ipv4_address: 10.1.4.20
+    ports:
+      - "2222:2222"
+      - "2223:2223"
+    volumes:
+      - honeypot_data:/cowrie/log
+      - honeypot_dl:/cowrie/downloads
+    restart: unless-stopped
+
+volumes:
+  hr_portal_data:
+  hr_db_data:
+  hr_ftp_data:
+  marketing_cms_data:
+  marketing_db_data:
+  grafana_data:
+  jenkins_data:
+  public_web_data:
+  mail_data:
+  mail_state:
+  ldap_data:
+  ldap_config:
+  main_db_data:
+  portainer_data:
+  honeypot_data:
+  honeypot_dl:
+  internal_ftp_data:
+  rsyslog_data:
