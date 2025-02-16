@@ -230,203 +230,62 @@ flowchart LR
 
 # Next V1
 
-```mermaid
-graph TD
-    %% Define Networks
-    subgraph HR_Network["HR Network (10.1.1.0/24)"]
-        HRP["hr_portal - 10.1.1.4<br/>DB: hr_db<br/>User: hr_admin<br/>Pass: Hr@dm1n2024!"]
-        HRDB["hr_db - 10.1.1.5<br/>Root Pass: Hr@dm1n2024!"]
-        HRFS["hr_file_server - 10.1.1.6<br/>User: hr_ftp<br/>Pass: HrFtp@2024!"]
-        HRP --> HRDB
-        HRFS --> HRP
-    end
+# Accessible Services with Web UIs and Applications
 
-    subgraph Marketing_Network["Marketing Network (10.1.2.0/24)"]
-        MKTCMS["marketing_cms - 10.1.2.8<br/>DB: marketing_db<br/>User: marketing_admin<br/>Pass: Mkt@dm1n2024!"]
-        MKTDB["marketing_db - 10.1.2.9<br/>Root Pass: Mkt@dm1n2024!"]
-        MKTCMS --> MKTDB
-    end
+## Publicly Accessible Services (10.1.4.0/24 subnet)
+1. **Public Web Server (Nginx)**: `10.1.4.10`
+2. **Mail Server**: `10.1.4.16`
+3. **Honeypot Service**: `10.1.4.20`  
+   - Ports: `2222, 2223`
 
-    subgraph IT_Network["IT Network (10.1.3.0/24)"]
-        ITM["it_monitoring - 10.1.3.8<br/>User: it_admin<br/>Pass: It@dm1n2024!"]
-        JKS["jenkins_server - 10.1.3.11<br/>User: jenkins_admin<br/>Pass: Jnk@dm1n2024!"]
-        PTN["portainer - 10.1.3.12"]
-    end
+---
 
-    subgraph Public_Subnet["Public Subnet (10.1.4.0/24)"]
-        PUBW["public_web - 10.1.4.10"]
-        MAIL["mail_server - 10.1.4.16<br/>User: admin@targetorg.local<br/>Pass: M@il@dm1n2024!"]
-        HNP["honeypot - 10.1.4.20"]
-    end
+## Internal Services by Department
 
-    subgraph Private_Subnet["Private Subnet (10.1.5.0/24)"]
-        LDAP["internal_ldap - 10.1.5.7<br/>Org: TargetORG<br/>Domain: targetorg.local<br/>Pass: Ldap@dm1n2024!"]
-        MAINDB["main_db - 10.1.5.8<br/>User: db_admin<br/>Pass: Db@dm1n2024!"]
-        INTFTP["internal_ftp - 10.1.5.9<br/>User: internal_ftp<br/>Pass: IntFtp@2024!"]
-        RSYSLOG["rsyslog_server - 10.1.5.10"]
-    end
+### HR Network (`10.1.1.0/24`)
+4. **HR Portal (WordPress)**: `10.1.1.4`  
+   - Web-based HR management portal
+5. **HR File Server (FIP)**: `10.1.1.6`  
+   - FTP interface for file management
 
-    %% External Connections
-    Internet(("Internet"))
-    PUBW --> Internet
-    MAIL --> Internet
-    HNP --> Internet
+---
 
-    %% Service Dependencies
-    ITM --> JKS
-    JKS --> HRP
-    JKS --> MKTCMS
-    PTN --> LDAP
+### Marketing Network (`10.1.2.0/24`)
+6. **Marketing CMS (Drupal)**: `10.1.2.8`  
+   - Content Management System
 
-    %% Logging
-    HRP -.->|logs| RSYSLOG
-    MKTCMS -.->|logs| RSYSLOG
-    JKS -.->|logs| RSYSLOG
-    MAIL -.->|logs| RSYSLOG
-    PUBW -.->|logs| RSYSLOG
+---
 
-    %% Authentication
-    LDAP --> MAINDB
-    HRP --> LDAP
-    MKTCMS --> LDAP
-    ITM --> LDAP
-    JKS --> LDAP
-    PTN --> LDAP
-    INTFTP --> LDAP
+### IT Network (`10.1.3.0/24`)
+7. **IT Monitoring (Grafana)**: `10.1.3.8`  
+   - Web-based monitoring dashboard
+8. **Jenkins Server**: `10.1.3.11`  
+   - CI/CD web interface
+9. **Portainer**: `10.1.3.12`  
+   - Docker management UI (accessible at [https://localhost:9444](https://localhost:9444))  
+   - Additional port `8000` exposed
 
-    %% File Storage
-    HRP --> INTFTP
-    MKTCMS --> INTFTP
+---
 
-    %% Styling
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px
-    classDef network fill:#e6f3ff,stroke:#333,stroke-width:2px
-    classDef logging stroke-dasharray: 5 5
-    
-    class HR_Network,Marketing_Network,IT_Network,Public_Subnet,Private_Subnet network
-    class RSYSLOG logging
-```
+## Private Subnet (`10.1.5.0/24`)
+10. **Internal LDAP**: `10.1.5.7`  
+   - Directory service (no web UI but provides authentication)
+11. **Internal FTP Server**: `10.1.5.9`  
+   - FTP interface (ports `21100-21110`)
+12. **Rsyslog Server**: `10.1.5.10`  
+   - Logging service (TCP/UDP port `514`, no web UI)
 
-```mermaid
-		HRP["hr_portal - 10.1.1.4<br/>DB: hr_db<br/>User: hr_admin<br/>Pass: Hr@dm1n2024!"]
-        HRDB["hr_db - 10.1.1.5<br/>Root Pass: Hr@dm1n2024!"]
-        HRFS["hr_file_server - 10.1.1.6<br/>User: hr_ftp<br/>Pass: HrFtp@2024!"]
-        HRP --> HRDB
-        HRFS --> HRP
-    end
+---
 
-    subgraph Marketing_Network["Marketing Network (10.1.2.0/24)"]
-        MKTCMS["marketing_cms - 10.1.2.8<br/>DB: marketing_db<br/>User: marketing_admin<br/>Pass: Mkt@dm1n2024!"]
-        MKTDB["marketing_db - 10.1.2.9<br/>Root Pass: Mkt@dm1n2024!"]
-        MKTCMS --> MKTDB
-    end
+## Quick Access Links
+- **Portainer**: [https://localhost:9444](https://localhost:9444)
+- **HR Portal**: Access via `10.1.1.4`
+- **Marketing CMS**: Access via `10.1.2.8`
+- **Grafana Dashboard**: Access via `10.1.3.8`
+- **Jenkins**: Access via `10.1.3.11`
+- **Public Website**: Access via `10.1.4.10`
 
-    subgraph IT_Network["IT Network (10.1.3.0/24)"]
-        ITM["it_monitoring - 10.1.3.8<br/>User: it_admin<br/>Pass: It@dm1n2024!"]
-        JKS["jenkins_server - 10.1.3.11<br/>User: jenkins_admin<br/>Pass: Jnk@dm1n2024!"]
-        PTN["portainer - 10.1.3.12"]
-    end
+---
 
-    subgraph Public_Subnet["Public Subnet (10.1.4.0/24)"]
-        PUBW["public_web - 10.1.4.10"]
-        MAIL["mail_server - 10.1.4.16<br/>User: admin@targetorg.local<br/>Pass: M@il@dm1n2024!"]
-        HNP["honeypot - 10.1.4.20"]
-    end
+**Note:** Internal services should only be accessed from within their respective network segments or through appropriate network controls/VPN for security purposes.
 
-    subgraph Private_Subnet["Private Subnet (10.1.5.0/24)"]
-        LDAP["internal_ldap - 10.1.5.7<br/>Org: TargetORG<br/>Domain: targetorg.local<br/>Pass: Ldap@dm1n2024!"]
-        MAINDB["main_db - 10.1.5.8<br/>User: db_admin<br/>Pass: Db@dm1n2024!"]
-        INTFTP["internal_ftp - 10.1.5.9<br/>User: internal_ftp<br/>Pass: IntFtp@2024!"]
-        RSYSLOG["rsyslog_server - 10.1.5.10"]
-    end
-
-    %% External Connections
-    Internet(("Internet"))
-    PUBW --> Internet
-    MAIL --> Internet
-    HNP --> Internet
-
-    %% Service Dependencies
-    ITM --> JKS
-    JKS --> HRP
-    JKS --> MKTCMS
-    PTN --> LDAP
-
-    %% Logging
-    HRP -.->|logs| RSYSLOG
-    MKTCMS -.->|logs| RSYSLOG
-    JKS -.->|logs| RSYSLOG
-    MAIL -.->|logs| RSYSLOG
-    PUBW -.->|logs| RSYSLOG
-
-    %% Authentication
-    LDAP --> MAINDB
-    HRP --> LDAP
-    MKTCMS --> LDAP
-    ITM --> LDAP
-    JKS --> LDAP
-    PTN --> LDAP
-    INTFTP --> LDAP
-
-    %% File Storage
-    HRP --> INTFTP
-    MKTCMS --> INTFTP
-
-    %% Styling
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px
-    classDef network fill:#e6f3ff,stroke:#333,stroke-width:2px
-    classDef logging stroke-dasharray: 5 5
-    
-    class HR_Network,Marketing_Network,IT_Network,Public_Subnet,Private_Subnet network
-    class RSYSLOG logging
-        HRP["hr_portal - 10.1.1.4<br/>DB: hr_db<br/>User: hr_admin<br/>Pass: Hr@dm1n2024!"]
-        HRDB["hr_db - 10.1.1.5<br/>Root Pass: Hr@dm1n2024!"]
-        HRFS["hr_file_server - 10.1.1.6<br/>User: hr_ftp<br/>Pass: HrFtp@2024!"]
-        HRP --> HRDB
-        HRFS --> HRP
-    end
-
-    subgraph Marketing_Network["Marketing Network (10.1.2.0/24)"]
-        MKTCMS["marketing_cms - 10.1.2.8<br/>DB: marketing_db<br/>User: marketing_admin<br/>Pass: Mkt@dm1n2024!"]
-        MKTDB["marketing_db - 10.1.2.9<br/>Root Pass: Mkt@dm1n2024!"]
-        MKTCMS --> MKTDB
-    end
-
-    subgraph IT_Network["IT Network (10.1.3.0/24)"]
-        ITM["it_monitoring - 10.1.3.8<br/>User: it_admin<br/>Pass: It@dm1n2024!"]
-        JKS["jenkins_server - 10.1.3.11<br/>User: jenkins_admin<br/>Pass: Jnk@dm1n2024!"]
-        PTN["portainer - 10.1.3.12"]
-    end
-
-    subgraph Public_Subnet["Public Subnet (10.1.4.0/24)"]
-        PUBW["public_web - 10.1.4.10"]
-        MAIL["mail_server - 10.1.4.16<br/>User: admin@targetorg.local<br/>Pass: M@il@dm1n2024!"]
-        HNP["honeypot - 10.1.4.20"]
-    end
-
-    subgraph Private_Subnet["Private Subnet (10.1.5.0/24)"]
-        LDAP["internal_ldap - 10.1.5.7<br/>Org: TargetORG<br/>Domain: targetorg.local<br/>Pass: Ldap@dm1n2024!"]
-        MAINDB["main_db - 10.1.5.8<br/>User: db_admin<br/>Pass: Db@dm1n2024!"]
-    end
-
-    %% External Connections
-    Internet(("Internet"))
-    PUBW --> Internet
-    MAIL --> Internet
-    HNP --> Internet
-
-    %% IT Services Dependencies
-    ITM --> JKS
-    JKS --> HRP
-    JKS --> MKTCMS
-    PTN --> LDAP
-
-    %% Authentication
-    LDAP --> MAINDB
-
-    %% Styling
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px
-    classDef network fill:#e6f3ff,stroke:#333,stroke-width:2px
-    
-    class HR_Network,Marketing_Network,IT_Network,Public_Subnet,Private_Subnet network
-```

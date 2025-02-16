@@ -1,0 +1,95 @@
+digraph Infrastructure {
+    rankdir=LR;
+    splines=ortho;
+    nodesep=1.0;
+    ranksep=1.5;
+    margin="20,20";
+    concentrate=true;
+    graph [fontname="Arial"];
+    node [shape=box, style="rounded,filled", fillcolor=lightgray];
+    
+    // Network Definitions
+    subgraph cluster_hr {
+        label="HR Network\n10.1.1.0/24";
+        style=filled;
+        color=lightblue;
+        pad=1.0;
+        
+        hr_portal [label="HR Portal\nIP: 10.1.1.4\nDB: hr_portal\nUser: hr_admin\nPass: Hr@dm1n2024!"];
+        hr_db [label="HR Database\nIP: 10.1.1.5\nRoot Pass: Hr@dm1n2024!"];
+        hr_file_server [label="HR File Server\nIP: 10.1.1.6\nUser: hr_ftp\nPass: HrFtp@2024!"];
+    }
+
+    subgraph cluster_marketing {
+        label="Marketing Network\n10.1.2.0/24";
+        style=filled;
+        color=lightgreen;
+        pad=1.0;
+        
+        marketing_cms [label="Marketing CMS\nIP: 10.1.2.8\nDB: marketing_cms\nUser: marketing_admin\nPass: Mkt@dm1n2024!"];
+        marketing_db [label="Marketing DB\nIP: 10.1.2.9\nRoot Pass: Mkt@dm1n2024!"];
+    }
+
+    subgraph cluster_it {
+        label="IT Network\n10.1.3.0/24";
+        style=filled;
+        color=lightyellow;
+        pad=1.0;
+        
+        it_monitoring [label="IT Monitoring\nIP: 10.1.3.8\nUser: it_admin\nPass: It@dm1n2024!"];
+        jenkins_server [label="Jenkins\nIP: 10.1.3.11\nUser: jenkins_admin\nPass: Jnk@dm1n2024!"];
+        portainer [label="Portainer\nIP: 10.1.3.12\nPorts: 9444:9443, 8000:8000"];
+    }
+
+    subgraph cluster_public {
+        label="Public Subnet\n10.1.4.0/24";
+        style=filled;
+        color=lightpink;
+        pad=1.0;
+        
+        public_web [label="Public Web\nIP: 10.1.4.10"];
+        mail_server [label="Mail Server\nIP: 10.1.4.16\nUser: admin@targetorg.local\nPass: M@il@dm1n2024!"];
+        honeypot [label="Honeypot\nIP: 10.1.4.20\nPorts: 2222,2223"];
+    }
+
+    subgraph cluster_private {
+        label="Private Subnet\n10.1.5.0/24";
+        style=filled;
+        color=lightgrey;
+        pad=1.0;
+        
+        internal_ldap [label="Internal LDAP\nIP: 10.1.5.7\nOrg: TargetORG\nDomain: targetorg.local\nPass: Ldap@dm1n2024!"];
+        main_db [label="Main DB\nIP: 10.1.5.8\nUser: db_admin\nPass: Db@dm1n2024!"];
+        internal_ftp [label="Internal FTP\nIP: 10.1.5.9\nUser: internal_ftp\nPass: IntFtp@2024!\nPorts: 21100-21110"];
+        rsyslog_server [label="Rsyslog Server\nIP: 10.1.5.10\nPorts: 514 UDP/TCP"];
+    }
+
+    internet [label="Internet", shape=cloud];
+
+    // Connections
+    hr_portal -> hr_db [label="MySQL"];
+    hr_file_server -> hr_portal [label="FTP"];
+    marketing_cms -> marketing_db [label="PostgreSQL"];
+    
+    // Authentication flows
+    internal_ldap -> main_db [label="Storage"];
+
+    // Logging
+    hr_portal -> rsyslog_server [style=dashed, label="Logs"];
+    marketing_cms -> rsyslog_server [style=dashed, label="Logs"];
+    jenkins_server -> rsyslog_server [style=dashed, label="Logs"];
+    mail_server -> rsyslog_server [style=dashed, label="Logs"];
+    public_web -> rsyslog_server [style=dashed, label="Logs"];
+
+    // Internet Exposure
+    public_web -> internet;
+    mail_server -> internet;
+    honeypot -> internet;
+
+    // Service Dependencies
+    it_monitoring -> jenkins_server [label="Monitor"];
+    // File Storage
+    hr_portal -> internal_ftp [label="Storage"];
+    marketing_cms -> internal_ftp [label="Storage"];
+}
+
