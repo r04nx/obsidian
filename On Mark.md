@@ -65,3 +65,93 @@ graph TB
         style ids fill:#ff9,stroke:#333,stroke-width:2px
 end
 ```
+
+
+```mermaid
+flowchart TD
+    Internet((Internet))
+
+    subgraph SECURITY["Security Infrastructure"]
+        FW[Firewall\nSquid Proxy]
+        IDS[IDS/IPS\nSecurity Onion]
+    end
+
+    subgraph PUBLIC_DMZ["Public DMZ (10.1.4.0/24)"]
+        WEB[Public Web Server\nNGINX\n10.1.4.10]
+        MAIL[Mail Server\nPostfix/Dovecot\n10.1.4.16]
+    end
+
+    subgraph PRIVATE_DMZ["Private DMZ (10.1.5.0/24)"]
+        LDAP[OpenLDAP\n10.1.5.7\nAdmin: Ldap@dm1n2024!]
+        MAIN_DB[(Main MySQL DB\n10.1.5.8\nAdmin: Db@dm1n2024!)]
+    end
+
+    subgraph HR["HR Network (10.1.1.0/24)"]
+        HR_PORTAL[HR Portal\nWordPress\n10.1.1.4\nAdmin: Hr@dm1n2024!]
+        HR_DB[(HR MySQL DB\n10.1.1.5)]
+        HR_FTP[FTP Server\n10.1.1.6\nUser: hr_ftp\nPass: HrFtp@2024!]
+    end
+
+    subgraph MARKETING["Marketing Network (10.1.2.0/24)"]
+        MKT_CMS[Marketing CMS\nDrupal\n10.1.2.8\nAdmin: Mkt@dm1n2024!]
+        MKT_DB[(Marketing PostgreSQL\n10.1.2.9)]
+    end
+
+    subgraph IT["IT Network (10.1.3.0/24)"]
+        GRAFANA[Grafana Monitoring\n10.1.3.8\nAdmin: It@dm1n2024!]
+        JENKINS[Jenkins CI/CD\n10.1.3.11\nAdmin: Jnk@dm1n2024!]
+    end
+
+    %% External connections
+    Internet <--> FW
+    FW <--> WEB
+    FW <--> MAIL
+
+    %% Security monitoring
+    FW --> IDS
+    IDS --> PUBLIC_DMZ
+    IDS --> PRIVATE_DMZ
+    IDS --> HR
+    IDS --> MARKETING
+    IDS --> IT
+
+    %% Internal connections
+    FW --> HR_PORTAL
+    FW --> MKT_CMS
+    FW --> GRAFANA
+    FW --> JENKINS
+
+    %% Database connections
+    HR_PORTAL --> HR_DB
+    MKT_CMS --> MKT_DB
+    HR_PORTAL -.-> MAIN_DB
+    MKT_CMS -.-> MAIN_DB
+
+    %% Authentication
+    HR_PORTAL --> LDAP
+    MKT_CMS --> LDAP
+    GRAFANA --> LDAP
+    JENKINS --> LDAP
+
+    %% File server connections
+    HR_PORTAL --> HR_FTP
+
+    classDef default fill:#fff,stroke:#333,stroke-width:2px;
+    classDef internet fill:#f9f,stroke:#333,stroke-width:4px;
+    classDef public fill:#ff9,stroke:#333,stroke-width:2px;
+    classDef private fill:#9f9,stroke:#333,stroke-width:2px;
+    classDef hr fill:#99f,stroke:#333,stroke-width:2px;
+    classDef marketing fill:#f99,stroke:#333,stroke-width:2px;
+    classDef it fill:#9ff,stroke:#333,stroke-width:2px;
+    classDef security fill:#999,stroke:#333,stroke-width:2px;
+    classDef database fill:#fff,stroke:#333,stroke-width:4px;
+
+    class Internet internet;
+    class WEB,MAIL public;
+    class LDAP,MAIN_DB private;
+    class HR_PORTAL,HR_DB,HR_FTP hr;
+    class MKT_CMS,MKT_DB marketing;
+    class GRAFANA,JENKINS it;
+    class FW,IDS security;
+    class HR_DB,MKT_DB,MAIN_DB database;
+```
