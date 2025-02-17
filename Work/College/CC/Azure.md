@@ -1,42 +1,135 @@
 # Azure Cloud Mind Map 🧠☁️
 
 ## 1️⃣ Compute 🖥️
-- **Azure Virtual Machines (VMs)** - Equivalent to AWS EC2, supports Windows & Linux
+
+```mermaid
+mindmap
+root((Compute))
+    Virtual Machines
+    Windows & Linux
+    Scale Sets
+    Containers
+    ACI
+        Serverless
+    AKS
+        Managed K8s
+    Serverless
+    Functions
+        Event-driven
+    App Service
+        Web Apps
+        API Apps
+```
 - **Azure Container Instances (ACI)** - Serverless container deployment
 - **Azure Kubernetes Service (AKS)** - Managed Kubernetes service
 - **Azure Functions** - Serverless computing platform
 - **Azure App Service** - PaaS for web applications
 
 ## 2️⃣ Storage 📦
-- **Azure Blob Storage** - Object storage service
+
+```mermaid
+mindmap
+root((Storage))
+    Blob Storage
+    Hot Tier
+    Cool Tier
+    Archive
+    Files
+    SMB
+    NFS
+    Disks
+    Managed
+    Unmanaged
+    Table Storage
+    NoSQL
+    Key-Value
+```
 - **Azure Files** - Managed SMB file shares
 - **Azure Disks** - Block storage for VMs
 - **Azure Table Storage** - NoSQL key-value store
 
 ## 3️⃣ Networking 🌐
-- **Azure Virtual Network (VNet)** - Isolated network environment
+
+```mermaid
+mindmap
+root((Networking))
+    Virtual Network
+    Subnets
+    NSGs
+    Load Balancing
+    Load Balancer
+    App Gateway
+    Connectivity
+    DNS
+    ExpressRoute
+```
 - **Azure Load Balancer** - Traffic distribution service
 - **Azure Application Gateway** - Layer 7 load balancing
 - **Azure DNS** - Managed DNS service
 - **Azure ExpressRoute** - Dedicated private connections
 
 ## 4️⃣ Identity & Security 🔒
-- **Azure Active Directory (Azure AD)** - Identity and access management
+
+```mermaid
+mindmap
+root((Security))
+    Azure AD
+    Authentication
+    Authorization
+    Key Vault
+    Secrets
+    Certificates
+    Defender
+    Monitoring
+    Compliance
+```
 - **Azure Key Vault** - Secure secrets and key management
 - **Microsoft Defender for Cloud** - Security monitoring and management
 
 ## 5️⃣ Databases 🗄️
-- **Azure SQL Database** - Managed SQL database service
+
+```mermaid
+mindmap
+root((Databases))
+    SQL
+    Azure SQL
+    PostgreSQL
+    MySQL
+    NoSQL
+    Cosmos DB
+        Multi-model
+        Global
+```
 - **Azure Cosmos DB** - Globally distributed NoSQL database
 - **Azure Database for PostgreSQL/MySQL** - Managed database services
 
 ## 6️⃣ DevOps & Monitoring 🚀
-- **Azure DevOps** - Complete CI/CD solution
+
+```mermaid
+mindmap
+root((DevOps))
+    Azure DevOps
+    Repos
+    Pipelines
+    Monitoring
+    Azure Monitor
+    Log Analytics
+```
 - **Azure Monitor** - Comprehensive monitoring solution
 - **Azure Log Analytics** - Log collection and analysis
 
 ## 7️⃣ AI, ML, and Big Data 🤖📊
-- **Azure Machine Learning** - End-to-end ML platform
+
+```mermaid
+mindmap
+root((AI & Data))
+    Machine Learning
+    Training
+    Deployment
+    Analytics
+    Synapse
+    Data Factory
+```
 - **Azure Synapse Analytics** - Enterprise data warehousing
 - **Azure Data Factory** - Data integration service
 
