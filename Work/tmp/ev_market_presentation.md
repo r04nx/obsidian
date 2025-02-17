@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/vpd6p7iv#OJN2Q3vU98uyx/HEl2Ym7N8h3+6XOMyU/rNVwy2kZxY
+share_updated: 2025-02-17T22:17:13+05:30
+---
 # 🚗 Indian Electric Two-Wheeler Market
 ## Strategic Analysis & Solutions 2024-2027
 
