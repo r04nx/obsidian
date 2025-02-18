@@ -686,11 +686,11 @@ graph LR
 
 ### Performance Improvements
 
-| Metric | Traditional LoRaWAN | Our System | Improvement |
-|--------|-------------------|------------|-------------|
-| Throughput | 290-5400 bps | 500-7200 bps | +33% |
-| Latency | 1-3 seconds | 0.8-2 seconds | -33% |
-| Packet Loss | 15% | <8% | -47% |
+| Metric           | Traditional LoRaWAN | Our System       | Improvement        |
+| ---------------- | ------------------- | ---------------- | ------------------ |
+| Throughput       | 290-5400 bps        | 500-7200 bps     | +33%               |
+| Latency          | 1-3 seconds         | 0.8-2 seconds    | -33%               |
+| Packet Loss      | 15%                 | <8%              | -47%               |
 | Network Capacity | 10k devices/gateway | 100 active users | Different use case |
 
 > [!tip] Innovative Features
