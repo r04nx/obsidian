@@ -1,27 +1,34 @@
+---
+share_link: https://share.note.sx/vmujrng8#+tNth4KijjFCUnm7X3SY4zUXebt+qaCqekztI+6vDBc
+share_updated: 2025-02-18T23:21:32+05:30
+---
 # 📊 Exam Central System Documentation
 
 ## 🏗 System Architecture Overview
 
 ```mermaid
 graph TB
-    subgraph Cloud Infrastructure
-        API[API Gateway]
-        WS[Web Server]
-        DB[(Database)]
-        AUTH[Auth Service]
-        CACHE[Redis Cache]
-    end
-    
-    subgraph Client Layer
-        WEB[Web Interface]
-        MOB[Mobile App]
-    end
-    
-    subgraph Services
-        EXAM[Exam Service]
-        USER[User Service]
-        RESULT[Result Service]
-        NOTIFY[Notification Service]
+    subgraph Kubernetes Cluster
+        subgraph Infrastructure
+            LB[NGINX Load Balancer]
+            API[API Gateway]
+            CACHE[(Redis Cache)]
+            DB[(PostgreSQL Database)]
+        end
+        
+        subgraph Client Applications
+            WEB[React TypeScript SPA]
+            MOB[React Native Mobile]
+        end
+        
+        subgraph Microservices
+            WS[Flask Web Server]
+            AUTH[JWT Auth Service]
+            EXAM[Exam Service]
+            USER[User Service]
+            RESULT[Result Service]
+            NOTIFY[Notification Service]
+        end
     end
     
     WEB --> API
@@ -41,30 +48,34 @@ graph TB
 ## 🔄 Data Flow Diagram
 
 ```mermaid
-flowchart TD
-    A[Student] -->|Login| B(Authentication)
-    B -->|Verify| C{Auth Valid?}
-    C -->|Yes| D[Dashboard]
-    C -->|No| E[Login Error]
-    D -->|Select| F[Exam Portal]
-    F -->|Start| G[Active Exam]
-    G -->|Submit| H[Processing]
-    H -->|Store| I[(Database)]
-    H -->|Generate| J[Results]
-    J -->|Notify| K[Email Service]
-    J -->|Display| L[Result Portal]
+flowchart LR
+    A[Student Browser] -->|HTTPS| B(NGINX Load Balancer)
+    B -->|Route| C[React Frontend]
+    C -->|API Call| D{JWT Auth}
+    D -->|Invalid| E[401 Unauthorized]
+    D -->|Valid| F[React Dashboard]
+    F -->|REST API| G[Flask Backend]
+    G -->|Query| H[(PostgreSQL)]
+    G -->|Cache| I[(Redis)]
+    H -->|Data| J[Exam Service]
+    J -->|Events| K[Message Queue]
+    K -->|Process| L[Result Generation]
+    L -->|Store| H
+    L -->|Cache| I
 ```
 
 ## 🔄 Module Interaction Workflow
 
 ```mermaid
 sequenceDiagram
-    participant U as User
-    participant FE as Frontend
-    participant API as API Gateway
-    participant AS as Auth Service
+    participant U as User Browser
+    participant LB as NGINX LB
+    participant FE as React Frontend
+    participant API as Flask API
+    participant AS as JWT Auth
     participant ES as Exam Service
-    participant DB as Database
+    participant REDIS as Redis Cache
+    participant DB as PostgreSQL
     
     U->>FE: Access System
     FE->>API: Request Access
@@ -132,11 +143,13 @@ stateDiagram-v2
 erDiagram
     USERS ||--o{ EXAMS : takes
     USERS {
-        string user_id PK
-        string username
-        string email
-        string password_hash
-        string role
+        uuid user_id PK
+        varchar username
+        varchar email
+        varchar password_hash "bcrypt"
+        varchar role
+        timestamp created_at
+        timestamp updated_at
     }
     EXAMS ||--|{ QUESTIONS : contains
     EXAMS {
