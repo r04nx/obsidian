@@ -183,3 +183,65 @@ erDiagram
     }
 ```
 
+## 👥 Use Case Diagram
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#FFA500', 'textColor': '#000000', 'lineColor': '#000000' } } }%%
+graph LR
+    subgraph Actors
+        Student((Student))
+        Faculty((Faculty))
+        Admin((Admin))
+        System((System))
+    end
+
+    subgraph Exam Management
+        CreateExam[Create Exam]
+        ManageQuestions[Manage Questions]
+        ScheduleExam[Schedule Exam]
+        ModifyExam[Modify Exam]
+    end
+
+    subgraph Student Activities
+        TakeExam[Take Exam]
+        ViewResults[View Results]
+        SubmitAnswers[Submit Answers]
+        ViewSchedule[View Exam Schedule]
+    end
+
+    subgraph Result Processing
+        GenerateResults[Generate Results]
+        AnalyzePerformance[Analyze Performance]
+        PublishResults[Publish Results]
+    end
+
+    subgraph System Operations
+        Authentication[Authentication]
+        Authorization[Authorization]
+        Proctoring[Proctoring]
+        Monitoring[Monitoring]
+    end
+
+    Student --> Authentication
+    Student --> TakeExam
+    Student --> ViewResults
+    Student --> SubmitAnswers
+    Student --> ViewSchedule
+
+    Faculty --> Authentication
+    Faculty --> CreateExam
+    Faculty --> ManageQuestions
+    Faculty --> ModifyExam
+    Faculty --> PublishResults
+    Faculty --> AnalyzePerformance
+
+    Admin --> Authentication
+    Admin --> ScheduleExam
+    Admin --> GenerateResults
+    Admin --> Monitoring
+
+    System --> Proctoring
+    System --> Authorization
+    System --> GenerateResults
+    System --> Monitoring
+```
