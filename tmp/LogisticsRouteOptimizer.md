@@ -22,19 +22,17 @@ share_updated: 2025-02-23T20:54:25+05:30
 > 6. [[#Competitive Analysis]]
 > 7. [[#Business Model]]
 > 8. [[#Risk Analysis]]
-
 # Executive Summary
 
 > [!abstract] Project Overview
 > RouteForge AI is a revolutionary multi-modal logistics route optimization platform that harnesses cutting-edge artificial intelligence, open-source routing engines, and real-time transportation data to forge optimal shipping routes across sea, air, and land transportation modes. Our platform transforms complex logistics challenges into streamlined, cost-effective solutions through advanced AI-driven decision making.
-
 **Key Differentiators:**
+
 - AI-powered route suggestion using Google's Gemini API
 - Real-time multi-modal route optimization
 - Open-source core with enterprise features
 - Predictive analytics for route planning
 - Cost-effective implementation using proven technologies
-
 # Problem Statement & Market Analysis
 
 > [!info] Market Pain Points
@@ -43,10 +41,11 @@ share_updated: 2025-02-23T20:54:25+05:30
 > - Inefficient border crossing coordination
 > - Limited real-time optimization capabilities
 > - High costs of existing enterprise solutions
-
 ## Market Size
+
 - Global Logistics Market: $9.1 trillion (2023)
-### Frontend-Centric Architecture
+
+## Frontend-Centric Architecture
 ```mermaid
 graph TB
     subgraph "Frontend Layer"
@@ -78,14 +77,6 @@ graph TB
     MAP --> OSM
     RQ --> OSM & VAL & GEM & MAR & AIR
     UI --> AUTH
-```
-    TRACK --> MONGO
-    AI --> ES
-
-    ROUTE --> OSM & VAL
-    OPT --> MAR & AIR
-    AI --> GEM
-```
 
 ### User Journey Flow
 ```mermaid
@@ -140,43 +131,17 @@ flowchart LR
     RD --> ETL
     SI --> CLEAN
     RT --> NORM
-    
-    ETL --> ENR
-    CLEAN --> ML
-    NORM --> OPT
-    
-    ### Data Flow Architecture
-    ```mermaid
-    graph TB
-        subgraph "Frontend"
-            UI["User Interface"]
-            RQ["React Query Cache"]
-            HOOKS["Custom Hooks"]
-        end
-        
-        subgraph "Database Layer"
-            PRISMA["Prisma Client"]
-            DB[(PostgreSQL)]
-        end
-        
-        UI --> HOOKS
-        HOOKS --> RQ
-        RQ --> PRISMA
-        PRISMA --> DB
-        
-        style UI fill:#f9f,stroke:#333
-        style RQ fill:#bbf,stroke:#333
-        style PRISMA fill:#bfb,stroke:#333
-        style DB fill:#fbb,stroke:#333
-    ```
-    POD1 & POD2 & POD3 --> CACHE
-    POD1 & POD2 & POD3 --> MQ
-    
-    POD1 & POD2 & POD3 --> PROM
-    PROM --> GRAF
-    POD1 & POD2 & POD3 --> LOG
-```
 
+    ETL --> CLEAN
+    CLEAN --> NORM
+    NORM --> ENR
+    ENR --> ML
+    ML --> OPT
+    OPT --> VAL
+    VAL --> RES
+    VAL --> VIS
+    VAL --> API
+```
 ### Route Optimization Process
 ```mermaid
 graph TB
@@ -248,11 +213,11 @@ erDiagram
         string location
         string type
         json requirements
-    > [!tip] Core Technologies
-    > - **Frontend**: React + TypeScript + shadcn/ui
-    > - **Database**: PostgreSQL + Prisma ORM
-    > - **State Management**: React Query
-    > - **Authentication**: Auth.js (NextAuth)
+    }
+    
+    ROUTE ||--o{ CHECKPOINT : contains
+    ROUTE ||--|| TRANSPORT_MODE : uses
+```
 
 > [!tip] Core Technologies
 > - **Frontend**: React + TypeScript
@@ -310,13 +275,7 @@ gantt
     Beta Release          :2024-07-15, 15d
     Production Launch     :2024-08-01, 15d
 ```
-    AI Integration        :2024-05-01, 30d
-    Testing & Optimization :2024-05-15, 45d
-    
-    section Launch
-    Beta Release         :2024-07-01, 30d
-    Production Release   :2024-08-01, 30d
-```
+    ```
 
 # Competitive Analysis
 
@@ -353,15 +312,14 @@ gantt
 
 > [!warning] Key Risks & Mitigation
 > 1. **Technical Risks**
->    - *Data Accuracy*: Multiple data source validation
->    - *API Reliability*: Fallback mechanisms
->    - *Scaling Issues*: Cloud-native architecture
+>     - *Data Accuracy*: Multiple data source validation
+>     - *API Reliability*: Fallback mechanisms
+>     - *Scaling Issues*: Cloud-native architecture
 > 
 > 2. **Business Risks**
->    - *Market Adoption*: Freemium model
->    - *Competition*: Unique AI features
->    - *Regulation*: Compliance-first approach
-
+>     - *Market Adoption*: Freemium model
+>     - *Competition*: Unique AI features
+>     - *Regulation*: Compliance-first approach
 # AI Capabilities
 
 > [!note]+ Advanced AI Features
@@ -434,81 +392,140 @@ gantt
 > - Projected Break-even: 18 months
 > - Expected ROI: 3.5x in 3 years
 > - Market Penetration Goal: 5% in Year 1
-
 # AI Prompts
 
-> [!example]- Project Context Prompt
-> You are assisting with the development of RouteForge AI, an intelligent multi-modal logistics route optimization platform. Key points to understand:
+> [!example]- Project Context Prompt  
+> You are assisting with the development of RouteForge AI, an intelligent multi-modal logistics route optimization platform. Key technical points:
 > 
-> **Core Purpose**: Optimize shipping routes across sea, air, and land transportation modes using AI-driven decision making.
+> **Tech Stack**:
+> - Frontend: React 18 + TypeScript 5.0
+> - Database: PostgreSQL with Prisma ORM
+> - State Management: React Query v5/TanStack Query
+> - Component Library: shadcn/ui
+> - Auth: Auth.js (NextAuth)
 > 
-> **Technical Architecture**:
-> - Microservices-based system using Python FastAPI backend
-> - React + TypeScript frontend with MapLibre GL
-> - PostgreSQL + PostGIS for spatial data
-> - Redis caching layer
-> - Integration with Valhalla, OpenStreetMap, and Gemini API
+> **Schema & Queries**:
+> ```typescript
+> // Prisma schema
+> model Route {
+>   id        String   @id @default(cuid())
+>   origin    String
+>   destination String
+>   waypoints Json[]
+>   mode      String
+>   cost      Decimal
+>   duration  Int
+>   createdAt DateTime @default(now())
+> }
 > 
-> **Key Features**:
-> - Multi-modal route optimization
-> - Real-time tracking and updates
-> - Cost optimization
-> - Border crossing coordination
-> - Historical pattern analysis
-> - AI-powered route suggestions
+> // React Query hook example
+> const useRoutes = () => {
+>   return useQuery({ 
+>     queryKey: ['routes'],
+>     queryFn: () => prisma.route.findMany()
+>   });
+> }
+> ```
 > 
-> **Target Users**:
-> - Small-medium logistics providers
-> - Enterprise shipping companies
-> - Supply chain managers
+> **API Integrations**:
+> - OpenStreetMap: Map tiles and base data
+> - Nominatim: Address geocoding/search (limit: 1 req/s)
+> - Valhalla: Route optimization (self-hosted)
+> - Gemini AI: Route analysis and suggestions
 > 
-> **Design Philosophy**:
-> - Open-source core
-> - Cloud-native architecture
-> - API-first approach
-> - Modular and extensible
-> 
-> Consider these aspects when providing guidance on implementation, architecture decisions, and feature development.
+> **Project Structure**:
+> ```
+> src/
+>   components/
+>     map/
+>     route/
+>     ui/
+>   hooks/
+>     queries/
+>     mutations/
+>   lib/
+>     prisma.ts
+>     utils.ts
+>   pages/
+>   styles/
+> ```
 
 > [!example]- UI/Frontend Requirements Prompt
-> You are helping design and implement the frontend for RouteForge AI. The UI requirements are:
+> You are implementing the frontend for RouteForge AI using our tech stack:
+> 
+> **shadcn/ui Components**:
+> ```typescript
+> // Core components used
+> import { 
+>   Button,
+>   Dialog,
+>   DropdownMenu,
+>   Form,
+>   Input,
+>   Select,
+>   Tabs,
+>   Card,
+>   Sheet,
+>   Toast
+> } from "@/components/ui"
+> ```
+> 
+> **Map Integration**:
+> ```typescript
+> // OpenStreetMap with Leaflet
+> import { MapContainer, TileLayer, Marker } from 'react-leaflet'
+> 
+> const API_ENDPOINTS = {
+>   geocoding: 'https://nominatim.openstreetmap.org/search',
+>   routing: 'http://localhost:8002/route' // Valhalla
+> }
+> ```
 > 
 > **Core UI Components**:
-> 1. Interactive Map Interface
->    - Multi-layer map visualization
->    - Route drawing capabilities
->    - Transport mode indicators
->    - Interactive waypoint markers
+> 1. Search & Route Panel
+>    ```tsx
+>    <Card>
+>      <Form>
+>        <Input placeholder="Origin" />
+>        <Input placeholder="Destination" />
+>        <Select options={transportModes} />
+>        <Button>Calculate Route</Button>
+>      </Form>
+>    </Card>
+>    ```
 > 
-> 2. Route Planning Panel
->    - Origin-destination input
->    - Transport mode selection
->    - Constraint specification
->    - Cost/time optimization controls
+> 2. Results View
+>    ```tsx
+>    <Tabs defaultValue="map">
+>      <TabsList>
+>        <TabsTrigger value="map">Map View</TabsTrigger>
+>        <TabsTrigger value="list">Route Details</TabsTrigger>
+>      </TabsList>
+>      <TabsContent value="map">
+>        <MapView route={selectedRoute} />
+>      </TabsContent>
+>      <TabsContent value="list">
+>        <RouteDetails route={selectedRoute} />
+>      </TabsContent>
+>    </Tabs>
+>    ```
 > 
-> 3. Results Dashboard
->    - Route comparison view
->    - Cost breakdown
->    - Time estimates
->    - Risk indicators
+> **API Limits & Performance**:
+> - Nominatim: Max 1 request per second
+> - OpenStreetMap tiles: Include attribution
+> - Valhalla: Self-hosted, no limits
+> - Cache common routes with React Query
+> - Implement rate limiting for geocoding
 > 
-> **Technical Requirements**:
-> - React 18+ with TypeScript
-> - MapLibre GL for mapping
-> - Material UI components
-> - Responsive design
-> - Progressive web app capabilities
+> **Error Handling**:
+> ```tsx
+> import { useToast } from "@/components/ui/toast"
 > 
-> **UX Principles**:
-> - Mobile-first approach
-> - Intuitive route planning
-> - Real-time feedback
-> - Accessible design (WCAG 2.1)
-> - Clear error handling
-> 
-> **Performance Targets**:
-> - Initial load < 2s
-> - Route calculation feedback < 500ms
-> - Smooth map interactions at 60fps
-> 
-> Ensure all UI components follow these requirements while maintaining consistency with the design system.
+> const { toast } = useToast()
+> // Show errors
+> toast({
+>   variant: "destructive",
+>   title: "Error calculating route",
+>   description: error.message
+> })
+> ```
