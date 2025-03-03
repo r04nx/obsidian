@@ -1,10 +1,9 @@
 ---
-share_link: https://share.note.sx/wfxf0h8f#ffg97s3iFqD+u27j3MytR5P0rxOr5f1LlKR6BvrpKJ8
-share_updated: 2025-03-02T01:12:05+05:30
+share_link: https://share.note.sx/n9dqq0pg#RtXBu74zUn6vb1QLjJBrr0kvM8WohOHKhcqnyei6JxQ
+share_updated: 2025-03-04T00:03:46+05:30
 ---
-# Lab-3A Automation Using Ansible
 
-## Laboratory Practical Report
+# Laboratory Practical Report: Automation Using Ansible
 
 **Student Name:** Rohan Pawar  
 **UID:** 2023201020  
@@ -13,556 +12,550 @@ share_updated: 2025-03-02T01:12:05+05:30
 **Course:** Cloud Computing  
 
 ---
-## Aim
 
-To implement automation in software installation, configuration, and operations using Ansible, focusing on setting up network applications, security monitoring tools, and automating routine administrative tasks.
+## Aim
+To understand and implement automation using Ansible by configuring multiple servers for different roles (web server, FTP server) and managing them through Ansible playbooks and roles.
+
+## Software Requirements
+- **Incus** (LXD successor) for container/VM management
+- **Ubuntu** operating system (host and containers)
+- **Ansible** (latest version)
+- **Docker & Docker Compose** for simulating a multi-server environment
+- **NGINX** web server
+- **vsftpd** FTP server
+- **Python 3** for Ansible modules
+- **SSH** for connectivity between control node and managed nodes
 
 ## Introduction
+Ansible is an open-source automation tool that simplifies complex IT tasks such as configuration management, application deployment, and orchestration. It uses a declarative language to describe system configurations and a push-based architecture to implement changes. Unlike other configuration management tools, Ansible is agentless and uses SSH for secure communications.
 
-Ansible is an open-source automation tool that streamlines software provisioning, configuration management, and application deployment. It enables system administrators and DevOps professionals to automate repetitive tasks, deploy applications, and manage configurations across multiple servers simultaneously. Unlike other configuration management tools, Ansible is agentless and uses SSH to connect to servers and run commands, making it lightweight and easy to set up.
+This lab demonstrates how to use Ansible to automate the deployment and configuration of multiple servers with different roles in a simulated enterprise environment. By implementing infrastructure as code, we can ensure consistent, repeatable deployments and reduce manual administration overhead.
 
-The growing complexity of modern IT infrastructure demands efficient automation solutions to reduce human error, increase deployment speed, and ensure consistent configurations across environments. Ansible addresses these needs through its simple YAML-based playbooks that describe the desired state of systems.
-
-In this lab, we will implement a multi-layered virtualization architecture using Incus (formerly LXD) to create a VM, Docker for containerization of services, and Ansible for orchestration. This approach demonstrates a realistic DevOps workflow where a dedicated management VM (Devops) hosts Docker containers for various services, with Ansible handling the automation of container deployment and configuration. This setup allows for both isolation at the VM level and the lightweight deployment of services via containers, providing a practical environment for learning infrastructure automation concepts.
-## Materials Required
-
-- Computer with internet access (minimum 4GB RAM, 50GB storage)
-- Ubuntu Linux 20.04 LTS or later installed as host operating system
-- Docker Engine v20.10 or later
-- VirtualBox v6.1 or later
-- Terminal/command line interface
-- Text editor (e.g., nano, vim, or VS Code)
-- Stable internet connection for downloading packages
-- Understanding of basic Linux commands
-- Familiarity with YAML syntax for creating Ansible playbooks
-
-## System Requirements
-
-The following software components will be installed and configured during this lab:
-
-1. **Ubuntu Linux** (Host OS) - Provides the base operating system environment
-2. **Incus** (v5.0+) - Container and VM manager for running our Devops VM
-3. **Docker** (v20.10+) - Installed on the Devops VM for service containerization
-4. **Docker Compose** (v2.0+) - For defining and running multi-container Docker applications
-5. **Ansible** (v2.9+) - Installed on the Devops VM for orchestrating Docker containers
-6. **Apache2** - Web server that will be deployed using Docker and configured via Ansible
-7. **Firewall (iptables)** - Network security tool that will be configured via Ansible
-8. **Snort/Suricata** (NIDS) - Network Intrusion Detection System deployed as a Docker container
-9. **OSSEC/Logwatch** (HIDS) - Host-based Intrusion Detection System deployed as a Docker container
-10. **Prelude-lml** (Log Management) - For centralized log collection and analysis
-11. **Prelude-manager** (SIEM Server) - Security Information and Event Management system
-## Expected Outcomes
-
-After successful completion of the lab, students should be able to:
-
-1. **Install and configure Ansible** - Setting up the Ansible control node and managing inventory
-2. **Configure network setups** - Using Ansible to manage network configurations across multiple systems
-3. **Implement security monitoring** - Adding various anomaly detectors (sensors-HIDS, NIDS) in both basic and advanced Ansible deployments
-4. **Develop security frameworks** - Create a roadmap for securing networks and facilitating the creation and consumption of threat intelligence
-5. **Perform threat detection** - Use Ansible-deployed tools to detect and analyze malicious behavior on networks, generating data products that detail aspects of the Cyber Kill-Chain
-6. **Innovate security approaches** - Develop new approaches to Cyber Threat Intelligence and information security using automation
 ## Procedure
 
-### Step 1: Setting up Incus and Creating Devops VM
+### 1. Setup of the Virtual Environment in Incus
+First, we created a virtual machine using Incus (successor to LXD) to serve as our Ansible control node.
 
-To begin, I installed Incus (a containerization platform) on the host Ubuntu system to run a virtual machine that will serve as my DevOps environment.
+The following screenshot shows the VM created via Incus for the Ansible tutorial:
+![[Pasted image 20250303230040.png]]
 
-```bash
-sudo apt update
-sudo apt install incus
-```
+### 2. Installing and Configuring Ansible
+Next, we updated the system packages and installed Ansible using APT. The following screenshot shows the process of updating packages, installing Ansible, and verifying the installation by checking the Ansible version:
 
-After installation, I initialized Incus and verified it was running correctly:
+![[Pasted image 20250303230224.png]]
 
-```bash
-sudo incus admin init --auto
-sudo incus info
-```
+### 3. Creating the Ansible Project Structure
+We created a dedicated directory structure to organize our Ansible project. This structure includes directories for playbooks, roles, inventory files, and templates.
 
-![Incus Installation](placeholder_for_incus_installation_screenshot.png)
+The following screenshot shows the newly created directory for the Ansible tutorial and its initial structure:
 
-Next, I created a VM called "Devops" using Incus:
+![[Pasted image 20250303230348.png]]
+ubuntu@devops:~/ansible-tutorial$ tree .
+.
+├── docker-compose.yml
+├── inventory
+│   └── hosts.yml
+├── nginx-test-page.yml
+├── playbooks
+│   ├── check_internet.yml
+│   ├── group_vars
+│   │   └── ftpservers
+│   │       └── ftp_credentials.yml
+│   ├── install_ftp_server.yml
+│   ├── security-fixed3.yml
+│   ├── templates
+│   │   └── vsftpd.conf.j2
+│   └── undo_ftp.yml
+├── roles
+│   └── nginx
+│       ├── files
+│       │   └── favicon.ico
+│       ├── handlers
+│       │   └── main.yml
+│       ├── tasks
+│       │   └── main.yml
+│       ├── templates
+│       │   ├── test-index.html.j2
+│       │   └── test-page.conf.j2
+│       └── vars
+│           └── main.yml
+└── templates
 
-```bash
-sudo incus launch images:ubuntu/22.04 Devops --vm -c limits.cpu=2 -c limits.memory=4GiB
-```
+13 directories, 17 files
+![[Pasted image 20250303230519.png]]
 
-I verified the VM was running correctly:
+Created the ssh key values pairs 
+![[Pasted image 20250303230641.png]]
+Docker Installed Verification
+![[Pasted image 20250303230707.png]]
+### 6. Creating a Simulated Environment with Docker Compose
+We created a Docker Compose file to set up multiple Ubuntu-based containers that simulate a real-life IT infrastructure of an organization. The configuration includes:
 
-```bash
-sudo incus list
-```
+- Static IP addresses for each container
+- A dedicated Docker network called "Production"
+- SSH key authentication by copying the public key to each container's authorized_keys file
 
-![Devops VM Creation](placeholder_for_devops_vm_creation_screenshot.png)
+The Docker Compose file is as follows:
 
-### Step 2: Installing Docker on the Devops VM
-
-I accessed the Devops VM's shell to begin setting it up:
-
-```bash
-sudo incus exec Devops -- bash
-```
-
-Once inside the VM, I installed Docker and Docker Compose:
-
-```bash
-sudo apt update
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-sudo apt update
-sudo apt install docker-ce docker-ce-cli containerd.io
-```
-
-To verify Docker was installed correctly, I ran:
-
-```bash
-sudo docker --version
-sudo systemctl status docker
-```
-
-![Docker Installation](placeholder_for_docker_installation_screenshot.png)
-
-Next, I installed Docker Compose:
-
-```bash
-sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-docker-compose --version
-```
-
-![Docker Compose Installation](placeholder_for_docker_compose_installation_screenshot.png)
-
-I created a docker group and added my user to avoid using sudo with every Docker command:
-
-```bash
-sudo groupadd docker
-sudo usermod -aG docker $USER
-# Log out and back in to apply changes
-```
-
-### Step 3: Installing Ansible on the Devops VM
-
-Next, I installed Ansible on the Devops VM to automate the deployment and configuration of my Docker containers:
-
-```bash
-sudo apt update
-sudo apt install software-properties-common
-sudo apt-add-repository --yes --update ppa:ansible/ansible
-sudo apt install ansible
-```
-
-To verify the installation:
-
-```bash
-ansible --version
-```
-
-![Ansible Installation](placeholder_for_ansible_installation_screenshot.png)
-
-I created a project directory structure for Ansible:
-
-```bash
-mkdir -p ~/ansible-project/{inventory,playbooks,roles,group_vars}
-cd ~/ansible-project
-```
-
-### Step 4: Creating Docker Compose Files for Services
-
-I created a directory to store my Docker Compose files for different services:
-
-```bash
-mkdir -p ~/docker-services
-cd ~/docker-services
-```
-
-First, I created a Docker Compose file for Apache2:
-
-```bash
-cat > apache/docker-compose.yml << 'EOF'
+```yaml
 version: '3'
+
+networks:
+  production:
+    name: production
+    ipam:
+      config:
+        - subnet: 192.168.100.0/24
+
 services:
-  apache:
-    image: httpd:2.4
-    container_name: apache-server
-    ports:
-      - "8080:80"
-    volumes:
-      - ./html:/usr/local/apache2/htdocs/
+  Webserver:
+    image: ubuntu:latest
+    container_name: Webserver
+    hostname: Webserver
     restart: unless-stopped
-EOF
-mkdir -p apache/html
-echo "<html><body><h1>Apache Server Deployed with Ansible and Docker</h1></body></html>" > apache/html/index.html
-```
+    networks:
+      production:
+        ipv4_address: 192.168.100.10
+    command: >
+      bash -c "
+        apt-get update && 
+        apt-get install -y openssh-server python3 sudo && 
+        mkdir -p /run/sshd && 
+        mkdir -p /root/.ssh && 
+        echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDvNUA8tkhRe58LD1YOjnSK4g20jmKHb07ETrXdOGr5C4xFPEOCayPRb7wP+Pl8/1ZvMnJFmcSR9aToKClfgJMtKgkZEZk+vK5TTCev2VQaTAFFH7ePq3gTKpMW4vSaKNrMn/... ubuntu@devops' > /root/.ssh/authorized_keys && 
+        chmod 700 /root/.ssh && 
+        chmod 600 /root/.ssh/authorized_keys && 
+        sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && 
+        sed -i 's/#PubkeyAuthentication yes/PubkeyAuthentication yes/' /etc/ssh/sshd_config && 
+        /usr/sbin/sshd -D
+      "
 
-Next, I created a Docker Compose file for the OSSEC HIDS:
-
-```bash
-cat > ossec/docker-compose.yml << 'EOF'
-version: '3'
-services:
-  ossec:
-    image: atomicorp/ossec-docker:latest
-    container_name: ossec-server
-    ports:
-      - "1514:1514/udp"
-      - "1515:1515"
-    volumes:
-      - ossec_data:/var/ossec/data
+  FTP:
+    image: ubuntu:latest
+    container_name: FTP
+    hostname: FTP
     restart: unless-stopped
-volumes:
-  ossec_data:
-EOF
-```
+    networks:
+      production:
+        ipv4_address: 192.168.100.20
+    command: >
+      bash -c "
+        apt-get update && 
+        apt-get install -y openssh-server python3 sudo && 
+        mkdir -p /run/sshd && 
+        mkdir -p /root/.ssh && 
+        echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDvNUA8tkhRe58LD1YOjnSK4g20jmKHb07ETrXdOGr5C4xFPEOCayPRb7wP+Pl8/1ZvMnJFmcSR9aToKClfgJMtKgkZEZk+vK5TTCev2VQaTAFFH7ePq3gTKpMW4vSaKNrMn... ubuntu@devops' > /root/.ssh/authorized_keys && 
+        chmod 700 /root/.ssh && 
+        chmod 600 /root/.ssh/authorized_keys && 
+        sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && 
+        sed -i 's/#PubkeyAuthentication yes/PubkeyAuthentication yes/' /etc/ssh/sshd_config && 
+        /usr/sbin/sshd -D
+      "
 
-I also created a Docker Compose file for Suricata NIDS:
-
-```bash
-cat > suricata/docker-compose.yml << 'EOF'
-version: '3'
-services:
-  suricata:
-    image: jasonish/suricata:latest
-    container_name: suricata-ids
-    network_mode: "host"
-    volumes:
-      - suricata_logs:/var/log/suricata
-      - suricata_rules:/etc/suricata/rules
-    command: -i eth0
+  Monitoring:
+    image: ubuntu:latest
+    container_name: Monitoring
+    hostname: Monitoring
     restart: unless-stopped
-volumes:
-  suricata_logs:
-  suricata_rules:
-EOF
+    networks:
+      production:
+        ipv4_address: 192.168.100.30
+    command: >
+      bash -c "
+        apt-get update && 
+        apt-get install -y openssh-server python3 sudo && 
+        mkdir -p /run/sshd && 
+        mkdir -p /root/.ssh && 
+        echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDvNUA8tkhRe58LD1YOjnSK4g20jmKHb07ETrXdOGr5C4xFPEOCa... ubuntu@devops' > /root/.ssh/authorized_keys && 
+        chmod 700 /root/.ssh && 
+        chmod 600 /root/.ssh/authorized_keys && 
+        sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && 
+        sed -i 's/#PubkeyAuthentication yes/PubkeyAuthentication yes/' /etc/ssh/sshd_config && 
+        /usr/sbin/sshd -D
+      "
+
+  FTP2:
+    image: ubuntu:latest
+    container_name: FTP2
+    hostname: ftp2.devops.org
+    restart: unless-stopped
+    networks:
+      production:
+        ipv4_address: 192.168.100.50
+    command: >
+      bash -c "
+        apt-get update && 
+        apt-get install -y openssh-server python3 sudo && 
+        mkdir -p /run/sshd && 
+        mkdir -p /root/.ssh && 
+        echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDvNUA8tkhRe58LD1YOjnSK4g20jmKHb07ETrXdOGr5C4xFPEOCa... ubuntu@devops' > /root/.ssh/authorized_keys && 
+        chmod 700 /root/.ssh && 
+        chmod 600 /root/.ssh/authorized_keys && 
+        sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && 
+        sed -i 's/#PubkeyAuthentication yes/PubkeyAuthentication yes/' /etc/ssh/sshd_config && 
+        /usr/sbin/sshd -D
+      "
+
+  NetworkSecurity:
+    image: ubuntu:latest
+    container_name: NetworkSecurity
+    hostname: NetworkSecurity
+    restart: unless-stopped
+    networks:
+      production:
+        ipv4_address: 192.168.100.40
+    command: >
+      bash -c "
+        apt-get update && 
+        apt-get install -y openssh-server python3 sudo && 
+        mkdir -p /run/sshd && 
+        mkdir -p /root/.ssh && 
+        echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDvNUA8tkhRe58LD1YOjnSK4g20jmKHb07ETrXdOGr5C4xFPEOCayPRb7wP+Pl8/1ZvMnJFmcSR9aToKClfgJMtKgkZEZk+vK5TTCev2VQaTAFFH7ePq3gTKpMW4vSaKNrMn/... ubuntu@devops' > /root/.ssh/authorized_keys && 
+        chmod 700 /root/.ssh && 
+        chmod 600 /root/.ssh/authorized_keys && 
+        sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && 
+        sed -i 's/#PubkeyAuthentication yes/PubkeyAuthentication yes/' /etc/ssh/sshd_config && 
+        /usr/sbin/sshd -D
+      "
+
 ```
+### 7. Starting the Docker Containers
+We started the Ubuntu-based containers using the `docker-compose up -d` command:
 
-![Docker Compose Files](placeholder_for_docker_compose_files_screenshot.png)
+![[Pasted image 20250303231129.png]]
 
-### Step 5: Setting Up SSH Keys for Ansible Authentication
+We verified the running containers using the `docker ps -a` command:
 
-To allow Ansible to authenticate with Docker containers, I set up SSH keys:
+![[Pasted image 20250303231230.png]]
+![[Pasted image 20250303231435.png]]
+### 8. Creating the Ansible Inventory
+We created an inventory file (`inventory/hosts.yml`) to define the hosts and groups that Ansible will manage. The inventory also includes variables for SSH connection settings and host-specific configurations:
+
+```yaml
+webservers:
+  hosts:
+    webserver.devops.org:
+      ansible_user: root
+      ansible_host: 192.168.100.10
+    web2.devops.org:
+      ansible_user: root
+      ansible_connection: local  # Mark as unreachable
+      ansible_host_is_down: true  # Custom variable to indicate maintenance
+      ansible_host: 10.10.50.141
+
+  vars:
+    ignore_unreachable: true  # Ignore unreachable hosts in this group
+
+ftpservers:
+  hosts:
+    ftp.devops.org:
+      ansible_user: root
+      ansible_host: 192.168.100.20
+    ftp2.devops.org:
+      ansible_user: root
+      ansible_host: 192.168.100.50
+monitoring:
+  hosts:
+    monitoring.devops.org:
+      ansible_user: root
+      ansible_host: 192.168.100.30
+
+security:
+  hosts:
+    networksecurity.devops.org:
+      ansible_user: root
+      ansible_host: 192.168.100.40
+
+all:
+  children:
+    servers:
+      children:
+        webservers:
+        ftpservers:
+        monitoring:
+        security:
+  vars:
+    ansible_ssh_private_key_file: ~/.ssh/id_rsa
+    ansible_ssh_common_args: '-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
+```
+### 9. Testing Connectivity to Managed Hosts
+After setting up the inventory, we tested connectivity to all hosts using the Ansible ping module to verify that they are accessible:
 
 ```bash
-ssh-keygen -t rsa -b 4096 -C "ansible@devops"
+ubuntu@devops:~/ansible-tutorial$ ansible all -i inventory/hosts.yml -m ping
+[WARNING]: Found variable using reserved name: ignore_unreachable
+[WARNING]: Platform linux on host web2.devops.org is using the discovered Python interpreter at /usr/bin/python3.10, but future installation of another Python interpreter could
+change the meaning of that path. See https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+web2.devops.org | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.10"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+[WARNING]: Platform linux on host ftp2.devops.org is using the discovered Python interpreter at /usr/bin/python3.12, but future installation of another Python interpreter could
+change the meaning of that path. See https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+ftp2.devops.org | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+
 ```
 
-I created an SSH configuration file to ensure Ansible could connect to the containers:
+The output confirms successful connectivity to the hosts:
 
-```bash
-cat > ~/.ssh/config << 'EOF'
-Host *
-    StrictHostKeyChecking no
-    UserKnownHostsFile=/dev/null
-EOF
-chmod 600 ~/.ssh/config
-```
+![[Pasted image 20250303231725.png]]
 
-### Step 6: Creating Ansible Inventory and Playbooks
+### 10. Creating the Nginx Role
+We created a playbook with an Nginx role to install and configure the Nginx web server on the remote hosts under the "webservers" group:
 
-I created an inventory file to specify the hosts that Ansible will manage:
+![[Pasted image 20250303231924.png]]
+### 11. Deploying Nginx with Ansible
+We executed the playbook to deploy Nginx and configure the web server on all hosts in the "webservers" group:
 
-```bash
-cat > ~/ansible-project/inventory/hosts << 'EOF'
-[webservers]
-apache-server ansible_connection=docker
+![[Pasted image 20250303233335.png]]
+![[Pasted image 20250303233331.png]]
 
-[ids]
-suricata-ids ansible_connection=docker
+The output/response of the Nginx setup shows successful deployment:
 
-[hids]
-ossec-server ansible_connection=docker
+![[Pasted image 20250303233407.png]]
 
-[all:vars]
-ansible_python_interpreter=/usr/bin/python3
-EOF
-```
+We verified the Nginx installation by accessing the web server through a browser:
 
-Next, I created an Ansible playbook to deploy the Docker containers for all services:
+![[Pasted image 20250304000014.png]]
+![[Pasted image 20250304000021.png]]
+### 12. Understanding the Nginx Role Structure
 
-```bash
-cat > ~/ansible-project/playbooks/deploy-containers.yml << 'EOF'
----
-- name: Deploy Docker Containers for Security Services
-  hosts: localhost
-  become: false
+The Nginx role we created automates the deployment and configuration of web servers with the following components:
+
+- **Tasks**: Install Nginx, create website directory, deploy content, configure server
+- **Handlers**: Manage service restarts when configuration changes
+- **Templates**: Configure server settings through templating
+- **Variables**: Define customizable parameters for the web server
+
+#### Nginx Test Page Playbook (nginx-test-page.yml)
+
+This playbook deploys the Nginx web server with a test page:
+
+- Installs and configures Nginx through the Nginx role
+- Sets up a test page to verify the web server is functioning correctly
+
+### 13. FTP Server Deployment with Ansible
+
+We created a playbook to install and configure the vsftpd FTP server on hosts in the "ftpservers" group:
+
+```yaml
+# playbooks/install_ftp_server.yml
+- name: Install and Configure FTP Server
+  hosts: ftpservers
+  become: yes
+  vars:
+    ftp_users:
+      - username: ftpuser
+        password: "FtpPass123"
+        local_root: /var/ftp/ftpuser
+        chroot: yes
+        write_access: yes
+      - username: readonly
+        password: "FtpPass123"
+        local_root: /var/ftp/readonly
+        chroot: yes
+        write_access: no
+    ftp_banner: "Welcome to DevOps FTP Server"
+    anonymous_enable: no
+    local_enable: yes
+    write_enable: yes
+    chroot_local_user: yes
   tasks:
-    - name: Deploy Apache web server
-      community.docker.docker_compose:
-        project_src: ~/docker-services/apache
+    - name: Install vsftpd
+      apt:
+        name: vsftpd
         state: present
-      tags: apache
-
-    - name: Deploy OSSEC HIDS
-      community.docker.docker_compose:
-        project_src: ~/docker-services/ossec
+        update_cache: yes
+    
+    - name: Backup original vsftpd.conf
+      copy:
+        src: /etc/vsftpd.conf
+        dest: /etc/vsftpd.conf.bak
+        remote_src: yes
+        force: no
+    
+    - name: Configure vsftpd.conf
+      template:
+        src: templates/vsftpd.conf.j2
+        dest: /etc/vsftpd.conf
+        owner: root
+        group: root
+        mode: '0644'
+      register: vsftpd_conf
+    
+    - name: Create FTP user directories
+      file:
+        path: "{{ item.local_root }}"
+        state: directory
+        mode: '0755'
+      with_items: "{{ ftp_users }}"
+      register: user_dirs
+    
+    - name: Create FTP users
+      user:
+        name: "{{ item.username }}"
+        home: "{{ item.local_root }}"
+        shell: /bin/bash
         state: present
-      tags: ossec
-
-    - name: Deploy Suricata NIDS
-      community.docker.docker_compose:
-        project_src: ~/docker-services/suricata
-        state: present
-      tags: suricata
-EOF
-```
-
-I also created a playbook to configure the Apache web server:
-
-```bash
-cat > ~/ansible-project/playbooks/configure-apache.yml << 'EOF'
----
-- name: Configure Apache Web Server
-  hosts: webservers
-  become: true
-  tasks:
-    - name: Ensure httpd.conf is properly configured
-      ansible.builtin.lineinfile:
-        path: /usr/local/apache2/conf/httpd.conf
-        regexp: '^ServerTokens'
-        line: 'ServerTokens Prod'
-        state: present
-
-    - name: Create custom index.html
-      ansible.builtin.copy:
-        content: "<html><body><h1>Apache Server Configured by Ansible</h1><p>This server was deployed and configured using Ansible automation</p></body></html>"
-        dest: /usr/local/apache2/htdocs/index.html
-EOF
-```
-
-Finally, I created a playbook to configure Suricata IDS:
-
-```bash
-cat > ~/ansible-project/playbooks/configure-suricata.yml << 'EOF'
----
-- name: Configure Suricata IDS
-  hosts: ids
-  become: true
-  tasks:
-    - name: Update Suricata rules
-      ansible.builtin.command:
-        cmd: suricata-update
-      register: suricata_update
-      changed_when: '"Updated" in suricata_update.stdout'
-
-    - name: Restart Suricata service
-      ansible.builtin.service:
-        name: suricata
+      with_items: "{{ ftp_users }}"
+    
+    - name: Set user passwords
+      shell: "echo '{{ item.username }}:{{ item.password }}' | chpasswd"
+      with_items: "{{ ftp_users }}"
+      no_log: true
+    
+    - name: Set correct permissions for FTP user directories
+      file:
+        path: "{{ item.local_root }}"
+        state: directory
+        mode: '0755'
+        owner: "{{ item.username }}"
+        group: "{{ item.username }}"
+        recurse: yes
+      with_items: "{{ ftp_users }}"
+    
+    - name: Create a user list file for vsftpd
+      copy:
+        content: |
+          {% for user in ftp_users %}
+          {{ user.username }}
+          {% endfor %}
+        dest: /etc/vsftpd.user_list
+        owner: root
+        group: root
+        mode: '0644'
+    
+    - name: Create empty secure_chroot_dir
+      file:
+        path: /var/run/vsftpd/empty
+        state: directory
+        mode: '0755'
+        owner: root
+        group: root
+    
+    - name: Restart vsftpd service
+      service:
+        name: vsftpd
         state: restarted
-EOF
+        enabled: yes
+    
+    - name: Get process status
+      shell: "ps aux | grep [v]sftpd"
+      register: process_status
+    
+    - name: Display vsftpd process status
+      debug:
+        var: process_status.stdout_lines
 ```
 
-![Ansible Playbooks](placeholder_for_ansible_playbooks_screenshot.png)
+The output of running the FTP server playbook showed successful installation and configuration of vsftpd on the designated servers.
 
-### Step 7: Installing Ansible Docker Collection
+### 14. FTP Server Installation Results
 
-To allow Ansible to manage Docker containers, I installed the Docker collection:
+We executed the FTP server playbook and verified the successful installation:
 
-```bash
-ansible-galaxy collection install community.docker
-```
+![[Pasted image 20250304000046.png]]
+![[Pasted image 20250304000057.png]]
+Verifying the FTP server installation by connecting to the FTP server and creating a new directory, which worked fine,  
+![](https://share.note.sx/files/06/06yuarp2taczwzycfj9a.png)
 
-### Step 8: Running Ansible Playbooks
+Verifying on the another remote host  
+![](https://share.note.sx/files/l8/l8sozd777nlf8ret07nf.png)
 
-I executed the playbooks to deploy and configure the services:
 
-```bash
-cd ~/ansible-project
-ansible-playbook playbooks/deploy-containers.yml
-```
+Automates the setup of vsftpd FTP servers:
 
-![Deploying Containers](placeholder_for_deploying_containers_screenshot.png)
+- Installs the vsftpd package
+- Creates FTP user accounts based on defined variables
+- Sets up user directories with appropriate permissions
+- Configures the server using a template
+- Ensures the service is running and enabled
+  
+### 15. Internet Connectivity Testing
+We created another playbook for testing the internet connectivity of the containers:
 
-After the containers were deployed, I configured them with Ansible:
-
-```bash
-ansible-playbook playbooks/configure-apache.yml
-ansible-playbook playbooks/configure-suricata.yml
-```
-
-![Configuring Services](placeholder_for_configuring_services_screenshot.png)
-
-### Step 9: Implementing Firewall Rules with Ansible
-
-I created a playbook to set up iptables firewall rules:
-
-```bash
-cat > ~/ansible-project/playbooks/configure-firewall.yml << 'EOF'
----
-- name: Configure Firewall Rules
-  hosts: localhost
-  become: true
+```yaml
+# playbooks/check_internet.yml
+- name: Check internet connectivity from web servers
+  hosts: all
   tasks:
-    - name: Allow established connections
-      ansible.builtin.iptables:
-        chain: INPUT
-        ctstate: ESTABLISHED,RELATED
-        jump: ACCEPT
+    - name: Check internet access
+      uri:
+        url: https://www.google.com
+        method: GET
+        return_content: no
+      register: result
+      ignore_errors: yes
 
-    - name: Allow SSH connections
-      ansible.builtin.iptables:
-        chain: INPUT
-        protocol: tcp
-        destination_port: 22
-        jump: ACCEPT
+    - name: Display connectivity status
+      debug:
+        msg: "Internet is reachable"  
+      when: result.status == 200
 
-    - name: Allow HTTP connections to Apache
-      ansible.builtin.iptables:
-        chain: INPUT
-        protocol: tcp
-        destination_port: 8080
-        jump: ACCEPT
-
-    - name: Set default policy to DROP for INPUT chain
-      ansible.builtin.iptables:
-        chain: INPUT
-        policy: DROP
-EOF
+    - name: Display failure message
+      debug:
+        msg: "No internet access!"  
+      when: result.failed is defined and result.failed
 ```
 
-I applied the firewall configuration:
+Running the above playbook
+![[Pasted image 20250303234939.png]]
+![[Pasted image 20250303235004.png]]
+The above playbook ran successfully, confirming internet connectivity in all the containers.
 
-```bash
-ansible-playbook playbooks/configure-firewall.yml
-```
+### 16. Summary of Playbooks and Roles
 
-![Firewall Configuration](placeholder_for_firewall_configuration_screenshot.png)
+#### Internet Connectivity Check (check_internet.yml)
 
-### Step 10: Setting Up Log Management with Prelude-lml
+This playbook verifies internet connectivity on managed hosts:
 
-I created a Docker Compose file for Prelude-lml:
+- Tests connectivity to external resources
+- Reports success or failure for each host
+- Provides detailed output for troubleshooting
 
-```bash
-cat > ~/docker-services/prelude/docker-compose.yml << 'EOF'
-version: '3'
-services:
-  prelude-manager:
-    image: prelude/prelude-manager:latest
-    container_name: prelude-manager
-    ports:
-      - "4690:4690"
-    volumes:
-      - prelude_data:/var/lib/prelude
-    restart: unless-stopped
+> Note: All of the Ansible setup files, YAML configurations, templates, etc. can be found on GitHub at: https://github.com/r04nx/ansible-tutorial 
 
-  prelude-lml:
-    image: prelude/prelude-lml:latest
-    container_name: prelude-lml
-    depends_on:
-      - prelude-manager
-    volumes:
-      - /var/log:/var/log:ro
-    restart: unless-stopped
-volumes:
-  prelude_data:
-EOF
-```
+## Observation
 
-I deployed Prelude using an Ansible playbook:
+Through this lab, we observed several key aspects of Ansible automation:
 
-```bash
-cat > ~/ansible-project/playbooks/deploy-prelude.yml << 'EOF'
----
-- name: Deploy Prelude Log Management
-  hosts: localhost
-  become: false
-  tasks:
-    - name: Deploy Prelude Manager and LML
-      community.docker.docker_compose:
-        project_src: ~/docker-services/prelude
-        state: present
-EOF
-```
+1. **Centralized Management**: Ansible provided a centralized way to manage multiple servers from a single control node, streamlining administration tasks.
 
-I executed the playbook:
+2. **Idempotency**: Running the same playbook multiple times produced consistent results, with Ansible only making changes when needed.
 
-```bash
-ansible-playbook playbooks/deploy-prelude.yml
-```
+3. **Scalability**: The same playbooks could be applied to one server or many servers without modification, demonstrating Ansible's scalability.
 
-![Prelude Deployment](placeholder_for_prelude_deployment_screenshot.png)
+4. **Parallelization**: Ansible executed tasks in parallel across multiple hosts, significantly reducing deployment time compared to manual methods.
 
-## Observations
+5. **Templating Capabilities**: Using Jinja2 templates allowed for dynamic configuration generation based on variables, enabling customization while maintaining consistency.
 
-During the implementation of this lab, I observed several important aspects of using Ansible for automation with Docker containers:
+6. **Role-Based Organization**: Structuring code into roles (like the Nginx role) promoted reusability and modularity, making maintenance easier.
 
-1. **Layered Virtualization Architecture**: The combination of Incus for VM creation, Docker for containerization, and Ansible for orchestration provided a flexible and powerful environment for service deployment.
-
-2. **Ansible's Docker Integration**: Using the community.docker collection made it straightforward to manage Docker resources from Ansible, eliminating the need for shell commands in playbooks.
-
-3. **Idempotence in Action**: Ansible playbooks could be run multiple times without causing issues, as they only made changes when needed. This was particularly useful when iteratively developing the deployment process.
-
-4. **Security Implementation Challenges**: Setting up the security tools (OSSEC, Suricata) in Docker containers required careful consideration of network access and volume mounting to ensure proper functionality.
-
-5. **Role of Docker Compose**: Docker Compose greatly simplified the definition and deployment of multi-container applications, especially for complex setups like Prelude SIEM.
-
-## Results
-
-The implementation successfully achieved all the objectives set out in this lab:
-
-1. **VM and Container Environment**: A fully functional Devops VM was created using Incus, with Docker and Docker Compose installed for container management.
-
-![VM and Container Environment](placeholder_for_vm_container_environment_screenshot.png)
-
-2. **Docker Containers for Services**: Multiple services were deployed as Docker containers, each isolated and configured for their specific purposes.
-
-![Docker Container List](placeholder_for_docker_container_list_screenshot.png)
-
-3. **Ansible Automation**: Ansible was effectively used to automate the deployment and configuration of Docker containers, demonstrating infrastructure as code principles.
-
-![Ansible Playbook Execution](placeholder_for_ansible_playbook_execution_screenshot.png)
-
-4. **Security Tools Deployment**: Security monitoring tools (OSSEC, Suricata, Prelude) were successfully deployed as containerized services and configured for network monitoring.
-
-![Security Tools Dashboard](placeholder_for_security_tools_dashboard_screenshot.png)
-
-5. **Network Security Configuration**: Firewall rules were implemented using Ansible's iptables module, providing a secure environment for the services.
-
-![Network Security Verification](placeholder_for_network_security_verification_screenshot.png)
+7. **Error Handling**: Ansible provided clear feedback when errors occurred, making troubleshooting more straightforward than with manual deployments.
 
 ## Conclusion
 
-This lab demonstrated the power of combining virtualization technologies (Incus), containerization (Docker), and automation tools (Ansible) to create a comprehensive DevOps environment. By using Ansible to orchestrate Docker containers running within an Incus VM, I was able to implement a multi-layered approach to service deployment and configuration.
+This lab demonstrated the power and efficiency of Ansible as an automation tool for IT infrastructure management. By leveraging Ansible's declarative approach and agentless architecture, we were able to:
 
-The approach taken in this lab offers several advantages:
+1. **Increase Efficiency**: Tasks that would have taken hours to perform manually across multiple servers were completed in minutes through automation.
 
-1. **Isolation and Security**: The VM provides isolation from the host system, while containers provide isolation between services.
+2. **Improve Consistency**: Every server was configured identically according to our specifications, eliminating configuration drift and human error.
 
-2. **Resource Efficiency**: Containers are lightweight compared to full VMs, allowing more services to be deployed with fewer resources.
+3. **Enable Infrastructure as Code**: By representing our infrastructure configuration as code, we created a documented, version-controllable, and repeatable system setup process.
 
-3. **Infrastructure as Code**: The entire environment can be defined, versioned, and deployed using code (Ansible playbooks and Docker Compose files).
+4. **Simplify Complex Deployments**: Ansible's playbook structure made it easy to break down complex deployment processes into manageable, logical steps.
 
-4. **Scalability**: This approach can be easily scaled to handle more services or replicated across multiple environments.
+5. **Reduce Administrative Overhead**: Once configured, the same playbooks can be reused for future deployments, reducing the ongoing maintenance burden.
 
-5. **Automation**: Routine tasks like security tool updates, configuration changes, and deployment of new services can be fully automated.
+Ansible proves to be an invaluable tool for modern DevOps practices, enabling organizations to automate routine tasks, standardize environments, and focus more on innovation rather than maintenance. The skills learned in this lab provide a foundation for implementing automation in real-world enterprise environments, ultimately leading to more reliable, consistent, and efficiently managed infrastructure.
 
-The knowledge gained from this lab is directly applicable to real-world scenarios where organizations need to deploy and manage complex infrastructure with minimal manual intervention. The combination of Ansible and Docker represents a modern approach to infrastructure management that emphasizes automation, consistency, and security.
-
-## References
-
-1. [Ansible Tutorial 1](https://www.softwaretestinghelp.com/ansible-tutorial-1/)
-2. [Ansible Playbooks & Ansible Vaults](https://www.softwaretestinghelp.com/ansible-playbooks-ansible-vaults/)
-3. [Ansible Roles, Jenkins Integration & EC2 Modules](https://www.softwaretestinghelp.com/ansible-roles-jenkins-integration-ec2-modules/)
-4. [Ansible: Automating Linux](https://blog.devops.dev/ansible-automating-linux-servers-81da5841e8a2)
-5. [Ansible Series](https://www.tecmint.com/understand-core-components-of-ansible/)
-6. [Incus Documentation](https://linuxcontainers.org/incus/docs/)
-7. [Docker Compose Documentation](https://docs.docker.com/compose/)
-8. [Ansible Docker
-
-*Document your observations here. Include any challenges faced, unexpected behaviors, or interesting findings during the lab.*
-
-## Results
-
-*Document the results of your lab work here. Include screenshots of successful ansible deployments, configurations created, and any outputs from running the playbooks.*
-
-## Conclusion
-
-*Write your conclusion here based on what you learned from the lab. Discuss the benefits of using Ansible for automation, the challenges you faced, and how this knowledge can be applied in real-world scenarios.*
-
-## References
-
-1. [Ansible Tutorial 1](https://www.softwaretestinghelp.com/ansible-tutorial-1/)
-2. [Ansible Playbooks & Ansible Vaults](https://www.softwaretestinghelp.com/ansible-playbooks-ansible-vaults/)
-3. [Ansible Roles, Jenkins Integration & EC2 Modules](https://www.softwaretestinghelp.com/ansible-roles-jenkins-integration-ec2-modules/)
-4. [Ansible: Automating Linux](https://blog.devops.dev/ansible-automating-linux-servers-81da5841e8a2)
-5. [Ansible Series](https://www.tecmint.com/understand-core-components-of-ansible/)
-
+# https://github.com/r04nx/ansible-tutorial 
