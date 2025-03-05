@@ -38,5 +38,17 @@ Started the Minikube Dashboard via
 
 ![[Pasted image 20250304004000.png]]
 
-Started this application
+Started this application called hello-minikube just to make sure everythings working fine and up and running, and installed correctly
 ![[Pasted image 20250304004046.png]]
+
+I tried crearting the pod called tmp-pod
+![[Pasted image 20250305104026.png]]
+Checking if the pod is being created, and yes it has been created as shown in the below screencap
+
+![[Pasted image 20250305104159.png]]
+The following is the deployment yaml file for the juiceshop, let us setup a OWASP Juiceshop  
+
+
+![[Pasted image 20250305104315.png]]
+
+
