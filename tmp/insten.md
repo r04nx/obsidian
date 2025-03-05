@@ -584,4 +584,706 @@ This documentation provides comprehensive details about the Insten shopkeeper ap
    - Delivery radius
    - Delivery fee structure
    - Minimum order value
+   - Estimated delivery time calculation
+   - Delivery slot options
+   - Express delivery configuration
+   - Delivery partner preferences
 
+3. **Payment Settings**
+   - Accepted payment methods
+   - Payment gateway configuration
+   - Cash handling options
+   - Refund policies
+   - Invoice format customization
+   - Credit/debit management
+
+4. **Inventory Settings**
+   - Low stock threshold configuration
+   - Stock update notifications
+   - Auto-hide out-of-stock items
+   - Product expiry tracking
+   - Variant display options
+   - Units of measurement
+
+5. **Tax and Billing Settings**
+   - GST configuration
+   - HSN code management
+   - Invoice numbering format
+   - Tax calculation rules
+   - Discount application rules
+   - Digital receipt options
+
+## Order History
+
+### History Dashboard
+1. **Overview Metrics**
+   - Total orders processed
+   - Average order value
+   - Order completion rate
+   - Return/cancellation rate
+   - Customer retention statistics
+
+2. **History Filters**
+   - Date range selection
+   - Order status filter
+   - Customer filter
+   - Product category filter
+   - Payment method filter
+   - Value range filter
+
+3. **Visual Analytics**
+   - Order trend graph
+   - Peak ordering time analysis
+   - Product category distribution
+   - Customer ordering patterns
+   - Seasonal variations visualization
+
+### Order Archives
+1. **Archived Order List**
+   - Compact view with:
+     - Order ID
+     - Date and time
+     - Customer name
+     - Order value
+     - Status
+     - Payment method
+   - Advanced search functionality
+   - Bulk actions (export, tag, delete)
+
+2. **Archive Features**
+   - Automatic archiving rules
+   - Archive storage management
+   - Recovery options
+   - Permanent deletion with safeguards
+   - Legal compliance retention settings
+
+### Order Analytics
+1. **Customer Insights**
+   - Repeat customer identification
+   - Average customer lifetime value
+   - Customer ordering frequency
+   - Customer segment analysis
+   - Churn prediction
+
+2. **Product Performance**
+   - Most ordered products
+   - Frequently bundled items
+   - Time-based popularity shifts
+   - Seasonal bestsellers
+   - Abandoned cart analytics
+
+3. **Operational Insights**
+   - Average order processing time
+   - Delivery performance metrics
+   - Order issue frequency analysis
+   - Staff performance tracking
+   - Resource utilization optimization
+
+## Location Services
+
+### Store Location Management
+1. **Physical Store Details**
+   - Address with pincode
+   - Landmark information
+   - Google Maps integration
+   - Geolocation coordinates
+   - Store radius definition
+
+2. **Coverage Area**
+   - Service area visualization on map
+   - Zone-based delivery settings
+   - Area-specific pricing rules
+   - Blacklisted areas management
+   - Expansion planning tools
+
+3. **Multiple Outlet Support**
+   - Branch listing and management
+   - Centralized inventory with location tracking
+   - Order routing between locations
+   - Location-specific operational settings
+   - Performance comparison between outlets
+
+### Delivery Management
+1. **Route Optimization**
+   - Optimal route suggestions
+   - Traffic-aware delivery estimation
+   - Batch delivery planning
+   - Delivery zone heat maps
+   - Cost optimization algorithms
+
+2. **Delivery Partner Integration**
+   - In-house delivery team management
+   - Third-party delivery service integration
+   - Delivery partner performance tracking
+   - Incentive and rating system
+   - SLA monitoring and management
+
+3. **Real-time Tracking**
+   - Live delivery tracking interface
+   - ETA calculations and updates
+   - Delivery milestone notifications
+   - Proof of delivery mechanism
+   - Exception handling protocols
+
+## Product Listing Management
+
+### Catalog Organization
+1. **Category Hierarchy**
+   - Multi-level category creation
+   - Category thumbnail images
+   - Category description fields
+   - Category visibility control
+   - Category sorting and prioritization
+
+2. **Tagging System**
+   - Custom tag creation
+   - Tag color coding
+   - Tag-based filtering
+   - Automated tagging rules
+   - Tag performance analytics
+
+3. **Collection Management**
+   - Featured collections creation
+   - Seasonal collection tools
+   - Theme-based grouping
+   - Collection scheduling
+   - Collection performance tracking
+
+### Product Display Settings
+1. **Listing Appearance**
+   - Default sort order
+   - Grid/list view options
+   - Number of products per page
+   - Featured product highlighting
+   - New arrival badging
+   - Sale item identification
+
+2. **Product Information Display**
+   - Information field prioritization
+   - Specification display format
+   - Variant presentation options
+   - Pricing display rules
+   - Stock level indicator settings
+   - Add to cart button customization
+
+3. **Search Optimization**
+   - Keyword optimization tools
+   - Search relevance settings
+   - Autocomplete suggestions
+   - Search filters configuration
+   - "Did you mean" functionality
+   - No-results fallback recommendations
+
+## Media Management
+
+### Image Management
+1. **Image Upload System**
+   - Bulk image uploader
+   - Drag-and-drop interface
+   - Mobile camera integration
+   - Image source URL importer
+   - Image editing tools (crop, rotate, filter)
+   - Automated image optimization
+
+2. **Image Library**
+   - Centralized image repository
+   - Folder organization
+   - Image tagging and search
+   - Usage tracking across products
+   - Storage quota management
+   - Duplicate detection
+
+3. **Image Quality Control**
+   - Minimum resolution requirements
+   - Aspect ratio standardization
+   - Background removal tools
+   - Watermark options
+   - Brand style guide enforcement
+   - Image quality scoring
+
+### Video Management
+1. **Video Upload System**
+   - Supported formats and sizes
+   - Compression options
+   - Thumbnail selection
+   - Caption and description fields
+   - Hosting options (local/YouTube/Vimeo)
+
+2. **Video Playback Settings**
+   - Autoplay configuration
+   - Loop settings
+   - Mute by default option
+   - Playback quality selection
+   - Bandwidth optimization
+   - Player customization
+
+3. **Video Analytics**
+   - View count tracking
+   - Engagement metrics
+   - Conversion impact analysis
+   - A/B testing for video content
+   - Heat map for viewer attention
+
+## Feedback System
+
+### Customer Review Management
+1. **Review Collection**
+   - Post-purchase review requests
+   - Rating system (1-5 stars)
+   - Photo/video review options
+   - Review incentive programs
+   - Question-specific feedback forms
+   - Voice review recordings
+
+2. **Review Moderation**
+   - Review approval workflow
+   - Inappropriate content filtering
+   - Spam detection
+   - Response templates
+   - Shopkeeper reply interface
+   - Featured review selection
+
+3. **Review Analytics**
+   - Average rating tracking
+   - Rating trend analysis
+   - Review sentiment analysis
+   - Keyword extraction from reviews
+   - Competitor review comparison
+   - Product improvement recommendations
+
+### Customer Feedback Channels
+1. **In-App Feedback**
+   - Feedback form access
+   - Chat support option
+   - Feature request submission
+   - Bug reporting tools
+   - Satisfaction surveys
+   - NPS (Net Promoter Score) collection
+
+2. **Feedback Management**
+   - Centralized feedback dashboard
+   - Issue categorization
+   - Priority assignment
+   - Response tracking
+   - Resolution time monitoring
+   - Feedback loop closure documentation
+
+3. **Voice of Customer Program**
+   - Structured customer interviews
+   - Focus group insights
+   - Customer advisory board
+   - Beta tester program
+   - Early access feature feedback
+   - Customer suggestion voting system
+
+## Insten Companion
+
+### Insti Character Integration
+1. **Mascot Design**
+   - Character variations for different contexts
+   - Emotion states (happy, busy, concerned, celebratory)
+   - Animation sequences
+   - Voice personality
+   - Character backstory
+
+2. **Interaction Points**
+   - Greeting messages
+   - Contextual tips
+   - Achievement celebrations
+   - Error state comfort
+   - Idle time engagement
+   - Process completion acknowledgments
+
+3. **Personalization**
+   - Companion nickname setting
+   - Interaction frequency preference
+   - Animation style selection
+   - Voice on/off toggle
+   - Personality type adjustment
+
+### Assistant Functionality
+1. **Guided Tours**
+   - Feature walkthroughs
+   - New functionality introductions
+   - Contextual help triggers
+   - Step-by-step wizards
+   - Interactive demonstrations
+
+2. **Smart Suggestions**
+   - Inventory management tips
+   - Pricing optimization suggestions
+   - Order management shortcuts
+   - Time-saving workflow hints
+   - Business growth recommendations
+   - Seasonal preparation reminders
+
+3. **Problem-Solving Support**
+   - Error troubleshooting
+   - FAQ access
+   - Video help library
+   - Community forum links
+   - Live support escalation
+   - Step-by-step resolution guides
+
+## Filters & Categories
+
+### Filter System
+1. **Product Filters**
+   - Price range filtering
+   - Brand filtering
+   - Rating filtering
+   - Attribute-based filtering (size, color, etc.)
+   - Stock availability filtering
+   - New arrival filtering
+   - Discount filtering
+
+2. **Dynamic Filter Generation**
+   - Auto-generated filters based on inventory
+   - Relevance ranking for filters
+   - Filter dependency rules
+   - Filter visibility conditions
+   - Mobile-optimized filter interface
+   - Filter analytics and optimization
+
+3. **Search Filters**
+   - Natural language search processing
+   - Voice search capability
+   - Barcode/QR code search
+   - Image-based search
+   - Recent search history
+   - Popular search suggestions
+
+### Category Management
+1. **Category Structure**
+   - Parent-child relationships
+   - Category nesting levels (up to 4)
+   - Category cross-linking
+   - Virtual categories
+   - Category URL structure
+   - Category-specific settings
+
+2. **Category Display**
+   - Featured categories selection
+   - Category icons and banners
+   - Category landing page templates
+   - Category-specific promotions
+   - Empty category handling
+   - Category sorting options
+
+3. **Category Analytics**
+   - Category traffic monitoring
+   - Conversion rates by category
+   - Category profitability analysis
+   - Category growth trends
+   - Customer navigation patterns
+   - Category opportunity identification
+
+## Notifications
+
+### Push Notification System
+1. **Order Notifications**
+   - New order alerts
+   - Order status change notifications
+   - Payment received notifications
+   - Order issues alerts
+   - Delivery updates
+   - Rating request notifications
+
+2. **Inventory Notifications**
+   - Low stock alerts
+   - Out of stock warnings
+   - Price change confirmations
+   - New product approval
+   - Product expiration alerts
+   - Bulk update completions
+
+3. **Business Insights Notifications**
+   - Daily sales summary
+   - Performance milestone achievements
+   - Unusual activity alerts
+   - Competitor price change notifications
+   - Trending product alerts
+   - Customer retention opportunities
+
+### Notification Management
+1. **Notification Settings**
+   - Priority levels configuration
+   - Time-sensitive notifications
+   - Quiet hours settings
+   - Notification grouping preferences
+   - Channel selection (push, SMS, email)
+   - Notification sound selection
+
+2. **Notification Center**
+   - Centralized notification inbox
+   - Read/unread status tracking
+   - Notification archiving
+   - Actionable notification responses
+   - Notification search and filtering
+   - Bulk notification management
+
+3. **Custom Notifications**
+   - Custom alert creation
+   - Scheduled notification setup
+   - Trigger-based notification rules
+   - Personalized notification templates
+   - A/B testing for notification effectiveness
+   - Notification performance analytics
+
+## Analytics
+
+### Business Intelligence Dashboard
+1. **Overview Metrics**
+   - Gross merchandise value (GMV)
+   - Average order value (AOV)
+   - Customer acquisition cost (CAC)
+   - Lifetime value (LTV)
+   - Conversion rate
+   - Inventory turnover rate
+   - Profit margin
+
+2. **Sales Analytics**
+   - Hourly/daily/weekly/monthly sales trends
+   - Product mix analysis
+   - Bundle performance tracking
+   - Sales funnel visualization
+   - Discount impact analysis
+   - Pricing elasticity insights
+   - Revenue forecasting
+   - Sales goal tracking
+
+3. **Customer Analytics**
+   - Customer segmentation
+   - Purchase frequency patterns
+   - Customer loyalty metrics
+   - Buying behavior analysis
+   - Customer acquisition channels
+   - Customer retention strategies
+   - Churn prediction and prevention
+   - Customer satisfaction correlation
+
+4. **Inventory Analytics**
+   - Stock level optimization
+   - Dead stock identification
+   - Seasonal inventory planning
+   - Category performance metrics
+   - Product lifecycle analysis
+   - Supplier performance tracking
+   - Stockout impact assessment
+   - Inventory valuation
+
+5. **Marketing & Promotional Analytics**
+   - Promotion performance tracking
+   - Campaign ROI calculation
+   - Discount effectiveness
+   - Flash sale analytics
+   - Cross-selling success rates
+   - Up-selling conversion tracking
+   - Loyalty program engagement
+   - Referral source analysis
+
+### Operational Analytics
+
+1. **Performance Metrics**
+   - Order processing time
+   - Fulfillment speed
+   - Delivery time analysis
+   - Return rate tracking
+   - Cancellation reasons analysis
+   - Peak hour capacity utilization
+   - Staff efficiency metrics
+   - Customer service response time
+
+2. **Quality Metrics**
+   - Order accuracy rate
+   - Product quality issues tracking
+   - Packaging quality feedback
+   - Delivery accuracy
+   - Customer satisfaction scores
+   - Issue resolution time
+   - First-contact resolution rate
+   - Service level agreement compliance
+
+3. **Resource Utilization**
+   - Staff productivity analysis
+   - Equipment utilization rates
+   - Space utilization optimization
+   - Energy consumption tracking
+   - Technology adoption metrics
+   - Process efficiency analysis
+   - Cost-per-order breakdown
+   - Return on assets calculations
+
+### Competitive Analytics
+
+1. **Market Position Analysis**
+   - Market share estimation
+   - Competitive pricing comparison
+   - Assortment breadth analysis
+   - Delivery speed benchmarking
+   - Customer experience comparison
+   - Brand perception tracking
+   - Service differentiation metrics
+   - Market penetration by area
+
+2. **Trend Analysis**
+   - Industry trend identification
+   - Seasonal trend anticipation
+   - Emerging product categories
+   - Consumer behavior shifts
+   - Price sensitivity trends
+   - Technology adoption trends
+   - Regulatory impact assessment
+   - Cross-market opportunity identification
+
+3. **Benchmarking Tools**
+   - Performance vs. industry benchmarks
+   - Growth rate comparison
+   - Operational efficiency benchmarking
+   - Customer satisfaction benchmarking
+   - Digital presence effectiveness
+   - Mobile app engagement comparison
+   - Cost structure analysis
+   - Innovation performance metrics
+
+### Analytics Export & Reporting
+
+1. **Scheduled Reports**
+   - Daily operations summary
+   - Weekly performance digest
+   - Monthly business review
+   - Quarterly strategic analysis
+   - Annual business performance
+   - Custom reporting schedules
+   - Stakeholder-specific reports
+   - Exception-based reporting
+
+2. **Export Options**
+   - PDF report generation
+   - Excel/CSV data export
+   - Google Sheets integration
+   - Accounting software export formats
+   - API access for custom integrations
+   - Email delivery configuration
+   - Automatic cloud storage backup
+   - Print-optimized layouts
+
+3. **Data Visualization**
+   - Interactive dashboards
+   - Customizable widgets
+   - Chart and graph libraries
+   - Heatmap visualizations
+   - Geo-mapping capabilities
+   - Sankey diagrams for flow analysis
+   - Timeline visualizations
+   - Correlation matrices
+
+## Glossary
+
+### General Terms
+
+**Quick Commerce**: Delivery of goods within a very short timeframe, typically under 30 minutes.
+
+**SKU (Stock Keeping Unit)**: A unique identifier for each distinct product and service.
+
+**GMV (Gross Merchandise Value)**: Total sales value of merchandise sold through the platform over a specific timeframe.
+
+**AOV (Average Order Value)**: The average amount spent each time a customer places an order.
+
+**CAC (Customer Acquisition Cost)**: The cost of acquiring a new customer, including marketing and advertising expenses.
+
+**LTV (Lifetime Value)**: The total worth of a customer to a business over the whole period of their relationship.
+
+**Conversion Rate**: The percentage of users who take a desired action, like completing a purchase.
+
+**Churn Rate**: The percentage of customers who stop using your service over a given time period.
+
+### Inventory Terms
+
+**Dead Stock**: Inventory that has not sold or been used for an extended period.
+
+**Safety Stock**: Extra inventory kept as a buffer against uncertainty in demand or supply.
+
+**FIFO (First In, First Out)**: An inventory management method where the oldest inventory items are used or sold first.
+
+**LIFO (Last In, First Out)**: An inventory management method where the newest inventory items are used or sold first.
+
+**Stockout**: When a product is out of stock and unavailable for sale.
+
+**Stock Turnover**: The number of times inventory is sold and replaced over a specific period.
+
+**Shrinkage**: Loss of inventory due to factors such as theft, damage, or administrative errors.
+
+**MOQ (Minimum Order Quantity)**: The smallest amount of stock that a supplier is willing to sell.
+
+### Order Management Terms
+
+**Order Lifecycle**: The entire process an order goes through from creation to fulfillment.
+
+**Picking**: The process of collecting items from inventory to fulfill an order.
+
+**Packing**: The process of preparing and packaging items for shipment.
+
+**Fulfillment**: The process of receiving, processing, and delivering orders to customers.
+
+**Last Mile Delivery**: The final step in the delivery process, from the distribution center to the customer's location.
+
+**RTO (Return to Origin)**: When a delivery attempt fails and the package is returned to the sender.
+
+**Order Batching**: Grouping multiple orders together for more efficient processing.
+
+**Split Shipment**: When an order is divided into multiple shipments, often due to inventory availability.
+
+### Financial Terms
+
+**Margin**: The difference between the selling price and the cost price of a product.
+
+**ROI (Return on Investment)**: A performance measure used to evaluate the efficiency of an investment.
+
+**Working Capital**: The difference between current assets and current liabilities.
+
+**Cash Flow**: The net amount of cash and cash-equivalents moving into and out of a business.
+
+**EBITDA**: Earnings Before Interest, Taxes, Depreciation, and Amortization - a measure of a company's overall financial performance.
+
+**Transaction Fee**: Fees charged by payment processors for handling transactions.
+
+**Settlement Period**: The time taken for funds from sales to be transferred to the merchant's bank account.
+
+**Reconciliation**: The process of matching transaction records to ensure accuracy.
+
+### Technical Terms
+
+**API (Application Programming Interface)**: A set of rules that allows different software applications to communicate with each other.
+
+**Backend**: The server-side of an application that is not directly accessible by users.
+
+**Frontend**: The user interface and user experience portion of an application.
+
+**Cache**: Temporary storage area that allows for faster access to data.
+
+**CDN (Content Delivery Network)**: A distributed network of servers that deliver web content to users based on geographic location.
+
+**Webhook**: Automated messages sent from apps when something happens.
+
+**SSL (Secure Sockets Layer)**: Standard security technology for establishing an encrypted link between a server and a client.
+
+**UI/UX**: User Interface (UI) refers to the visual elements users interact with; User Experience (UX) encompasses all aspects of the end-user's interaction.
+
+### Marketing Terms
+
+**Upselling**: Encouraging customers to purchase a higher-end product or add-on items.
+
+**Cross-selling**: Suggesting related or complementary items to customers.
+
+**Flash Sale**: A discount or promotion offered for a very short period of time.
+
+**Loyalty Program**: A structured marketing strategy designed to encourage customers to continue to shop at or use the services of a business.
+
+**NPS (Net Promoter Score)**: An index ranging from -100 to 100 that measures customers' willingness to recommend a company's products or services.
+
+**CTA (Call to Action)**: An instruction to the audience to provoke an immediate response.
+
+**Remarketing**: A form of online advertising that enables sites to show targeted ads to users who have already visited their site.
+
+**Geotargeting**: The practice of delivering content to users based on their geographic location.
