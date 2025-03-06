@@ -1,6 +1,6 @@
 ---
 share_link: https://share.note.sx/j7qttczw#rRQ/pxrKIGCf1+bNTpWqBv5VW0i8b+9EK/gqR1MnNpE
-share_updated: 2025-03-05T22:35:32+05:30
+share_updated: 2025-03-06T22:19:47+05:30
 ---
 # Insten: Shopkeeper Application Documentation
 
