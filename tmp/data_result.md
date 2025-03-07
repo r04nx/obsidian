@@ -1,10 +1,17 @@
 ---
-title: "loraid Compression Algorithm Benchmark Study"
+title: loraid Compression Algorithm Benchmark Study
 date: 2023-06-15
-tags: [compression, algorithms, benchmark, research, loraid]
-author: "loraid Research Team"
-status: "Final Report"
+tags:
+  - compression
+  - algorithms
+  - benchmark
+  - research
+  - loraid
+author: loraid Research Team
+status: Final Report
 toc: true
+share_link: https://share.note.sx/y62p0014#qW0thl0MXgI/hGibbvEKQclPGg55FHpzLz0mWktabHk
+share_updated: 2025-03-07T13:36:14+05:30
 ---
 
 # loraid Compression Algorithm Benchmark Study
