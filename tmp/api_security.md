@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/usx84cqx#jKpAQ6ifTqWhhBu2OnuiB3ChmTO0X+9hLKTe+oBtvK8
+share_updated: 2025-03-07T20:14:05+05:30
+---
 # APIGUARD: Next-Generation API Security Solution
 
 ![[apiguard_banner.png]]
