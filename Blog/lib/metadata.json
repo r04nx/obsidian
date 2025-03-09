@@ -1,12 +1,176 @@
 {
   "vaultName": "Obsidian Vault",
-  "lastExport": 1738998835317,
+  "lastExport": 1741518165473,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
+    "assets/apiguard_banner.png.md",
     "assets/index.md",
+    "assets/openvault.png",
+    "assets/Pasted image 20250115231412.png",
+    "assets/Pasted image 20250226173352.png",
+    "assets/Pasted image 20250226173412.png",
+    "assets/Pasted image 20250226173443.png",
+    "assets/Pasted image 20250226173506.png",
+    "assets/Pasted image 20250226174450.png",
+    "assets/Pasted image 20250226191053.png",
+    "assets/Pasted image 20250226191105.png",
+    "assets/Pasted image 20250302010217.png",
+    "assets/Pasted image 20250302010239.png",
+    "assets/Pasted image 20250302010355.png",
+    "assets/Pasted image 20250302010422.png",
+    "assets/Pasted image 20250302010514.png",
+    "assets/Pasted image 20250302010647.png",
+    "assets/Pasted image 20250302010707.png",
+    "assets/Pasted image 20250302010736.png",
+    "assets/Pasted image 20250302010829.png",
+    "assets/Pasted image 20250302010905.png",
+    "assets/Pasted image 20250303230040.png",
+    "assets/Pasted image 20250303230224.png",
+    "assets/Pasted image 20250303230348.png",
+    "assets/Pasted image 20250303230519.png",
+    "assets/Pasted image 20250303230641.png",
+    "assets/Pasted image 20250303230707.png",
+    "assets/Pasted image 20250303231129.png",
+    "assets/Pasted image 20250303231230.png",
+    "assets/Pasted image 20250303231435.png",
+    "assets/Pasted image 20250303231704.png",
+    "assets/Pasted image 20250303231725.png",
+    "assets/Pasted image 20250303231924.png",
+    "assets/Pasted image 20250303233331.png",
+    "assets/Pasted image 20250303233335.png",
+    "assets/Pasted image 20250303233407.png",
+    "assets/Pasted image 20250303233609.png",
+    "assets/Pasted image 20250303233645.png",
+    "assets/Pasted image 20250303234346.png",
+    "assets/Pasted image 20250303234437.png",
+    "assets/Pasted image 20250303234601.png",
+    "assets/Pasted image 20250303234621.png",
+    "assets/Pasted image 20250303234736.png",
+    "assets/Pasted image 20250303234939.png",
+    "assets/Pasted image 20250303235004.png",
+    "assets/Pasted image 20250304000014.png",
+    "assets/Pasted image 20250304000021.png",
+    "assets/Pasted image 20250304000046.png",
+    "assets/Pasted image 20250304000057.png",
+    "assets/Pasted image 20250304001426.png",
+    "assets/Pasted image 20250304001602.png",
+    "assets/Pasted image 20250304001646.png",
+    "assets/Pasted image 20250304001718.png",
+    "assets/Pasted image 20250304003314.png",
+    "assets/Pasted image 20250304003431.png",
+    "assets/Pasted image 20250304003949.png",
+    "assets/Pasted image 20250304004000.png",
+    "assets/Pasted image 20250304004046.png",
+    "assets/Pasted image 20250304184323.png",
+    "assets/Pasted image 20250304185639.png",
+    "assets/Pasted image 20250304190232.png",
+    "assets/Pasted image 20250304190433.png",
+    "assets/Pasted image 20250304190750.png",
+    "assets/Pasted image 20250304190858.png",
+    "assets/Pasted image 20250304191856.png",
+    "assets/Pasted image 20250304232401.png",
+    "assets/Pasted image 20250304232520.png",
+    "assets/Pasted image 20250304232714.png",
+    "assets/Pasted image 20250305104026.png",
+    "assets/Pasted image 20250305104159.png",
+    "assets/Pasted image 20250305104315.png",
+    "assets/Pasted image 20250306144604.png",
+    "assets/Pasted image 20250306145622.png",
+    "assets/Pasted image 20250306150208.png",
+    "assets/Pasted image 20250306150240.png",
+    "assets/Pasted image 20250306150308.png",
+    "assets/Pasted image 20250306150322.png",
+    "assets/Pasted image 20250306152045.png",
+    "assets/Pasted image 20250306152208.png",
+    "assets/Pasted image 20250307130434.png",
+    "assets/Pasted image 20250308162452.png",
+    "assets/Pasted image 20250308162520.png",
+    "assets/Pasted image 20250308162631.png",
+    "assets/Pasted image 20250308162917.png",
+    "assets/Pasted image 20250308162948.png",
+    "assets/Pasted image 20250308163210.png",
+    "assets/Pasted image 20250308163426.png",
+    "assets/Pasted image 20250308164545.png",
+    "Blog/assets/index.html",
+    "Blog/lib/fonts/2d5198822ab091ce4305.woff2",
+    "Blog/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "Blog/lib/fonts/05b618077343fbbd92b7.ttf",
+    "Blog/lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "Blog/lib/fonts/70cc7ff27245e82ad414.ttf",
+    "Blog/lib/fonts/94f2f163d4b698242fef.otf",
+    "Blog/lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "Blog/lib/fonts/72505e6a122c6acd5471.woff2",
+    "Blog/lib/fonts/454577c22304619db035.ttf",
+    "Blog/lib/fonts/b5f0f109bc88052d4000.woff2",
+    "Blog/lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "Blog/lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "Blog/lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "Blog/lib/html/file-tree.html",
+    "Blog/lib/media/874d8b8e340f75575caa.svg",
+    "Blog/lib/media/6155340132a851f6089e.svg",
+    "Blog/lib/media/favicon.png",
+    "Blog/lib/scripts/graph-data.js",
+    "Blog/lib/scripts/graph-render-worker.js",
+    "Blog/lib/scripts/graph-view.js",
+    "Blog/lib/scripts/graph-wasm.wasm",
+    "Blog/lib/scripts/graph-wasm.js",
+    "Blog/lib/scripts/minisearch.js",
+    "Blog/lib/scripts/pixi.js",
+    "Blog/lib/scripts/tinycolor.js",
+    "Blog/lib/scripts/webpage.js",
+    "Blog/lib/styles/global-variable-styles.css",
+    "Blog/lib/styles/main-styles.css",
+    "Blog/lib/styles/obsidian.css",
+    "Blog/lib/styles/other-plugins.css",
+    "Blog/lib/metadata.json",
+    "Blog/lib/rss.xml",
+    "Blog/lib/search-index.json",
+    "Blog/ml/learning-path.html",
+    "Blog/placements/sql/sql-notes-r04nx.html",
+    "Blog/placements/dsa-cheatsheet.html",
+    "Blog/placements/dsa-sheet.html",
+    "Blog/placements/dsa-to-do-list.html",
+    "Blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
+    "Blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html",
+    "Blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
+    "Blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
+    "Blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
+    "Blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
+    "Blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
+    "Blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html",
+    "Blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html",
+    "Blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
+    "Blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html",
+    "Blog/work/cyber-sec-awareness/the-curriculum/training-components.html",
+    "Blog/work/major-project/research-papers/network-protocol-engineering.html",
+    "Blog/work/major-project/research-papers/wireless-communication.html",
+    "Blog/work/major-project/1.-bandwidth-optimization.html",
+    "Blog/work/major-project/internet-over-lora.html",
+    "Blog/work/major-project/lora_core_innovations.html",
+    "Blog/work/major-project/lora_internet_research_project.html",
+    "Blog/work/major-project/loraid-connect.html",
+    "Blog/work/major-project/rural-computing.html",
+    "Blog/work/spit-hackathon/context.html",
+    "Blog/Work/Cyber Sec Awareness/Recommended Courses/1_Executive_Level.html",
+    "Blog/Work/Cyber Sec Awareness/Recommended Courses/2_Senior_Management.html",
+    "Blog/Work/Cyber Sec Awareness/Recommended Courses/3_Middle_Management.html",
+    "Blog/Work/Cyber Sec Awareness/Recommended Courses/4_Junior_Officers.html",
+    "Blog/Work/Cyber Sec Awareness/Recommended Courses/5_Non_Technical_Staff.html",
+    "Blog/Work/Cyber Sec Awareness/Recommended Courses/Custom_Programs.html",
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/0_Course_Structure.html",
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/1_Executive_Curriculum.html",
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/2_Senior_Management_Curriculum.html",
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/3_Middle_Management_Curriculum.html",
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/4_Junior_Officers_Curriculum.html",
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/5_Non_Technical_Staff_Curriculum.html",
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/6_Program_Summary.html",
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/Outline of the Course.html",
+    "Blog/index.html",
+    "Excalidraw/Drawing 2025-01-10 15.59.40.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-08 16.09.54.excalidraw.md",
     "ML/Learning Path.md",
     "Placements/SQL/Pasted image 20250102162939.png",
     "Placements/SQL/Pasted image 20250102163014.png",
@@ -14,18 +178,81 @@
     "Placements/DSA Cheatsheet.md",
     "Placements/DSA Sheet.canvas",
     "Placements/DSA To do list.md",
-    "Work/Cyber Sec Awareness/The Curriculum/Regulatory Frameworks/RBI Cyber Security Framework 2016.md",
-    "Work/Cyber Sec Awareness/The Curriculum/Assessment Framework.md",
-    "Work/Cyber Sec Awareness/The Curriculum/0 Course Structure.md",
-    "Work/Cyber Sec Awareness/The Curriculum/6 Program Summary.md",
-    "Work/Cyber Sec Awareness/The Curriculum/1 Executive Curriculum.md",
-    "Work/Cyber Sec Awareness/The Curriculum/4 Junior Officers Curriculum.md",
-    "Work/Cyber Sec Awareness/The Curriculum/3 Middle Management Curriculum.md",
-    "Work/Cyber Sec Awareness/The Curriculum/5 Non Technical Staff Curriculum.md",
-    "Work/Cyber Sec Awareness/The Curriculum/Outline of the Course.md",
-    "Work/Cyber Sec Awareness/The Curriculum/References and Resources.md",
-    "Work/Cyber Sec Awareness/The Curriculum/2 Senior Management Curriculum.md",
-    "Work/Cyber Sec Awareness/The Curriculum/Training Components.md",
+    "tmp/\n/home/rohan/Documents/Obsidian Vault/tmp/api_security.md",
+    "tmp/open-vault/OpenVault_ROBOWEEK3.md",
+    "tmp/algorithm_performance_radar.png",
+    "tmp/api_security.md",
+    "tmp/api-sec.md",
+    "tmp/bufi.md",
+    "tmp/combined_performance_metrics.png",
+    "tmp/compression_combined_chart.png",
+    "tmp/compression_radar_chart.png",
+    "tmp/compression_ratio_chart.png",
+    "tmp/compression_ratio_comparison.png",
+    "tmp/compression_time_chart.png",
+    "tmp/compression_time_comparison.png",
+    "tmp/compression_time_vs_ratio.png",
+    "tmp/loraid_research_summary.md",
+    "tmp/decompression_time_chart.png",
+    "tmp/decompression_time_comparison.png",
+    "tmp/Experiment 5 -  Measurement of Propagation or Attenuation Loss in the Optical Fiber.md",
+    "tmp/generate_visualizations.py",
+    "tmp/insten.md",
+    "tmp/LAB 2 - CC.md",
+    "tmp/Lab 3A - Docker.md",
+    "tmp/LogisticRouterOptimizer.md",
+    "tmp/data_result.md",
+    "tmp/myfile.txt",
+    "tmp/LogisticsRouteOptimizer.md",
+    "tmp/RouteForgeAI.md",
+    "tmp/test_data.bin",
+    "tmp/tradeguard.md",
+    "Work/Alessa/auth2service.md",
+    "Work/Alessa/auth2service - alesa.ai.md",
+    "Work/Alessa/OSM Services Deployment Guide.md",
+    "Work/Alessa/Revised Services.md",
+    "Work/Alessa/services_documentation.md",
+    "Work/College/CC/Labs/attachments/process_info.png",
+    "Work/College/CC/Labs/attachments/sudo_access.png",
+    "Work/College/CC/Labs/attachments/sudo_verification.png",
+    "Work/College/CC/Labs/attachments/system_info.png",
+    "Work/College/CC/Labs/attachments/user_creation.png",
+    "Work/College/CC/Labs/LAB - AWS Setup.md",
+    "Work/College/CC/Labs/Lab- Minikube.md",
+    "Work/College/CC/Labs/Lab-3A Automation Using Ansible.md",
+    "Work/College/CC/Labs/lab1.md",
+    "Work/College/CC/Labs/lab1_report.md",
+    "Work/College/CC/Azure.md",
+    "Work/College/CC/docker-compose.yml",
+    "Work/College/CC/infrastructure.dot",
+    "Work/College/CC/MiniKube.md",
+    "Work/College/CC/Onboarding AWS Academy.md",
+    "Work/College/CCN/LAB 3.md",
+    "Work/College/TA/Cyber Sec Awareness/Recommended Courses/1_Executive_Level.md",
+    "Work/College/TA/Cyber Sec Awareness/Recommended Courses/2_Senior_Management.md",
+    "Work/College/TA/Cyber Sec Awareness/Recommended Courses/3_Middle_Management.md",
+    "Work/College/TA/Cyber Sec Awareness/Recommended Courses/4_Junior_Officers.md",
+    "Work/College/TA/Cyber Sec Awareness/Recommended Courses/5_Non_Technical_Staff.md",
+    "Work/College/TA/Cyber Sec Awareness/Recommended Courses/Custom_Programs.md",
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/Regulatory Frameworks/RBI Cyber Security Framework 2016.md",
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/Assessment Framework.md",
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/0 Course Structure.md",
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/6 Program Summary.md",
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/1 Executive Curriculum.md",
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/4 Junior Officers Curriculum.md",
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/3 Middle Management Curriculum.md",
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/5 Non Technical Staff Curriculum.md",
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/Outline of the Course.md",
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/References and Resources.md",
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/2 Senior Management Curriculum.md",
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/Training Components.md",
+    "Work/College/TA/Cyber Sec Awareness/Executives.md",
+    "Work/College/TA/VPC@SPIT/Comparison.md",
+    "Work/College/TA/VPC@SPIT/orchestrate.md",
+    "Work/College/TA/VPC@SPIT/orchestrate_obsidian.md",
+    "Work/College/TA/feb-worklog.md",
+    "Work/College/TA/worklog.md",
+    "Work/College/dijkstra.py",
     "Work/Major Project/Research Papers/Network Protocol Engineering.md",
     "Work/Major Project/Research Papers/Wireless Communication.md",
     "Work/Major Project/1. Bandwidth Optimization.md",
@@ -34,8 +261,81 @@
     "Work/Major Project/LoRa_Core_Innovations.md",
     "Work/Major Project/Loraid Connect.md",
     "Work/Major Project/Rural Computing.md",
-    "Work/SPIT Hackathon/CONTEXT.md",
+    "Work/Vista Solutions/Mind map and scope.md",
     "index.md",
+    "On Mark.md",
+    "lib/media/openvault.png",
+    "lib/media/pasted-image-20250226191105.png",
+    "lib/media/pasted-image-20250306144604.png",
+    "lib/media/pasted-image-20250306150208.png",
+    "lib/media/pasted-image-20250306150240.png",
+    "lib/media/pasted-image-20250306150308.png",
+    "lib/media/pasted-image-20250306150322.png",
+    "lib/media/pasted-image-20250306152208.png",
+    "lib/media/pasted-image-20250306152045.png",
+    "lib/media/pasted-image-20250302010217.png",
+    "lib/media/pasted-image-20250302010239.png",
+    "lib/media/pasted-image-20250302010422.png",
+    "lib/media/pasted-image-20250302010355.png",
+    "lib/media/pasted-image-20250302010707.png",
+    "lib/media/pasted-image-20250302010647.png",
+    "lib/media/pasted-image-20250302010514.png",
+    "lib/media/pasted-image-20250302010736.png",
+    "lib/media/pasted-image-20250302010829.png",
+    "lib/media/pasted-image-20250302010905.png",
+    "lib/media/pasted-image-20250304001426.png",
+    "lib/media/pasted-image-20250304001602.png",
+    "lib/media/pasted-image-20250304001646.png",
+    "lib/media/pasted-image-20250304003314.png",
+    "lib/media/pasted-image-20250304003431.png",
+    "lib/media/pasted-image-20250304003949.png",
+    "lib/media/pasted-image-20250304004000.png",
+    "lib/media/pasted-image-20250304004046.png",
+    "lib/media/pasted-image-20250305104026.png",
+    "lib/media/pasted-image-20250305104159.png",
+    "lib/media/pasted-image-20250305104315.png",
+    "lib/media/pasted-image-20250308162452.png",
+    "lib/media/pasted-image-20250308162520.png",
+    "lib/media/pasted-image-20250308162631.png",
+    "lib/media/pasted-image-20250308162917.png",
+    "lib/media/pasted-image-20250308162948.png",
+    "lib/media/pasted-image-20250308163210.png",
+    "lib/media/pasted-image-20250308163426.png",
+    "lib/media/pasted-image-20250308164545.png",
+    "lib/media/pasted-image-20250303230040.png",
+    "lib/media/pasted-image-20250303230224.png",
+    "lib/media/pasted-image-20250303230348.png",
+    "lib/media/pasted-image-20250303230519.png",
+    "lib/media/pasted-image-20250303230641.png",
+    "lib/media/pasted-image-20250303230707.png",
+    "lib/media/pasted-image-20250303231129.png",
+    "lib/media/pasted-image-20250303231230.png",
+    "lib/media/pasted-image-20250303231435.png",
+    "lib/media/pasted-image-20250303231725.png",
+    "lib/media/pasted-image-20250303231924.png",
+    "lib/media/pasted-image-20250303233335.png",
+    "lib/media/pasted-image-20250303233331.png",
+    "lib/media/pasted-image-20250303233407.png",
+    "lib/media/pasted-image-20250304000014.png",
+    "lib/media/pasted-image-20250304000021.png",
+    "lib/media/pasted-image-20250304000046.png",
+    "lib/media/pasted-image-20250304000057.png",
+    "lib/media/pasted-image-20250303234939.png",
+    "lib/media/pasted-image-20250303235004.png",
+    "lib/media/pasted-image-20250304184323.png",
+    "lib/media/pasted-image-20250304185639.png",
+    "lib/media/pasted-image-20250304190232.png",
+    "lib/media/pasted-image-20250304190433.png",
+    "lib/media/pasted-image-20250304190858.png",
+    "lib/media/pasted-image-20250304191856.png",
+    "lib/media/pasted-image-20250304232401.png",
+    "lib/media/pasted-image-20250304232520.png",
+    "lib/media/pasted-image-20250304232714.png",
+    "lib/media/pasted-image-20250226173352.png",
+    "lib/media/pasted-image-20250226173412.png",
+    "lib/media/pasted-image-20250226173443.png",
+    "lib/media/pasted-image-20250226173506.png",
+    "lib/media/pasted-image-20250226174450.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -51,6 +351,28 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/6155340132a851f6089e.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -85,6 +407,28 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/6155340132a851f6089e.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -102,79 +446,79 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
@@ -186,97 +530,97 @@
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1737891891368,
-      "sourceSize": 14,
+      "modifiedTime": 1741518165473,
+      "sourceSize": 36,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1738998835317,
-      "sourceSize": 18761,
+      "modifiedTime": 1741518165473,
+      "sourceSize": 131416,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1738998835317,
-      "sourceSize": 3099,
+      "modifiedTime": 1741518165473,
+      "sourceSize": 6406,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1738998835317,
-      "sourceSize": 137228,
+      "modifiedTime": 1741518165473,
+      "sourceSize": 137466,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 83,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
@@ -285,78 +629,6 @@
       "modifiedTime": 1737383286230,
       "sourceSize": 10043,
       "exportedPath": "placements/dsa-cheatsheet.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/The Curriculum/Regulatory Frameworks/RBI Cyber Security Framework 2016.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 1375,
-      "exportedPath": "work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/The Curriculum/Assessment Framework.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 612,
-      "exportedPath": "work/cyber-sec-awareness/the-curriculum/assessment-framework.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/The Curriculum/0 Course Structure.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 4328,
-      "exportedPath": "work/cyber-sec-awareness/the-curriculum/0-course-structure.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/The Curriculum/6 Program Summary.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 2149,
-      "exportedPath": "work/cyber-sec-awareness/the-curriculum/6-program-summary.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/The Curriculum/1 Executive Curriculum.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 6578,
-      "exportedPath": "work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/The Curriculum/4 Junior Officers Curriculum.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 5338,
-      "exportedPath": "work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/The Curriculum/3 Middle Management Curriculum.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 5129,
-      "exportedPath": "work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/The Curriculum/5 Non Technical Staff Curriculum.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 4986,
-      "exportedPath": "work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/The Curriculum/Outline of the Course.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 4372,
-      "exportedPath": "work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/The Curriculum/References and Resources.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 863,
-      "exportedPath": "work/cyber-sec-awareness/the-curriculum/references-and-resources.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/The Curriculum/2 Senior Management Curriculum.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 5158,
-      "exportedPath": "work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
-      "dependencies": []
-    },
-    "Work/Cyber Sec Awareness/The Curriculum/Training Components.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 601,
-      "exportedPath": "work/cyber-sec-awareness/the-curriculum/training-components.html",
       "dependencies": []
     },
     "Work/Major Project/Research Papers/Network Protocol Engineering.md": {
@@ -384,8 +656,8 @@
       "dependencies": []
     },
     "Work/Major Project/LoRa_Internet_Research_Project.md": {
-      "modifiedTime": 1737383286230,
-      "sourceSize": 18057,
+      "modifiedTime": 1741518165473,
+      "sourceSize": 18218,
       "exportedPath": "work/major-project/lora_internet_research_project.html",
       "dependencies": []
     },
@@ -414,133 +686,133 @@
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1737383286230,
+      "modifiedTime": 1741518165473,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
@@ -604,16 +876,2010 @@
         "assets/pasted-image-20250115231412.png"
       ]
     },
-    "Work/SPIT Hackathon/CONTEXT.md": {
-      "modifiedTime": 1738997888108,
-      "sourceSize": 21090,
-      "exportedPath": "work/spit-hackathon/context.html",
-      "dependencies": []
-    },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1738998835317,
+      "modifiedTime": 1741518165473,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
+      "dependencies": []
+    },
+    "assets/apiguard_banner.png.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 0,
+      "exportedPath": "assets/apiguard_banner.png.html",
+      "dependencies": []
+    },
+    "assets/openvault.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 25152,
+      "exportedPath": "assets/openvault.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250115231412.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 240733,
+      "exportedPath": "assets/pasted-image-20250115231412.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250226173352.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 28808,
+      "exportedPath": "assets/pasted-image-20250226173352.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250226173412.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 70590,
+      "exportedPath": "assets/pasted-image-20250226173412.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250226173443.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 59761,
+      "exportedPath": "assets/pasted-image-20250226173443.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250226173506.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 38552,
+      "exportedPath": "assets/pasted-image-20250226173506.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250226174450.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 157360,
+      "exportedPath": "assets/pasted-image-20250226174450.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250226191053.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 95281,
+      "exportedPath": "assets/pasted-image-20250226191053.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250226191105.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 95281,
+      "exportedPath": "assets/pasted-image-20250226191105.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250302010217.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 456950,
+      "exportedPath": "assets/pasted-image-20250302010217.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250302010239.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 751557,
+      "exportedPath": "assets/pasted-image-20250302010239.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250302010355.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 630540,
+      "exportedPath": "assets/pasted-image-20250302010355.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250302010422.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 610976,
+      "exportedPath": "assets/pasted-image-20250302010422.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250302010514.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 566999,
+      "exportedPath": "assets/pasted-image-20250302010514.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250302010647.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 324251,
+      "exportedPath": "assets/pasted-image-20250302010647.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250302010707.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 604956,
+      "exportedPath": "assets/pasted-image-20250302010707.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250302010736.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 343960,
+      "exportedPath": "assets/pasted-image-20250302010736.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250302010829.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 722406,
+      "exportedPath": "assets/pasted-image-20250302010829.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250302010905.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1007353,
+      "exportedPath": "assets/pasted-image-20250302010905.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303230040.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 59262,
+      "exportedPath": "assets/pasted-image-20250303230040.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303230224.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 83225,
+      "exportedPath": "assets/pasted-image-20250303230224.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303230348.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 36167,
+      "exportedPath": "assets/pasted-image-20250303230348.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303230519.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 65431,
+      "exportedPath": "assets/pasted-image-20250303230519.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303230641.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 63716,
+      "exportedPath": "assets/pasted-image-20250303230641.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303230707.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 12378,
+      "exportedPath": "assets/pasted-image-20250303230707.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303231129.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 29191,
+      "exportedPath": "assets/pasted-image-20250303231129.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303231230.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 68032,
+      "exportedPath": "assets/pasted-image-20250303231230.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303231435.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 127904,
+      "exportedPath": "assets/pasted-image-20250303231435.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303231704.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 176737,
+      "exportedPath": "assets/pasted-image-20250303231704.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303231725.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 142277,
+      "exportedPath": "assets/pasted-image-20250303231725.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303231924.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 49496,
+      "exportedPath": "assets/pasted-image-20250303231924.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303233331.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 115703,
+      "exportedPath": "assets/pasted-image-20250303233331.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303233335.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 100346,
+      "exportedPath": "assets/pasted-image-20250303233335.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303233407.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 101534,
+      "exportedPath": "assets/pasted-image-20250303233407.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303233609.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 74208,
+      "exportedPath": "assets/pasted-image-20250303233609.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303233645.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 290529,
+      "exportedPath": "assets/pasted-image-20250303233645.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303234346.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 138688,
+      "exportedPath": "assets/pasted-image-20250303234346.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303234437.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 91697,
+      "exportedPath": "assets/pasted-image-20250303234437.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303234601.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 72282,
+      "exportedPath": "assets/pasted-image-20250303234601.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303234621.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 78876,
+      "exportedPath": "assets/pasted-image-20250303234621.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303234736.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 112116,
+      "exportedPath": "assets/pasted-image-20250303234736.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303234939.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 22073,
+      "exportedPath": "assets/pasted-image-20250303234939.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250303235004.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 143855,
+      "exportedPath": "assets/pasted-image-20250303235004.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304000014.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 86640,
+      "exportedPath": "assets/pasted-image-20250304000014.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304000021.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 302058,
+      "exportedPath": "assets/pasted-image-20250304000021.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304000046.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 152245,
+      "exportedPath": "assets/pasted-image-20250304000046.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304000057.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 101805,
+      "exportedPath": "assets/pasted-image-20250304000057.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304001426.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 27273,
+      "exportedPath": "assets/pasted-image-20250304001426.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304001602.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 17066,
+      "exportedPath": "assets/pasted-image-20250304001602.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304001646.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 13065,
+      "exportedPath": "assets/pasted-image-20250304001646.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304001718.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 53173,
+      "exportedPath": "assets/pasted-image-20250304001718.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304003314.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 97827,
+      "exportedPath": "assets/pasted-image-20250304003314.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304003431.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 148467,
+      "exportedPath": "assets/pasted-image-20250304003431.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304003949.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 58649,
+      "exportedPath": "assets/pasted-image-20250304003949.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304004000.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 194259,
+      "exportedPath": "assets/pasted-image-20250304004000.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304004046.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 23667,
+      "exportedPath": "assets/pasted-image-20250304004046.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304184323.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 91204,
+      "exportedPath": "assets/pasted-image-20250304184323.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304185639.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 437481,
+      "exportedPath": "assets/pasted-image-20250304185639.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304190232.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 20201,
+      "exportedPath": "assets/pasted-image-20250304190232.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304190433.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 86674,
+      "exportedPath": "assets/pasted-image-20250304190433.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304190750.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 54243,
+      "exportedPath": "assets/pasted-image-20250304190750.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304190858.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 141376,
+      "exportedPath": "assets/pasted-image-20250304190858.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304191856.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 215111,
+      "exportedPath": "assets/pasted-image-20250304191856.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304232401.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 145825,
+      "exportedPath": "assets/pasted-image-20250304232401.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304232520.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 136765,
+      "exportedPath": "assets/pasted-image-20250304232520.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250304232714.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 128184,
+      "exportedPath": "assets/pasted-image-20250304232714.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250305104026.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 15354,
+      "exportedPath": "assets/pasted-image-20250305104026.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250305104159.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 28516,
+      "exportedPath": "assets/pasted-image-20250305104159.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250305104315.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 56836,
+      "exportedPath": "assets/pasted-image-20250305104315.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250306144604.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 868750,
+      "exportedPath": "assets/pasted-image-20250306144604.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250306145622.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1451973,
+      "exportedPath": "assets/pasted-image-20250306145622.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250306150208.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1286849,
+      "exportedPath": "assets/pasted-image-20250306150208.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250306150240.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1189995,
+      "exportedPath": "assets/pasted-image-20250306150240.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250306150308.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1326195,
+      "exportedPath": "assets/pasted-image-20250306150308.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250306150322.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1219970,
+      "exportedPath": "assets/pasted-image-20250306150322.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250306152045.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1296585,
+      "exportedPath": "assets/pasted-image-20250306152045.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250306152208.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1922457,
+      "exportedPath": "assets/pasted-image-20250306152208.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250307130434.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 94999,
+      "exportedPath": "assets/pasted-image-20250307130434.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250308162452.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 45180,
+      "exportedPath": "assets/pasted-image-20250308162452.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250308162520.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 33033,
+      "exportedPath": "assets/pasted-image-20250308162520.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250308162631.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 26294,
+      "exportedPath": "assets/pasted-image-20250308162631.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250308162917.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 32125,
+      "exportedPath": "assets/pasted-image-20250308162917.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250308162948.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 7191,
+      "exportedPath": "assets/pasted-image-20250308162948.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250308163210.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 153932,
+      "exportedPath": "assets/pasted-image-20250308163210.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250308163426.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 110243,
+      "exportedPath": "assets/pasted-image-20250308163426.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250308164545.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 168515,
+      "exportedPath": "assets/pasted-image-20250308164545.png",
+      "dependencies": []
+    },
+    "Blog/assets/index.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 45083,
+      "exportedPath": "blog/assets/index.html",
+      "dependencies": []
+    },
+    "Blog/lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 104332,
+      "exportedPath": "blog/lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "Blog/lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 7876,
+      "exportedPath": "blog/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "Blog/lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 155288,
+      "exportedPath": "blog/lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "Blog/lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 191568,
+      "exportedPath": "blog/lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "Blog/lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 192740,
+      "exportedPath": "blog/lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "Blog/lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 66800,
+      "exportedPath": "blog/lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "Blog/lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 111708,
+      "exportedPath": "blog/lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "Blog/lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 104232,
+      "exportedPath": "blog/lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "Blog/lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 161376,
+      "exportedPath": "blog/lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "Blog/lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 105804,
+      "exportedPath": "blog/lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "Blog/lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 98868,
+      "exportedPath": "blog/lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "Blog/lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 106876,
+      "exportedPath": "blog/lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "Blog/lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 106108,
+      "exportedPath": "blog/lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "Blog/lib/html/file-tree.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 18761,
+      "exportedPath": "blog/lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "Blog/lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 317,
+      "exportedPath": "blog/lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "Blog/lib/media/6155340132a851f6089e.svg": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 315,
+      "exportedPath": "blog/lib/media/6155340132a851f6089e.svg",
+      "dependencies": []
+    },
+    "Blog/lib/media/favicon.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1105,
+      "exportedPath": "blog/lib/media/favicon.png",
+      "dependencies": []
+    },
+    "Blog/lib/scripts/graph-data.js": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 3099,
+      "exportedPath": "blog/lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "Blog/lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 5179,
+      "exportedPath": "blog/lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "Blog/lib/scripts/graph-view.js": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 15519,
+      "exportedPath": "blog/lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "Blog/lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 23377,
+      "exportedPath": "blog/lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "Blog/lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 14021,
+      "exportedPath": "blog/lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "Blog/lib/scripts/minisearch.js": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 29422,
+      "exportedPath": "blog/lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "Blog/lib/scripts/pixi.js": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 449511,
+      "exportedPath": "blog/lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "Blog/lib/scripts/tinycolor.js": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 29832,
+      "exportedPath": "blog/lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "Blog/lib/scripts/webpage.js": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 47290,
+      "exportedPath": "blog/lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "Blog/lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 262,
+      "exportedPath": "blog/lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "Blog/lib/styles/main-styles.css": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 23130,
+      "exportedPath": "blog/lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "Blog/lib/styles/obsidian.css": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 137240,
+      "exportedPath": "blog/lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "Blog/lib/styles/other-plugins.css": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 83,
+      "exportedPath": "blog/lib/styles/other-plugins.css",
+      "dependencies": []
+    },
+    "Blog/lib/metadata.json": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 22499,
+      "exportedPath": "blog/lib/metadata.json",
+      "dependencies": []
+    },
+    "Blog/lib/rss.xml": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 134827,
+      "exportedPath": "blog/lib/rss.xml",
+      "dependencies": []
+    },
+    "Blog/lib/search-index.json": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 188303,
+      "exportedPath": "blog/lib/search-index.json",
+      "dependencies": []
+    },
+    "Blog/ml/learning-path.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 48693,
+      "exportedPath": "blog/ml/learning-path.html",
+      "dependencies": []
+    },
+    "Blog/placements/sql/sql-notes-r04nx.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 14779,
+      "exportedPath": "blog/placements/sql/sql-notes-r04nx.html",
+      "dependencies": []
+    },
+    "Blog/placements/dsa-cheatsheet.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 109873,
+      "exportedPath": "blog/placements/dsa-cheatsheet.html",
+      "dependencies": []
+    },
+    "Blog/placements/dsa-sheet.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 23123,
+      "exportedPath": "blog/placements/dsa-sheet.html",
+      "dependencies": []
+    },
+    "Blog/placements/dsa-to-do-list.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 15785,
+      "exportedPath": "blog/placements/dsa-to-do-list.html",
+      "dependencies": []
+    },
+    "Blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 27426,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
+      "dependencies": []
+    },
+    "Blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 48303,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html",
+      "dependencies": []
+    },
+    "Blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 47695,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 40756,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 40750,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 40893,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 40387,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 26747,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html",
+      "dependencies": []
+    },
+    "Blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 20225,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html",
+      "dependencies": []
+    },
+    "Blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 36550,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
+      "dependencies": []
+    },
+    "Blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 21646,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html",
+      "dependencies": []
+    },
+    "Blog/work/cyber-sec-awareness/the-curriculum/training-components.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 20238,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/training-components.html",
+      "dependencies": []
+    },
+    "Blog/work/major-project/research-papers/network-protocol-engineering.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 14345,
+      "exportedPath": "blog/work/major-project/research-papers/network-protocol-engineering.html",
+      "dependencies": []
+    },
+    "Blog/work/major-project/research-papers/wireless-communication.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 14279,
+      "exportedPath": "blog/work/major-project/research-papers/wireless-communication.html",
+      "dependencies": []
+    },
+    "Blog/work/major-project/1.-bandwidth-optimization.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 15877,
+      "exportedPath": "blog/work/major-project/1.-bandwidth-optimization.html",
+      "dependencies": []
+    },
+    "Blog/work/major-project/internet-over-lora.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 16213,
+      "exportedPath": "blog/work/major-project/internet-over-lora.html",
+      "dependencies": []
+    },
+    "Blog/work/major-project/lora_core_innovations.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 34468,
+      "exportedPath": "blog/work/major-project/lora_core_innovations.html",
+      "dependencies": []
+    },
+    "Blog/work/major-project/lora_internet_research_project.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 494849,
+      "exportedPath": "blog/work/major-project/lora_internet_research_project.html",
+      "dependencies": []
+    },
+    "Blog/work/major-project/loraid-connect.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 63585,
+      "exportedPath": "blog/work/major-project/loraid-connect.html",
+      "dependencies": []
+    },
+    "Blog/work/major-project/rural-computing.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 23661,
+      "exportedPath": "blog/work/major-project/rural-computing.html",
+      "dependencies": []
+    },
+    "Blog/work/spit-hackathon/context.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 242442,
+      "exportedPath": "blog/work/spit-hackathon/context.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/Recommended Courses/1_Executive_Level.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 232305,
+      "exportedPath": "blog/work/cyber-sec-awareness/recommended-courses/1_executive_level.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/Recommended Courses/2_Senior_Management.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 232620,
+      "exportedPath": "blog/work/cyber-sec-awareness/recommended-courses/2_senior_management.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/Recommended Courses/3_Middle_Management.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 232321,
+      "exportedPath": "blog/work/cyber-sec-awareness/recommended-courses/3_middle_management.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/Recommended Courses/4_Junior_Officers.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 232179,
+      "exportedPath": "blog/work/cyber-sec-awareness/recommended-courses/4_junior_officers.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/Recommended Courses/5_Non_Technical_Staff.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 232162,
+      "exportedPath": "blog/work/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/Recommended Courses/Custom_Programs.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 229746,
+      "exportedPath": "blog/work/cyber-sec-awareness/recommended-courses/custom_programs.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/0_Course_Structure.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 228856,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/0_course_structure.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/1_Executive_Curriculum.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 237388,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/1_executive_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/2_Senior_Management_Curriculum.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 235032,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/2_senior_management_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/3_Middle_Management_Curriculum.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 234735,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/3_middle_management_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/4_Junior_Officers_Curriculum.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 234762,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/4_junior_officers_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/5_Non_Technical_Staff_Curriculum.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 234736,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/5_non_technical_staff_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/6_Program_Summary.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 230548,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/6_program_summary.html",
+      "dependencies": []
+    },
+    "Blog/Work/Cyber Sec Awareness/The Curriculum/Outline of the Course.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 245834,
+      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
+      "dependencies": []
+    },
+    "Blog/index.html": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 14064,
+      "exportedPath": "blog/index.html",
+      "dependencies": []
+    },
+    "Excalidraw/Drawing 2025-01-10 15.59.40.excalidraw.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 2677,
+      "exportedPath": "excalidraw/drawing-2025-01-10-15.59.40.excalidraw.html",
+      "dependencies": []
+    },
+    "Excalidraw/Drawing 2025-03-08 16.09.54.excalidraw.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 10229,
+      "exportedPath": "excalidraw/drawing-2025-03-08-16.09.54.excalidraw.html",
+      "dependencies": []
+    },
+    "tmp/\n/home/rohan/Documents/Obsidian Vault/tmp/api_security.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 6200,
+      "exportedPath": "tmp/\n/home/rohan/documents/obsidian-vault/tmp/api_security.html",
+      "dependencies": []
+    },
+    "tmp/open-vault/OpenVault_ROBOWEEK3.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 11613,
+      "exportedPath": "tmp/open-vault/openvault_roboweek3.html",
+      "dependencies": [
+        "lib/media/openvault.png",
+        "lib/media/pasted-image-20250226191105.png"
+      ]
+    },
+    "tmp/algorithm_performance_radar.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 352687,
+      "exportedPath": "tmp/algorithm_performance_radar.png",
+      "dependencies": []
+    },
+    "tmp/api_security.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 68840,
+      "exportedPath": "tmp/api_security.html",
+      "dependencies": []
+    },
+    "tmp/api-sec.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 31950,
+      "exportedPath": "tmp/api-sec.html",
+      "dependencies": []
+    },
+    "tmp/bufi.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 8625,
+      "exportedPath": "tmp/bufi.html",
+      "dependencies": []
+    },
+    "tmp/combined_performance_metrics.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 123440,
+      "exportedPath": "tmp/combined_performance_metrics.png",
+      "dependencies": []
+    },
+    "tmp/compression_combined_chart.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 166056,
+      "exportedPath": "tmp/compression_combined_chart.png",
+      "dependencies": []
+    },
+    "tmp/compression_radar_chart.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 444202,
+      "exportedPath": "tmp/compression_radar_chart.png",
+      "dependencies": []
+    },
+    "tmp/compression_ratio_chart.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 127994,
+      "exportedPath": "tmp/compression_ratio_chart.png",
+      "dependencies": []
+    },
+    "tmp/compression_ratio_comparison.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 161299,
+      "exportedPath": "tmp/compression_ratio_comparison.png",
+      "dependencies": []
+    },
+    "tmp/compression_time_chart.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 118009,
+      "exportedPath": "tmp/compression_time_chart.png",
+      "dependencies": []
+    },
+    "tmp/compression_time_comparison.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 150032,
+      "exportedPath": "tmp/compression_time_comparison.png",
+      "dependencies": []
+    },
+    "tmp/compression_time_vs_ratio.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 167456,
+      "exportedPath": "tmp/compression_time_vs_ratio.png",
+      "dependencies": []
+    },
+    "tmp/loraid_research_summary.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 9902,
+      "exportedPath": "tmp/loraid_research_summary.html",
+      "dependencies": [
+        "tmp/compression_ratio_comparison.png",
+        "tmp/compression_time_vs_ratio.png",
+        "tmp/algorithm_performance_radar.png",
+        "tmp/compression_time_comparison.png",
+        "tmp/decompression_time_comparison.png",
+        "tmp/compression_time_vs_ratio.png"
+      ]
+    },
+    "tmp/decompression_time_chart.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 125751,
+      "exportedPath": "tmp/decompression_time_chart.png",
+      "dependencies": []
+    },
+    "tmp/decompression_time_comparison.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 160289,
+      "exportedPath": "tmp/decompression_time_comparison.png",
+      "dependencies": []
+    },
+    "tmp/Experiment 5 -  Measurement of Propagation or Attenuation Loss in the Optical Fiber.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 5297,
+      "exportedPath": "tmp/experiment-5-measurement-of-propagation-or-attenuation-loss-in-the-optical-fiber.html",
+      "dependencies": [
+        "lib/media/pasted-image-20250306144604.png",
+        "lib/media/pasted-image-20250306150208.png",
+        "lib/media/pasted-image-20250306150240.png",
+        "lib/media/pasted-image-20250306150308.png",
+        "lib/media/pasted-image-20250306150322.png",
+        "lib/media/pasted-image-20250306152208.png",
+        "lib/media/pasted-image-20250306152045.png"
+      ]
+    },
+    "tmp/generate_visualizations.py": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 15434,
+      "exportedPath": "tmp/generate_visualizations.py",
+      "dependencies": []
+    },
+    "tmp/insten.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 36626,
+      "exportedPath": "tmp/insten.html",
+      "dependencies": []
+    },
+    "tmp/LAB 2 - CC.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 6703,
+      "exportedPath": "tmp/lab-2-cc.html",
+      "dependencies": []
+    },
+    "tmp/Lab 3A - Docker.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 32102,
+      "exportedPath": "tmp/lab-3a-docker.html",
+      "dependencies": []
+    },
+    "tmp/LogisticRouterOptimizer.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 13505,
+      "exportedPath": "tmp/logisticrouteroptimizer.html",
+      "dependencies": []
+    },
+    "tmp/data_result.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 17585,
+      "exportedPath": "tmp/data_result.html",
+      "dependencies": []
+    },
+    "tmp/myfile.txt": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 12,
+      "exportedPath": "tmp/myfile.txt",
+      "dependencies": []
+    },
+    "tmp/LogisticsRouteOptimizer.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 13139,
+      "exportedPath": "tmp/logisticsrouteoptimizer.html",
+      "dependencies": []
+    },
+    "tmp/RouteForgeAI.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 11097,
+      "exportedPath": "tmp/routeforgeai.html",
+      "dependencies": []
+    },
+    "tmp/test_data.bin": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 5242880,
+      "exportedPath": "tmp/test_data.bin",
+      "dependencies": []
+    },
+    "tmp/tradeguard.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 6694,
+      "exportedPath": "tmp/tradeguard.html",
+      "dependencies": []
+    },
+    "Work/Alessa/auth2service.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 4012,
+      "exportedPath": "work/alessa/auth2service.html",
+      "dependencies": []
+    },
+    "Work/Alessa/auth2service - alesa.ai.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 2060,
+      "exportedPath": "work/alessa/auth2service-alesa.ai.html",
+      "dependencies": []
+    },
+    "Work/Alessa/OSM Services Deployment Guide.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 5214,
+      "exportedPath": "work/alessa/osm-services-deployment-guide.html",
+      "dependencies": []
+    },
+    "Work/Alessa/Revised Services.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 3926,
+      "exportedPath": "work/alessa/revised-services.html",
+      "dependencies": []
+    },
+    "Work/Alessa/services_documentation.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 5520,
+      "exportedPath": "work/alessa/services_documentation.html",
+      "dependencies": []
+    },
+    "Work/College/CC/Labs/attachments/process_info.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 329625,
+      "exportedPath": "work/college/cc/labs/attachments/process_info.png",
+      "dependencies": []
+    },
+    "Work/College/CC/Labs/attachments/sudo_access.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 331549,
+      "exportedPath": "work/college/cc/labs/attachments/sudo_access.png",
+      "dependencies": []
+    },
+    "Work/College/CC/Labs/attachments/sudo_verification.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 331071,
+      "exportedPath": "work/college/cc/labs/attachments/sudo_verification.png",
+      "dependencies": []
+    },
+    "Work/College/CC/Labs/attachments/system_info.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 315885,
+      "exportedPath": "work/college/cc/labs/attachments/system_info.png",
+      "dependencies": []
+    },
+    "Work/College/CC/Labs/attachments/user_creation.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 419743,
+      "exportedPath": "work/college/cc/labs/attachments/user_creation.png",
+      "dependencies": []
+    },
+    "Work/College/CC/Labs/LAB - AWS Setup.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 9506,
+      "exportedPath": "work/college/cc/labs/lab-aws-setup.html",
+      "dependencies": [
+        "lib/media/pasted-image-20250302010217.png",
+        "lib/media/pasted-image-20250302010239.png",
+        "lib/media/pasted-image-20250302010422.png",
+        "lib/media/pasted-image-20250302010355.png",
+        "lib/media/pasted-image-20250302010707.png",
+        "lib/media/pasted-image-20250302010647.png",
+        "lib/media/pasted-image-20250302010514.png",
+        "lib/media/pasted-image-20250302010736.png",
+        "lib/media/pasted-image-20250302010829.png",
+        "lib/media/pasted-image-20250302010905.png"
+      ]
+    },
+    "Work/College/CC/Labs/Lab- Minikube.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 11227,
+      "exportedPath": "work/college/cc/labs/lab-minikube.html",
+      "dependencies": [
+        "lib/media/pasted-image-20250304001426.png",
+        "lib/media/pasted-image-20250304001602.png",
+        "lib/media/pasted-image-20250304001646.png",
+        "lib/media/pasted-image-20250304003314.png",
+        "lib/media/pasted-image-20250304003431.png",
+        "lib/media/pasted-image-20250304003949.png",
+        "lib/media/pasted-image-20250304004000.png",
+        "lib/media/pasted-image-20250304004046.png",
+        "lib/media/pasted-image-20250305104026.png",
+        "lib/media/pasted-image-20250305104159.png",
+        "lib/media/pasted-image-20250305104315.png",
+        "lib/media/pasted-image-20250308162452.png",
+        "lib/media/pasted-image-20250308162520.png",
+        "lib/media/pasted-image-20250308162631.png",
+        "lib/media/pasted-image-20250308162917.png",
+        "lib/media/pasted-image-20250308162948.png",
+        "lib/media/pasted-image-20250308163210.png",
+        "lib/media/pasted-image-20250308163426.png",
+        "lib/media/pasted-image-20250308164545.png"
+      ]
+    },
+    "Work/College/CC/Labs/Lab-3A Automation Using Ansible.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 20851,
+      "exportedPath": "work/college/cc/labs/lab-3a-automation-using-ansible.html",
+      "dependencies": [
+        "lib/media/pasted-image-20250303230040.png",
+        "lib/media/pasted-image-20250303230224.png",
+        "lib/media/pasted-image-20250303230348.png",
+        "lib/media/pasted-image-20250303230519.png",
+        "lib/media/pasted-image-20250303230641.png",
+        "lib/media/pasted-image-20250303230707.png",
+        "lib/media/pasted-image-20250303231129.png",
+        "lib/media/pasted-image-20250303231230.png",
+        "lib/media/pasted-image-20250303231435.png",
+        "lib/media/pasted-image-20250303231725.png",
+        "lib/media/pasted-image-20250303231924.png",
+        "lib/media/pasted-image-20250303233335.png",
+        "lib/media/pasted-image-20250303233331.png",
+        "lib/media/pasted-image-20250303233407.png",
+        "lib/media/pasted-image-20250304000014.png",
+        "lib/media/pasted-image-20250304000021.png",
+        "lib/media/pasted-image-20250304000046.png",
+        "lib/media/pasted-image-20250304000057.png",
+        "lib/media/pasted-image-20250303234939.png",
+        "lib/media/pasted-image-20250303235004.png"
+      ]
+    },
+    "Work/College/CC/Labs/lab1.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 2012,
+      "exportedPath": "work/college/cc/labs/lab1.html",
+      "dependencies": [
+        "work/college/cc/labs/attachments/user_creation.png",
+        "work/college/cc/labs/attachments/sudo_access.png",
+        "work/college/cc/labs/attachments/sudo_verification.png",
+        "work/college/cc/labs/attachments/system_info.png",
+        "work/college/cc/labs/attachments/process_info.png"
+      ]
+    },
+    "Work/College/CC/Labs/lab1_report.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 6346,
+      "exportedPath": "work/college/cc/labs/lab1_report.html",
+      "dependencies": []
+    },
+    "Work/College/CC/Azure.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 2843,
+      "exportedPath": "work/college/cc/azure.html",
+      "dependencies": []
+    },
+    "Work/College/CC/docker-compose.yml": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 5471,
+      "exportedPath": "work/college/cc/docker-compose.yml",
+      "dependencies": []
+    },
+    "Work/College/CC/infrastructure.dot": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 3390,
+      "exportedPath": "work/college/cc/infrastructure.dot",
+      "dependencies": []
+    },
+    "Work/College/CC/MiniKube.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 7465,
+      "exportedPath": "work/college/cc/minikube.html",
+      "dependencies": []
+    },
+    "Work/College/CC/Onboarding AWS Academy.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 3960,
+      "exportedPath": "work/college/cc/onboarding-aws-academy.html",
+      "dependencies": [
+        "lib/media/pasted-image-20250304184323.png",
+        "lib/media/pasted-image-20250304185639.png",
+        "lib/media/pasted-image-20250304190232.png",
+        "lib/media/pasted-image-20250304190433.png",
+        "lib/media/pasted-image-20250304190858.png",
+        "lib/media/pasted-image-20250304191856.png",
+        "lib/media/pasted-image-20250304232401.png",
+        "lib/media/pasted-image-20250304232520.png",
+        "lib/media/pasted-image-20250304232714.png"
+      ]
+    },
+    "Work/College/CCN/LAB 3.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 6982,
+      "exportedPath": "work/college/ccn/lab-3.html",
+      "dependencies": [
+        "lib/media/pasted-image-20250226173352.png",
+        "lib/media/pasted-image-20250226173412.png",
+        "lib/media/pasted-image-20250226173443.png",
+        "lib/media/pasted-image-20250226173506.png",
+        "lib/media/pasted-image-20250226174450.png"
+      ]
+    },
+    "Work/College/TA/Cyber Sec Awareness/Recommended Courses/1_Executive_Level.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 987,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/recommended-courses/1_executive_level.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/Recommended Courses/2_Senior_Management.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 943,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/recommended-courses/2_senior_management.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/Recommended Courses/3_Middle_Management.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 970,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/recommended-courses/3_middle_management.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/Recommended Courses/4_Junior_Officers.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 897,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/recommended-courses/4_junior_officers.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/Recommended Courses/5_Non_Technical_Staff.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 841,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/Recommended Courses/Custom_Programs.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 668,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/recommended-courses/custom_programs.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/Regulatory Frameworks/RBI Cyber Security Framework 2016.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1375,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/Assessment Framework.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 612,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/the-curriculum/assessment-framework.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/0 Course Structure.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 4328,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/the-curriculum/0-course-structure.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/6 Program Summary.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 2149,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/the-curriculum/6-program-summary.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/1 Executive Curriculum.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 6578,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/4 Junior Officers Curriculum.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 5338,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/3 Middle Management Curriculum.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 5129,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/5 Non Technical Staff Curriculum.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 4986,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/Outline of the Course.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 4372,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/References and Resources.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 863,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/the-curriculum/references-and-resources.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/2 Senior Management Curriculum.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 5158,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/The Curriculum/Training Components.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 601,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/the-curriculum/training-components.html",
+      "dependencies": []
+    },
+    "Work/College/TA/Cyber Sec Awareness/Executives.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 896,
+      "exportedPath": "work/college/ta/cyber-sec-awareness/executives.html",
+      "dependencies": []
+    },
+    "Work/College/TA/VPC@SPIT/Comparison.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 3357,
+      "exportedPath": "work/college/ta/vpc@spit/comparison.html",
+      "dependencies": []
+    },
+    "Work/College/TA/VPC@SPIT/orchestrate.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 52852,
+      "exportedPath": "work/college/ta/vpc@spit/orchestrate.html",
+      "dependencies": []
+    },
+    "Work/College/TA/VPC@SPIT/orchestrate_obsidian.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 0,
+      "exportedPath": "work/college/ta/vpc@spit/orchestrate_obsidian.html",
+      "dependencies": []
+    },
+    "Work/College/TA/feb-worklog.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 6168,
+      "exportedPath": "work/college/ta/feb-worklog.html",
+      "dependencies": []
+    },
+    "Work/College/TA/worklog.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 0,
+      "exportedPath": "work/college/ta/worklog.html",
+      "dependencies": []
+    },
+    "Work/College/dijkstra.py": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 2654,
+      "exportedPath": "work/college/dijkstra.py",
+      "dependencies": []
+    },
+    "Work/Vista Solutions/Mind map and scope.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 45,
+      "exportedPath": "work/vista-solutions/mind-map-and-scope.html",
+      "dependencies": []
+    },
+    "On Mark.md": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 8818,
+      "exportedPath": "on-mark.html",
+      "dependencies": []
+    },
+    "lib/media/openvault.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 25152,
+      "exportedPath": "lib/media/openvault.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250226191105.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 95281,
+      "exportedPath": "lib/media/pasted-image-20250226191105.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250306144604.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 868750,
+      "exportedPath": "lib/media/pasted-image-20250306144604.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250306150208.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1286849,
+      "exportedPath": "lib/media/pasted-image-20250306150208.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250306150240.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1189995,
+      "exportedPath": "lib/media/pasted-image-20250306150240.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250306150308.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1326195,
+      "exportedPath": "lib/media/pasted-image-20250306150308.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250306150322.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1219970,
+      "exportedPath": "lib/media/pasted-image-20250306150322.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250306152208.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1922457,
+      "exportedPath": "lib/media/pasted-image-20250306152208.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250306152045.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1296585,
+      "exportedPath": "lib/media/pasted-image-20250306152045.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250302010217.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 456950,
+      "exportedPath": "lib/media/pasted-image-20250302010217.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250302010239.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 751557,
+      "exportedPath": "lib/media/pasted-image-20250302010239.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250302010422.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 610976,
+      "exportedPath": "lib/media/pasted-image-20250302010422.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250302010355.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 630540,
+      "exportedPath": "lib/media/pasted-image-20250302010355.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250302010707.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 604956,
+      "exportedPath": "lib/media/pasted-image-20250302010707.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250302010647.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 324251,
+      "exportedPath": "lib/media/pasted-image-20250302010647.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250302010514.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 566999,
+      "exportedPath": "lib/media/pasted-image-20250302010514.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250302010736.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 343960,
+      "exportedPath": "lib/media/pasted-image-20250302010736.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250302010829.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 722406,
+      "exportedPath": "lib/media/pasted-image-20250302010829.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250302010905.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 1007353,
+      "exportedPath": "lib/media/pasted-image-20250302010905.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304001426.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 27273,
+      "exportedPath": "lib/media/pasted-image-20250304001426.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304001602.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 17066,
+      "exportedPath": "lib/media/pasted-image-20250304001602.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304001646.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 13065,
+      "exportedPath": "lib/media/pasted-image-20250304001646.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304003314.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 97827,
+      "exportedPath": "lib/media/pasted-image-20250304003314.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304003431.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 148467,
+      "exportedPath": "lib/media/pasted-image-20250304003431.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304003949.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 58649,
+      "exportedPath": "lib/media/pasted-image-20250304003949.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304004000.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 194259,
+      "exportedPath": "lib/media/pasted-image-20250304004000.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304004046.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 23667,
+      "exportedPath": "lib/media/pasted-image-20250304004046.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250305104026.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 15354,
+      "exportedPath": "lib/media/pasted-image-20250305104026.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250305104159.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 28516,
+      "exportedPath": "lib/media/pasted-image-20250305104159.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250305104315.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 56836,
+      "exportedPath": "lib/media/pasted-image-20250305104315.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250308162452.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 45180,
+      "exportedPath": "lib/media/pasted-image-20250308162452.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250308162520.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 33033,
+      "exportedPath": "lib/media/pasted-image-20250308162520.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250308162631.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 26294,
+      "exportedPath": "lib/media/pasted-image-20250308162631.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250308162917.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 32125,
+      "exportedPath": "lib/media/pasted-image-20250308162917.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250308162948.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 7191,
+      "exportedPath": "lib/media/pasted-image-20250308162948.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250308163210.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 153932,
+      "exportedPath": "lib/media/pasted-image-20250308163210.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250308163426.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 110243,
+      "exportedPath": "lib/media/pasted-image-20250308163426.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250308164545.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 168515,
+      "exportedPath": "lib/media/pasted-image-20250308164545.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303230040.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 59262,
+      "exportedPath": "lib/media/pasted-image-20250303230040.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303230224.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 83225,
+      "exportedPath": "lib/media/pasted-image-20250303230224.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303230348.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 36167,
+      "exportedPath": "lib/media/pasted-image-20250303230348.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303230519.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 65431,
+      "exportedPath": "lib/media/pasted-image-20250303230519.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303230641.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 63716,
+      "exportedPath": "lib/media/pasted-image-20250303230641.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303230707.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 12378,
+      "exportedPath": "lib/media/pasted-image-20250303230707.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303231129.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 29191,
+      "exportedPath": "lib/media/pasted-image-20250303231129.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303231230.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 68032,
+      "exportedPath": "lib/media/pasted-image-20250303231230.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303231435.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 127904,
+      "exportedPath": "lib/media/pasted-image-20250303231435.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303231725.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 142277,
+      "exportedPath": "lib/media/pasted-image-20250303231725.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303231924.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 49496,
+      "exportedPath": "lib/media/pasted-image-20250303231924.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303233335.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 100346,
+      "exportedPath": "lib/media/pasted-image-20250303233335.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303233331.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 115703,
+      "exportedPath": "lib/media/pasted-image-20250303233331.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303233407.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 101534,
+      "exportedPath": "lib/media/pasted-image-20250303233407.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304000014.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 86640,
+      "exportedPath": "lib/media/pasted-image-20250304000014.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304000021.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 302058,
+      "exportedPath": "lib/media/pasted-image-20250304000021.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304000046.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 152245,
+      "exportedPath": "lib/media/pasted-image-20250304000046.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304000057.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 101805,
+      "exportedPath": "lib/media/pasted-image-20250304000057.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303234939.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 22073,
+      "exportedPath": "lib/media/pasted-image-20250303234939.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250303235004.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 143855,
+      "exportedPath": "lib/media/pasted-image-20250303235004.png",
+      "dependencies": []
+    },
+    "work/college/cc/labs/attachments/user_creation.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 419743,
+      "exportedPath": "work/college/cc/labs/attachments/user_creation.png",
+      "dependencies": []
+    },
+    "work/college/cc/labs/attachments/sudo_access.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 331549,
+      "exportedPath": "work/college/cc/labs/attachments/sudo_access.png",
+      "dependencies": []
+    },
+    "work/college/cc/labs/attachments/sudo_verification.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 331071,
+      "exportedPath": "work/college/cc/labs/attachments/sudo_verification.png",
+      "dependencies": []
+    },
+    "work/college/cc/labs/attachments/system_info.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 315885,
+      "exportedPath": "work/college/cc/labs/attachments/system_info.png",
+      "dependencies": []
+    },
+    "work/college/cc/labs/attachments/process_info.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 329625,
+      "exportedPath": "work/college/cc/labs/attachments/process_info.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304184323.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 91204,
+      "exportedPath": "lib/media/pasted-image-20250304184323.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304185639.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 437481,
+      "exportedPath": "lib/media/pasted-image-20250304185639.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304190232.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 20201,
+      "exportedPath": "lib/media/pasted-image-20250304190232.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304190433.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 86674,
+      "exportedPath": "lib/media/pasted-image-20250304190433.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304190858.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 141376,
+      "exportedPath": "lib/media/pasted-image-20250304190858.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304191856.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 215111,
+      "exportedPath": "lib/media/pasted-image-20250304191856.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304232401.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 145825,
+      "exportedPath": "lib/media/pasted-image-20250304232401.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304232520.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 136765,
+      "exportedPath": "lib/media/pasted-image-20250304232520.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250304232714.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 128184,
+      "exportedPath": "lib/media/pasted-image-20250304232714.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250226173352.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 28808,
+      "exportedPath": "lib/media/pasted-image-20250226173352.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250226173412.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 70590,
+      "exportedPath": "lib/media/pasted-image-20250226173412.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250226173443.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 59761,
+      "exportedPath": "lib/media/pasted-image-20250226173443.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250226173506.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 38552,
+      "exportedPath": "lib/media/pasted-image-20250226173506.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250226174450.png": {
+      "modifiedTime": 1741518165473,
+      "sourceSize": 157360,
+      "exportedPath": "lib/media/pasted-image-20250226174450.png",
       "dependencies": []
     }
   }
