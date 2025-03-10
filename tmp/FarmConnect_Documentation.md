@@ -1,6 +1,6 @@
 ---
-share_link: https://share.note.sx/a416pn1l#YeDMeDfmRhZKz+uHpKvtWyIKK4+qnWRnyyJ1U8eR1Wo
-share_updated: 2025-03-10T22:32:34+05:30
+share_link: https://share.note.sx/zvispcxq#Hx7zSwnFWu2Ba4Ncfez+gphIRl7msvFms//HeaVGujo
+share_updated: 2025-03-10T23:42:57+05:30
 ---
 # 🌾 KisanDirect - Farm Fresh Revolution 🌾
 ![[kisandirect_banner.png]]
@@ -176,81 +176,69 @@ KisanDirect employs a scalable, cloud-native architecture optimized for performa
 
 ```mermaid
 graph TD
-    A[Client Layer] --> B[API Gateway]
-    B --> C[Microservices Layer]
-    C --> D[Data Layer]
-    E[External Services] --> B
+    A[User Apps] --> B[API Gateway]
+    B --> C[Core Services]
+    C --> D[Data Storage]
+    E[External Partners] --> B
     
-    subgraph "Client Layer"
-        A1[Web App - NextJS] 
-        A2[Mobile App - React Native]
+    subgraph "User Apps"
+        A1[Web] 
+        A2[Mobile]
         A3[Progressive Web App]
     end
     
-    subgraph "Microservices Layer"
-        C1[User Service]
-        C2[Catalog Service]
-        C3[Order Service]
-        C4[Payment Service]
-        C5[Logistics Service]
-        C6[Analytics Service]
-        C7[Notification Service]
-        C8[Mitri AI Service]
+    subgraph "Core Services"
+        C1[User Management]
+        C2[Marketplace]
+        C3[Payments]
+        C4[Mitri AI Assistant]
     end
     
-    subgraph "Data Layer"
-        D1[(PostgreSQL)]
-        D2[(Redis Cache)]
-        D3[(Object Storage)]
-        D4[(Time Series DB)]
+    subgraph "Data Storage"
+        D1[(Main Database)]
+        D2[(Cache & Files)]
     end
     
-    subgraph "External Services"
-        E1[Payment Gateways]
-        E2[Weather APIs]
-        E3[Logistics Partners]
-        E4[SMS/Email Providers]
+    subgraph "External Partners"
+        E1[Payments]
+        E2[Weather & Logistics]
     end
     
     A1 & A2 & A3 --> B
-    B --> C1 & C2 & C3 & C4 & C5 & C6 & C7 & C8
-    C1 & C2 & C3 & C4 & C5 & C6 & C7 & C8 --> D1 & D2 & D3 & D4
-    E1 & E2 & E3 & E4 --> B
+    B --> C1 & C2 & C3 & C4
+    C1 & C2 & C3 & C4 --> D1 & D2
+    E1 & E2 --> B
 ```
 
 ### Component Details
 
 > [!INFO] 
-> The architecture follows domain-driven design principles, with clear separation of concerns.
+> The simplified architecture maintains the key components while reducing complexity for easier understanding.
 
-#### 1. Client Layer
-- **Web Application**: Server-side rendered NextJS application
-- **Mobile Application**: Cross-platform React Native app for Android and iOS
-- **Progressive Web App**: For low-bandwidth areas with offline capabilities
+#### 1. User Apps
+- **Web**: User-friendly interface built with NextJS
+- **Mobile**: Cross-platform React Native app for Android and iOS
+- **Progressive Web App**: For low-bandwidth rural areas with offline capabilities
 
 #### 2. API Gateway
-- **Authentication & Authorization**: JWT-based auth with role-based access control
-- **Rate Limiting**: Prevents abuse and ensures fair resource allocation
-- **Request Routing**: Intelligent routing to appropriate microservices
-- **Caching**: Edge caching for improved performance
-- **API Documentation**: Auto-generated using OpenAPI standards
+- **Central Entry Point**: All requests flow through this secure gateway
+- **Authentication**: Handles user identity and permissions
+- **Traffic Management**: Controls data flow and prevents system overload
+- **Caching**: Improves performance, especially in low-connectivity areas
 
-#### 3. Microservices Layer
-- Each service is independently deployable, with its own database schema
-- Inter-service communication via message queues and REST APIs
-- Stateless design for horizontal scalability
+#### 3. Core Services
+- **User Management**: Handles accounts, profiles, and verification
+- **Marketplace**: Product listings, search, and transactions
+- **Payments**: Secure payment processing and financial records
+- **Mitri AI Assistant**: Powers the platform's intelligent companion
 
-#### 4. Data Layer
-- **PostgreSQL**: Primary relational database (managed by Prisma ORM)
-- **Redis**: In-memory caching and pub/sub messaging
-- **Object Storage**: For media files, documents, and backups
-- **Time Series DB**: For analytics and monitoring metrics
+#### 4. Data Storage
+- **Main Database**: Stores all critical application data (PostgreSQL)
+- **Cache & Files**: Fast temporary storage and file management (Redis, Object Storage)
 
-#### 5. External Integrations
-- Payment gateways (UPI, RazorPay, PayTM)
-- Weather forecast APIs
-- Logistics and delivery tracking
-- Communication services
+#### 5. External Partners
+- **Payments**: Integration with UPI, RazorPay, and other payment services
+- **Weather & Logistics**: Connections to weather forecasts and delivery partners
 
 #### 6. DevOps Infrastructure
 - **Containerization**: Docker containers for all services
