@@ -1,3 +1,160 @@
+# LAB 4 - Computer Communications and Networking - Lab Report
+
+## Student Information
+- **Name:** Rohan Prakash Pawar
+- **UID:** 2023201020
+- **Branch:** EXTC
+- **Date:** March 11, 2025
+
+## Aim
+To understand, configure, and secure USB ports on Windows systems through registry modifications, write protection implementation, and forensic analysis tools.
+
+## Objectives
+1. To configure and disable USB ports using registry modifications
+2. To implement write protection for USB devices
+3. To explore disk partitioning and management using Diskpart utility
+4. To perform USB device forensic analysis using USBDeview
+
+## Software Requirements
+- Windows 11 Operating System
+- Registry Editor (regedit)
+- Command Prompt with Administrative privileges
+- Diskpart utility
+- USBDeview tool by NirSoft
+
+## Procedure
+
+### 1. USB Port Configuration
+
+#### 1.1 Disabling USB Ports via Registry Editor
+
+1. Open Registry Editor by pressing Windows+R and typing `regedit`
+2. Navigate to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USBSTOR`
+
+   [[Pasted image 20240428105953.png]]
+
+3. Locate the `Start` value in the right pane
+4. Double-click on the `Start` value and modify it:
+   - Set value to `4` to disable USB storage devices
+   - Set value to `3` to enable USB storage devices
+
+   [[Pasted image 20240428105934.png]]
+
+5. Close Registry Editor and restart the system for changes to take effect
+
+#### 1.2 Device Installation Restrictions
+
+1. Navigate to `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions`
+2. Create the following values if they don't exist:
+   - `DenyRemovableDevices` (DWORD) - Set to `1` to deny removable devices
+   - `DenyDeviceIDs` (DWORD) - Set to `1` to enable device ID restrictions
+
+   [[Pasted image 20240428110148.png]]
+
+3. Create a new key under Restrictions called `DenyDeviceIDsXX` (where XX is a number)
+4. In this key, create String values for device IDs to block
+
+### 2. Write Protection Implementation
+
+#### 2.1 Setting Write Protection via Registry
+
+1. Open Registry Editor and navigate to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\StorageDevicePolicies`
+2. If the key doesn't exist, create it
+3. Create a new DWORD value named `WriteProtect`
+4. Set the value to `1` to enable write protection or `0` to disable it
+
+   [[Pasted image 20240428110303.png]]
+
+5. Restart the system for changes to take effect
+
+#### 2.2 Testing Write Protection
+
+1. Connect a USB drive to verify write protection
+2. Attempt to create or modify files on the drive
+3. The system should prevent any write operations when protection is enabled
+
+   [[Pasted image 20240428110355.png]]
+
+### 3. Disk Management with Diskpart
+
+1. Open Command Prompt as Administrator
+2. Enter `diskpart` to open the Diskpart utility
+3. Use `list disk` to view all available disks
+
+   [[Pasted image 20240428110423.png]]
+
+4. Select the USB drive using `select disk X` (where X is the disk number)
+5. Use the following commands to manage the disk:
+   ```
+   detail disk       # Shows detailed information
+   list partition    # Lists all partitions
+   clean             # Removes all partitions
+   create partition primary    # Creates a new partition
+   format fs=ntfs quick    # Formats with NTFS file system
+   ```
+
+   [[Pasted image 20240428110522.png]]
+
+6. Exit Diskpart using the `exit` command
+
+### 4. USB Forensics using USBDeview
+
+1. Download and run USBDeview from NirSoft website
+2. The tool displays all USB devices ever connected to the system
+
+   [[Pasted image 20240428110757.png]]
+
+3. For each device, the following information is available:
+   - Device name and description
+   - Connection time and last plug/unplug time
+   - Serial number and device ID
+   - Product and vendor details
+
+4. Use the tool's features:
+   - Sort devices by connection time
+   - Save reports in various formats
+   - Export device information for forensic analysis
+
+   [[Pasted image 20240428110828.png]]
+
+5. Use advanced features for monitoring and reporting
+
+   [[Pasted image 20240428111001.png]]
+
+## Observations
+
+1. **USB Port Configuration**:
+   - Changing the USBSTOR Start value to 4 successfully disabled USB storage devices
+   - System no longer recognized USB drives when connected
+   - Registry modifications provided granular control over device installation
+
+2. **Write Protection**:
+   - When WriteProtect was set to 1, files could not be created or modified on USB drives
+   - The protection applied system-wide to all USB storage devices
+   - Error messages appeared when attempting write operations
+
+3. **Diskpart Utility**:
+   - Provided complete control over disk partitioning and formatting
+   - Could be used to securely erase and prepare USB drives
+   - Supported scripting for automated operations
+
+4. **USB Forensics**:
+   - USBDeview successfully extracted historical data about USB connections
+   - Serial numbers and connection timestamps provided valuable forensic information
+   - The tool could identify devices even after they were disconnected
+
+## Conclusion
+
+The practical implementation of USB port security measures demonstrated multiple layers of protection that can be deployed in organizational environments. Registry-based controls provide a cost-effective method for enforcing USB device policies without requiring additional software.
+
+Write protection implementation offers an important security feature that prevents data exfiltration and malware introduction through USB devices. This is particularly valuable in high-security environments where data integrity is critical.
+
+The Diskpart utility provides administrators with powerful disk management capabilities directly from the command line, enabling both manual and scripted operations for USB device preparation and maintenance.
+
+Finally, USBDeview proved to be an effective forensic tool for USB device tracking and analysis, providing valuable information for security audits and incident response. The combination of these techniques creates a comprehensive approach to USB security that balances usability with protection against common threats.
+
+These implementations can be integrated into organizational security policies to mitigate risks associated with unauthorized USB device usage while maintaining necessary functionality for legitimate business purposes.
+
 # LAB 4: USB Port Security & Forensics
 
 ## Student Details
