@@ -9,7 +9,7 @@
 		{"id":"sqs_node","type":"text","text":"# 📨 Amazon SQS\n\n📬 Message Queue\n🔄 Decoupling\n⚡ Async Processing\n📥 FIFO Queues\n💀 Dead Letter Queues\n🔄 Long Polling","x":400,"y":630,"width":300,"height":250,"color":"5"},
 		{"id":"rds_node","type":"text","text":"# 🗄️ Amazon RDS\n\n📊 MySQL\n🐘 PostgreSQL\n💾 Data Storage\n🔄 Automated Backups\n🌍 Multi-AZ\n📚 Read Replicas","x":-440,"y":560,"width":300,"height":250,"color":"3"},
 		{"id":"lambda_node","type":"text","text":"# ⚡ AWS Lambda\n\n☁️ Serverless\n⚡ Event Processing\n🤖 Automation\n🔄 Multiple Runtimes\n📈 Auto-scaling\n💰 Pay-per-use","x":-530,"y":-590,"width":300,"height":250,"color":"4"},
-		{"id":"api_gateway_node","type":"text","text":"# 🚪 Amazon API Gateway\n\n🌐 REST APIs\n🔌 WebSocket\n🎮 API Management\n🔐 Authentication\n🔑 API Keys\n🔄 Request/Response Transform","x":-530,"y":-1000,"width":300,"height":250,"color":"5"},
+		{"id":"api_gateway_node","type":"text","text":"# 🚪 Amazon API Gateway\n\n🌐 REST APIs\n🔌 WebSocket\n🎮 API Management\n🔐 Authentication\n🔑 API Keys\n🔄 Request/Response Transform","x":-530,"y":-1000,"width":300,"height":300,"color":"5"},
 		{"id":"s3_node","type":"text","text":"# 📦 Amazon S3\n\n💾 Object Storage\n📄 Static Files\n💾 Backups\n🔄 Versioning\n⏳ Lifecycle Policies\n🌊 Data Lakes","x":-590,"y":130,"width":300,"height":250,"color":"3"}
 	],
 	"edges":[
