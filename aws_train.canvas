@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"cloudwatch_node","type":"text","text":"# 📊 Amazon CloudWatch\n\n📈 Monitoring\n📝 Logging\n🚨 Alerts\n📱 Dashboards\n📊 Metrics\n⚡ Event Management","x":360,"y":-425,"width":300,"height":250,"color":"2"},
+		{"id":"sns_node","type":"text","text":"# 📱 Amazon SNS\n\n📲 Push Notifications\n📢 Pub/Sub\n🔄 Event Fan-out\n📱 Mobile Push\n✉️ Email/SMS\n🔔 Application Alerts","x":400,"y":0,"width":300,"height":250,"color":"5"},
+		{"id":"iam_node","type":"text","text":"# 🔐 AWS IAM\n\n🔑 Access Control\n⚡ Permissions\n🛡️ Security\n👥 Roles\n📜 Policies\n👤 User Management","x":-2100,"y":-300,"width":300,"height":250,"color":"6"},
+		{"id":"route53_node","type":"text","text":"# 🌐 Amazon Route 53\n\n🔄 DNS Service\n🛣️ Domain Routing\n⚖️ Load Balancing\n💗 Health Checks\n🔄 Traffic Flow\n⚡ Latency Routing","x":-2100,"y":380,"width":300,"height":300,"color":"1"},
+		{"id":"vpc_node","type":"text","text":"# 🌐 Amazon VPC\n\n🔒 Custom Network\n🌐 Subnets\n🛣️ Route Tables\n🛡️ NACL\n🔐 Security Groups\n🔒 Network Isolation","x":-1420,"y":20,"width":300,"height":250,"color":"1"},
+		{"id":"ec2_node","type":"text","text":"# 💻 Amazon EC2\n\n🌐 Web Servers\n⚙️ App Servers\n🔧 Compute Resources\n⚖️ Auto Scaling\n⚖️ Load Balancing\n💪 Instance Types","x":-1040,"y":-340,"width":300,"height":250,"color":"4"},
+		{"id":"sqs_node","type":"text","text":"# 📨 Amazon SQS\n\n📬 Message Queue\n🔄 Decoupling\n⚡ Async Processing\n📥 FIFO Queues\n💀 Dead Letter Queues\n🔄 Long Polling","x":400,"y":630,"width":300,"height":250,"color":"5"},
+		{"id":"rds_node","type":"text","text":"# 🗄️ Amazon RDS\n\n📊 MySQL\n🐘 PostgreSQL\n💾 Data Storage\n🔄 Automated Backups\n🌍 Multi-AZ\n📚 Read Replicas","x":-440,"y":560,"width":300,"height":250,"color":"3"},
+		{"id":"lambda_node","type":"text","text":"# ⚡ AWS Lambda\n\n☁️ Serverless\n⚡ Event Processing\n🤖 Automation\n🔄 Multiple Runtimes\n📈 Auto-scaling\n💰 Pay-per-use","x":-530,"y":-590,"width":300,"height":250,"color":"4"},
+		{"id":"api_gateway_node","type":"text","text":"# 🚪 Amazon API Gateway\n\n🌐 REST APIs\n🔌 WebSocket\n🎮 API Management\n🔐 Authentication\n🔑 API Keys\n🔄 Request/Response Transform","x":-530,"y":-1000,"width":300,"height":250,"color":"5"},
+		{"id":"s3_node","type":"text","text":"# 📦 Amazon S3\n\n💾 Object Storage\n📄 Static Files\n💾 Backups\n🔄 Versioning\n⏳ Lifecycle Policies\n🌊 Data Lakes","x":-590,"y":130,"width":300,"height":250,"color":"3"}
+	],
+	"edges":[
+		{"id":"vpc_to_ec2","fromNode":"vpc_node","fromSide":"right","toNode":"ec2_node","toSide":"left","label":"🏠 Hosts"},
+		{"id":"vpc_to_rds","fromNode":"vpc_node","fromSide":"right","toNode":"rds_node","toSide":"left","label":"📦 Contains"},
+		{"id":"ec2_to_s3","fromNode":"ec2_node","fromSide":"right","toNode":"s3_node","toSide":"left","label":"💾 Stores Data"},
+		{"id":"lambda_to_s3","fromNode":"lambda_node","fromSide":"bottom","toNode":"s3_node","toSide":"top","label":"⚡ Processes"},
+		{"id":"iam_to_vpc","fromNode":"iam_node","fromSide":"right","toNode":"vpc_node","toSide":"left","label":"🔒 Secures"},
+		{"id":"route53_to_vpc","fromNode":"route53_node","fromSide":"right","toNode":"vpc_node","toSide":"left","label":"🛣️ Routes"},
+		{"id":"cloudwatch_to_ec2","fromNode":"cloudwatch_node","fromSide":"left","toNode":"ec2_node","toSide":"right","label":"📊 Monitors"},
+		{"id":"cloudwatch_to_rds","fromNode":"cloudwatch_node","fromSide":"left","toNode":"rds_node","toSide":"right","label":"📊 Monitors"},
+		{"id":"lambda_to_sns","fromNode":"lambda_node","fromSide":"right","toNode":"sns_node","toSide":"left","label":"📢 Publishes"},
+		{"id":"sns_to_sqs","fromNode":"sns_node","fromSide":"bottom","toNode":"sqs_node","toSide":"top","label":"📨 Sends Messages"},
+		{"id":"api_to_lambda","fromNode":"api_gateway_node","fromSide":"bottom","toNode":"lambda_node","toSide":"top","label":"🔄 Invokes"},
+		{"id":"ec2_to_sqs","fromNode":"ec2_node","fromSide":"right","toNode":"sqs_node","toSide":"left","label":"📨 Processes Messages"}
+	]
+}
