@@ -1,12 +1,23 @@
 {
   "vaultName": "Obsidian Vault",
-  "lastExport": 1741518165473,
+  "lastExport": 1741868813245,
   "pluginVersion": "1.8.01",
-  "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
+  "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon is-fullscreen",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
+    "assets/algorithm_performance_radar.png",
     "assets/apiguard_banner.png.md",
+    "assets/combined_performance_metrics.png",
+    "assets/compression_combined_chart.png",
+    "assets/compression_radar_chart.png",
+    "assets/compression_ratio_chart.png",
+    "assets/compression_ratio_comparison.png",
+    "assets/compression_time_chart.png",
+    "assets/compression_time_comparison.png",
+    "assets/compression_time_vs_ratio.png",
+    "assets/decompression_time_chart.png",
+    "assets/decompression_time_comparison.png",
     "assets/index.md",
     "assets/openvault.png",
     "assets/Pasted image 20250115231412.png",
@@ -94,7 +105,93 @@
     "assets/Pasted image 20250308163210.png",
     "assets/Pasted image 20250308163426.png",
     "assets/Pasted image 20250308164545.png",
+    "assets/Pasted image 20250311142911.png",
+    "assets/Pasted image 20250311143846.png",
+    "assets/Pasted image 20250311144127.png",
+    "assets/Pasted image 20250311144148.png",
+    "assets/Pasted image 20250311144315.png",
+    "assets/Pasted image 20250311144539.png",
+    "assets/Pasted image 20250311144926.png",
+    "assets/Pasted image 20250311145346.png",
+    "assets/Pasted image 20250311145645.png",
+    "assets/Pasted image 20250311145737.png",
+    "assets/Pasted image 20250311145759.png",
+    "assets/Pasted image 20250311150608.png",
+    "assets/Pasted image 20250311151011.png",
+    "assets/Pasted image 20250311151042.png",
+    "assets/Pasted image 20250311151731.png",
+    "assets/Pasted image 20250311152745.png",
+    "assets/Pasted image 20250311153448.png",
+    "assets/Pasted image 20250311153606.png",
+    "assets/Pasted image 20250311153854.png",
+    "assets/Pasted image 20250311153918.png",
+    "assets/Pasted image 20250311154722.png",
+    "assets/Pasted image 20250311162523.png",
+    "assets/Pasted image 20250311162938.png",
+    "assets/Pasted image 20250311163219.png",
+    "assets/Pasted image 20250311163226.png",
+    "assets/Pasted image 20250312092447.png",
+    "assets/Pasted image 20250312092643.png",
+    "assets/Pasted image 20250312092743.png",
+    "assets/Pasted image 20250312093243.png",
+    "assets/Pasted image 20250312094008.png",
+    "assets/Pasted image 20250312094212.png",
+    "assets/Pasted image 20250312094942.png",
+    "assets/Pasted image 20250312095051.png",
+    "assets/Pasted image 20250312095727.png",
+    "assets/Pasted image 20250312095809.png",
+    "assets/Pasted image 20250312095927.png",
+    "assets/Pasted image 20250312095944.png",
+    "assets/Pasted image 20250313141918.png",
+    "assets/Pasted image 20250313142044.png",
+    "assets/Pasted image 20250313142059.png",
+    "assets/Pasted image 20250313142114.png",
+    "Blog/assets/apiguard_banner.png.html",
     "Blog/assets/index.html",
+    "Blog/blog/assets/index.html",
+    "Blog/blog/lib/html/file-tree.html",
+    "Blog/blog/ml/learning-path.html",
+    "Blog/blog/placements/sql/sql-notes-r04nx.html",
+    "Blog/blog/placements/dsa-cheatsheet.html",
+    "Blog/blog/placements/dsa-sheet.html",
+    "Blog/blog/placements/dsa-to-do-list.html",
+    "Blog/blog/work/cyber-sec-awareness/recommended-courses/1_executive_level.html",
+    "Blog/blog/work/cyber-sec-awareness/recommended-courses/2_senior_management.html",
+    "Blog/blog/work/cyber-sec-awareness/recommended-courses/3_middle_management.html",
+    "Blog/blog/work/cyber-sec-awareness/recommended-courses/4_junior_officers.html",
+    "Blog/blog/work/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html",
+    "Blog/blog/work/cyber-sec-awareness/recommended-courses/custom_programs.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/0_course_structure.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/1_executive_curriculum.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/2_senior_management_curriculum.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/3_middle_management_curriculum.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/4_junior_officers_curriculum.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/5_non_technical_staff_curriculum.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/6_program_summary.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html",
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/training-components.html",
+    "Blog/blog/work/major-project/research-papers/network-protocol-engineering.html",
+    "Blog/blog/work/major-project/research-papers/wireless-communication.html",
+    "Blog/blog/work/major-project/1.-bandwidth-optimization.html",
+    "Blog/blog/work/major-project/internet-over-lora.html",
+    "Blog/blog/work/major-project/lora_core_innovations.html",
+    "Blog/blog/work/major-project/lora_internet_research_project.html",
+    "Blog/blog/work/major-project/loraid-connect.html",
+    "Blog/blog/work/major-project/rural-computing.html",
+    "Blog/blog/work/spit-hackathon/context.html",
+    "Blog/blog/index.html",
+    "Blog/excalidraw/drawing-2025-01-10-15.59.40.excalidraw.html",
+    "Blog/excalidraw/drawing-2025-03-08-16.09.54.excalidraw.html",
     "Blog/lib/fonts/2d5198822ab091ce4305.woff2",
     "Blog/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "Blog/lib/fonts/05b618077343fbbd92b7.ttf",
@@ -133,18 +230,59 @@
     "Blog/placements/dsa-cheatsheet.html",
     "Blog/placements/dsa-sheet.html",
     "Blog/placements/dsa-to-do-list.html",
-    "Blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
-    "Blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html",
-    "Blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
-    "Blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
-    "Blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
-    "Blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
-    "Blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
-    "Blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html",
-    "Blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html",
-    "Blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
-    "Blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html",
-    "Blog/work/cyber-sec-awareness/the-curriculum/training-components.html",
+    "Blog/tmp/\n/home/rohan/documents/obsidian-vault/tmp/api_security.html",
+    "Blog/tmp/open-vault/openvault_roboweek3.html",
+    "Blog/tmp/api_security.html",
+    "Blog/tmp/api-sec.html",
+    "Blog/tmp/bufi.html",
+    "Blog/tmp/data_result.html",
+    "Blog/tmp/experiment-5-measurement-of-propagation-or-attenuation-loss-in-the-optical-fiber.html",
+    "Blog/tmp/insten.html",
+    "Blog/tmp/lab-2-cc.html",
+    "Blog/tmp/lab-3a-docker.html",
+    "Blog/tmp/logisticrouteroptimizer.html",
+    "Blog/tmp/logisticsrouteoptimizer.html",
+    "Blog/tmp/loraid_research_summary.html",
+    "Blog/tmp/routeforgeai.html",
+    "Blog/tmp/tradeguard.html",
+    "Blog/work/alessa/auth2service.html",
+    "Blog/work/alessa/auth2service-alesa.ai.html",
+    "Blog/work/alessa/osm-services-deployment-guide.html",
+    "Blog/work/alessa/revised-services.html",
+    "Blog/work/alessa/services_documentation.html",
+    "Blog/work/college/cc/labs/lab-3a-automation-using-ansible.html",
+    "Blog/work/college/cc/labs/lab-aws-setup.html",
+    "Blog/work/college/cc/labs/lab-minikube.html",
+    "Blog/work/college/cc/labs/lab1.html",
+    "Blog/work/college/cc/labs/lab1_report.html",
+    "Blog/work/college/cc/azure.html",
+    "Blog/work/college/cc/minikube.html",
+    "Blog/work/college/cc/onboarding-aws-academy.html",
+    "Blog/work/college/ccn/lab-3.html",
+    "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/1_executive_level.html",
+    "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/2_senior_management.html",
+    "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/3_middle_management.html",
+    "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/4_junior_officers.html",
+    "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html",
+    "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/custom_programs.html",
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/0-course-structure.html",
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/6-program-summary.html",
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/assessment-framework.html",
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/references-and-resources.html",
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/training-components.html",
+    "Blog/work/college/ta/cyber-sec-awareness/executives.html",
+    "Blog/work/college/ta/vpc@spit/comparison.html",
+    "Blog/work/college/ta/vpc@spit/orchestrate.html",
+    "Blog/work/college/ta/vpc@spit/orchestrate_obsidian.html",
+    "Blog/work/college/ta/feb-worklog.html",
+    "Blog/work/college/ta/worklog.html",
     "Blog/work/major-project/research-papers/network-protocol-engineering.html",
     "Blog/work/major-project/research-papers/wireless-communication.html",
     "Blog/work/major-project/1.-bandwidth-optimization.html",
@@ -153,7 +291,7 @@
     "Blog/work/major-project/lora_internet_research_project.html",
     "Blog/work/major-project/loraid-connect.html",
     "Blog/work/major-project/rural-computing.html",
-    "Blog/work/spit-hackathon/context.html",
+    "Blog/work/vista-solutions/mind-map-and-scope.html",
     "Blog/Work/Cyber Sec Awareness/Recommended Courses/1_Executive_Level.html",
     "Blog/Work/Cyber Sec Awareness/Recommended Courses/2_Senior_Management.html",
     "Blog/Work/Cyber Sec Awareness/Recommended Courses/3_Middle_Management.html",
@@ -169,6 +307,7 @@
     "Blog/Work/Cyber Sec Awareness/The Curriculum/6_Program_Summary.html",
     "Blog/Work/Cyber Sec Awareness/The Curriculum/Outline of the Course.html",
     "Blog/index.html",
+    "Blog/on-mark.html",
     "Excalidraw/Drawing 2025-01-10 15.59.40.excalidraw.md",
     "Excalidraw/Drawing 2025-03-08 16.09.54.excalidraw.md",
     "ML/Learning Path.md",
@@ -180,29 +319,53 @@
     "Placements/DSA To do list.md",
     "tmp/\n/home/rohan/Documents/Obsidian Vault/tmp/api_security.md",
     "tmp/open-vault/OpenVault_ROBOWEEK3.md",
-    "tmp/algorithm_performance_radar.png",
+    "tmp/qr_damage_test/damaged_block_1.png",
+    "tmp/qr_damage_test/damaged_block_2.png",
+    "tmp/qr_damage_test/damaged_block_3.png",
+    "tmp/qr_damage_test/damaged_block_4.png",
+    "tmp/qr_damage_test/damaged_block_5.png",
+    "tmp/qr_damage_test/damaged_block_6.png",
+    "tmp/qr_damage_test/damaged_block_7.png",
+    "tmp/qr_damage_test/damaged_block_8.png",
+    "tmp/qr_damage_test/damaged_block_9.png",
+    "tmp/qr_damage_test/damaged_block_10.png",
+    "tmp/qr_damage_test/damaged_noise_1.png",
+    "tmp/qr_damage_test/damaged_noise_2.png",
+    "tmp/qr_damage_test/damaged_noise_3.png",
+    "tmp/qr_damage_test/damaged_noise_4.png",
+    "tmp/qr_damage_test/damaged_noise_5.png",
+    "tmp/qr_damage_test/damaged_noise_6.png",
+    "tmp/qr_damage_test/damaged_noise_7.png",
+    "tmp/qr_damage_test/damaged_noise_8.png",
+    "tmp/qr_damage_test/damaged_noise_9.png",
+    "tmp/qr_damage_test/damaged_noise_10.png",
+    "tmp/qr_damage_test/original_qr.png",
+    "tmp/qr_damage_test/qr_block_damage_results.png",
+    "tmp/qr_damage_test/qr_noise_damage_results.png",
+    "tmp/\nLAB 4 - Computer Communications and Networking - Lab Report.md",
     "tmp/api_security.md",
     "tmp/api-sec.md",
+    "tmp/aws_train.md",
+    "tmp/aws_training.md",
     "tmp/bufi.md",
-    "tmp/combined_performance_metrics.png",
-    "tmp/compression_combined_chart.png",
-    "tmp/compression_radar_chart.png",
-    "tmp/compression_ratio_chart.png",
-    "tmp/compression_ratio_comparison.png",
-    "tmp/compression_time_chart.png",
-    "tmp/compression_time_comparison.png",
-    "tmp/compression_time_vs_ratio.png",
+    "tmp/CC Lab -  Prometheus & Graffana.md",
     "tmp/loraid_research_summary.md",
-    "tmp/decompression_time_chart.png",
-    "tmp/decompression_time_comparison.png",
     "tmp/Experiment 5 -  Measurement of Propagation or Attenuation Loss in the Optical Fiber.md",
+    "tmp/Experiment NO.2.md",
+    "tmp/FarmConnect_Documentation.md",
     "tmp/generate_visualizations.py",
     "tmp/insten.md",
+    "tmp/iot-gate.md",
+    "tmp/KisanBazaar.md",
     "tmp/LAB 2 - CC.md",
     "tmp/Lab 3A - Docker.md",
+    "tmp/LAB 4 - Computer Communications and Networking - Lab Report.md",
     "tmp/LogisticRouterOptimizer.md",
     "tmp/data_result.md",
     "tmp/myfile.txt",
+    "tmp/QR Code Error Correction Lab - ITC Lab 4.md",
+    "tmp/QR_Code_Error_Correction_Lab_Report.md",
+    "tmp/QR_Code_Error_Correction_Summary.md",
     "tmp/LogisticsRouteOptimizer.md",
     "tmp/RouteForgeAI.md",
     "tmp/test_data.bin",
@@ -262,10 +425,102 @@
     "Work/Major Project/Loraid Connect.md",
     "Work/Major Project/Rural Computing.md",
     "Work/Vista Solutions/Mind map and scope.md",
+    "aws_train.canvas",
+    "banking_aws.canvas",
     "index.md",
     "On Mark.md",
+    "lib/media/pasted-image-20250312092447.png",
+    "lib/media/pasted-image-20250312092643.png",
+    "lib/media/pasted-image-20250312092743.png",
+    "lib/media/pasted-image-20250312093243.png",
+    "lib/media/pasted-image-20250312094008.png",
+    "lib/media/pasted-image-20250312094212.png",
+    "lib/media/pasted-image-20250312095727.png",
+    "lib/media/pasted-image-20250312095051.png",
+    "lib/media/pasted-image-20250312095809.png",
+    "lib/media/pasted-image-20250312095927.png",
+    "lib/media/pasted-image-20250311142911.png",
+    "lib/media/pasted-image-20250311144148.png",
+    "lib/media/pasted-image-20250311143846.png",
+    "lib/media/pasted-image-20250311144539.png",
+    "lib/media/pasted-image-20250311144926.png",
+    "lib/media/pasted-image-20250311145346.png",
+    "lib/media/pasted-image-20250311145645.png",
+    "lib/media/pasted-image-20250311145737.png",
+    "lib/media/pasted-image-20250311145759.png",
+    "lib/media/pasted-image-20250311150608.png",
+    "lib/media/pasted-image-20250311151011.png",
+    "lib/media/pasted-image-20250311151042.png",
+    "lib/media/pasted-image-20250311151731.png",
+    "lib/media/pasted-image-20250311152745.png",
+    "lib/media/pasted-image-20250311153448.png",
+    "lib/media/pasted-image-20250311153606.png",
+    "lib/media/pasted-image-20250311153854.png",
+    "lib/media/pasted-image-20250311153918.png",
+    "lib/media/pasted-image-20250311162523.png",
+    "lib/media/pasted-image-20250311162938.png",
+    "lib/media/pasted-image-20250311163226.png",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css",
+    "assets/pasted-image-20250115231412.png",
+    "placements/sql/pasted-image-20250102162939.png",
+    "placements/sql/pasted-image-20250102163014.png",
     "lib/media/openvault.png",
     "lib/media/pasted-image-20250226191105.png",
+    "tmp/compression_ratio_comparison.png",
+    "tmp/compression_time_vs_ratio.png",
+    "tmp/algorithm_performance_radar.png",
+    "tmp/compression_time_comparison.png",
+    "tmp/decompression_time_comparison.png",
     "lib/media/pasted-image-20250306144604.png",
     "lib/media/pasted-image-20250306150208.png",
     "lib/media/pasted-image-20250306150240.png",
@@ -322,6 +577,11 @@
     "lib/media/pasted-image-20250304000057.png",
     "lib/media/pasted-image-20250303234939.png",
     "lib/media/pasted-image-20250303235004.png",
+    "work/college/cc/labs/attachments/user_creation.png",
+    "work/college/cc/labs/attachments/sudo_access.png",
+    "work/college/cc/labs/attachments/sudo_verification.png",
+    "work/college/cc/labs/attachments/system_info.png",
+    "work/college/cc/labs/attachments/process_info.png",
     "lib/media/pasted-image-20250304184323.png",
     "lib/media/pasted-image-20250304185639.png",
     "lib/media/pasted-image-20250304190232.png",
@@ -335,61 +595,7 @@
     "lib/media/pasted-image-20250226173412.png",
     "lib/media/pasted-image-20250226173443.png",
     "lib/media/pasted-image-20250226173506.png",
-    "lib/media/pasted-image-20250226174450.png",
-    "lib/scripts/graph-wasm.wasm",
-    "lib/fonts/94f2f163d4b698242fef.otf",
-    "lib/fonts/72505e6a122c6acd5471.woff2",
-    "lib/fonts/2d5198822ab091ce4305.woff2",
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
-    "lib/fonts/cb10ffd7684cd9836a05.woff2",
-    "lib/fonts/b5f0f109bc88052d4000.woff2",
-    "lib/fonts/cbe0ae49c52c920fd563.woff2",
-    "lib/fonts/535a6cf662596b3bd6a6.woff2",
-    "lib/fonts/70cc7ff27245e82ad414.ttf",
-    "lib/fonts/454577c22304619db035.ttf",
-    "lib/fonts/52ac8f3034507f1d9e53.ttf",
-    "lib/fonts/05b618077343fbbd92b7.ttf",
-    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/6155340132a851f6089e.svg",
-    "lib/fonts/mathjax_zero.woff",
-    "lib/fonts/mathjax_main-regular.woff",
-    "lib/fonts/mathjax_main-bold.woff",
-    "lib/fonts/mathjax_math-italic.woff",
-    "lib/fonts/mathjax_main-italic.woff",
-    "lib/fonts/mathjax_math-bolditalic.woff",
-    "lib/fonts/mathjax_size1-regular.woff",
-    "lib/fonts/mathjax_size2-regular.woff",
-    "lib/fonts/mathjax_size3-regular.woff",
-    "lib/fonts/mathjax_size4-regular.woff",
-    "lib/fonts/mathjax_ams-regular.woff",
-    "lib/fonts/mathjax_calligraphic-regular.woff",
-    "lib/fonts/mathjax_calligraphic-bold.woff",
-    "lib/fonts/mathjax_fraktur-regular.woff",
-    "lib/fonts/mathjax_fraktur-bold.woff",
-    "lib/fonts/mathjax_sansserif-regular.woff",
-    "lib/fonts/mathjax_sansserif-bold.woff",
-    "lib/fonts/mathjax_sansserif-italic.woff",
-    "lib/fonts/mathjax_script-regular.woff",
-    "lib/fonts/mathjax_typewriter-regular.woff",
-    "lib/fonts/mathjax_vector-regular.woff",
-    "lib/fonts/mathjax_vector-bold.woff",
-    "lib/html/file-tree.html",
-    "lib/scripts/webpage.js",
-    "lib/scripts/graph-view.js",
-    "lib/scripts/graph-wasm.js",
-    "lib/scripts/graph-render-worker.js",
-    "lib/scripts/tinycolor.js",
-    "lib/scripts/pixi.js",
-    "lib/scripts/minisearch.js",
-    "lib/media/favicon.png",
-    "lib/scripts/graph-data.js",
-    "lib/styles/obsidian.css",
-    "lib/styles/other-plugins.css",
-    "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css",
-    "assets/pasted-image-20250115231412.png",
-    "placements/sql/pasted-image-20250102162939.png",
-    "placements/sql/pasted-image-20250102163014.png"
+    "lib/media/pasted-image-20250226174450.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -446,79 +652,79 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
@@ -536,91 +742,91 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 131416,
+      "modifiedTime": 1741868813245,
+      "sourceSize": 216568,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 6406,
+      "modifiedTime": 1741868813245,
+      "sourceSize": 7339,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 137466,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 83,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
@@ -686,133 +892,133 @@
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
@@ -877,7 +1083,7 @@
       ]
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
@@ -1489,8 +1695,8 @@
       "dependencies": []
     },
     "Blog/lib/html/file-tree.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 18761,
+      "modifiedTime": 1741868813245,
+      "sourceSize": 131416,
       "exportedPath": "blog/lib/html/file-tree.html",
       "dependencies": []
     },
@@ -1501,20 +1707,20 @@
       "dependencies": []
     },
     "Blog/lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 315,
       "exportedPath": "blog/lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "Blog/lib/media/favicon.png": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 1105,
       "exportedPath": "blog/lib/media/favicon.png",
       "dependencies": []
     },
     "Blog/lib/scripts/graph-data.js": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 3099,
+      "modifiedTime": 1741868813245,
+      "sourceSize": 6406,
       "exportedPath": "blog/lib/scripts/graph-data.js",
       "dependencies": []
     },
@@ -1567,7 +1773,7 @@
       "dependencies": []
     },
     "Blog/lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 262,
       "exportedPath": "blog/lib/styles/global-variable-styles.css",
       "dependencies": []
@@ -1579,32 +1785,32 @@
       "dependencies": []
     },
     "Blog/lib/styles/obsidian.css": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 137240,
+      "modifiedTime": 1741868813245,
+      "sourceSize": 137478,
       "exportedPath": "blog/lib/styles/obsidian.css",
       "dependencies": []
     },
     "Blog/lib/styles/other-plugins.css": {
-      "modifiedTime": 1741518165473,
+      "modifiedTime": 1741868813245,
       "sourceSize": 83,
       "exportedPath": "blog/lib/styles/other-plugins.css",
       "dependencies": []
     },
     "Blog/lib/metadata.json": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 22499,
+      "modifiedTime": 1741868813245,
+      "sourceSize": 110022,
       "exportedPath": "blog/lib/metadata.json",
       "dependencies": []
     },
     "Blog/lib/rss.xml": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 134827,
+      "modifiedTime": 1741868813245,
+      "sourceSize": 486172,
       "exportedPath": "blog/lib/rss.xml",
       "dependencies": []
     },
     "Blog/lib/search-index.json": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 188303,
+      "modifiedTime": 1741868813245,
+      "sourceSize": 451037,
       "exportedPath": "blog/lib/search-index.json",
       "dependencies": []
     },
@@ -1638,78 +1844,6 @@
       "exportedPath": "blog/placements/dsa-to-do-list.html",
       "dependencies": []
     },
-    "Blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 27426,
-      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
-      "dependencies": []
-    },
-    "Blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 48303,
-      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html",
-      "dependencies": []
-    },
-    "Blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 47695,
-      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
-      "dependencies": []
-    },
-    "Blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 40756,
-      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
-      "dependencies": []
-    },
-    "Blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 40750,
-      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
-      "dependencies": []
-    },
-    "Blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 40893,
-      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
-      "dependencies": []
-    },
-    "Blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 40387,
-      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
-      "dependencies": []
-    },
-    "Blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 26747,
-      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html",
-      "dependencies": []
-    },
-    "Blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 20225,
-      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html",
-      "dependencies": []
-    },
-    "Blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 36550,
-      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
-      "dependencies": []
-    },
-    "Blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 21646,
-      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html",
-      "dependencies": []
-    },
-    "Blog/work/cyber-sec-awareness/the-curriculum/training-components.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 20238,
-      "exportedPath": "blog/work/cyber-sec-awareness/the-curriculum/training-components.html",
-      "dependencies": []
-    },
     "Blog/work/major-project/research-papers/network-protocol-engineering.html": {
       "modifiedTime": 1741518165473,
       "sourceSize": 14345,
@@ -1741,8 +1875,8 @@
       "dependencies": []
     },
     "Blog/work/major-project/lora_internet_research_project.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 494849,
+      "modifiedTime": 1741868813245,
+      "sourceSize": 404442,
       "exportedPath": "blog/work/major-project/lora_internet_research_project.html",
       "dependencies": []
     },
@@ -1756,12 +1890,6 @@
       "modifiedTime": 1741518165473,
       "sourceSize": 23661,
       "exportedPath": "blog/work/major-project/rural-computing.html",
-      "dependencies": []
-    },
-    "Blog/work/spit-hackathon/context.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 242442,
-      "exportedPath": "blog/work/spit-hackathon/context.html",
       "dependencies": []
     },
     "Blog/Work/Cyber Sec Awareness/Recommended Courses/1_Executive_Level.html": {
@@ -1849,8 +1977,8 @@
       "dependencies": []
     },
     "Blog/index.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 14064,
+      "modifiedTime": 1741868813245,
+      "sourceSize": 26568,
       "exportedPath": "blog/index.html",
       "dependencies": []
     },
@@ -1888,14 +2016,14 @@
       "dependencies": []
     },
     "tmp/api_security.md": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 68840,
+      "modifiedTime": 1741868813245,
+      "sourceSize": 68846,
       "exportedPath": "tmp/api_security.html",
       "dependencies": []
     },
     "tmp/api-sec.md": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 31950,
+      "modifiedTime": 1741868813245,
+      "sourceSize": 52648,
       "exportedPath": "tmp/api-sec.html",
       "dependencies": []
     },
@@ -1905,40 +2033,10 @@
       "exportedPath": "tmp/bufi.html",
       "dependencies": []
     },
-    "tmp/combined_performance_metrics.png": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 123440,
-      "exportedPath": "tmp/combined_performance_metrics.png",
-      "dependencies": []
-    },
-    "tmp/compression_combined_chart.png": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 166056,
-      "exportedPath": "tmp/compression_combined_chart.png",
-      "dependencies": []
-    },
-    "tmp/compression_radar_chart.png": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 444202,
-      "exportedPath": "tmp/compression_radar_chart.png",
-      "dependencies": []
-    },
-    "tmp/compression_ratio_chart.png": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 127994,
-      "exportedPath": "tmp/compression_ratio_chart.png",
-      "dependencies": []
-    },
     "tmp/compression_ratio_comparison.png": {
       "modifiedTime": 1741518165473,
       "sourceSize": 161299,
       "exportedPath": "tmp/compression_ratio_comparison.png",
-      "dependencies": []
-    },
-    "tmp/compression_time_chart.png": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 118009,
-      "exportedPath": "tmp/compression_time_chart.png",
       "dependencies": []
     },
     "tmp/compression_time_comparison.png": {
@@ -1965,12 +2063,6 @@
         "tmp/decompression_time_comparison.png",
         "tmp/compression_time_vs_ratio.png"
       ]
-    },
-    "tmp/decompression_time_chart.png": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 125751,
-      "exportedPath": "tmp/decompression_time_chart.png",
-      "dependencies": []
     },
     "tmp/decompression_time_comparison.png": {
       "modifiedTime": 1741518165473,
@@ -2880,6 +2972,1386 @@
       "modifiedTime": 1741518165473,
       "sourceSize": 157360,
       "exportedPath": "lib/media/pasted-image-20250226174450.png",
+      "dependencies": []
+    },
+    "assets/algorithm_performance_radar.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 352687,
+      "exportedPath": "assets/algorithm_performance_radar.png",
+      "dependencies": []
+    },
+    "assets/combined_performance_metrics.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 123440,
+      "exportedPath": "assets/combined_performance_metrics.png",
+      "dependencies": []
+    },
+    "assets/compression_combined_chart.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 166056,
+      "exportedPath": "assets/compression_combined_chart.png",
+      "dependencies": []
+    },
+    "assets/compression_radar_chart.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 444202,
+      "exportedPath": "assets/compression_radar_chart.png",
+      "dependencies": []
+    },
+    "assets/compression_ratio_chart.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 127994,
+      "exportedPath": "assets/compression_ratio_chart.png",
+      "dependencies": []
+    },
+    "assets/compression_ratio_comparison.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 161299,
+      "exportedPath": "assets/compression_ratio_comparison.png",
+      "dependencies": []
+    },
+    "assets/compression_time_chart.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 118009,
+      "exportedPath": "assets/compression_time_chart.png",
+      "dependencies": []
+    },
+    "assets/compression_time_comparison.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 150032,
+      "exportedPath": "assets/compression_time_comparison.png",
+      "dependencies": []
+    },
+    "assets/compression_time_vs_ratio.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 167456,
+      "exportedPath": "assets/compression_time_vs_ratio.png",
+      "dependencies": []
+    },
+    "assets/decompression_time_chart.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 125751,
+      "exportedPath": "assets/decompression_time_chart.png",
+      "dependencies": []
+    },
+    "assets/decompression_time_comparison.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 160289,
+      "exportedPath": "assets/decompression_time_comparison.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311142911.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 1954544,
+      "exportedPath": "assets/pasted-image-20250311142911.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311143846.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 344977,
+      "exportedPath": "assets/pasted-image-20250311143846.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311144127.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 95543,
+      "exportedPath": "assets/pasted-image-20250311144127.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311144148.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 70552,
+      "exportedPath": "assets/pasted-image-20250311144148.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311144315.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 22480,
+      "exportedPath": "assets/pasted-image-20250311144315.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311144539.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 266141,
+      "exportedPath": "assets/pasted-image-20250311144539.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311144926.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 327594,
+      "exportedPath": "assets/pasted-image-20250311144926.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311145346.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 387125,
+      "exportedPath": "assets/pasted-image-20250311145346.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311145645.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 124611,
+      "exportedPath": "assets/pasted-image-20250311145645.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311145737.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 336292,
+      "exportedPath": "assets/pasted-image-20250311145737.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311145759.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 369151,
+      "exportedPath": "assets/pasted-image-20250311145759.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311150608.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 334814,
+      "exportedPath": "assets/pasted-image-20250311150608.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311151011.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 229117,
+      "exportedPath": "assets/pasted-image-20250311151011.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311151042.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 247175,
+      "exportedPath": "assets/pasted-image-20250311151042.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311151731.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 110975,
+      "exportedPath": "assets/pasted-image-20250311151731.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311152745.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 139177,
+      "exportedPath": "assets/pasted-image-20250311152745.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311153448.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 181909,
+      "exportedPath": "assets/pasted-image-20250311153448.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311153606.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 44247,
+      "exportedPath": "assets/pasted-image-20250311153606.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311153854.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 20614,
+      "exportedPath": "assets/pasted-image-20250311153854.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311153918.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 30226,
+      "exportedPath": "assets/pasted-image-20250311153918.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311154722.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 38253,
+      "exportedPath": "assets/pasted-image-20250311154722.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311162523.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 230090,
+      "exportedPath": "assets/pasted-image-20250311162523.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311162938.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 238623,
+      "exportedPath": "assets/pasted-image-20250311162938.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311163219.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 238623,
+      "exportedPath": "assets/pasted-image-20250311163219.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250311163226.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 284225,
+      "exportedPath": "assets/pasted-image-20250311163226.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250312092447.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 2636607,
+      "exportedPath": "assets/pasted-image-20250312092447.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250312092643.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 99723,
+      "exportedPath": "assets/pasted-image-20250312092643.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250312092743.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 12442,
+      "exportedPath": "assets/pasted-image-20250312092743.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250312093243.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 40876,
+      "exportedPath": "assets/pasted-image-20250312093243.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250312094008.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 55317,
+      "exportedPath": "assets/pasted-image-20250312094008.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250312094212.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 140010,
+      "exportedPath": "assets/pasted-image-20250312094212.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250312094942.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 243387,
+      "exportedPath": "assets/pasted-image-20250312094942.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250312095051.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 56497,
+      "exportedPath": "assets/pasted-image-20250312095051.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250312095727.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 239304,
+      "exportedPath": "assets/pasted-image-20250312095727.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250312095809.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 86734,
+      "exportedPath": "assets/pasted-image-20250312095809.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250312095927.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 140606,
+      "exportedPath": "assets/pasted-image-20250312095927.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250312095944.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 140606,
+      "exportedPath": "assets/pasted-image-20250312095944.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250313141918.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 8246,
+      "exportedPath": "assets/pasted-image-20250313141918.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250313142044.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 9745,
+      "exportedPath": "assets/pasted-image-20250313142044.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250313142059.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 11870,
+      "exportedPath": "assets/pasted-image-20250313142059.png",
+      "dependencies": []
+    },
+    "assets/Pasted image 20250313142114.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 34194,
+      "exportedPath": "assets/pasted-image-20250313142114.png",
+      "dependencies": []
+    },
+    "Blog/assets/apiguard_banner.png.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 14178,
+      "exportedPath": "blog/assets/apiguard_banner.png.html",
+      "dependencies": []
+    },
+    "Blog/blog/assets/index.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 45083,
+      "exportedPath": "blog/blog/assets/index.html",
+      "dependencies": []
+    },
+    "Blog/blog/lib/html/file-tree.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 18761,
+      "exportedPath": "blog/blog/lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "Blog/blog/ml/learning-path.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 48693,
+      "exportedPath": "blog/blog/ml/learning-path.html",
+      "dependencies": []
+    },
+    "Blog/blog/placements/sql/sql-notes-r04nx.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 14779,
+      "exportedPath": "blog/blog/placements/sql/sql-notes-r04nx.html",
+      "dependencies": []
+    },
+    "Blog/blog/placements/dsa-cheatsheet.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 109873,
+      "exportedPath": "blog/blog/placements/dsa-cheatsheet.html",
+      "dependencies": []
+    },
+    "Blog/blog/placements/dsa-sheet.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 23123,
+      "exportedPath": "blog/blog/placements/dsa-sheet.html",
+      "dependencies": []
+    },
+    "Blog/blog/placements/dsa-to-do-list.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 15785,
+      "exportedPath": "blog/blog/placements/dsa-to-do-list.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/recommended-courses/1_executive_level.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 232305,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/recommended-courses/1_executive_level.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/recommended-courses/2_senior_management.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 232620,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/recommended-courses/2_senior_management.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/recommended-courses/3_middle_management.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 232321,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/recommended-courses/3_middle_management.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/recommended-courses/4_junior_officers.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 232179,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/recommended-courses/4_junior_officers.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 232162,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/recommended-courses/custom_programs.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 229746,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/recommended-courses/custom_programs.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 27426,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/0_course_structure.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 228856,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/0_course_structure.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 48303,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/1_executive_curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 237388,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/1_executive_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 47695,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/2_senior_management_curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 235032,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/2_senior_management_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 40756,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/3_middle_management_curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 234735,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/3_middle_management_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 40750,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/4_junior_officers_curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 234762,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/4_junior_officers_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 40893,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/5_non_technical_staff_curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 234736,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/5_non_technical_staff_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 40387,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/6_program_summary.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 230548,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/6_program_summary.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 26747,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 20225,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 36550,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 21646,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/cyber-sec-awareness/the-curriculum/training-components.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 20238,
+      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/training-components.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/major-project/research-papers/network-protocol-engineering.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 14345,
+      "exportedPath": "blog/blog/work/major-project/research-papers/network-protocol-engineering.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/major-project/research-papers/wireless-communication.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 14279,
+      "exportedPath": "blog/blog/work/major-project/research-papers/wireless-communication.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/major-project/1.-bandwidth-optimization.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 15877,
+      "exportedPath": "blog/blog/work/major-project/1.-bandwidth-optimization.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/major-project/internet-over-lora.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 16213,
+      "exportedPath": "blog/blog/work/major-project/internet-over-lora.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/major-project/lora_core_innovations.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 34468,
+      "exportedPath": "blog/blog/work/major-project/lora_core_innovations.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/major-project/lora_internet_research_project.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 494849,
+      "exportedPath": "blog/blog/work/major-project/lora_internet_research_project.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/major-project/loraid-connect.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 63585,
+      "exportedPath": "blog/blog/work/major-project/loraid-connect.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/major-project/rural-computing.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 23661,
+      "exportedPath": "blog/blog/work/major-project/rural-computing.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/spit-hackathon/context.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 242442,
+      "exportedPath": "blog/blog/work/spit-hackathon/context.html",
+      "dependencies": []
+    },
+    "Blog/blog/index.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 14064,
+      "exportedPath": "blog/blog/index.html",
+      "dependencies": []
+    },
+    "Blog/excalidraw/drawing-2025-01-10-15.59.40.excalidraw.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 13949,
+      "exportedPath": "blog/excalidraw/drawing-2025-01-10-15.59.40.excalidraw.html",
+      "dependencies": []
+    },
+    "Blog/excalidraw/drawing-2025-03-08-16.09.54.excalidraw.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 62828,
+      "exportedPath": "blog/excalidraw/drawing-2025-03-08-16.09.54.excalidraw.html",
+      "dependencies": []
+    },
+    "Blog/tmp/\n/home/rohan/documents/obsidian-vault/tmp/api_security.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 78500,
+      "exportedPath": "blog/tmp/\n/home/rohan/documents/obsidian-vault/tmp/api_security.html",
+      "dependencies": []
+    },
+    "Blog/tmp/open-vault/openvault_roboweek3.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 220187,
+      "exportedPath": "blog/tmp/open-vault/openvault_roboweek3.html",
+      "dependencies": []
+    },
+    "Blog/tmp/api_security.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 827424,
+      "exportedPath": "blog/tmp/api_security.html",
+      "dependencies": []
+    },
+    "Blog/tmp/api-sec.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 280158,
+      "exportedPath": "blog/tmp/api-sec.html",
+      "dependencies": []
+    },
+    "Blog/tmp/bufi.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 260229,
+      "exportedPath": "blog/tmp/bufi.html",
+      "dependencies": []
+    },
+    "Blog/tmp/data_result.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 116705,
+      "exportedPath": "blog/tmp/data_result.html",
+      "dependencies": []
+    },
+    "Blog/tmp/experiment-5-measurement-of-propagation-or-attenuation-loss-in-the-optical-fiber.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 86729,
+      "exportedPath": "blog/tmp/experiment-5-measurement-of-propagation-or-attenuation-loss-in-the-optical-fiber.html",
+      "dependencies": []
+    },
+    "Blog/tmp/insten.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 211237,
+      "exportedPath": "blog/tmp/insten.html",
+      "dependencies": []
+    },
+    "Blog/tmp/lab-2-cc.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 42318,
+      "exportedPath": "blog/tmp/lab-2-cc.html",
+      "dependencies": []
+    },
+    "Blog/tmp/lab-3a-docker.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 140147,
+      "exportedPath": "blog/tmp/lab-3a-docker.html",
+      "dependencies": []
+    },
+    "Blog/tmp/logisticrouteroptimizer.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 290832,
+      "exportedPath": "blog/tmp/logisticrouteroptimizer.html",
+      "dependencies": []
+    },
+    "Blog/tmp/logisticsrouteoptimizer.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 186226,
+      "exportedPath": "blog/tmp/logisticsrouteoptimizer.html",
+      "dependencies": []
+    },
+    "Blog/tmp/loraid_research_summary.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 114456,
+      "exportedPath": "blog/tmp/loraid_research_summary.html",
+      "dependencies": []
+    },
+    "Blog/tmp/routeforgeai.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 353223,
+      "exportedPath": "blog/tmp/routeforgeai.html",
+      "dependencies": []
+    },
+    "Blog/tmp/tradeguard.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 245112,
+      "exportedPath": "blog/tmp/tradeguard.html",
+      "dependencies": []
+    },
+    "Blog/work/alessa/auth2service.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 66402,
+      "exportedPath": "blog/work/alessa/auth2service.html",
+      "dependencies": []
+    },
+    "Blog/work/alessa/auth2service-alesa.ai.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 45735,
+      "exportedPath": "blog/work/alessa/auth2service-alesa.ai.html",
+      "dependencies": []
+    },
+    "Blog/work/alessa/osm-services-deployment-guide.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 65167,
+      "exportedPath": "blog/work/alessa/osm-services-deployment-guide.html",
+      "dependencies": []
+    },
+    "Blog/work/alessa/revised-services.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 54528,
+      "exportedPath": "blog/work/alessa/revised-services.html",
+      "dependencies": []
+    },
+    "Blog/work/alessa/services_documentation.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 68704,
+      "exportedPath": "blog/work/alessa/services_documentation.html",
+      "dependencies": []
+    },
+    "Blog/work/college/cc/labs/lab-3a-automation-using-ansible.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 101248,
+      "exportedPath": "blog/work/college/cc/labs/lab-3a-automation-using-ansible.html",
+      "dependencies": []
+    },
+    "Blog/work/college/cc/labs/lab-aws-setup.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 65030,
+      "exportedPath": "blog/work/college/cc/labs/lab-aws-setup.html",
+      "dependencies": []
+    },
+    "Blog/work/college/cc/labs/lab-minikube.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 72145,
+      "exportedPath": "blog/work/college/cc/labs/lab-minikube.html",
+      "dependencies": []
+    },
+    "Blog/work/college/cc/labs/lab1.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 46163,
+      "exportedPath": "blog/work/college/cc/labs/lab1.html",
+      "dependencies": []
+    },
+    "Blog/work/college/cc/labs/lab1_report.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 45569,
+      "exportedPath": "blog/work/college/cc/labs/lab1_report.html",
+      "dependencies": []
+    },
+    "Blog/work/college/cc/azure.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 170896,
+      "exportedPath": "blog/work/college/cc/azure.html",
+      "dependencies": []
+    },
+    "Blog/work/college/cc/minikube.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 74624,
+      "exportedPath": "blog/work/college/cc/minikube.html",
+      "dependencies": []
+    },
+    "Blog/work/college/cc/onboarding-aws-academy.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 48576,
+      "exportedPath": "blog/work/college/cc/onboarding-aws-academy.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ccn/lab-3.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 84042,
+      "exportedPath": "blog/work/college/ccn/lab-3.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/1_executive_level.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 34494,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/recommended-courses/1_executive_level.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/2_senior_management.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 34809,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/recommended-courses/2_senior_management.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/3_middle_management.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 34510,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/recommended-courses/3_middle_management.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/4_junior_officers.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 34368,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/recommended-courses/4_junior_officers.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 34351,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/custom_programs.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 31913,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/recommended-courses/custom_programs.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 38921,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/0-course-structure.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 60018,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/0-course-structure.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 59311,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 52361,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 52355,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 52498,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 51992,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/6-program-summary.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 38297,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/6-program-summary.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/assessment-framework.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 31676,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/assessment-framework.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/outline-of-the-course.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 48012,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/references-and-resources.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 33097,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/references-and-resources.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/training-components.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 31689,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/training-components.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/cyber-sec-awareness/executives.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 27254,
+      "exportedPath": "blog/work/college/ta/cyber-sec-awareness/executives.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/vpc@spit/comparison.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 50915,
+      "exportedPath": "blog/work/college/ta/vpc@spit/comparison.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/vpc@spit/orchestrate.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 367932,
+      "exportedPath": "blog/work/college/ta/vpc@spit/orchestrate.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/vpc@spit/orchestrate_obsidian.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 25605,
+      "exportedPath": "blog/work/college/ta/vpc@spit/orchestrate_obsidian.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/feb-worklog.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 30830,
+      "exportedPath": "blog/work/college/ta/feb-worklog.html",
+      "dependencies": []
+    },
+    "Blog/work/college/ta/worklog.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 25438,
+      "exportedPath": "blog/work/college/ta/worklog.html",
+      "dependencies": []
+    },
+    "Blog/work/vista-solutions/mind-map-and-scope.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 25649,
+      "exportedPath": "blog/work/vista-solutions/mind-map-and-scope.html",
+      "dependencies": []
+    },
+    "Blog/on-mark.html": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 131221,
+      "exportedPath": "blog/on-mark.html",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_block_1.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 70978,
+      "exportedPath": "tmp/qr_damage_test/damaged_block_1.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_block_2.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 71014,
+      "exportedPath": "tmp/qr_damage_test/damaged_block_2.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_block_3.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 70991,
+      "exportedPath": "tmp/qr_damage_test/damaged_block_3.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_block_4.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 70845,
+      "exportedPath": "tmp/qr_damage_test/damaged_block_4.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_block_5.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 70854,
+      "exportedPath": "tmp/qr_damage_test/damaged_block_5.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_block_6.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 70610,
+      "exportedPath": "tmp/qr_damage_test/damaged_block_6.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_block_7.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 70711,
+      "exportedPath": "tmp/qr_damage_test/damaged_block_7.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_block_8.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 70338,
+      "exportedPath": "tmp/qr_damage_test/damaged_block_8.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_block_9.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 70017,
+      "exportedPath": "tmp/qr_damage_test/damaged_block_9.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_block_10.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 69854,
+      "exportedPath": "tmp/qr_damage_test/damaged_block_10.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_noise_1.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 93233,
+      "exportedPath": "tmp/qr_damage_test/damaged_noise_1.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_noise_2.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 146951,
+      "exportedPath": "tmp/qr_damage_test/damaged_noise_2.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_noise_3.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 190088,
+      "exportedPath": "tmp/qr_damage_test/damaged_noise_3.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_noise_4.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 224918,
+      "exportedPath": "tmp/qr_damage_test/damaged_noise_4.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_noise_5.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 255077,
+      "exportedPath": "tmp/qr_damage_test/damaged_noise_5.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_noise_6.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 281038,
+      "exportedPath": "tmp/qr_damage_test/damaged_noise_6.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_noise_7.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 302830,
+      "exportedPath": "tmp/qr_damage_test/damaged_noise_7.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_noise_8.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 322426,
+      "exportedPath": "tmp/qr_damage_test/damaged_noise_8.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_noise_9.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 338287,
+      "exportedPath": "tmp/qr_damage_test/damaged_noise_9.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/damaged_noise_10.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 353562,
+      "exportedPath": "tmp/qr_damage_test/damaged_noise_10.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/original_qr.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 3111,
+      "exportedPath": "tmp/qr_damage_test/original_qr.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/qr_block_damage_results.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 248159,
+      "exportedPath": "tmp/qr_damage_test/qr_block_damage_results.png",
+      "dependencies": []
+    },
+    "tmp/qr_damage_test/qr_noise_damage_results.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 1252662,
+      "exportedPath": "tmp/qr_damage_test/qr_noise_damage_results.png",
+      "dependencies": []
+    },
+    "tmp/\nLAB 4 - Computer Communications and Networking - Lab Report.md": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 5809,
+      "exportedPath": "tmp/\nlab-4-computer-communications-and-networking-lab-report.html",
+      "dependencies": []
+    },
+    "tmp/aws_train.md": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 17197,
+      "exportedPath": "tmp/aws_train.html",
+      "dependencies": []
+    },
+    "tmp/aws_training.md": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 3477,
+      "exportedPath": "tmp/aws_training.html",
+      "dependencies": []
+    },
+    "tmp/CC Lab -  Prometheus & Graffana.md": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 2728,
+      "exportedPath": "tmp/cc-lab-prometheus-&-graffana.html",
+      "dependencies": [
+        "lib/media/pasted-image-20250312092447.png",
+        "lib/media/pasted-image-20250312092643.png",
+        "lib/media/pasted-image-20250312092743.png",
+        "lib/media/pasted-image-20250312093243.png",
+        "lib/media/pasted-image-20250312094008.png",
+        "lib/media/pasted-image-20250312094212.png",
+        "lib/media/pasted-image-20250312095727.png",
+        "lib/media/pasted-image-20250312095051.png",
+        "lib/media/pasted-image-20250312095809.png",
+        "lib/media/pasted-image-20250312095927.png"
+      ]
+    },
+    "tmp/Experiment NO.2.md": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 5547,
+      "exportedPath": "tmp/experiment-no.2.html",
+      "dependencies": []
+    },
+    "tmp/FarmConnect_Documentation.md": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 39794,
+      "exportedPath": "tmp/farmconnect_documentation.html",
+      "dependencies": []
+    },
+    "tmp/iot-gate.md": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 7798,
+      "exportedPath": "tmp/iot-gate.html",
+      "dependencies": []
+    },
+    "tmp/KisanBazaar.md": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 12034,
+      "exportedPath": "tmp/kisanbazaar.html",
+      "dependencies": []
+    },
+    "tmp/LAB 4 - Computer Communications and Networking - Lab Report.md": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 37836,
+      "exportedPath": "tmp/lab-4-computer-communications-and-networking-lab-report.html",
+      "dependencies": [
+        "lib/media/pasted-image-20250311142911.png",
+        "lib/media/pasted-image-20250311144148.png",
+        "lib/media/pasted-image-20250311143846.png",
+        "lib/media/pasted-image-20250311144539.png",
+        "lib/media/pasted-image-20250311144926.png",
+        "lib/media/pasted-image-20250311145346.png",
+        "lib/media/pasted-image-20250311145645.png",
+        "lib/media/pasted-image-20250311145737.png",
+        "lib/media/pasted-image-20250311145759.png",
+        "lib/media/pasted-image-20250311150608.png",
+        "lib/media/pasted-image-20250311151011.png",
+        "lib/media/pasted-image-20250311151042.png",
+        "lib/media/pasted-image-20250311151731.png",
+        "lib/media/pasted-image-20250311152745.png",
+        "lib/media/pasted-image-20250311153448.png",
+        "lib/media/pasted-image-20250311153606.png",
+        "lib/media/pasted-image-20250311153854.png",
+        "lib/media/pasted-image-20250311153918.png",
+        "lib/media/pasted-image-20250311162523.png",
+        "lib/media/pasted-image-20250311162938.png",
+        "lib/media/pasted-image-20250311163226.png"
+      ]
+    },
+    "tmp/QR Code Error Correction Lab - ITC Lab 4.md": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 23811,
+      "exportedPath": "tmp/qr-code-error-correction-lab-itc-lab-4.html",
+      "dependencies": [
+        "tmp/qr_damage_test/original_qr.png",
+        "tmp/qr_damage_test/damaged_noise_1.png",
+        "tmp/qr_damage_test/damaged_noise_5.png",
+        "tmp/qr_damage_test/qr_noise_damage_results.png",
+        "tmp/qr_damage_test/damaged_block_2.png",
+        "tmp/qr_damage_test/damaged_block_5.png",
+        "tmp/qr_damage_test/qr_block_damage_results.png"
+      ]
+    },
+    "tmp/QR_Code_Error_Correction_Lab_Report.md": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 25487,
+      "exportedPath": "tmp/qr_code_error_correction_lab_report.html",
+      "dependencies": [
+        "tmp/qr_damage_test/original_qr.png",
+        "tmp/qr_damage_test/damaged_noise_1.png",
+        "tmp/qr_damage_test/damaged_noise_3.png",
+        "tmp/qr_damage_test/damaged_noise_5.png",
+        "tmp/qr_damage_test/original_qr.png",
+        "tmp/qr_damage_test/damaged_block_5.png",
+        "tmp/qr_damage_test/damaged_block_2.png",
+        "tmp/qr_damage_test/damaged_block_5.png",
+        "tmp/qr_damage_test/qr_noise_damage_results.png",
+        "tmp/qr_damage_test/qr_block_damage_results.png"
+      ]
+    },
+    "tmp/QR_Code_Error_Correction_Summary.md": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 3889,
+      "exportedPath": "tmp/qr_code_error_correction_summary.html",
+      "dependencies": [
+        "tmp/qr_damage_test/original_qr.png",
+        "tmp/qr_damage_test/damaged_noise_1.png",
+        "tmp/qr_damage_test/damaged_noise_5.png",
+        "tmp/qr_damage_test/qr_noise_damage_results.png",
+        "tmp/qr_damage_test/damaged_block_2.png",
+        "tmp/qr_damage_test/damaged_block_5.png",
+        "tmp/qr_damage_test/qr_block_damage_results.png"
+      ]
+    },
+    "aws_train.canvas": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 4205,
+      "exportedPath": "aws_train.html",
+      "dependencies": []
+    },
+    "banking_aws.canvas": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 6185,
+      "exportedPath": "banking_aws.html",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250312092447.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 2636607,
+      "exportedPath": "lib/media/pasted-image-20250312092447.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250312092643.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 99723,
+      "exportedPath": "lib/media/pasted-image-20250312092643.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250312092743.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 12442,
+      "exportedPath": "lib/media/pasted-image-20250312092743.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250312093243.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 40876,
+      "exportedPath": "lib/media/pasted-image-20250312093243.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250312094008.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 55317,
+      "exportedPath": "lib/media/pasted-image-20250312094008.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250312094212.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 140010,
+      "exportedPath": "lib/media/pasted-image-20250312094212.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250312095727.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 239304,
+      "exportedPath": "lib/media/pasted-image-20250312095727.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250312095051.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 56497,
+      "exportedPath": "lib/media/pasted-image-20250312095051.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250312095809.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 86734,
+      "exportedPath": "lib/media/pasted-image-20250312095809.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250312095927.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 140606,
+      "exportedPath": "lib/media/pasted-image-20250312095927.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311142911.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 1954544,
+      "exportedPath": "lib/media/pasted-image-20250311142911.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311144148.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 70552,
+      "exportedPath": "lib/media/pasted-image-20250311144148.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311143846.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 344977,
+      "exportedPath": "lib/media/pasted-image-20250311143846.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311144539.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 266141,
+      "exportedPath": "lib/media/pasted-image-20250311144539.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311144926.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 327594,
+      "exportedPath": "lib/media/pasted-image-20250311144926.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311145346.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 387125,
+      "exportedPath": "lib/media/pasted-image-20250311145346.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311145645.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 124611,
+      "exportedPath": "lib/media/pasted-image-20250311145645.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311145737.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 336292,
+      "exportedPath": "lib/media/pasted-image-20250311145737.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311145759.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 369151,
+      "exportedPath": "lib/media/pasted-image-20250311145759.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311150608.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 334814,
+      "exportedPath": "lib/media/pasted-image-20250311150608.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311151011.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 229117,
+      "exportedPath": "lib/media/pasted-image-20250311151011.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311151042.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 247175,
+      "exportedPath": "lib/media/pasted-image-20250311151042.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311151731.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 110975,
+      "exportedPath": "lib/media/pasted-image-20250311151731.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311152745.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 139177,
+      "exportedPath": "lib/media/pasted-image-20250311152745.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311153448.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 181909,
+      "exportedPath": "lib/media/pasted-image-20250311153448.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311153606.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 44247,
+      "exportedPath": "lib/media/pasted-image-20250311153606.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311153854.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 20614,
+      "exportedPath": "lib/media/pasted-image-20250311153854.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311153918.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 30226,
+      "exportedPath": "lib/media/pasted-image-20250311153918.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311162523.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 230090,
+      "exportedPath": "lib/media/pasted-image-20250311162523.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311162938.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 238623,
+      "exportedPath": "lib/media/pasted-image-20250311162938.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250311163226.png": {
+      "modifiedTime": 1741868813245,
+      "sourceSize": 284225,
+      "exportedPath": "lib/media/pasted-image-20250311163226.png",
       "dependencies": []
     }
   }
