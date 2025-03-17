@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/m8idc5z4#zaDvyOqblxjGID+b91kuoCtGcj20uW89wj/URjjt0Mc
+share_updated: 2025-03-17T11:05:59+05:30
+---
 # AWS IAM & S3 Training Guide
 
 ## 🟢 **1. AWS IAM Overview**
