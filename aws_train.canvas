@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"cloudwatch_node","type":"text","text":"# 📊 Amazon CloudWatch\n\n📈 Monitoring\n📝 Logging\n🚨 Alerts\n📱 Dashboards\n📊 Metrics\n⚡ Event Management","x":360,"y":-425,"width":300,"height":250,"color":"2"},
+		{"id":"cloudwatch_node","type":"text","text":"# 📊 Amazon CloudWatch\n\n📈 Monitoring\n📝 Logging\n🚨 Alerts\n📱 Dashboards\n📊 Metrics\n⚡ Event Management","x":360,"y":-425,"width":300,"height":285,"color":"2"},
 		{"id":"sns_node","type":"text","text":"# 📱 Amazon SNS\n\n📲 Push Notifications\n📢 Pub/Sub\n🔄 Event Fan-out\n📱 Mobile Push\n✉️ Email/SMS\n🔔 Application Alerts","x":400,"y":0,"width":300,"height":250,"color":"5"},
 		{"id":"iam_node","type":"text","text":"# 🔐 AWS IAM\n\n🔑 Access Control\n⚡ Permissions\n🛡️ Security\n👥 Roles\n📜 Policies\n👤 User Management","x":-2100,"y":-300,"width":300,"height":250,"color":"6"},
 		{"id":"route53_node","type":"text","text":"# 🌐 Amazon Route 53\n\n🔄 DNS Service\n🛣️ Domain Routing\n⚖️ Load Balancing\n💗 Health Checks\n🔄 Traffic Flow\n⚡ Latency Routing","x":-2100,"y":380,"width":300,"height":300,"color":"1"},
@@ -9,8 +9,8 @@
 		{"id":"sqs_node","type":"text","text":"# 📨 Amazon SQS\n\n📬 Message Queue\n🔄 Decoupling\n⚡ Async Processing\n📥 FIFO Queues\n💀 Dead Letter Queues\n🔄 Long Polling","x":400,"y":630,"width":300,"height":250,"color":"5"},
 		{"id":"rds_node","type":"text","text":"# 🗄️ Amazon RDS\n\n📊 MySQL\n🐘 PostgreSQL\n💾 Data Storage\n🔄 Automated Backups\n🌍 Multi-AZ\n📚 Read Replicas","x":-440,"y":560,"width":300,"height":250,"color":"3"},
 		{"id":"lambda_node","type":"text","text":"# ⚡ AWS Lambda\n\n☁️ Serverless\n⚡ Event Processing\n🤖 Automation\n🔄 Multiple Runtimes\n📈 Auto-scaling\n💰 Pay-per-use","x":-530,"y":-590,"width":300,"height":250,"color":"4"},
-		{"id":"api_gateway_node","type":"text","text":"# 🚪 Amazon API Gateway\n\n🌐 REST APIs\n🔌 WebSocket\n🎮 API Management\n🔐 Authentication\n🔑 API Keys\n🔄 Request/Response Transform","x":-530,"y":-1000,"width":300,"height":300,"color":"5"},
-		{"id":"s3_node","type":"text","text":"# 📦 Amazon S3\n\n💾 Object Storage\n📄 Static Files\n💾 Backups\n🔄 Versioning\n⏳ Lifecycle Policies\n🌊 Data Lakes","x":-590,"y":130,"width":300,"height":250,"color":"3"}
+		{"id":"s3_node","type":"text","text":"# 📦 Amazon S3\n\n💾 Object Storage\n📄 Static Files\n💾 Backups\n🔄 Versioning\n⏳ Lifecycle Policies\n🌊 Data Lakes","x":-590,"y":130,"width":300,"height":250,"color":"3"},
+		{"id":"api_gateway_node","type":"text","text":"# 🚪 Amazon API Gateway\n\n🌐 REST APIs\n🔌 WebSocket\n🎮 API Management\n🔐 Authentication\n🔑 API Keys\n🔄 Request/Response Transform","x":-530,"y":-1120,"width":300,"height":320,"color":"5"}
 	],
 	"edges":[
 		{"id":"vpc_to_ec2","fromNode":"vpc_node","fromSide":"right","toNode":"ec2_node","toSide":"left","label":"🏠 Hosts"},
