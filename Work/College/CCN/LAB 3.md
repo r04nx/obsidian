@@ -43,13 +43,13 @@ To implement Python programs for identifying IP address classes, retrieving IP a
 IP addresses are classified into five different classes: A, B, C, D, and E. The classification is based on the first octet of the IP address.
 
 ### IP Address Classes
-| Class | First Octet Range | Default Subnet Mask | Usage |
-|-------|------------------|--------------------|--------|
-| A     | 1 - 126         | 255.0.0.0         | Large Networks |
-| B     | 128 - 191       | 255.255.0.0       | Medium Networks |
-| C     | 192 - 223       | 255.255.255.0     | Small Networks |
-| D     | 224 - 239       | N/A (Multicast)   | Multicasting |
-| E     | 240 - 255       | N/A (Experimental)| Research |
+| Class | First Octet Range | Default Subnet Mask | Usage           |
+| ----- | ----------------- | ------------------- | --------------- |
+| A     | 1 - 126           | 255.0.0.0           | Large Networks  |
+| B     | 128 - 191         | 255.255.0.0         | Medium Networks |
+| C     | 192 - 223         | 255.255.255.0       | Small Networks  |
+| D     | 224 - 239         | N/A (Multicast)     | Multicasting    |
+| E     | 240 - 255         | N/A (Experimental)  | Research        |
 
 ---
 

@@ -1,8 +1,8 @@
 {
   "vaultName": "Obsidian Vault",
-  "lastExport": 1741868813245,
+  "lastExport": 1742306200935,
   "pluginVersion": "1.8.01",
-  "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon is-fullscreen",
+  "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
@@ -148,38 +148,124 @@
     "assets/Pasted image 20250313142114.png",
     "Blog/assets/apiguard_banner.png.html",
     "Blog/assets/index.html",
+    "Blog/blog/assets/apiguard_banner.png.html",
     "Blog/blog/assets/index.html",
+    "Blog/blog/blog/assets/index.html",
+    "Blog/blog/blog/lib/html/file-tree.html",
+    "Blog/blog/blog/ml/learning-path.html",
+    "Blog/blog/blog/placements/sql/sql-notes-r04nx.html",
+    "Blog/blog/blog/placements/dsa-cheatsheet.html",
+    "Blog/blog/blog/placements/dsa-sheet.html",
+    "Blog/blog/blog/placements/dsa-to-do-list.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/recommended-courses/1_executive_level.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/recommended-courses/2_senior_management.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/recommended-courses/3_middle_management.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/recommended-courses/4_junior_officers.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/recommended-courses/custom_programs.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/0_course_structure.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/1_executive_curriculum.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/2_senior_management_curriculum.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/3_middle_management_curriculum.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/4_junior_officers_curriculum.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/5_non_technical_staff_curriculum.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/6_program_summary.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html",
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/training-components.html",
+    "Blog/blog/blog/work/major-project/research-papers/network-protocol-engineering.html",
+    "Blog/blog/blog/work/major-project/research-papers/wireless-communication.html",
+    "Blog/blog/blog/work/major-project/1.-bandwidth-optimization.html",
+    "Blog/blog/blog/work/major-project/internet-over-lora.html",
+    "Blog/blog/blog/work/major-project/lora_core_innovations.html",
+    "Blog/blog/blog/work/major-project/lora_internet_research_project.html",
+    "Blog/blog/blog/work/major-project/loraid-connect.html",
+    "Blog/blog/blog/work/major-project/rural-computing.html",
+    "Blog/blog/blog/work/spit-hackathon/context.html",
+    "Blog/blog/blog/index.html",
+    "Blog/blog/excalidraw/drawing-2025-01-10-15.59.40.excalidraw.html",
+    "Blog/blog/excalidraw/drawing-2025-03-08-16.09.54.excalidraw.html",
     "Blog/blog/lib/html/file-tree.html",
     "Blog/blog/ml/learning-path.html",
     "Blog/blog/placements/sql/sql-notes-r04nx.html",
     "Blog/blog/placements/dsa-cheatsheet.html",
     "Blog/blog/placements/dsa-sheet.html",
     "Blog/blog/placements/dsa-to-do-list.html",
+    "Blog/blog/tmp/\n/home/rohan/documents/obsidian-vault/tmp/api_security.html",
+    "Blog/blog/tmp/open-vault/openvault_roboweek3.html",
+    "Blog/blog/tmp/api_security.html",
+    "Blog/blog/tmp/api-sec.html",
+    "Blog/blog/tmp/bufi.html",
+    "Blog/blog/tmp/data_result.html",
+    "Blog/blog/tmp/experiment-5-measurement-of-propagation-or-attenuation-loss-in-the-optical-fiber.html",
+    "Blog/blog/tmp/insten.html",
+    "Blog/blog/tmp/lab-2-cc.html",
+    "Blog/blog/tmp/lab-3a-docker.html",
+    "Blog/blog/tmp/logisticrouteroptimizer.html",
+    "Blog/blog/tmp/logisticsrouteoptimizer.html",
+    "Blog/blog/tmp/loraid_research_summary.html",
+    "Blog/blog/tmp/routeforgeai.html",
+    "Blog/blog/tmp/tradeguard.html",
+    "Blog/blog/work/alessa/auth2service.html",
+    "Blog/blog/work/alessa/auth2service-alesa.ai.html",
+    "Blog/blog/work/alessa/osm-services-deployment-guide.html",
+    "Blog/blog/work/alessa/revised-services.html",
+    "Blog/blog/work/alessa/services_documentation.html",
+    "Blog/blog/work/college/cc/labs/lab-3a-automation-using-ansible.html",
+    "Blog/blog/work/college/cc/labs/lab-aws-setup.html",
+    "Blog/blog/work/college/cc/labs/lab-minikube.html",
+    "Blog/blog/work/college/cc/labs/lab1.html",
+    "Blog/blog/work/college/cc/labs/lab1_report.html",
+    "Blog/blog/work/college/cc/azure.html",
+    "Blog/blog/work/college/cc/minikube.html",
+    "Blog/blog/work/college/cc/onboarding-aws-academy.html",
+    "Blog/blog/work/college/ccn/lab-3.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/1_executive_level.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/2_senior_management.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/3_middle_management.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/4_junior_officers.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/custom_programs.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/0-course-structure.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/6-program-summary.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/assessment-framework.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/references-and-resources.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/training-components.html",
+    "Blog/blog/work/college/ta/cyber-sec-awareness/executives.html",
+    "Blog/blog/work/college/ta/vpc@spit/comparison.html",
+    "Blog/blog/work/college/ta/vpc@spit/orchestrate.html",
+    "Blog/blog/work/college/ta/vpc@spit/orchestrate_obsidian.html",
+    "Blog/blog/work/college/ta/feb-worklog.html",
+    "Blog/blog/work/college/ta/worklog.html",
     "Blog/blog/work/cyber-sec-awareness/recommended-courses/1_executive_level.html",
     "Blog/blog/work/cyber-sec-awareness/recommended-courses/2_senior_management.html",
     "Blog/blog/work/cyber-sec-awareness/recommended-courses/3_middle_management.html",
     "Blog/blog/work/cyber-sec-awareness/recommended-courses/4_junior_officers.html",
     "Blog/blog/work/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html",
     "Blog/blog/work/cyber-sec-awareness/recommended-courses/custom_programs.html",
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/0_course_structure.html",
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html",
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/1_executive_curriculum.html",
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/2_senior_management_curriculum.html",
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/3_middle_management_curriculum.html",
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/4_junior_officers_curriculum.html",
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/5_non_technical_staff_curriculum.html",
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/6_program_summary.html",
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html",
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html",
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html",
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/training-components.html",
     "Blog/blog/work/major-project/research-papers/network-protocol-engineering.html",
     "Blog/blog/work/major-project/research-papers/wireless-communication.html",
     "Blog/blog/work/major-project/1.-bandwidth-optimization.html",
@@ -188,8 +274,9 @@
     "Blog/blog/work/major-project/lora_internet_research_project.html",
     "Blog/blog/work/major-project/loraid-connect.html",
     "Blog/blog/work/major-project/rural-computing.html",
-    "Blog/blog/work/spit-hackathon/context.html",
+    "Blog/blog/work/vista-solutions/mind-map-and-scope.html",
     "Blog/blog/index.html",
+    "Blog/blog/on-mark.html",
     "Blog/excalidraw/drawing-2025-01-10-15.59.40.excalidraw.html",
     "Blog/excalidraw/drawing-2025-03-08-16.09.54.excalidraw.html",
     "Blog/lib/fonts/2d5198822ab091ce4305.woff2",
@@ -232,17 +319,29 @@
     "Blog/placements/dsa-to-do-list.html",
     "Blog/tmp/\n/home/rohan/documents/obsidian-vault/tmp/api_security.html",
     "Blog/tmp/open-vault/openvault_roboweek3.html",
+    "Blog/tmp/\nlab-4-computer-communications-and-networking-lab-report.html",
     "Blog/tmp/api_security.html",
     "Blog/tmp/api-sec.html",
+    "Blog/tmp/aws_train.html",
+    "Blog/tmp/aws_training.html",
     "Blog/tmp/bufi.html",
+    "Blog/tmp/cc-lab-prometheus-&-graffana.html",
     "Blog/tmp/data_result.html",
     "Blog/tmp/experiment-5-measurement-of-propagation-or-attenuation-loss-in-the-optical-fiber.html",
+    "Blog/tmp/experiment-no.2.html",
+    "Blog/tmp/farmconnect_documentation.html",
     "Blog/tmp/insten.html",
+    "Blog/tmp/iot-gate.html",
+    "Blog/tmp/kisanbazaar.html",
     "Blog/tmp/lab-2-cc.html",
     "Blog/tmp/lab-3a-docker.html",
+    "Blog/tmp/lab-4-computer-communications-and-networking-lab-report.html",
     "Blog/tmp/logisticrouteroptimizer.html",
     "Blog/tmp/logisticsrouteoptimizer.html",
     "Blog/tmp/loraid_research_summary.html",
+    "Blog/tmp/qr_code_error_correction_lab_report.html",
+    "Blog/tmp/qr_code_error_correction_summary.html",
+    "Blog/tmp/qr-code-error-correction-lab-itc-lab-4.html",
     "Blog/tmp/routeforgeai.html",
     "Blog/tmp/tradeguard.html",
     "Blog/work/alessa/auth2service.html",
@@ -306,6 +405,8 @@
     "Blog/Work/Cyber Sec Awareness/The Curriculum/5_Non_Technical_Staff_Curriculum.html",
     "Blog/Work/Cyber Sec Awareness/The Curriculum/6_Program_Summary.html",
     "Blog/Work/Cyber Sec Awareness/The Curriculum/Outline of the Course.html",
+    "Blog/aws_train.html",
+    "Blog/banking_aws.html",
     "Blog/index.html",
     "Blog/on-mark.html",
     "Excalidraw/Drawing 2025-01-10 15.59.40.excalidraw.md",
@@ -361,6 +462,7 @@
     "tmp/Lab 3A - Docker.md",
     "tmp/LAB 4 - Computer Communications and Networking - Lab Report.md",
     "tmp/LogisticRouterOptimizer.md",
+    "tmp/logo-white-bg.png",
     "tmp/data_result.md",
     "tmp/myfile.txt",
     "tmp/QR Code Error Correction Lab - ITC Lab 4.md",
@@ -368,8 +470,10 @@
     "tmp/QR_Code_Error_Correction_Summary.md",
     "tmp/LogisticsRouteOptimizer.md",
     "tmp/RouteForgeAI.md",
+    "tmp/SwiftClaim_Documentation.md",
     "tmp/test_data.bin",
     "tmp/tradeguard.md",
+    "tmp/Training.md",
     "Work/Alessa/auth2service.md",
     "Work/Alessa/auth2service - alesa.ai.md",
     "Work/Alessa/OSM Services Deployment Guide.md",
@@ -429,37 +533,6 @@
     "banking_aws.canvas",
     "index.md",
     "On Mark.md",
-    "lib/media/pasted-image-20250312092447.png",
-    "lib/media/pasted-image-20250312092643.png",
-    "lib/media/pasted-image-20250312092743.png",
-    "lib/media/pasted-image-20250312093243.png",
-    "lib/media/pasted-image-20250312094008.png",
-    "lib/media/pasted-image-20250312094212.png",
-    "lib/media/pasted-image-20250312095727.png",
-    "lib/media/pasted-image-20250312095051.png",
-    "lib/media/pasted-image-20250312095809.png",
-    "lib/media/pasted-image-20250312095927.png",
-    "lib/media/pasted-image-20250311142911.png",
-    "lib/media/pasted-image-20250311144148.png",
-    "lib/media/pasted-image-20250311143846.png",
-    "lib/media/pasted-image-20250311144539.png",
-    "lib/media/pasted-image-20250311144926.png",
-    "lib/media/pasted-image-20250311145346.png",
-    "lib/media/pasted-image-20250311145645.png",
-    "lib/media/pasted-image-20250311145737.png",
-    "lib/media/pasted-image-20250311145759.png",
-    "lib/media/pasted-image-20250311150608.png",
-    "lib/media/pasted-image-20250311151011.png",
-    "lib/media/pasted-image-20250311151042.png",
-    "lib/media/pasted-image-20250311151731.png",
-    "lib/media/pasted-image-20250311152745.png",
-    "lib/media/pasted-image-20250311153448.png",
-    "lib/media/pasted-image-20250311153606.png",
-    "lib/media/pasted-image-20250311153854.png",
-    "lib/media/pasted-image-20250311153918.png",
-    "lib/media/pasted-image-20250311162523.png",
-    "lib/media/pasted-image-20250311162938.png",
-    "lib/media/pasted-image-20250311163226.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -516,6 +589,16 @@
     "placements/sql/pasted-image-20250102163014.png",
     "lib/media/openvault.png",
     "lib/media/pasted-image-20250226191105.png",
+    "lib/media/pasted-image-20250312092447.png",
+    "lib/media/pasted-image-20250312092643.png",
+    "lib/media/pasted-image-20250312092743.png",
+    "lib/media/pasted-image-20250312093243.png",
+    "lib/media/pasted-image-20250312094008.png",
+    "lib/media/pasted-image-20250312094212.png",
+    "lib/media/pasted-image-20250312095727.png",
+    "lib/media/pasted-image-20250312095051.png",
+    "lib/media/pasted-image-20250312095809.png",
+    "lib/media/pasted-image-20250312095927.png",
     "tmp/compression_ratio_comparison.png",
     "tmp/compression_time_vs_ratio.png",
     "tmp/algorithm_performance_radar.png",
@@ -528,6 +611,27 @@
     "lib/media/pasted-image-20250306150322.png",
     "lib/media/pasted-image-20250306152208.png",
     "lib/media/pasted-image-20250306152045.png",
+    "lib/media/pasted-image-20250311142911.png",
+    "lib/media/pasted-image-20250311144148.png",
+    "lib/media/pasted-image-20250311143846.png",
+    "lib/media/pasted-image-20250311144539.png",
+    "lib/media/pasted-image-20250311144926.png",
+    "lib/media/pasted-image-20250311145346.png",
+    "lib/media/pasted-image-20250311145645.png",
+    "lib/media/pasted-image-20250311145737.png",
+    "lib/media/pasted-image-20250311145759.png",
+    "lib/media/pasted-image-20250311150608.png",
+    "lib/media/pasted-image-20250311151011.png",
+    "lib/media/pasted-image-20250311151042.png",
+    "lib/media/pasted-image-20250311151731.png",
+    "lib/media/pasted-image-20250311152745.png",
+    "lib/media/pasted-image-20250311153448.png",
+    "lib/media/pasted-image-20250311153606.png",
+    "lib/media/pasted-image-20250311153854.png",
+    "lib/media/pasted-image-20250311153918.png",
+    "lib/media/pasted-image-20250311162523.png",
+    "lib/media/pasted-image-20250311162938.png",
+    "lib/media/pasted-image-20250311163226.png",
     "lib/media/pasted-image-20250302010217.png",
     "lib/media/pasted-image-20250302010239.png",
     "lib/media/pasted-image-20250302010422.png",
@@ -652,79 +756,79 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
@@ -742,91 +846,91 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 216568,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 279747,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 7339,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 7437,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 137466,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 83,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
@@ -892,133 +996,133 @@
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
@@ -1083,7 +1187,7 @@
       ]
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
@@ -1611,8 +1715,8 @@
       "dependencies": []
     },
     "Blog/assets/index.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 45083,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 45081,
       "exportedPath": "blog/assets/index.html",
       "dependencies": []
     },
@@ -1695,8 +1799,8 @@
       "dependencies": []
     },
     "Blog/lib/html/file-tree.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 131416,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 216568,
       "exportedPath": "blog/lib/html/file-tree.html",
       "dependencies": []
     },
@@ -1707,20 +1811,20 @@
       "dependencies": []
     },
     "Blog/lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 315,
       "exportedPath": "blog/lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "Blog/lib/media/favicon.png": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 1105,
       "exportedPath": "blog/lib/media/favicon.png",
       "dependencies": []
     },
     "Blog/lib/scripts/graph-data.js": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 6406,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 7339,
       "exportedPath": "blog/lib/scripts/graph-data.js",
       "dependencies": []
     },
@@ -1773,7 +1877,7 @@
       "dependencies": []
     },
     "Blog/lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 262,
       "exportedPath": "blog/lib/styles/global-variable-styles.css",
       "dependencies": []
@@ -1785,110 +1889,110 @@
       "dependencies": []
     },
     "Blog/lib/styles/obsidian.css": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 137478,
       "exportedPath": "blog/lib/styles/obsidian.css",
       "dependencies": []
     },
     "Blog/lib/styles/other-plugins.css": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 83,
       "exportedPath": "blog/lib/styles/other-plugins.css",
       "dependencies": []
     },
     "Blog/lib/metadata.json": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 110022,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 169596,
       "exportedPath": "blog/lib/metadata.json",
       "dependencies": []
     },
     "Blog/lib/rss.xml": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 486172,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 675607,
       "exportedPath": "blog/lib/rss.xml",
       "dependencies": []
     },
     "Blog/lib/search-index.json": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 451037,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 575188,
       "exportedPath": "blog/lib/search-index.json",
       "dependencies": []
     },
     "Blog/ml/learning-path.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 48693,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 48691,
       "exportedPath": "blog/ml/learning-path.html",
       "dependencies": []
     },
     "Blog/placements/sql/sql-notes-r04nx.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 14779,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 14777,
       "exportedPath": "blog/placements/sql/sql-notes-r04nx.html",
       "dependencies": []
     },
     "Blog/placements/dsa-cheatsheet.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 109873,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 109871,
       "exportedPath": "blog/placements/dsa-cheatsheet.html",
       "dependencies": []
     },
     "Blog/placements/dsa-sheet.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 23123,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 23121,
       "exportedPath": "blog/placements/dsa-sheet.html",
       "dependencies": []
     },
     "Blog/placements/dsa-to-do-list.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 15785,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 15783,
       "exportedPath": "blog/placements/dsa-to-do-list.html",
       "dependencies": []
     },
     "Blog/work/major-project/research-papers/network-protocol-engineering.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 14345,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 14343,
       "exportedPath": "blog/work/major-project/research-papers/network-protocol-engineering.html",
       "dependencies": []
     },
     "Blog/work/major-project/research-papers/wireless-communication.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 14279,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 14277,
       "exportedPath": "blog/work/major-project/research-papers/wireless-communication.html",
       "dependencies": []
     },
     "Blog/work/major-project/1.-bandwidth-optimization.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 15877,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 15875,
       "exportedPath": "blog/work/major-project/1.-bandwidth-optimization.html",
       "dependencies": []
     },
     "Blog/work/major-project/internet-over-lora.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 16213,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 16211,
       "exportedPath": "blog/work/major-project/internet-over-lora.html",
       "dependencies": []
     },
     "Blog/work/major-project/lora_core_innovations.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 34468,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 34466,
       "exportedPath": "blog/work/major-project/lora_core_innovations.html",
       "dependencies": []
     },
     "Blog/work/major-project/lora_internet_research_project.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 404442,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 404440,
       "exportedPath": "blog/work/major-project/lora_internet_research_project.html",
       "dependencies": []
     },
     "Blog/work/major-project/loraid-connect.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 63585,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 63583,
       "exportedPath": "blog/work/major-project/loraid-connect.html",
       "dependencies": []
     },
     "Blog/work/major-project/rural-computing.html": {
-      "modifiedTime": 1741518165473,
-      "sourceSize": 23661,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 23659,
       "exportedPath": "blog/work/major-project/rural-computing.html",
       "dependencies": []
     },
@@ -1977,8 +2081,8 @@
       "dependencies": []
     },
     "Blog/index.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 26568,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 26566,
       "exportedPath": "blog/index.html",
       "dependencies": []
     },
@@ -3287,8 +3391,8 @@
       "dependencies": []
     },
     "Blog/assets/apiguard_banner.png.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 14178,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 14176,
       "exportedPath": "blog/assets/apiguard_banner.png.html",
       "dependencies": []
     },
@@ -3299,8 +3403,8 @@
       "dependencies": []
     },
     "Blog/blog/lib/html/file-tree.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 18761,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 131416,
       "exportedPath": "blog/blog/lib/html/file-tree.html",
       "dependencies": []
     },
@@ -3370,22 +3474,10 @@
       "exportedPath": "blog/blog/work/cyber-sec-awareness/recommended-courses/custom_programs.html",
       "dependencies": []
     },
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 27426,
-      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
-      "dependencies": []
-    },
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/0_course_structure.html": {
       "modifiedTime": 1741868813245,
       "sourceSize": 228856,
       "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/0_course_structure.html",
-      "dependencies": []
-    },
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 48303,
-      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html",
       "dependencies": []
     },
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/1_executive_curriculum.html": {
@@ -3394,22 +3486,10 @@
       "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/1_executive_curriculum.html",
       "dependencies": []
     },
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 47695,
-      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
-      "dependencies": []
-    },
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/2_senior_management_curriculum.html": {
       "modifiedTime": 1741868813245,
       "sourceSize": 235032,
       "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/2_senior_management_curriculum.html",
-      "dependencies": []
-    },
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 40756,
-      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
       "dependencies": []
     },
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/3_middle_management_curriculum.html": {
@@ -3418,22 +3498,10 @@
       "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/3_middle_management_curriculum.html",
       "dependencies": []
     },
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 40750,
-      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
-      "dependencies": []
-    },
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/4_junior_officers_curriculum.html": {
       "modifiedTime": 1741868813245,
       "sourceSize": 234762,
       "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/4_junior_officers_curriculum.html",
-      "dependencies": []
-    },
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 40893,
-      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
       "dependencies": []
     },
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/5_non_technical_staff_curriculum.html": {
@@ -3442,46 +3510,10 @@
       "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/5_non_technical_staff_curriculum.html",
       "dependencies": []
     },
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 40387,
-      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
-      "dependencies": []
-    },
     "Blog/blog/work/cyber-sec-awareness/the-curriculum/6_program_summary.html": {
       "modifiedTime": 1741868813245,
       "sourceSize": 230548,
       "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/6_program_summary.html",
-      "dependencies": []
-    },
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 26747,
-      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html",
-      "dependencies": []
-    },
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 20225,
-      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html",
-      "dependencies": []
-    },
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 36550,
-      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
-      "dependencies": []
-    },
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 21646,
-      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html",
-      "dependencies": []
-    },
-    "Blog/blog/work/cyber-sec-awareness/the-curriculum/training-components.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 20238,
-      "exportedPath": "blog/blog/work/cyber-sec-awareness/the-curriculum/training-components.html",
       "dependencies": []
     },
     "Blog/blog/work/major-project/research-papers/network-protocol-engineering.html": {
@@ -3515,8 +3547,8 @@
       "dependencies": []
     },
     "Blog/blog/work/major-project/lora_internet_research_project.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 494849,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 404442,
       "exportedPath": "blog/blog/work/major-project/lora_internet_research_project.html",
       "dependencies": []
     },
@@ -3532,357 +3564,351 @@
       "exportedPath": "blog/blog/work/major-project/rural-computing.html",
       "dependencies": []
     },
-    "Blog/blog/work/spit-hackathon/context.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 242442,
-      "exportedPath": "blog/blog/work/spit-hackathon/context.html",
-      "dependencies": []
-    },
     "Blog/blog/index.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 14064,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 26568,
       "exportedPath": "blog/blog/index.html",
       "dependencies": []
     },
     "Blog/excalidraw/drawing-2025-01-10-15.59.40.excalidraw.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 13949,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 13947,
       "exportedPath": "blog/excalidraw/drawing-2025-01-10-15.59.40.excalidraw.html",
       "dependencies": []
     },
     "Blog/excalidraw/drawing-2025-03-08-16.09.54.excalidraw.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 62828,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 62826,
       "exportedPath": "blog/excalidraw/drawing-2025-03-08-16.09.54.excalidraw.html",
       "dependencies": []
     },
     "Blog/tmp/\n/home/rohan/documents/obsidian-vault/tmp/api_security.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 78500,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 78498,
       "exportedPath": "blog/tmp/\n/home/rohan/documents/obsidian-vault/tmp/api_security.html",
       "dependencies": []
     },
     "Blog/tmp/open-vault/openvault_roboweek3.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 220187,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 220185,
       "exportedPath": "blog/tmp/open-vault/openvault_roboweek3.html",
       "dependencies": []
     },
     "Blog/tmp/api_security.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 827424,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 827493,
       "exportedPath": "blog/tmp/api_security.html",
       "dependencies": []
     },
     "Blog/tmp/api-sec.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 280158,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 329438,
       "exportedPath": "blog/tmp/api-sec.html",
       "dependencies": []
     },
     "Blog/tmp/bufi.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 260229,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 260227,
       "exportedPath": "blog/tmp/bufi.html",
       "dependencies": []
     },
     "Blog/tmp/data_result.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 116705,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 116703,
       "exportedPath": "blog/tmp/data_result.html",
       "dependencies": []
     },
     "Blog/tmp/experiment-5-measurement-of-propagation-or-attenuation-loss-in-the-optical-fiber.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 86729,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 86727,
       "exportedPath": "blog/tmp/experiment-5-measurement-of-propagation-or-attenuation-loss-in-the-optical-fiber.html",
       "dependencies": []
     },
     "Blog/tmp/insten.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 211237,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 211235,
       "exportedPath": "blog/tmp/insten.html",
       "dependencies": []
     },
     "Blog/tmp/lab-2-cc.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 42318,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 42316,
       "exportedPath": "blog/tmp/lab-2-cc.html",
       "dependencies": []
     },
     "Blog/tmp/lab-3a-docker.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 140147,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 140145,
       "exportedPath": "blog/tmp/lab-3a-docker.html",
       "dependencies": []
     },
     "Blog/tmp/logisticrouteroptimizer.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 290832,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 290830,
       "exportedPath": "blog/tmp/logisticrouteroptimizer.html",
       "dependencies": []
     },
     "Blog/tmp/logisticsrouteoptimizer.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 186226,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 186224,
       "exportedPath": "blog/tmp/logisticsrouteoptimizer.html",
       "dependencies": []
     },
     "Blog/tmp/loraid_research_summary.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 114456,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 114454,
       "exportedPath": "blog/tmp/loraid_research_summary.html",
       "dependencies": []
     },
     "Blog/tmp/routeforgeai.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 353223,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 353221,
       "exportedPath": "blog/tmp/routeforgeai.html",
       "dependencies": []
     },
     "Blog/tmp/tradeguard.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 245112,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 245110,
       "exportedPath": "blog/tmp/tradeguard.html",
       "dependencies": []
     },
     "Blog/work/alessa/auth2service.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 66402,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 66400,
       "exportedPath": "blog/work/alessa/auth2service.html",
       "dependencies": []
     },
     "Blog/work/alessa/auth2service-alesa.ai.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 45735,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 45733,
       "exportedPath": "blog/work/alessa/auth2service-alesa.ai.html",
       "dependencies": []
     },
     "Blog/work/alessa/osm-services-deployment-guide.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 65167,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 65165,
       "exportedPath": "blog/work/alessa/osm-services-deployment-guide.html",
       "dependencies": []
     },
     "Blog/work/alessa/revised-services.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 54528,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 54526,
       "exportedPath": "blog/work/alessa/revised-services.html",
       "dependencies": []
     },
     "Blog/work/alessa/services_documentation.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 68704,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 68702,
       "exportedPath": "blog/work/alessa/services_documentation.html",
       "dependencies": []
     },
     "Blog/work/college/cc/labs/lab-3a-automation-using-ansible.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 101248,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 101378,
       "exportedPath": "blog/work/college/cc/labs/lab-3a-automation-using-ansible.html",
       "dependencies": []
     },
     "Blog/work/college/cc/labs/lab-aws-setup.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 65030,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 65028,
       "exportedPath": "blog/work/college/cc/labs/lab-aws-setup.html",
       "dependencies": []
     },
     "Blog/work/college/cc/labs/lab-minikube.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 72145,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 72143,
       "exportedPath": "blog/work/college/cc/labs/lab-minikube.html",
       "dependencies": []
     },
     "Blog/work/college/cc/labs/lab1.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 46163,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 46161,
       "exportedPath": "blog/work/college/cc/labs/lab1.html",
       "dependencies": []
     },
     "Blog/work/college/cc/labs/lab1_report.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 45569,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 45567,
       "exportedPath": "blog/work/college/cc/labs/lab1_report.html",
       "dependencies": []
     },
     "Blog/work/college/cc/azure.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 170896,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 170894,
       "exportedPath": "blog/work/college/cc/azure.html",
       "dependencies": []
     },
     "Blog/work/college/cc/minikube.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 74624,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 74622,
       "exportedPath": "blog/work/college/cc/minikube.html",
       "dependencies": []
     },
     "Blog/work/college/cc/onboarding-aws-academy.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 48576,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 48574,
       "exportedPath": "blog/work/college/cc/onboarding-aws-academy.html",
       "dependencies": []
     },
     "Blog/work/college/ccn/lab-3.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 84042,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 84040,
       "exportedPath": "blog/work/college/ccn/lab-3.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/1_executive_level.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 34494,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 34492,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/recommended-courses/1_executive_level.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/2_senior_management.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 34809,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 34807,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/recommended-courses/2_senior_management.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/3_middle_management.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 34510,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 34508,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/recommended-courses/3_middle_management.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/4_junior_officers.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 34368,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 34366,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/recommended-courses/4_junior_officers.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 34351,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 34349,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/recommended-courses/custom_programs.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 31913,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 31911,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/recommended-courses/custom_programs.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 38921,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 38919,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/0-course-structure.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 60018,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 60016,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/0-course-structure.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 59311,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 59309,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 52361,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 52359,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 52355,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 52353,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 52498,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 52496,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 51992,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 51990,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/6-program-summary.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 38297,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 38295,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/6-program-summary.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/assessment-framework.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 31676,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 31674,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/assessment-framework.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/outline-of-the-course.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 48012,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 48010,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/references-and-resources.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 33097,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 33095,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/references-and-resources.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/the-curriculum/training-components.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 31689,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 31687,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/the-curriculum/training-components.html",
       "dependencies": []
     },
     "Blog/work/college/ta/cyber-sec-awareness/executives.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 27254,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 27252,
       "exportedPath": "blog/work/college/ta/cyber-sec-awareness/executives.html",
       "dependencies": []
     },
     "Blog/work/college/ta/vpc@spit/comparison.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 50915,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 50913,
       "exportedPath": "blog/work/college/ta/vpc@spit/comparison.html",
       "dependencies": []
     },
     "Blog/work/college/ta/vpc@spit/orchestrate.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 367932,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 367930,
       "exportedPath": "blog/work/college/ta/vpc@spit/orchestrate.html",
       "dependencies": []
     },
     "Blog/work/college/ta/vpc@spit/orchestrate_obsidian.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 25605,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 25603,
       "exportedPath": "blog/work/college/ta/vpc@spit/orchestrate_obsidian.html",
       "dependencies": []
     },
     "Blog/work/college/ta/feb-worklog.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 30830,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 30828,
       "exportedPath": "blog/work/college/ta/feb-worklog.html",
       "dependencies": []
     },
     "Blog/work/college/ta/worklog.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 25438,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 25436,
       "exportedPath": "blog/work/college/ta/worklog.html",
       "dependencies": []
     },
     "Blog/work/vista-solutions/mind-map-and-scope.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 25649,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 25647,
       "exportedPath": "blog/work/vista-solutions/mind-map-and-scope.html",
       "dependencies": []
     },
     "Blog/on-mark.html": {
-      "modifiedTime": 1741868813245,
-      "sourceSize": 131221,
+      "modifiedTime": 1742306200935,
+      "sourceSize": 131219,
       "exportedPath": "blog/on-mark.html",
       "dependencies": []
     },
@@ -4025,7 +4051,7 @@
       "dependencies": []
     },
     "tmp/\nLAB 4 - Computer Communications and Networking - Lab Report.md": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 5809,
       "exportedPath": "tmp/\nlab-4-computer-communications-and-networking-lab-report.html",
       "dependencies": []
@@ -4037,7 +4063,7 @@
       "dependencies": []
     },
     "tmp/aws_training.md": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 3477,
       "exportedPath": "tmp/aws_training.html",
       "dependencies": []
@@ -4078,7 +4104,7 @@
       "dependencies": []
     },
     "tmp/KisanBazaar.md": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 12034,
       "exportedPath": "tmp/kisanbazaar.html",
       "dependencies": []
@@ -4157,7 +4183,7 @@
       ]
     },
     "aws_train.canvas": {
-      "modifiedTime": 1741868813245,
+      "modifiedTime": 1742306200935,
       "sourceSize": 4205,
       "exportedPath": "aws_train.html",
       "dependencies": []
@@ -4352,6 +4378,710 @@
       "modifiedTime": 1741868813245,
       "sourceSize": 284225,
       "exportedPath": "lib/media/pasted-image-20250311163226.png",
+      "dependencies": []
+    },
+    "Blog/blog/assets/apiguard_banner.png.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 14178,
+      "exportedPath": "blog/blog/assets/apiguard_banner.png.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/assets/index.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 45083,
+      "exportedPath": "blog/blog/blog/assets/index.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/lib/html/file-tree.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 18761,
+      "exportedPath": "blog/blog/blog/lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/ml/learning-path.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 48693,
+      "exportedPath": "blog/blog/blog/ml/learning-path.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/placements/sql/sql-notes-r04nx.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 14779,
+      "exportedPath": "blog/blog/blog/placements/sql/sql-notes-r04nx.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/placements/dsa-cheatsheet.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 109873,
+      "exportedPath": "blog/blog/blog/placements/dsa-cheatsheet.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/placements/dsa-sheet.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 23123,
+      "exportedPath": "blog/blog/blog/placements/dsa-sheet.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/placements/dsa-to-do-list.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 15785,
+      "exportedPath": "blog/blog/blog/placements/dsa-to-do-list.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/recommended-courses/1_executive_level.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 232305,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/recommended-courses/1_executive_level.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/recommended-courses/2_senior_management.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 232620,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/recommended-courses/2_senior_management.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/recommended-courses/3_middle_management.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 232321,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/recommended-courses/3_middle_management.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/recommended-courses/4_junior_officers.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 232179,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/recommended-courses/4_junior_officers.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 232162,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/recommended-courses/custom_programs.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 229746,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/recommended-courses/custom_programs.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 27426,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/0_course_structure.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 228856,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/0_course_structure.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 48303,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/0-course-structure.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/1_executive_curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 237388,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/1_executive_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 47695,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/2_senior_management_curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 235032,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/2_senior_management_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 40756,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/3_middle_management_curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 234735,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/3_middle_management_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 40750,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/4_junior_officers_curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 234762,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/4_junior_officers_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 40893,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/5_non_technical_staff_curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 234736,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/5_non_technical_staff_curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 40387,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/6_program_summary.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 230548,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/6_program_summary.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 26747,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/6-program-summary.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 20225,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/assessment-framework.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 36550,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 21646,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/references-and-resources.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/cyber-sec-awareness/the-curriculum/training-components.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 20238,
+      "exportedPath": "blog/blog/blog/work/cyber-sec-awareness/the-curriculum/training-components.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/major-project/research-papers/network-protocol-engineering.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 14345,
+      "exportedPath": "blog/blog/blog/work/major-project/research-papers/network-protocol-engineering.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/major-project/research-papers/wireless-communication.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 14279,
+      "exportedPath": "blog/blog/blog/work/major-project/research-papers/wireless-communication.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/major-project/1.-bandwidth-optimization.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 15877,
+      "exportedPath": "blog/blog/blog/work/major-project/1.-bandwidth-optimization.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/major-project/internet-over-lora.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 16213,
+      "exportedPath": "blog/blog/blog/work/major-project/internet-over-lora.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/major-project/lora_core_innovations.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 34468,
+      "exportedPath": "blog/blog/blog/work/major-project/lora_core_innovations.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/major-project/lora_internet_research_project.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 494849,
+      "exportedPath": "blog/blog/blog/work/major-project/lora_internet_research_project.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/major-project/loraid-connect.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 63585,
+      "exportedPath": "blog/blog/blog/work/major-project/loraid-connect.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/major-project/rural-computing.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 23661,
+      "exportedPath": "blog/blog/blog/work/major-project/rural-computing.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/work/spit-hackathon/context.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 242442,
+      "exportedPath": "blog/blog/blog/work/spit-hackathon/context.html",
+      "dependencies": []
+    },
+    "Blog/blog/blog/index.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 14064,
+      "exportedPath": "blog/blog/blog/index.html",
+      "dependencies": []
+    },
+    "Blog/blog/excalidraw/drawing-2025-01-10-15.59.40.excalidraw.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 13949,
+      "exportedPath": "blog/blog/excalidraw/drawing-2025-01-10-15.59.40.excalidraw.html",
+      "dependencies": []
+    },
+    "Blog/blog/excalidraw/drawing-2025-03-08-16.09.54.excalidraw.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 62828,
+      "exportedPath": "blog/blog/excalidraw/drawing-2025-03-08-16.09.54.excalidraw.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/\n/home/rohan/documents/obsidian-vault/tmp/api_security.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 78500,
+      "exportedPath": "blog/blog/tmp/\n/home/rohan/documents/obsidian-vault/tmp/api_security.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/open-vault/openvault_roboweek3.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 220187,
+      "exportedPath": "blog/blog/tmp/open-vault/openvault_roboweek3.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/api_security.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 827424,
+      "exportedPath": "blog/blog/tmp/api_security.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/api-sec.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 280158,
+      "exportedPath": "blog/blog/tmp/api-sec.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/bufi.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 260229,
+      "exportedPath": "blog/blog/tmp/bufi.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/data_result.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 116705,
+      "exportedPath": "blog/blog/tmp/data_result.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/experiment-5-measurement-of-propagation-or-attenuation-loss-in-the-optical-fiber.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 86729,
+      "exportedPath": "blog/blog/tmp/experiment-5-measurement-of-propagation-or-attenuation-loss-in-the-optical-fiber.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/insten.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 211237,
+      "exportedPath": "blog/blog/tmp/insten.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/lab-2-cc.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 42318,
+      "exportedPath": "blog/blog/tmp/lab-2-cc.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/lab-3a-docker.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 140147,
+      "exportedPath": "blog/blog/tmp/lab-3a-docker.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/logisticrouteroptimizer.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 290832,
+      "exportedPath": "blog/blog/tmp/logisticrouteroptimizer.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/logisticsrouteoptimizer.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 186226,
+      "exportedPath": "blog/blog/tmp/logisticsrouteoptimizer.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/loraid_research_summary.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 114456,
+      "exportedPath": "blog/blog/tmp/loraid_research_summary.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/routeforgeai.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 353223,
+      "exportedPath": "blog/blog/tmp/routeforgeai.html",
+      "dependencies": []
+    },
+    "Blog/blog/tmp/tradeguard.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 245112,
+      "exportedPath": "blog/blog/tmp/tradeguard.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/alessa/auth2service.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 66402,
+      "exportedPath": "blog/blog/work/alessa/auth2service.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/alessa/auth2service-alesa.ai.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 45735,
+      "exportedPath": "blog/blog/work/alessa/auth2service-alesa.ai.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/alessa/osm-services-deployment-guide.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 65167,
+      "exportedPath": "blog/blog/work/alessa/osm-services-deployment-guide.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/alessa/revised-services.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 54528,
+      "exportedPath": "blog/blog/work/alessa/revised-services.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/alessa/services_documentation.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 68704,
+      "exportedPath": "blog/blog/work/alessa/services_documentation.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/cc/labs/lab-3a-automation-using-ansible.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 101248,
+      "exportedPath": "blog/blog/work/college/cc/labs/lab-3a-automation-using-ansible.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/cc/labs/lab-aws-setup.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 65030,
+      "exportedPath": "blog/blog/work/college/cc/labs/lab-aws-setup.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/cc/labs/lab-minikube.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 72145,
+      "exportedPath": "blog/blog/work/college/cc/labs/lab-minikube.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/cc/labs/lab1.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 46163,
+      "exportedPath": "blog/blog/work/college/cc/labs/lab1.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/cc/labs/lab1_report.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 45569,
+      "exportedPath": "blog/blog/work/college/cc/labs/lab1_report.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/cc/azure.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 170896,
+      "exportedPath": "blog/blog/work/college/cc/azure.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/cc/minikube.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 74624,
+      "exportedPath": "blog/blog/work/college/cc/minikube.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/cc/onboarding-aws-academy.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 48576,
+      "exportedPath": "blog/blog/work/college/cc/onboarding-aws-academy.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ccn/lab-3.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 84042,
+      "exportedPath": "blog/blog/work/college/ccn/lab-3.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/1_executive_level.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 34494,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/1_executive_level.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/2_senior_management.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 34809,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/2_senior_management.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/3_middle_management.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 34510,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/3_middle_management.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/4_junior_officers.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 34368,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/4_junior_officers.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 34351,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/5_non_technical_staff.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/custom_programs.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 31913,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/recommended-courses/custom_programs.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 38921,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/regulatory-frameworks/rbi-cyber-security-framework-2016.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/0-course-structure.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 60018,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/0-course-structure.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 59311,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/1-executive-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 52361,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/2-senior-management-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 52355,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/3-middle-management-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 52498,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/4-junior-officers-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 51992,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/5-non-technical-staff-curriculum.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/6-program-summary.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 38297,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/6-program-summary.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/assessment-framework.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 31676,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/assessment-framework.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/outline-of-the-course.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 48012,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/outline-of-the-course.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/references-and-resources.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 33097,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/references-and-resources.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/training-components.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 31689,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/the-curriculum/training-components.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/cyber-sec-awareness/executives.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 27254,
+      "exportedPath": "blog/blog/work/college/ta/cyber-sec-awareness/executives.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/vpc@spit/comparison.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 50915,
+      "exportedPath": "blog/blog/work/college/ta/vpc@spit/comparison.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/vpc@spit/orchestrate.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 367932,
+      "exportedPath": "blog/blog/work/college/ta/vpc@spit/orchestrate.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/vpc@spit/orchestrate_obsidian.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 25605,
+      "exportedPath": "blog/blog/work/college/ta/vpc@spit/orchestrate_obsidian.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/feb-worklog.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 30830,
+      "exportedPath": "blog/blog/work/college/ta/feb-worklog.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/college/ta/worklog.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 25438,
+      "exportedPath": "blog/blog/work/college/ta/worklog.html",
+      "dependencies": []
+    },
+    "Blog/blog/work/vista-solutions/mind-map-and-scope.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 25649,
+      "exportedPath": "blog/blog/work/vista-solutions/mind-map-and-scope.html",
+      "dependencies": []
+    },
+    "Blog/blog/on-mark.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 131221,
+      "exportedPath": "blog/blog/on-mark.html",
+      "dependencies": []
+    },
+    "Blog/tmp/\nlab-4-computer-communications-and-networking-lab-report.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 37840,
+      "exportedPath": "blog/tmp/\nlab-4-computer-communications-and-networking-lab-report.html",
+      "dependencies": []
+    },
+    "Blog/tmp/aws_train.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 359885,
+      "exportedPath": "blog/tmp/aws_train.html",
+      "dependencies": []
+    },
+    "Blog/tmp/aws_training.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 113878,
+      "exportedPath": "blog/tmp/aws_training.html",
+      "dependencies": []
+    },
+    "Blog/tmp/cc-lab-prometheus-&-graffana.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 24250,
+      "exportedPath": "blog/tmp/cc-lab-prometheus-&-graffana.html",
+      "dependencies": []
+    },
+    "Blog/tmp/experiment-no.2.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 52509,
+      "exportedPath": "blog/tmp/experiment-no.2.html",
+      "dependencies": []
+    },
+    "Blog/tmp/farmconnect_documentation.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 471740,
+      "exportedPath": "blog/tmp/farmconnect_documentation.html",
+      "dependencies": []
+    },
+    "Blog/tmp/iot-gate.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 168514,
+      "exportedPath": "blog/tmp/iot-gate.html",
+      "dependencies": []
+    },
+    "Blog/tmp/kisanbazaar.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 83770,
+      "exportedPath": "blog/tmp/kisanbazaar.html",
+      "dependencies": []
+    },
+    "Blog/tmp/lab-4-computer-communications-and-networking-lab-report.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 170865,
+      "exportedPath": "blog/tmp/lab-4-computer-communications-and-networking-lab-report.html",
+      "dependencies": []
+    },
+    "Blog/tmp/qr_code_error_correction_lab_report.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 141145,
+      "exportedPath": "blog/tmp/qr_code_error_correction_lab_report.html",
+      "dependencies": []
+    },
+    "Blog/tmp/qr_code_error_correction_summary.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 47897,
+      "exportedPath": "blog/tmp/qr_code_error_correction_summary.html",
+      "dependencies": []
+    },
+    "Blog/tmp/qr-code-error-correction-lab-itc-lab-4.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 136097,
+      "exportedPath": "blog/tmp/qr-code-error-correction-lab-itc-lab-4.html",
+      "dependencies": []
+    },
+    "Blog/aws_train.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 47766,
+      "exportedPath": "blog/aws_train.html",
+      "dependencies": []
+    },
+    "Blog/banking_aws.html": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 55833,
+      "exportedPath": "blog/banking_aws.html",
+      "dependencies": []
+    },
+    "tmp/logo-white-bg.png": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 1245351,
+      "exportedPath": "tmp/logo-white-bg.png",
+      "dependencies": []
+    },
+    "tmp/SwiftClaim_Documentation.md": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 12772,
+      "exportedPath": "tmp/swiftclaim_documentation.html",
+      "dependencies": [
+        "tmp/logo-white-bg.png"
+      ]
+    },
+    "tmp/Training.md": {
+      "modifiedTime": 1742306200935,
+      "sourceSize": 3635,
+      "exportedPath": "tmp/training.html",
       "dependencies": []
     }
   }

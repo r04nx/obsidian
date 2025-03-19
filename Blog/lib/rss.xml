@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 13 Mar 2025 12:27:48 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 13 Mar 2025 12:26:53 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 18 Mar 2025 13:56:56 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 18 Mar 2025 13:56:40 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[
 LAB 4 - Computer Communications and Networking - Lab Report]]></title><description><![CDATA[ 
  <br>“Pasted image 20231017150057.png” could not be found.<br>
 Even in modern Windows systems, USB security is managed through registry settings<br><br><img alt="Server rack with security" src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" referrerpolicy="no-referrer"><br>
@@ -32,7 +32,582 @@ With the registry modification in place, Windows no longer recognizes USB storag
 <br>Double-click the newly created DWORD and change its value from 0
 ]]></description><link>tmp/
 lab-4-computer-communications-and-networking-lab-report.html</link><guid isPermaLink="false">tmp/
-LAB 4 - Computer Communications and Networking - Lab Report.md</guid><pubDate>Thu, 13 Mar 2025 12:26:55 GMT</pubDate><enclosure url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&amp;w=2000&amp;auto=format&amp;fit=crop"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[BharatShield: Unique Features Proposed]]></title><description><![CDATA[ 
+LAB 4 - Computer Communications and Networking - Lab Report.md</guid><pubDate>Thu, 13 Mar 2025 12:26:55 GMT</pubDate><enclosure url="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&amp;w=2000&amp;auto=format&amp;fit=crop"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[AWS Cloud Training 2025]]></title><description><![CDATA[ 
+ <br><br><br>“aws_logo.png” could not be found.<br>Dr. Dayanand Ambawade<br>
+March 19-20, 2025<br><br><br>
+<br>Duration: 2 Days
+<br>Focus: Banking Sector Implementation
+<br>Approach: Hands-on Learning
+<br>Modules: 7 Comprehensive Sections
+<br><br><br><br><br><br><br><br><br>“aws_services.png” could not be found.<br>
+<br>AWS Account Management
+<br>Resource Groups
+<br>IP Management
+<br>AWS KMS
+<br><br><br><br><br><br>
+<br>CIDR Notation
+<br>Public vs Private IPs
+<br>Elastic IP Configuration
+<br>IP Range Planning
+<br>“networking.png” could not be found.<br><br><br>“ec2_types.png” could not be found.<br>
+<br>Instance Types
+<br>AMI Selection
+<br>Storage Options
+<br>Auto Scaling
+<br><br><br><br><br><br>“vpc_diagram.png” could not be found.<br>
+<br>VPC Components
+<br>Subnet Planning
+<br>Security Groups
+<br>Network ACLs
+<br><br><br><br><br><br>“s3_classes.png” could not be found.<br>
+<br>Storage Classes
+<br>Bucket Policies
+<br>Encryption Options
+<br>Lifecycle Rules
+<br><br><br><br><br><br>“cost_management.png” could not be found.<br>
+<br>Budgets
+<br>Cost Explorer
+<br>CloudWatch
+<br>Alerts
+<br><br><br><br><br><br>“container_workflow.png” could not be found.<br>
+<br>Container Basics
+<br>ECR Setup
+<br>Image Management
+<br>Security
+<br><br><br><br><br><br>“cicd_pipeline.png” could not be found.<br>
+<br>CodeCommit
+<br>CodeBuild
+<br>CodeDeploy
+<br>CodePipeline
+<br><br><br><br><br><br>
+<br>AWS Console Navigation
+<br>Resource Group Creation
+<br>EC2 Management
+<br>VPC Setup
+<br>S3 Configuration
+<br>Cost Management
+<br>Container Registry
+<br>Pipeline Setup
+<br><br><br>
+<br>🔒 Security First
+<br>💰 Cost Optimization
+<br>🔄 Automation
+<br>📊 Monitoring
+<br>🔍 Compliance
+<br><br><br><br>
+<br>Email: <a data-tooltip-position="top" aria-label="mailto:instructor@example.com" rel="noopener nofollow" class="external-link" href="mailto:instructor@example.com" target="_blank">instructor@example.com</a>
+<br>AWS Training Portal: aws.training
+<br>Support: Available 24/7
+<br>“thank_you.png” could not be found.]]></description><link>tmp/aws_training.html</link><guid isPermaLink="false">tmp/aws_training.md</guid><pubDate>Thu, 13 Mar 2025 12:27:25 GMT</pubDate></item><item><title><![CDATA[KisanBazaar: Digital Agricultural Marketplace Platform]]></title><description><![CDATA[ 
+ <br><br><br>KisanBazaar is a comprehensive digital platform designed to revolutionize agricultural commerce in India by directly connecting farmers with buyers, eliminating middlemen, and providing value-added services that empower rural farming communities. This platform addresses critical challenges in the agricultural supply chain while leveraging technology to enhance productivity, profitability, and sustainability in the farming sector.<br><br><br>To empower farmers through technology by creating a transparent, efficient, and accessible marketplace that ensures fair pricing and expanded market reach.<br><br>
+<br>Fragmented agricultural market with multiple intermediaries
+<br>Price opacity and exploitation of farmers
+<br>Limited market access for small and marginal farmers
+<br>Inefficient supply chain with high post-harvest losses
+<br>Limited access to agricultural inputs, knowledge, and financial services
+<br>Disconnect between urban consumers and rural producers
+<br><br>
+<br>Create a direct farmer-to-consumer/business model
+<br>Ensure fair price discovery through transparent mechanisms
+<br>Reduce post-harvest losses through efficient logistics
+<br>Expand market reach beyond geographical limitations
+<br>Provide data-driven insights for better decision making
+<br>Foster sustainable agricultural practices
+<br><br><br>
+<br>Digital Mandi: Virtual marketplace for agricultural produce with dynamic pricing
+<br>Reverse Auction System: Buyers bid on listed produce
+<br>Forward Contract Platform: Pre-harvest agreements between farmers and buyers
+<br>Quality Grading System: Standardized produce classification
+<br>Transparent Pricing Mechanism: Real-time market rates and historical data
+<br>Multilingual Interface: Support for regional languages
+<br><br>
+<br>Logistics Integration: Last-mile pickup and delivery services
+<br>Cold Storage Network: Integrated cold storage facilities listing
+<br>Quality Assurance: Verification and certification processes
+<br>Inventory Management: Real-time tracking of available produce
+<br>Traceability System: Farm-to-fork tracking using blockchain
+<br><br>
+<br>Direct Digital Payments: Secure and instant payment gateway
+<br>Micro-credit Facility: Small loans for agricultural inputs
+<br>Crop Insurance Integration: Weather-indexed insurance products
+<br>Subscription Models: Premium membership benefits for farmers and buyers
+<br>Payment Escrow System: Secure transaction guarantees
+<br><br>
+<br>Weather Forecasting: Localized predictions and alerts
+<br>Crop Advisory: Personalized recommendations based on soil and climate
+<br>Market Intelligence: Demand forecasting and price trend analysis
+<br>Community Forums: Peer-to-peer knowledge sharing
+<br>Technical Support: 24/7 assistance via multiple channels
+<br><br>
+<br>E-Commerce Integration: Direct consumer sales platform
+<br>Product Certification: Organic, sustainable farming verification
+<br>Group Selling: Farmer Producer Organization (FPO) collective selling tools
+<br>Input Marketplace: Agricultural supplies, seeds, fertilizers, and equipment
+<br>Contract Farming Platform: Connecting farmers with agri-businesses
+<br><br><br>
+<br>Elimination of intermediaries leading to higher income
+<br>Direct market access and broader customer reach
+<br>Real-time price discovery and better negotiation power
+<br>Reduced post-harvest losses through efficient logistics
+<br>Access to credit, insurance, and financial services
+<br>Data-driven decision making for crop planning
+<br>Knowledge resources for improved farming practices
+<br><br>
+<br>Direct access to verified fresh produce
+<br>Quality assurance and standardization
+<br>Bulk purchasing options and contract farming
+<br>Transparency in sourcing and traceability
+<br>Competitive pricing without middlemen margins
+<br>Diverse product selection from various regions
+<br><br>
+<br>Creation of local employment opportunities
+<br>Development of rural digital infrastructure
+<br>Promotion of local agricultural specialties
+<br>Enhancement of digital literacy
+<br>Community building and knowledge sharing
+<br>Women empowerment through dedicated initiatives
+<br><br>
+<br>Data collection for agricultural research and policy
+<br>Formalization of the agricultural marketplace
+<br>Reduction in food wastage
+<br>Promotion of sustainable farming practices
+<br>Enhanced food security through efficient distribution
+<br>Digital transformation of traditional agricultural systems
+<br><br><br>
+<br>Mobile-First Approach: Progressive Web App with native mobile applications
+<br>Microservices Architecture: Scalable, modular service components
+<br>Cloud-Native Infrastructure: Leveraging managed cloud services
+<br>API-First Design: Extensible interfaces for third-party integration
+<br>Offline Capability: Core functionality available in low-connectivity areas
+<br>Distributed Database: Regional data centers for performance optimization
+<br><br>
+<br>Frontend: React/React Native for cross-platform interfaces
+<br>Backend: Node.js microservices with Express
+<br>Database: MongoDB for flexible data modeling, PostgreSQL for transactional data
+<br>Caching: Redis for high-performance data access
+<br>Search: Elasticsearch for product and marketplace search
+<br>Messaging: Apache Kafka for event streaming
+<br>Analytics: Data lake architecture with Hadoop ecosystem
+<br>Blockchain: Hyperledger Fabric for supply chain traceability
+<br>AI/ML: TensorFlow for price prediction and recommendation engines
+<br><br>
+<br>Payment gateways (UPI, net banking, mobile wallets)
+<br>Weather API services
+<br>Logistics and transportation partners
+<br>Agricultural databases and government systems
+<br>Financial institutions for credit and insurance
+<br>IoT devices for quality and storage monitoring
+<br>E-commerce marketplaces for broader distribution
+<br><br>
+<br>End-to-end encryption for sensitive data
+<br>Multi-factor authentication for transactions
+<br>Comprehensive audit logging system
+<br>Role-based access control
+<br>Regular security assessments and penetration testing
+<br>Compliance with data protection regulations
+<br><br>
+<br>Horizontal scaling for handling seasonal demand surges
+<br>Regional deployment for improved latency
+<br>Resource auto-scaling based on usage patterns
+<br>Load balancing across multiple availability zones
+<br>Caching strategies for frequently accessed data
+<br>Database sharding for high-volume transactions
+<br><br><br>
+<br>Phase 1: MVP launch in selected agricultural regions
+<br>Phase 2: Regional expansion with additional features
+<br>Phase 3: National deployment with full feature set
+<br>Phase 4: International expansion for export/import facilitation
+<br><br>
+<br>Cloud-based deployment on major providers (AWS/Azure/GCP)
+<br>Edge computing nodes in rural areas for improved performance
+<br>CDN integration for static content delivery
+<br>Disaster recovery sites with automated failover
+<br>Hybrid cloud approach for cost optimization
+<br><br>
+<br>DevOps practices with CI/CD pipelines
+<br>24/7 monitoring and incident response
+<br>Regular feature updates and security patches
+<br>Performance optimization and technical debt management
+<br>Scalable support system with tiered response times
+<br><br>
+<br>Automated testing framework (unit, integration, E2E)
+<br>User acceptance testing with farmer focus groups
+<br>A/B testing for feature optimization
+<br>Performance benchmarking under various conditions
+<br>Accessibility and usability testing
+<br><br><br>
+<br>Transaction fees (percentage-based, tiered by volume)
+<br>Subscription plans for premium features
+<br>Value-added service charges
+<br>Data insights and analytics packages
+<br>Targeted advertising for agricultural inputs
+<br>Commission on financial services
+<br><br>
+<br>Cloud resource optimization
+<br>Efficient logistics network design
+<br>Community-based support models
+<br>Strategic partnerships for shared infrastructure
+<br>Open-source component utilization
+<br><br>
+<br>Increasing user base through referral programs
+<br>Expanding product categories beyond fresh produce
+<br>Vertical integration with food processing
+<br>International market linkages for export
+<br>Diversification into allied agricultural sectors
+<br><br>
+<br>Farmer income improvement metrics
+<br>Market efficiency indicators
+<br>Supply chain waste reduction statistics
+<br>Digital inclusion and adoption metrics
+<br>Sustainability impact assessment
+<br><br><br>
+<br>Farmer Producer Organizations (FPOs)
+<br>Agricultural universities and research institutions
+<br>Government agricultural departments and schemes
+<br>Financial institutions and insurance providers
+<br>Logistics and transportation companies
+<br>Agricultural input manufacturers and suppliers
+<br><br>
+<br>Cloud service providers
+<br>Payment gateway services
+<br>Telecom operators for rural connectivity
+<br>IoT device manufacturers
+<br>AI/ML research organizations
+<br><br>
+<br>Rural digital literacy NGOs
+<br>Agricultural extension services
+<br>Local entrepreneurship promotion agencies
+<br>Community mobilization organizations
+<br>Regional language content creators
+<br><br><br>
+<br>Low digital literacy among target users
+<br>Infrastructure challenges in rural areas
+<br>Resistance from traditional market intermediaries
+<br>Regulatory complexities in agricultural marketing
+<br>Seasonal variations affecting platform usage
+<br>Data security and privacy concerns
+<br><br>
+<br>Comprehensive digital training programs
+<br>Offline-first functionality for low-connectivity areas
+<br>Stakeholder inclusion strategies for market participants
+<br>Regulatory compliance and government engagement
+<br>Diversified product categories for year-round activity
+<br>Robust data governance framework
+<br><br><br>
+<br>Months 1-3: Market research and requirement gathering
+<br>Months 4-6: Platform design and architecture development
+<br>Months 7-9: Core functionality implementation
+<br>Months 10-12: MVP testing and refinement
+<br>Months 13-15: Regional pilot launch and feedback collection
+<br>Months 16-24: Scaling and feature enhancement
+<br><br>
+<br>User adoption rates (farmers and buyers)
+<br>Transaction volume and value
+<br>Price advantage compared to traditional markets
+<br>Reduction in post-harvest losses
+<br>User retention and engagement metrics
+<br>Platform uptime and performance statistics
+<br><br><br>
+<br>AI-powered crop disease detection
+<br>Drone integration for farm monitoring
+<br>Augmented reality for product visualization
+<br>Voice-based interfaces for low-literacy users
+<br>Advanced analytics for yield prediction
+<br>Satellite imagery integration for crop assessment
+<br><br>
+<br>Rural entrepreneurship marketplace
+<br>Value-added processing services
+<br>Agricultural tourism connections
+<br>Carbon credit marketplace for sustainable farming
+<br>Precision agriculture services
+<br>Specialized marketplaces for niche products
+<br><br>
+<br>Open API platform for third-party developers
+<br>Incubation program for agri-tech startups
+<br>Rural digital infrastructure initiatives
+<br>Training and certification programs
+<br>Research collaborations for agricultural innovation
+<br><br>KisanBazaar: Empowering Farmers, Enabling Markets, Enriching Lives]]></description><link>tmp/kisanbazaar.html</link><guid isPermaLink="false">tmp/KisanBazaar.md</guid><pubDate>Thu, 13 Mar 2025 12:27:35 GMT</pubDate></item><item><title><![CDATA[Swift Claim: Revolutionizing Insurance Claims with AI &amp; Blockchain 🚀]]></title><description><![CDATA[ 
+ <br><br><img alt="Swift Claim Logo" src="tmp/logo-white-bg.png"><br>About this document
+This documentation provides comprehensive information about the Swift Claim platform, its architecture, technology stack, use cases, and business model.
+<br><br>
+<br><a class="internal-link" data-href="#project-overview" href="about:blank#project-overview" target="_self" rel="noopener nofollow">Project Overview</a>
+<br><a class="internal-link" data-href="#the-problem" href="about:blank#the-problem" target="_self" rel="noopener nofollow">The Problem</a>
+<br><a class="internal-link" data-href="#solution-architecture" href="about:blank#solution-architecture" target="_self" rel="noopener nofollow">Solution Architecture</a>
+<br><a class="internal-link" data-href="#technology-stack" href="about:blank#technology-stack" target="_self" rel="noopener nofollow">Technology Stack</a>
+<br><a class="internal-link" data-href="#use-cases" href="about:blank#use-cases" target="_self" rel="noopener nofollow">Use Cases</a>
+<br><a class="internal-link" data-href="#value-proposition" href="about:blank#value-proposition" target="_self" rel="noopener nofollow">Value Proposition</a>
+<br><a class="internal-link" data-href="#revenue-model" href="about:blank#revenue-model" target="_self" rel="noopener nofollow">Revenue Model</a>
+<br><a class="internal-link" data-href="#future-roadmap" href="about:blank#future-roadmap" target="_self" rel="noopener nofollow">Future Roadmap</a>
+<br><br>Swift Claim is a revolutionary AI and blockchain-powered platform designed to transform how insurance claims are processed. Instead of being an insurance provider, we offer a cutting-edge technology platform that enables insurance companies to process claims 100x faster, with fraud-proof verification and at significantly lower operational costs.<br>Our Vision
+To create a world where insurance claims are processed instantly, transparently, and without friction, benefiting both insurers and policyholders.
+<br>The platform automates health &amp; travel insurance claims using:<br>
+<br>⚡ Real-time data integration
+<br>🤖 AI-powered verification
+<br>🔗 Blockchain-based execution
+<br>💸 Instant UPI payouts
+<br>This eliminates paperwork, reduces human intervention, and minimizes delays in claim settlements.<br><br>The Current Insurance Landscape
+The insurance industry remains outdated, bureaucratic, and cost-inefficient despite technological advancements in other financial sectors.
+<br><br><br>Despite the massive market size and growth potential, no company has successfully implemented a fully automated AI + blockchain-powered claims solution that addresses these fundamental issues.<br><br><br><br><br>Error parsing Mermaid diagram!
+
+Parse error on line 20:
+...nalytics```mermaidgraph TD    A[Clai
+---------------------^
+Expecting 'SOLID_OPEN_ARROW', 'DOTTED_OPEN_ARROW', 'SOLID_ARROW', 'BIDIRECTIONAL_SOLID_ARROW', 'DOTTED_ARROW', 'BIDIRECTIONAL_DOTTED_ARROW', 'SOLID_CROSS', 'DOTTED_CROSS', 'SOLID_POINT', 'DOTTED_POINT', got 'NEWLINE'<br><br>Our technology stack combines cutting-edge components to deliver a seamless, secure, and scalable platform.<br><br><br><br>
+<br>Zero-Knowledge Proofs: For privacy-preserving verification of sensitive medical and financial data
+<br>Federated Learning: AI models that learn from distributed data without compromising privacy
+<br>Multichain Architecture: Separate chains for different insurance types with custom consensus mechanisms
+<br>API Ecosystem: Extensive API library for integration with existing insurer systems
+<br>Quantum-Resistant Cryptography: Future-proofing against quantum computing threats
+<br><br><br>Health Insurance Use Case
+A policyholder is admitted to a hospital for appendicitis surgery. Instead of submitting physical documents, the claim is processed automatically through the Swift Claim platform.
+<br>Process Flow:<br>
+<br>Patient admitted to hospital (ABDM-registered)
+<br>Hospital uploads diagnosis and treatment details to ABDM
+<br>Swift Claim's AI engine detects the claim event via ABDM integration
+<br>System verifies:
+
+<br>Policy validity
+<br>Coverage for the procedure
+<br>Hospital authenticity
+<br>Treatment necessity
+
+
+<br>Smart contract executes based on policy terms
+<br>Funds transferred directly to patient's bank account
+<br>Complete audit trail maintained on blockchain
+<br>Key Metrics:<br>
+<br>Processing time: Reduced from 15-90 days to under 3 minutes
+<br>Manual paperwork: Eliminated
+<br>Fraud risk: Reduced by 68%
+<br>Customer satisfaction: Increased by 94%
+<br><br>Travel Insurance Use Case
+A traveler experiences a flight delay of over 3 hours and is eligible for compensation under their travel insurance policy.
+<br>Process Flow:<br>
+<br>Flight delay detected through airline API integration
+<br>System automatically identifies affected policyholders
+<br>Policy terms verified against delay conditions
+<br>Proactive notification sent to policyholder
+<br>Claim pre-approved without requiring manual submission
+<br>Compensation amount calculated based on policy terms
+<br>Funds transferred instantly via UPI
+<br>Digital receipt and settlement details provided
+<br>Key Metrics:<br>
+<br>Claim initiation: Automatic vs. manual submission
+<br>Processing time: Minutes vs. days
+<br>Dispute rate: Reduced by 92%
+<br>Cost per claim for insurer: Reduced by 78%
+<br><br>Our platform delivers transformative value to both insurers and policyholders.<br><br><br><br><br><br>Swift Claim operates on a multi-faceted revenue model designed to align with insurer cost savings while ensuring sustainable growth.<br>Our pricing structure is designed to ensure significant cost savings for insurers while maintaining a healthy profit margin for sustainable growth.<br><br>
+<br>
+SaaS Subscription
+
+<br>Base platform fee: ₹5-20 Lakhs per month (based on insurer size)
+<br>Tiered pricing model with bronze, silver, gold, and platinum plans
+<br>Annual contracts with volume discounts
+
+
+<br>
+Per-Claim Processing Fee
+
+<br>Health insurance claims: ₹50-100 per claim
+<br>Travel insurance claims: ₹20-50 per claim
+<br>Volume discounts for high-throughput insurers
+
+
+<br>
+API Integration Fees
+
+<br>Core API access: Included in subscription
+<br>Premium APIs (advanced fraud detection, predictive analytics): Usage-based pricing
+<br>Custom API development: One-time fee + maintenance
+
+
+<br>
+Value-Added Services
+
+<br>Advanced analytics dashboard: ₹2-5 Lakhs per month
+<br>Custom reporting: Pay-per-report model
+<br>Consulting services: Daily/weekly rates
+
+
+<br><br><br><br>Our product roadmap is designed to continuously expand capabilities while maintaining our core focus on revolutionizing insurance claims processing.<br><br>
+<br>✅ Core platform launch with health and travel insurance support
+<br>✅ ABDM integration for health claims
+<br>✅ Airline API integration for travel claims
+<br>✅ Basic AI verification engine
+<br>✅ MVP blockchain implementation
+<br><br>
+<br>🔄 Add motor insurance claims processing
+<br>🔄 Enhance AI capabilities with computer vision for accident analysis
+<br>🔄 Expand blockchain capabilities with cross-chain operations
+<br>🔄 Develop mobile SDK for insurer apps
+<br>🔄 Implement advanced analytics dashboard
+<br><br>
+<br>📅 Parametric insurance support for agriculture and weather events
+<br>📅 IoT device integration for real-time data capture
+<br>📅 AI-powered risk assessment and premium calculation
+<br>📅 Decentralized identity management
+<br>📅 Cross-border insurance claim settlement
+<br><br>
+<br>🔮 Open marketplace for third-party verification services
+<br>🔮 Global expansion to international insurance markets
+<br>🔮 Regulatory sandbox partnerships in multiple countries
+<br>🔮 Tokenized insurance products and decentralized reinsurance pool
+<br>🔮 Predictive health and risk management tools
+<br><br>Swift Claim: Transforming insurance claims from a bureaucratic nightmare into a seamless, instant experience.<br>📬 For more information, contact us at <a data-tooltip-position="top" aria-label="mailto:info@swiftclaim.tech" rel="noopener nofollow" class="external-link" href="mailto:info@swiftclaim.tech" target="_blank">info@swiftclaim.tech</a>]]></description><link>tmp/swiftclaim_documentation.html</link><guid isPermaLink="false">tmp/SwiftClaim_Documentation.md</guid><pubDate>Tue, 18 Mar 2025 13:56:48 GMT</pubDate><enclosure url="tmp/logo-white-bg.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="tmp/logo-white-bg.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[AWS IAM &amp; S3 Training Guide]]></title><description><![CDATA[ 
+ <br><br><br><br>
+<br>AWS IAM (Identity and Access Management) allows you to securely control access to AWS services and resources.
+<br>Key Components:
+
+<br>Users: Individual accounts with permissions.
+<br>Groups: Collection of users sharing permissions.
+<br>Roles: Temporary permissions assigned to AWS services.
+<br>Policies: JSON-based permissions assigned to users, groups, or roles.
+
+
+<br><br>
+<br>Login to AWS Console → Navigate to IAM.
+<br>Create a new IAM User:
+
+<br>Name: s3-user-demo
+<br>Select Programmatic Access (For API/CLI usage).
+
+
+<br>Attach a Custom Policy:
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": ["s3:ListBucket", "s3:GetObject"],
+            "Resource": ["arn:aws:s3:::demo-bucket", "arn:aws:s3:::demo-bucket/*"]
+        }
+    ]
+}
+
+
+<br>Retrieve Access Key &amp; Secret Key.
+<br>Test access using AWS CLI:
+aws configure
+aws s3 ls s3://demo-bucket
+
+
+<br><br><br><br>
+<br>Object Storage: Stores files (objects) in buckets.
+<br>Highly Scalable &amp; Secure.
+<br>Use Cases: Data backup, hosting, big data, etc.
+<br><br>
+<br>Navigate to S3 Console → Create Bucket.
+<br>Name it uniquely (e.g., demo-bucket).
+<br>Enable Versioning &amp; Encryption (SSE-S3 / KMS).
+<br>Upload a sample file.
+<br><br>
+<br>Create a bucket policy for public read access:
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::demo-bucket/*"
+        }
+    ]
+}
+
+
+<br>Generate a presigned URL for secure access:
+aws s3 presign s3://demo-bucket/sample.txt --expires-in 3600
+
+
+<br><br>
+<br>Add Lifecycle Rule → Move objects to Glacier after 30 days.
+<br>Enable S3 Access Logging.
+<br><br><br>
+<br>Never use Root Account for daily tasks.
+<br>Enable MFA for IAM Users.
+<br>Use IAM Roles instead of Access Keys.
+<br>Enable CloudTrail to track S3 activities.
+<br>Use VPC Endpoints for S3 (Private Access).
+<br><br><br>✅ Create an IAM User with restricted S3 access.<br>
+✅ Generate a presigned URL for file access.<br>
+✅ Modify Bucket Policy to allow access from a specific IP.<br>
+✅ Enable &amp; Test S3 Object Versioning.<br><br><br>aws s3 mb s3://demo-bucket
+<br>then do <br>aws s3 ls
+<br>then do enable the public access<br>aws s3api put-public-access-block --bucket r04nx --public-access-block-configuration "BlockPublicAcls=false,
+IgnorePublicAcls=false,
+BlockPublicPolicy=false,
+RestrictPublicBuckets=false"
+<br>to query the bucket policy <br>aws s3api get-bucket-policy --bucket r04nx
+<br>to put the bucket policy<br>aws s3api put-bucket-policy --bucket r04nx --policy '{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::r04nx/*"
+        }
+    ]
+}
+'
+]]></description><link>tmp/training.html</link><guid isPermaLink="false">tmp/Training.md</guid><pubDate>Mon, 17 Mar 2025 05:35:59 GMT</pubDate></item><item><title><![CDATA[aws_train]]></title><description><![CDATA[ 
+ <br><br>📈 Monitoring<br>
+📝 Logging<br>
+🚨 Alerts<br>
+📱 Dashboards<br>
+📊 Metrics<br>
+⚡ Event Management<br><br>📲 Push Notifications<br>
+📢 Pub/Sub<br>
+🔄 Event Fan-out<br>
+📱 Mobile Push<br>
+✉️ Email/SMS<br>
+🔔 Application Alerts<br><br>🔑 Access Control<br>
+⚡ Permissions<br>
+🛡️ Security<br>
+👥 Roles<br>
+📜 Policies<br>
+👤 User Management<br><br>🔄 DNS Service<br>
+🛣️ Domain Routing<br>
+⚖️ Load Balancing<br>
+💗 Health Checks<br>
+🔄 Traffic Flow<br>
+⚡ Latency Routing<br><br>🔒 Custom Network<br>
+🌐 Subnets<br>
+🛣️ Route Tables<br>
+🛡️ NACL<br>
+🔐 Security Groups<br>
+🔒 Network Isolation<br><br>🌐 Web Servers<br>
+⚙️ App Servers<br>
+🔧 Compute Resources<br>
+⚖️ Auto Scaling<br>
+⚖️ Load Balancing<br>
+💪 Instance Types<br><br>📬 Message Queue<br>
+🔄 Decoupling<br>
+⚡ Async Processing<br>
+📥 FIFO Queues<br>
+💀 Dead Letter Queues<br>
+🔄 Long Polling<br><br>📊 MySQL<br>
+🐘 PostgreSQL<br>
+💾 Data Storage<br>
+🔄 Automated Backups<br>
+🌍 Multi-AZ<br>
+📚 Read Replicas<br><br>☁️ Serverless<br>
+⚡ Event Processing<br>
+🤖 Automation<br>
+🔄 Multiple Runtimes<br>
+📈 Auto-scaling<br>
+💰 Pay-per-use<br><br>💾 Object Storage<br>
+📄 Static Files<br>
+💾 Backups<br>
+🔄 Versioning<br>
+⏳ Lifecycle Policies<br>
+🌊 Data Lakes<br><br>🌐 REST APIs<br>
+🔌 WebSocket<br>
+🎮 API Management<br>
+🔐 Authentication<br>
+🔑 API Keys<br>
+🔄 Request/Response Transform🏠 Hosts📦 Contains💾 Stores Data⚡ Processes🔒 Secures🛣️ Routes📊 Monitors📊 Monitors📢 Publishes📨 Sends Messages🔄 Invokes📨 Processes Messages]]></description><link>aws_train.html</link><guid isPermaLink="false">aws_train.canvas</guid><pubDate>Mon, 17 Mar 2025 14:06:33 GMT</pubDate></item><item><title><![CDATA[BharatShield: Unique Features Proposed]]></title><description><![CDATA[ 
  <br><br>“bharat_shield_logo.png” could not be found.<br>BharatShield - API Security Tailored for India
 A sovereign, open-source API security solution designed to address the unique challenges of India's digital ecosystem
 <br><br>BharatShield delivers innovative capabilities specifically designed to address the challenges faced by Indian enterprises and government agencies in the API security landscape. Our solution combines cutting-edge technology with deep understanding of local requirements.<br><br><br>“aadhaar_integration.png” could not be found.<br>Pain Points Addressed:<br>
@@ -1457,73 +2032,7 @@ Configure CodePipeline
 <br>CI/CD Pipeline
 
 Each participant should complete all checkboxes before proceeding to the next module.
-]]></description><link>tmp/aws_train.html</link><guid isPermaLink="false">tmp/aws_train.md</guid><pubDate>Thu, 13 Mar 2025 08:43:57 GMT</pubDate></item><item><title><![CDATA[AWS Cloud Training 2025]]></title><description><![CDATA[ 
- <br><br><br>“aws_logo.png” could not be found.<br>Dr. Dayanand Ambawade<br>
-March 19-20, 2025<br><br><br>
-<br>Duration: 2 Days
-<br>Focus: Banking Sector Implementation
-<br>Approach: Hands-on Learning
-<br>Modules: 7 Comprehensive Sections
-<br><br><br><br><br><br><br><br><br>“aws_services.png” could not be found.<br>
-<br>AWS Account Management
-<br>Resource Groups
-<br>IP Management
-<br>AWS KMS
-<br><br><br><br><br><br>
-<br>CIDR Notation
-<br>Public vs Private IPs
-<br>Elastic IP Configuration
-<br>IP Range Planning
-<br>“networking.png” could not be found.<br><br><br>“ec2_types.png” could not be found.<br>
-<br>Instance Types
-<br>AMI Selection
-<br>Storage Options
-<br>Auto Scaling
-<br><br><br><br><br><br>“vpc_diagram.png” could not be found.<br>
-<br>VPC Components
-<br>Subnet Planning
-<br>Security Groups
-<br>Network ACLs
-<br><br><br><br><br><br>“s3_classes.png” could not be found.<br>
-<br>Storage Classes
-<br>Bucket Policies
-<br>Encryption Options
-<br>Lifecycle Rules
-<br><br><br><br><br><br>“cost_management.png” could not be found.<br>
-<br>Budgets
-<br>Cost Explorer
-<br>CloudWatch
-<br>Alerts
-<br><br><br><br><br><br>“container_workflow.png” could not be found.<br>
-<br>Container Basics
-<br>ECR Setup
-<br>Image Management
-<br>Security
-<br><br><br><br><br><br>“cicd_pipeline.png” could not be found.<br>
-<br>CodeCommit
-<br>CodeBuild
-<br>CodeDeploy
-<br>CodePipeline
-<br><br><br><br><br><br>
-<br>AWS Console Navigation
-<br>Resource Group Creation
-<br>EC2 Management
-<br>VPC Setup
-<br>S3 Configuration
-<br>Cost Management
-<br>Container Registry
-<br>Pipeline Setup
-<br><br><br>
-<br>🔒 Security First
-<br>💰 Cost Optimization
-<br>🔄 Automation
-<br>📊 Monitoring
-<br>🔍 Compliance
-<br><br><br><br>
-<br>Email: <a data-tooltip-position="top" aria-label="mailto:instructor@example.com" rel="noopener nofollow" class="external-link" href="mailto:instructor@example.com" target="_blank">instructor@example.com</a>
-<br>AWS Training Portal: aws.training
-<br>Support: Available 24/7
-<br>“thank_you.png” could not be found.]]></description><link>tmp/aws_training.html</link><guid isPermaLink="false">tmp/aws_training.md</guid><pubDate>Thu, 13 Mar 2025 12:27:25 GMT</pubDate></item><item><title><![CDATA[CC Lab -  Prometheus & Graffana]]></title><description><![CDATA[ 
+]]></description><link>tmp/aws_train.html</link><guid isPermaLink="false">tmp/aws_train.md</guid><pubDate>Thu, 13 Mar 2025 08:43:57 GMT</pubDate></item><item><title><![CDATA[CC Lab -  Prometheus & Graffana]]></title><description><![CDATA[ 
  <br><br>
 <br>Name: Rohan Prakash Pawar
 <br>UID: 2023201020
@@ -2366,236 +2875,7 @@ We welcome contributions! Please follow these steps to contribute.
 <br>Open a Pull Request
 <br><br>Note
 This project is licensed under the MIT License - see the LICENSE file for details.
-]]></description><link>tmp/iot-gate.html</link><guid isPermaLink="false">tmp/iot-gate.md</guid><pubDate>Tue, 11 Mar 2025 14:11:06 GMT</pubDate></item><item><title><![CDATA[KisanBazaar: Digital Agricultural Marketplace Platform]]></title><description><![CDATA[ 
- <br><br><br>KisanBazaar is a comprehensive digital platform designed to revolutionize agricultural commerce in India by directly connecting farmers with buyers, eliminating middlemen, and providing value-added services that empower rural farming communities. This platform addresses critical challenges in the agricultural supply chain while leveraging technology to enhance productivity, profitability, and sustainability in the farming sector.<br><br><br>To empower farmers through technology by creating a transparent, efficient, and accessible marketplace that ensures fair pricing and expanded market reach.<br><br>
-<br>Fragmented agricultural market with multiple intermediaries
-<br>Price opacity and exploitation of farmers
-<br>Limited market access for small and marginal farmers
-<br>Inefficient supply chain with high post-harvest losses
-<br>Limited access to agricultural inputs, knowledge, and financial services
-<br>Disconnect between urban consumers and rural producers
-<br><br>
-<br>Create a direct farmer-to-consumer/business model
-<br>Ensure fair price discovery through transparent mechanisms
-<br>Reduce post-harvest losses through efficient logistics
-<br>Expand market reach beyond geographical limitations
-<br>Provide data-driven insights for better decision making
-<br>Foster sustainable agricultural practices
-<br><br><br>
-<br>Digital Mandi: Virtual marketplace for agricultural produce with dynamic pricing
-<br>Reverse Auction System: Buyers bid on listed produce
-<br>Forward Contract Platform: Pre-harvest agreements between farmers and buyers
-<br>Quality Grading System: Standardized produce classification
-<br>Transparent Pricing Mechanism: Real-time market rates and historical data
-<br>Multilingual Interface: Support for regional languages
-<br><br>
-<br>Logistics Integration: Last-mile pickup and delivery services
-<br>Cold Storage Network: Integrated cold storage facilities listing
-<br>Quality Assurance: Verification and certification processes
-<br>Inventory Management: Real-time tracking of available produce
-<br>Traceability System: Farm-to-fork tracking using blockchain
-<br><br>
-<br>Direct Digital Payments: Secure and instant payment gateway
-<br>Micro-credit Facility: Small loans for agricultural inputs
-<br>Crop Insurance Integration: Weather-indexed insurance products
-<br>Subscription Models: Premium membership benefits for farmers and buyers
-<br>Payment Escrow System: Secure transaction guarantees
-<br><br>
-<br>Weather Forecasting: Localized predictions and alerts
-<br>Crop Advisory: Personalized recommendations based on soil and climate
-<br>Market Intelligence: Demand forecasting and price trend analysis
-<br>Community Forums: Peer-to-peer knowledge sharing
-<br>Technical Support: 24/7 assistance via multiple channels
-<br><br>
-<br>E-Commerce Integration: Direct consumer sales platform
-<br>Product Certification: Organic, sustainable farming verification
-<br>Group Selling: Farmer Producer Organization (FPO) collective selling tools
-<br>Input Marketplace: Agricultural supplies, seeds, fertilizers, and equipment
-<br>Contract Farming Platform: Connecting farmers with agri-businesses
-<br><br><br>
-<br>Elimination of intermediaries leading to higher income
-<br>Direct market access and broader customer reach
-<br>Real-time price discovery and better negotiation power
-<br>Reduced post-harvest losses through efficient logistics
-<br>Access to credit, insurance, and financial services
-<br>Data-driven decision making for crop planning
-<br>Knowledge resources for improved farming practices
-<br><br>
-<br>Direct access to verified fresh produce
-<br>Quality assurance and standardization
-<br>Bulk purchasing options and contract farming
-<br>Transparency in sourcing and traceability
-<br>Competitive pricing without middlemen margins
-<br>Diverse product selection from various regions
-<br><br>
-<br>Creation of local employment opportunities
-<br>Development of rural digital infrastructure
-<br>Promotion of local agricultural specialties
-<br>Enhancement of digital literacy
-<br>Community building and knowledge sharing
-<br>Women empowerment through dedicated initiatives
-<br><br>
-<br>Data collection for agricultural research and policy
-<br>Formalization of the agricultural marketplace
-<br>Reduction in food wastage
-<br>Promotion of sustainable farming practices
-<br>Enhanced food security through efficient distribution
-<br>Digital transformation of traditional agricultural systems
-<br><br><br>
-<br>Mobile-First Approach: Progressive Web App with native mobile applications
-<br>Microservices Architecture: Scalable, modular service components
-<br>Cloud-Native Infrastructure: Leveraging managed cloud services
-<br>API-First Design: Extensible interfaces for third-party integration
-<br>Offline Capability: Core functionality available in low-connectivity areas
-<br>Distributed Database: Regional data centers for performance optimization
-<br><br>
-<br>Frontend: React/React Native for cross-platform interfaces
-<br>Backend: Node.js microservices with Express
-<br>Database: MongoDB for flexible data modeling, PostgreSQL for transactional data
-<br>Caching: Redis for high-performance data access
-<br>Search: Elasticsearch for product and marketplace search
-<br>Messaging: Apache Kafka for event streaming
-<br>Analytics: Data lake architecture with Hadoop ecosystem
-<br>Blockchain: Hyperledger Fabric for supply chain traceability
-<br>AI/ML: TensorFlow for price prediction and recommendation engines
-<br><br>
-<br>Payment gateways (UPI, net banking, mobile wallets)
-<br>Weather API services
-<br>Logistics and transportation partners
-<br>Agricultural databases and government systems
-<br>Financial institutions for credit and insurance
-<br>IoT devices for quality and storage monitoring
-<br>E-commerce marketplaces for broader distribution
-<br><br>
-<br>End-to-end encryption for sensitive data
-<br>Multi-factor authentication for transactions
-<br>Comprehensive audit logging system
-<br>Role-based access control
-<br>Regular security assessments and penetration testing
-<br>Compliance with data protection regulations
-<br><br>
-<br>Horizontal scaling for handling seasonal demand surges
-<br>Regional deployment for improved latency
-<br>Resource auto-scaling based on usage patterns
-<br>Load balancing across multiple availability zones
-<br>Caching strategies for frequently accessed data
-<br>Database sharding for high-volume transactions
-<br><br><br>
-<br>Phase 1: MVP launch in selected agricultural regions
-<br>Phase 2: Regional expansion with additional features
-<br>Phase 3: National deployment with full feature set
-<br>Phase 4: International expansion for export/import facilitation
-<br><br>
-<br>Cloud-based deployment on major providers (AWS/Azure/GCP)
-<br>Edge computing nodes in rural areas for improved performance
-<br>CDN integration for static content delivery
-<br>Disaster recovery sites with automated failover
-<br>Hybrid cloud approach for cost optimization
-<br><br>
-<br>DevOps practices with CI/CD pipelines
-<br>24/7 monitoring and incident response
-<br>Regular feature updates and security patches
-<br>Performance optimization and technical debt management
-<br>Scalable support system with tiered response times
-<br><br>
-<br>Automated testing framework (unit, integration, E2E)
-<br>User acceptance testing with farmer focus groups
-<br>A/B testing for feature optimization
-<br>Performance benchmarking under various conditions
-<br>Accessibility and usability testing
-<br><br><br>
-<br>Transaction fees (percentage-based, tiered by volume)
-<br>Subscription plans for premium features
-<br>Value-added service charges
-<br>Data insights and analytics packages
-<br>Targeted advertising for agricultural inputs
-<br>Commission on financial services
-<br><br>
-<br>Cloud resource optimization
-<br>Efficient logistics network design
-<br>Community-based support models
-<br>Strategic partnerships for shared infrastructure
-<br>Open-source component utilization
-<br><br>
-<br>Increasing user base through referral programs
-<br>Expanding product categories beyond fresh produce
-<br>Vertical integration with food processing
-<br>International market linkages for export
-<br>Diversification into allied agricultural sectors
-<br><br>
-<br>Farmer income improvement metrics
-<br>Market efficiency indicators
-<br>Supply chain waste reduction statistics
-<br>Digital inclusion and adoption metrics
-<br>Sustainability impact assessment
-<br><br><br>
-<br>Farmer Producer Organizations (FPOs)
-<br>Agricultural universities and research institutions
-<br>Government agricultural departments and schemes
-<br>Financial institutions and insurance providers
-<br>Logistics and transportation companies
-<br>Agricultural input manufacturers and suppliers
-<br><br>
-<br>Cloud service providers
-<br>Payment gateway services
-<br>Telecom operators for rural connectivity
-<br>IoT device manufacturers
-<br>AI/ML research organizations
-<br><br>
-<br>Rural digital literacy NGOs
-<br>Agricultural extension services
-<br>Local entrepreneurship promotion agencies
-<br>Community mobilization organizations
-<br>Regional language content creators
-<br><br><br>
-<br>Low digital literacy among target users
-<br>Infrastructure challenges in rural areas
-<br>Resistance from traditional market intermediaries
-<br>Regulatory complexities in agricultural marketing
-<br>Seasonal variations affecting platform usage
-<br>Data security and privacy concerns
-<br><br>
-<br>Comprehensive digital training programs
-<br>Offline-first functionality for low-connectivity areas
-<br>Stakeholder inclusion strategies for market participants
-<br>Regulatory compliance and government engagement
-<br>Diversified product categories for year-round activity
-<br>Robust data governance framework
-<br><br><br>
-<br>Months 1-3: Market research and requirement gathering
-<br>Months 4-6: Platform design and architecture development
-<br>Months 7-9: Core functionality implementation
-<br>Months 10-12: MVP testing and refinement
-<br>Months 13-15: Regional pilot launch and feedback collection
-<br>Months 16-24: Scaling and feature enhancement
-<br><br>
-<br>User adoption rates (farmers and buyers)
-<br>Transaction volume and value
-<br>Price advantage compared to traditional markets
-<br>Reduction in post-harvest losses
-<br>User retention and engagement metrics
-<br>Platform uptime and performance statistics
-<br><br><br>
-<br>AI-powered crop disease detection
-<br>Drone integration for farm monitoring
-<br>Augmented reality for product visualization
-<br>Voice-based interfaces for low-literacy users
-<br>Advanced analytics for yield prediction
-<br>Satellite imagery integration for crop assessment
-<br><br>
-<br>Rural entrepreneurship marketplace
-<br>Value-added processing services
-<br>Agricultural tourism connections
-<br>Carbon credit marketplace for sustainable farming
-<br>Precision agriculture services
-<br>Specialized marketplaces for niche products
-<br><br>
-<br>Open API platform for third-party developers
-<br>Incubation program for agri-tech startups
-<br>Rural digital infrastructure initiatives
-<br>Training and certification programs
-<br>Research collaborations for agricultural innovation
-<br><br>KisanBazaar: Empowering Farmers, Enabling Markets, Enriching Lives]]></description><link>tmp/kisanbazaar.html</link><guid isPermaLink="false">tmp/KisanBazaar.md</guid><pubDate>Thu, 13 Mar 2025 12:27:35 GMT</pubDate></item><item><title><![CDATA[LAB 4 - Computer Communications and Networking - Lab Report]]></title><description><![CDATA[ 
+]]></description><link>tmp/iot-gate.html</link><guid isPermaLink="false">tmp/iot-gate.md</guid><pubDate>Tue, 11 Mar 2025 14:11:06 GMT</pubDate></item><item><title><![CDATA[LAB 4 - Computer Communications and Networking - Lab Report]]></title><description><![CDATA[ 
  <br><br><br>
 <br>Name: Rohan Prakash Pawar
 <br>UID: 2023201020
@@ -4457,63 +4737,7 @@ The findings align with theoretical expectations: QR codes use Reed-Solomon erro
 <br>QR Code Standard ISO/IEC 18004
 <br>Reed-Solomon Error Correction Algorithm
 <br>Python libraries: qrcode, pyzbar documentation
-<br><br>Created with Python using the experiment documented in the laboratory environment]]></description><link>tmp/qr_code_error_correction_summary.html</link><guid isPermaLink="false">tmp/QR_Code_Error_Correction_Summary.md</guid><pubDate>Mon, 10 Mar 2025 12:18:19 GMT</pubDate><enclosure url="tmp/qr_damage_test/original_qr.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="tmp/qr_damage_test/original_qr.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[aws_train]]></title><description><![CDATA[ 
- <br><br>📈 Monitoring<br>
-📝 Logging<br>
-🚨 Alerts<br>
-📱 Dashboards<br>
-📊 Metrics<br>
-⚡ Event Management<br><br>📲 Push Notifications<br>
-📢 Pub/Sub<br>
-🔄 Event Fan-out<br>
-📱 Mobile Push<br>
-✉️ Email/SMS<br>
-🔔 Application Alerts<br><br>🔑 Access Control<br>
-⚡ Permissions<br>
-🛡️ Security<br>
-👥 Roles<br>
-📜 Policies<br>
-👤 User Management<br><br>🔄 DNS Service<br>
-🛣️ Domain Routing<br>
-⚖️ Load Balancing<br>
-💗 Health Checks<br>
-🔄 Traffic Flow<br>
-⚡ Latency Routing<br><br>🔒 Custom Network<br>
-🌐 Subnets<br>
-🛣️ Route Tables<br>
-🛡️ NACL<br>
-🔐 Security Groups<br>
-🔒 Network Isolation<br><br>🌐 Web Servers<br>
-⚙️ App Servers<br>
-🔧 Compute Resources<br>
-⚖️ Auto Scaling<br>
-⚖️ Load Balancing<br>
-💪 Instance Types<br><br>📬 Message Queue<br>
-🔄 Decoupling<br>
-⚡ Async Processing<br>
-📥 FIFO Queues<br>
-💀 Dead Letter Queues<br>
-🔄 Long Polling<br><br>📊 MySQL<br>
-🐘 PostgreSQL<br>
-💾 Data Storage<br>
-🔄 Automated Backups<br>
-🌍 Multi-AZ<br>
-📚 Read Replicas<br><br>☁️ Serverless<br>
-⚡ Event Processing<br>
-🤖 Automation<br>
-🔄 Multiple Runtimes<br>
-📈 Auto-scaling<br>
-💰 Pay-per-use<br><br>🌐 REST APIs<br>
-🔌 WebSocket<br>
-🎮 API Management<br>
-🔐 Authentication<br>
-🔑 API Keys<br>
-🔄 Request/Response Transform<br><br>💾 Object Storage<br>
-📄 Static Files<br>
-💾 Backups<br>
-🔄 Versioning<br>
-⏳ Lifecycle Policies<br>
-🌊 Data Lakes🏠 Hosts📦 Contains💾 Stores Data⚡ Processes🔒 Secures🛣️ Routes📊 Monitors📊 Monitors📢 Publishes📨 Sends Messages🔄 Invokes📨 Processes Messages]]></description><link>aws_train.html</link><guid isPermaLink="false">aws_train.canvas</guid><pubDate>Thu, 13 Mar 2025 10:39:11 GMT</pubDate></item><item><title><![CDATA[banking_aws]]></title><description><![CDATA[ 
+<br><br>Created with Python using the experiment documented in the laboratory environment]]></description><link>tmp/qr_code_error_correction_summary.html</link><guid isPermaLink="false">tmp/QR_Code_Error_Correction_Summary.md</guid><pubDate>Mon, 10 Mar 2025 12:18:19 GMT</pubDate><enclosure url="tmp/qr_damage_test/original_qr.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="tmp/qr_damage_test/original_qr.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[banking_aws]]></title><description><![CDATA[ 
  <br><br>💼 Secure, Scalable, and Compliant Banking Infrastructure<br>🏧 Digital Banking Platform<br>
 💳 Core Banking Systems<br>
 📜 Regulatory Compliance<br>
