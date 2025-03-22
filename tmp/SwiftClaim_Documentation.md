@@ -226,15 +226,15 @@ graph TD
 
 ### For Insurance Companies
 
-| Aspect | Before Swift Claim | With Swift Claim | Improvement |
-|--------|-------------------|-----------------|-------------|
-| Claim Processing Time | 15-90 days | 3 minutes | 7,200% faster |
-| Operational Costs | ₹25 Crores/year | ₹15 Crores/year | 40% reduction |
-| Fraud Detection | ~60% accuracy | ~98% accuracy | 63% improvement |
-| Customer Satisfaction | 45% | 92% | 104% increase |
-| Manual Intervention | Required for 100% of claims | Required for <5% of claims | 95% reduction |
-| Data Security | Vulnerable to breaches | Cryptographically secured | Significantly enhanced |
-| Claim Disputes | 25% of all claims | <3% of all claims | 88% reduction |
+| Aspect                | Before Swift Claim          | With Swift Claim           | Improvement            |
+| --------------------- | --------------------------- | -------------------------- | ---------------------- |
+| Claim Processing Time | 15-90 days                  | 3 minutes                  | 7,200% faster          |
+| Operational Costs     | ₹25 Crores/year             | ₹15 Crores/year            | 40% reduction          |
+| Fraud Detection       | ~60% accuracy               | ~98% accuracy              | 63% improvement        |
+| Customer Satisfaction | 45%                         | 92%                        | 104% increase          |
+| Manual Intervention   | Required for 100% of claims | Required for <5% of claims | 95% reduction          |
+| Data Security         | Vulnerable to breaches      | Cryptographically secured  | Significantly enhanced |
+| Claim Disputes        | 25% of all claims           | <3% of all claims          | 88% reduction          |
 
 ### For Policyholders
 
