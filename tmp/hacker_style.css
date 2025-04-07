@@ -1,0 +1,249 @@
+<style>
+.hacker-theme {
+  --text-color: #00ff00;
+  --background-color: #000000;
+  --highlight-color: #00ffaa;
+  --danger-color: #ff0066;
+  --terminal-bg: #0a0a0a;
+  --terminal-border: #00ff00;
+  --terminal-header: #333333;
+}
+
+.hacker-terminal {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Courier New", monospace;
+  padding: 20px;
+  border: 1px solid var(--terminal-border);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Matrix Rain Effect */
+.matrix-rain {
+  text-align: center;
+  font-weight: bold;
+  color: var(--highlight-color);
+  margin: 20px 0;
+  padding: 10px;
+  border-top: 1px dashed var(--terminal-border);
+  border-bottom: 1px dashed var(--terminal-border);
+  letter-spacing: 1px;
+  text-shadow: 0 0 5px var(--highlight-color);
+  animation: pulse 1.5s infinite alternate;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.7; }
+  100% { opacity: 1; }
+}
+
+/* Terminal Window */
+.terminal-window {
+  background-color: var(--terminal-bg);
+  border: 1px solid var(--terminal-border);
+  border-radius: 5px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.terminal-header {
+  background-color: var(--terminal-header);
+  color: var(--text-color);
+  padding: 8px 15px;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  border-bottom: 1px solid var(--terminal-border);
+}
+
+.terminal-body {
+  padding: 15px;
+}
+
+/* Section Dividers */
+.matrix-divider {
+  text-align: center;
+  font-family: "Courier New", monospace;
+  color: var(--highlight-color);
+  margin: 25px 0;
+  padding: 8px;
+  background-color: rgba(0, 255, 0, 0.1);
+  border-radius: 3px;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+}
+
+.matrix-divider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--highlight-color), transparent);
+}
+
+.matrix-divider::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--highlight-color), transparent);
+}
+
+/* Section Headers */
+.hacker-section {
+  color: var(--highlight-color);
+  border-bottom: 1px solid var(--highlight-color);
+  padding-bottom: 5px;
+  font-family: "Courier New", monospace;
+  letter-spacing: 1px;
+}
+
+/* Blinking Effect */
+.blink, .blinking-cursor {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Glitch Text Effect */
+.glitch-text {
+  position: relative;
+  color: var(--text-color);
+  letter-spacing: 2px;
+  animation: glitch 3s infinite alternate;
+}
+
+@keyframes glitch {
+  0%, 80%, 100% { 
+    text-shadow: 
+      0 0 2px rgba(0, 255, 0, 0.9),
+      0 0 4px rgba(0, 255, 0, 0.6); 
+  }
+  81%, 99% { 
+    text-shadow: 
+      -2px 0 1px rgba(255, 0, 102, 0.7),
+      2px 0 1px rgba(0, 255, 170, 0.7); 
+    transform: translate(0.5px, 0.5px);
+  }
+}
+
+/* Experience, Projects, and Certificates */
+.exp-entry, .project, .achievement {
+  border-left: 2px solid var(--terminal-border);
+  padding-left: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.exp-entry::before, .project::before, .achievement::before {
+  content: ">";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  color: var(--terminal-border);
+  background-color: var(--background-color);
+}
+
+.exp-header, .project-header {
+  margin-bottom: 10px;
+}
+
+.company-name, .project-name, .achievement-name {
+  color: var(--highlight-color);
+  font-weight: bold;
+}
+
+.exp-date, .project-date, .cert-date, .achievement-date {
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+/* Highlight for skills and achievements */
+.exploit, .hack {
+  color: var(--danger-color);
+  font-weight: bold;
+}
+
+/* Certificates */
+.certs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.cert {
+  background-color: var(--terminal-bg);
+  border: 1px solid var(--terminal-border);
+  border-radius: 5px;
+  padding: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cert:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+.cert-name {
+  color: var(--highlight-color);
+  font-weight: bold;
+}
+
+/* Terminal command effect */
+.access-terminal {
+  background-color: var(--terminal-bg);
+  border: 1px solid var(--terminal-border);
+  border-radius: 5px;
+  margin: 30px 0 15px 0;
+  padding: 10px;
+}
+
+.command-prompt {
+  font-family: "Courier New", monospace;
+  color: var(--text-color);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.typed-text {
+  border-right: 2px solid var(--highlight-color);
+  animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  max-width: 100%;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--highlight-color) }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .certs-container {
+    grid-template-columns: 1fr;
+  }
+  
+  pre, code {
+    font-size: 14px;
+  }
+}
+</style>
