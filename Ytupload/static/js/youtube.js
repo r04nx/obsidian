@@ -38,7 +38,7 @@ function initializeYouTubeUpload() {
     if (youtubeForm) {
         console.log('YouTube form found, adding event listener');
         
-        youtubeForm.addEventListener('submit', function(e) {
+        youtubeForm.addEventListener('submit', async function(e) {
             e.preventDefault();
             console.log('YouTube form submitted');
             
@@ -71,50 +71,56 @@ function initializeYouTubeUpload() {
             
             console.log('Sending request with data:', requestData);
             
-            // Send the request
-            fetch('/upload-to-youtube', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(requestData)
-            })
-            .then(response => {
-                console.log('Response received:', response.status);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.log('Upload success data:', data);
-                if (data.success) {
-                    uploadStatus.innerHTML = `<i class="fas fa-check-circle text-green-500 mr-2"></i>Upload successful! <a href="${data.youtube_url}" target="_blank" class="text-blue-500 hover:underline">View on YouTube</a>`;
+            try {
+                const response = await fetch('/upload-to-youtube', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(requestData)
+                });
+                
+                const data = await response.json();
+                
+                if (response.status === 401 && data.needs_auth) {
+                    // Open OAuth window
+                    const authWindow = window.open(data.auth_url, 'YouTube Authorization', 
+                        'width=600,height=600,menubar=no,toolbar=no,location=no,status=no');
                     
-                    // Show success screen if available
-                    if (youtubeSuccessDiv) {
-                        const youtubeLink = document.getElementById('youtube-link');
-                        if (youtubeLink) {
-                            youtubeLink.href = data.youtube_url;
-                            youtubeLink.textContent = data.youtube_url;
+                    // Listen for the OAuth completion
+                    window.addEventListener('message', function(event) {
+                        if (event.data === 'oauth-complete') {
+                            authWindow.close();
+                            // Retry the upload
+                            youtubeForm.dispatchEvent(new Event('submit'));
                         }
-                        youtubeOptions.classList.add('hidden');
-                        youtubeSuccessDiv.classList.remove('hidden');
-                    }
+                    }, false);
                     
-                    createConfetti();
-                } else {
+                    return;
+                }
+                
+                if (!response.ok) {
                     throw new Error(data.error || 'Upload failed');
                 }
-            })
-            .catch(error => {
+                
+                // Handle successful upload
+                const youtubeSuccess = document.getElementById('youtube-success');
+                const youtubeLink = document.getElementById('youtube-link');
+                
+                youtubeLink.href = data.youtube_url;
+                youtubeLink.textContent = data.youtube_url;
+                youtubeSuccess.classList.remove('hidden');
+                youtubeForm.classList.add('hidden');
+                
+                createConfetti();
+            } catch (error) {
                 console.error('Upload error:', error);
-                uploadStatus.innerHTML = `<i class="fas fa-exclamation-circle text-red-500 mr-2"></i>${error.message}`;
-            })
-            .finally(() => {
+                uploadStatus.textContent = `Error: ${error.message}`;
+                uploadStatus.classList.add('text-red-500');
+                
                 youtubeUploadBtn.disabled = false;
                 youtubeUploadBtn.innerHTML = '<i class="fab fa-youtube mr-2"></i>Upload to YouTube';
-            });
+            }
         });
     } else {
         console.error('YouTube form not found!');

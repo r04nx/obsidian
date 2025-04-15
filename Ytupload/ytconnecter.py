@@ -68,58 +68,39 @@ RETRIABLE_EXCEPTIONS = (httplib2.HttpLib2Error, IOError, http.client.NotConnecte
 RETRIABLE_STATUS_CODES = [500, 502, 503, 504]
 
 
-def get_authenticated_service():
+def get_authenticated_service(force_new_auth=False):
     """
     Authenticates with OAuth 2.0 and returns the YouTube API service.
-    
-    Handles token caching so users only need to authenticate once.
-    
-    Returns:
-        A YouTube API service object.
     """
     credentials = None
     
-    # The file token.json stores the user's access and refresh tokens, and is
-    # created automatically when the authorization flow completes for the first time
-    if os.path.exists('token.json'):
+    if not force_new_auth and os.path.exists('token.json'):
         try:
             credentials = Credentials.from_authorized_user_info(
                 json.loads(open('token.json', 'r').read()), SCOPES)
         except Exception as e:
             print(f"Error loading credentials: {e}")
+            credentials = None
     
-    # If there are no valid credentials available, let the user log in.
-    if not credentials or not credentials.valid:
-        if credentials and credentials.expired and credentials.refresh_token:
-            try:
-                credentials.refresh(Request())
-            except Exception as e:
-                print(f"Error refreshing credentials: {e}")
-                credentials = None
+    if not credentials or not credentials.valid or force_new_auth:
+        if force_new_auth and os.path.exists('token.json'):
+            os.remove('token.json')
+            
+        flow = InstalledAppFlow.from_client_secrets_file(
+            CLIENT_SECRETS_FILE, 
+            SCOPES
+        )
+        credentials = flow.run_local_server(port=8080)
         
-        if not credentials:
-            try:
-                if not os.path.exists(CLIENT_SECRETS_FILE):
-                    print(f"Error: {CLIENT_SECRETS_FILE} not found.")
-                    print("Please download OAuth 2.0 credentials from Google Cloud Console")
-                    print("and save them as 'client_secrets.json' in the current directory.")
-                    return None
-                
-                flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRETS_FILE, SCOPES)
-                credentials = flow.run_local_server(port=8080)
-                
-                # Save the credentials for the next run
-                with open('token.json', 'w') as token:
-                    token.write(credentials.to_json())
-            except Exception as e:
-                print(f"Error during authentication flow: {e}")
-                return None
+        # Save the credentials for the next run
+        with open('token.json', 'w') as token:
+            token.write(credentials.to_json())
     
     try:
         return build(API_SERVICE_NAME, API_VERSION, credentials=credentials)
     except Exception as e:
         print(f"Error building service: {e}")
-        return None
+        raise
 
 
 def upload_video(youtube, options):

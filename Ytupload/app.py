@@ -1,5 +1,5 @@
 import os
-from flask import Flask, request, render_template, jsonify, send_file
+from flask import Flask, request, render_template, jsonify, send_file, session, redirect, url_for
 from flask_socketio import SocketIO
 from werkzeug.utils import secure_filename
 from video_processor import create_slideshow
@@ -8,6 +8,7 @@ import uuid
 import json
 import logging
 from datetime import datetime
+from google_auth_oauthlib.flow import Flow
 
 app = Flask(__name__)
 # Increase max content length to 10GB
@@ -143,21 +144,58 @@ def upload_files():
 def download(filename):
     return send_file(os.path.join(app.config['OUTPUT_FOLDER'], filename), as_attachment=True)
 
+@app.route('/start-auth')
+def start_auth():
+    """Start the OAuth flow"""
+    flow = Flow.from_client_secrets_file(
+        'client_secrets.json',
+        scopes=['https://www.googleapis.com/auth/youtube.upload'],
+        redirect_uri=url_for('oauth2callback', _external=True)
+    )
+    
+    authorization_url, state = flow.authorization_url(
+        access_type='offline',
+        include_granted_scopes='true'
+    )
+    
+    session['state'] = state
+    return jsonify({'auth_url': authorization_url})
+
+@app.route('/oauth2callback')
+def oauth2callback():
+    """Handle the OAuth 2.0 callback"""
+    state = session['state']
+    
+    flow = Flow.from_client_secrets_file(
+        'client_secrets.json',
+        scopes=['https://www.googleapis.com/auth/youtube.upload'],
+        state=state,
+        redirect_uri=url_for('oauth2callback', _external=True)
+    )
+    
+    authorization_response = request.url
+    flow.fetch_token(authorization_response=authorization_response)
+    
+    credentials = flow.credentials
+    with open('token.json', 'w') as token:
+        token.write(credentials.to_json())
+    
+    return render_template('auth_success.html')
+
 @app.route('/upload-to-youtube', methods=['POST'])
 def youtube_upload():
     try:
+        # Get YouTube service with forced new authentication for new users
+        youtube = get_authenticated_service(force_new_auth=True)
+        
         data = request.json
-        logging.info(f"YouTube upload request received: {data}")
-        
         if not data or 'video_path' not in data:
-            logging.error("No video path provided in YouTube upload request")
             return jsonify({'error': 'No video path provided'}), 400
-        
+            
         video_path = os.path.join(app.config['OUTPUT_FOLDER'], data['video_path'])
         if not os.path.exists(video_path):
-            logging.error(f"Video file not found: {video_path}")
             return jsonify({'error': f'Video file not found: {data["video_path"]}'}), 404
-        
+            
         title = data.get('title', f'My Memories - {os.path.basename(video_path)}')
         description = data.get('description', 'Slideshow created with Memento')
         privacy = data.get('privacy', 'private')
@@ -186,11 +224,6 @@ def youtube_upload():
                 description += clickable_timestamps
         
         logging.info(f"Uploading video to YouTube: {title}")
-        
-        # Use the ytconnecter functions
-        youtube = get_authenticated_service()
-        if not youtube:
-            return jsonify({'error': 'Failed to authenticate with YouTube. Please check your credentials.'}), 500
         
         options = {
             'file': video_path,
@@ -229,4 +262,4 @@ def handle_disconnect():
     logging.info("Client disconnected")
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True)
+    socketio.run(app, debug=True, host='0.0.0.0')

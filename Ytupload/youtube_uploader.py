@@ -14,16 +14,17 @@ API_SERVICE_NAME = 'youtube'
 API_VERSION = 'v3'
 CLIENT_SECRETS_FILE = 'client_secret.json'
 
-def get_authenticated_service():
+def get_authenticated_service(force_new_auth=False):
     """Get an authenticated YouTube API service instance."""
     # Check if client secrets file exists
     if not os.path.exists(CLIENT_SECRETS_FILE):
         logger.error(f"Client secrets file '{CLIENT_SECRETS_FILE}' not found.")
         raise FileNotFoundError(f"Client secrets file '{CLIENT_SECRETS_FILE}' not found. Please download it from the Google API Console.")
     
-    # The file token.json stores the user's access and refresh tokens, and is
-    # created automatically when the authorization flow completes for the first time.
-    if os.path.exists('token.json'):
+    credentials = None
+    
+    # Only check for existing token if not forcing new auth
+    if not force_new_auth and os.path.exists('token.json'):
         try:
             with open('token.json', 'r') as token_file:
                 token_info = token_file.read()
@@ -33,13 +34,15 @@ def get_authenticated_service():
         except Exception as e:
             logger.error(f"Error loading token.json: {str(e)}")
             credentials = None
-    else:
-        logger.info("No token.json found, starting OAuth flow")
-        credentials = None
     
-    # If credentials are invalid or don't exist, run the OAuth flow
-    if not credentials or not credentials.valid:
+    # If credentials are invalid, don't exist, or force_new_auth is True
+    if not credentials or not credentials.valid or force_new_auth:
         try:
+            # Remove existing token.json if forcing new auth
+            if force_new_auth and os.path.exists('token.json'):
+                os.remove('token.json')
+                logger.info("Removed existing token.json for new authentication")
+            
             flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(
                 CLIENT_SECRETS_FILE, SCOPES)
             credentials = flow.run_local_server(port=8080)
