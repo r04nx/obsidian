@@ -1,0 +1,46 @@
+<div class="bg-white rounded-lg shadow-lg p-6 mb-6 card hidden" id="result-container">
+    <h2 class="text-2xl font-bold mb-4 gradient-text"><i class="fas fa-check-circle mr-2"></i>Slideshow Ready</h2>
+    
+    <div class="mb-6">
+        <div class="aspect-w-16 aspect-h-9 bg-black rounded-lg overflow-hidden">
+            <video id="result-video" class="w-full h-full object-contain" controls>
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    
+    <div class="mb-6">
+        <h3 class="text-lg font-semibold mb-3">Video Information</h3>
+        <div class="bg-gray-100 p-4 rounded-md">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <p class="text-gray-700"><span class="font-medium">Duration:</span> <span id="video-duration">0:00</span></p>
+                    <p class="text-gray-700"><span class="font-medium">Resolution:</span> <span id="video-resolution">1280x720</span></p>
+                </div>
+                <div>
+                    <p class="text-gray-700"><span class="font-medium">Size:</span> <span id="video-size">0 MB</span></p>
+                    <p class="text-gray-700"><span class="font-medium">Created:</span> <span id="video-date">Today</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mb-6">
+        <h3 class="text-lg font-semibold mb-3">Media Timeline</h3>
+        <div id="timestamps-container" class="bg-gray-100 p-4 rounded-md">
+            <ul id="timestamps-list" class="divide-y divide-gray-200" data-timestamps="[]"></ul>
+        </div>
+    </div>
+    
+    <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+        <a id="download-btn" href="#" download class="flex-1 bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded transition duration-200 flex items-center justify-center">
+            <i class="fas fa-download mr-2"></i>Download Video
+        </a>
+        <button id="youtube-toggle-btn" class="flex-1 bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-4 rounded transition duration-200 flex items-center justify-center">
+            <i class="fab fa-youtube mr-2"></i>Upload to YouTube
+        </button>
+        <button id="new-slideshow-btn" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-4 rounded transition duration-200 flex items-center justify-center">
+            <i class="fas fa-plus mr-2"></i>New Slideshow
+        </button>
+    </div>
+</div>

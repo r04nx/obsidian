@@ -1,0 +1,310 @@
+{% extends "layouts/base.html" %}
+
+{% block title %}Memento - Memory Slideshow Creator{% endblock %}
+
+{% block head %}
+<style>
+    /* Animation for confetti */
+    @keyframes confetti-fall {
+        0% {
+            transform: translateY(0) rotate(0deg);
+            opacity: 1;
+        }
+        25% {
+            transform: translateY(25vh) rotate(90deg);
+            opacity: 0.9;
+        }
+        50% {
+            transform: translateY(50vh) rotate(180deg);
+            opacity: 0.8;
+        }
+        75% {
+            transform: translateY(75vh) rotate(270deg);
+            opacity: 0.7;
+        }
+        100% {
+            transform: translateY(100vh) rotate(360deg);
+            opacity: 0;
+        }
+    }
+    
+    /* Confetti swirl animation */
+    @keyframes confetti-swirl {
+        0% {
+            transform: translateX(0) rotate(0deg);
+        }
+        25% {
+            transform: translateX(15px) rotate(90deg);
+        }
+        50% {
+            transform: translateX(0) rotate(180deg);
+        }
+        75% {
+            transform: translateX(-15px) rotate(270deg);
+        }
+        100% {
+            transform: translateX(0) rotate(360deg);
+        }
+    }
+    
+    /* Gradient text */
+    .gradient-text {
+        background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    /* Card transitions */
+    .card {
+        transition: all 0.3s ease-in-out;
+    }
+    
+    /* Error message animation */
+    .error-message {
+        transition: opacity 0.3s ease-in-out;
+    }
+    
+    /* Success animation */
+    @keyframes success-pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.05);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    .success-pulse {
+        animation: success-pulse 1s ease-in-out 3;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="mb-8">
+    <div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg shadow-lg p-8 mb-6">
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-2/3 mb-6 md:mb-0 md:pr-8">
+                <h1 class="text-4xl font-bold mb-4">Create Beautiful Memory Slideshows</h1>
+                <p class="text-xl mb-6">Transform your photos and videos into stunning slideshows with GPU acceleration</p>
+                <div class="flex flex-wrap gap-4">
+                    <div class="flex items-center">
+                        <i class="fas fa-bolt text-yellow-300 mr-2"></i>
+                        <span>GPU Accelerated</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-film text-yellow-300 mr-2"></i>
+                        <span>Multiple Formats</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-music text-yellow-300 mr-2"></i>
+                        <span>Background Audio</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fab fa-youtube text-yellow-300 mr-2"></i>
+                        <span>YouTube Upload</span>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/3 flex justify-center">
+                <div class="bg-white p-4 rounded-lg shadow-inner">
+                    <div class="grid grid-cols-2 gap-2">
+                        <div class="aspect-w-3 aspect-h-4 bg-gray-100 rounded overflow-hidden">
+                            <i class="fas fa-image text-2xl mb-2"></i>
+                        </div>
+                        <div class="aspect-w-3 aspect-h-4 bg-gray-100 rounded overflow-hidden">
+                            <i class="fas fa-video text-2xl mb-2"></i>
+                        </div>
+                        <div class="aspect-w-3 aspect-h-4 bg-gray-100 rounded overflow-hidden">
+                            <i class="fas fa-film text-2xl mb-2"></i>
+                        </div>
+                        <div class="aspect-w-3 aspect-h-4 bg-gray-100 rounded overflow-hidden">
+                            <i class="fas fa-camera text-2xl mb-2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Horizontal Navigation Tabs -->
+<div class="mb-6">
+    <div class="border-b border-gray-200">
+        <nav class="flex -mb-px">
+            <button id="tab-upload" class="tab-btn active-tab py-4 px-6 border-b-2 border-blue-500 font-medium text-blue-600">
+                <i class="fas fa-cloud-upload-alt mr-2"></i>Upload
+            </button>
+            <button id="tab-files" class="tab-btn py-4 px-6 border-b-2 border-transparent font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300">
+                <i class="fas fa-list mr-2"></i>Files
+            </button>
+            <button id="tab-progress" class="tab-btn py-4 px-6 border-b-2 border-transparent font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300">
+                <i class="fas fa-tasks mr-2"></i>Progress
+            </button>
+            <button id="tab-result" class="tab-btn py-4 px-6 border-b-2 border-transparent font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300">
+                <i class="fas fa-check-circle mr-2"></i>Result
+            </button>
+            <button id="tab-youtube" class="tab-btn py-4 px-6 border-b-2 border-transparent font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300">
+                <i class="fab fa-youtube mr-2"></i>YouTube
+            </button>
+        </nav>
+    </div>
+</div>
+
+<!-- Tab Content Containers -->
+<div class="tab-content" id="content-upload">
+    {% include 'components/upload_form.html' %}
+</div>
+
+<div class="tab-content hidden" id="content-files">
+    {% include 'components/file_list.html' %}
+</div>
+
+<div class="tab-content hidden" id="content-progress">
+    {% include 'components/progress_tracker.html' %}
+</div>
+
+<div class="tab-content hidden" id="content-result">
+    {% include 'components/result_viewer.html' %}
+</div>
+
+<div class="tab-content hidden" id="content-youtube">
+    {% include 'components/youtube_uploader.html' %}
+</div>
+
+<!-- Navigation Buttons -->
+<div class="flex justify-between mt-6">
+    <button id="prev-btn" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-6 rounded transition duration-200 flex items-center">
+        <i class="fas fa-arrow-left mr-2"></i>Previous
+    </button>
+    <button id="next-btn" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded transition duration-200 flex items-center">
+        Next<i class="fas fa-arrow-right ml-2"></i>
+    </button>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<!-- Socket.IO and main scripts -->
+<script src="/static/js/upload.js"></script>
+<script src="/static/js/progress.js"></script>
+<script src="/static/js/youtube.js"></script>
+<script src="/static/js/confetti.js"></script>
+
+<script>
+    // Initialize timestamp list reference
+    const timestampsList = document.getElementById('timestamps-list');
+    
+    // New slideshow button
+    const newSlideshowBtn = document.getElementById('new-slideshow-btn');
+    if (newSlideshowBtn) {
+        newSlideshowBtn.addEventListener('click', function() {
+            location.reload();
+        });
+    }
+    
+    // Toggle processing log
+    const toggleLogBtn = document.getElementById('toggle-log-btn');
+    const processingLog = document.getElementById('processing-log');
+    if (toggleLogBtn && processingLog) {
+        toggleLogBtn.addEventListener('click', function() {
+            processingLog.classList.toggle('hidden');
+            toggleLogBtn.textContent = processingLog.classList.contains('hidden') ? 'Show Log' : 'Hide Log';
+        });
+    }
+    
+    // Tab Navigation
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    let currentTabIndex = 0;
+    
+    function showTab(index) {
+        // Hide all tabs
+        tabButtons.forEach(btn => {
+            btn.classList.remove('active-tab', 'border-blue-500', 'text-blue-600');
+            btn.classList.add('border-transparent', 'text-gray-500');
+        });
+        
+        tabContents.forEach(content => {
+            content.classList.add('hidden');
+        });
+        
+        // Show selected tab
+        tabButtons[index].classList.add('active-tab', 'border-blue-500', 'text-blue-600');
+        tabButtons[index].classList.remove('border-transparent', 'text-gray-500');
+        tabContents[index].classList.remove('hidden');
+        
+        // Update current index
+        currentTabIndex = index;
+        
+        // Update navigation buttons
+        prevBtn.disabled = currentTabIndex === 0;
+        prevBtn.classList.toggle('opacity-50', currentTabIndex === 0);
+        
+        nextBtn.disabled = currentTabIndex === tabButtons.length - 1;
+        nextBtn.classList.toggle('opacity-50', currentTabIndex === tabButtons.length - 1);
+    }
+    
+    // Add click event to tab buttons
+    tabButtons.forEach((btn, index) => {
+        btn.addEventListener('click', () => {
+            showTab(index);
+        });
+    });
+    
+    // Add click event to navigation buttons
+    prevBtn.addEventListener('click', () => {
+        if (currentTabIndex > 0) {
+            showTab(currentTabIndex - 1);
+        }
+    });
+    
+    nextBtn.addEventListener('click', () => {
+        if (currentTabIndex < tabButtons.length - 1) {
+            showTab(currentTabIndex + 1);
+        }
+    });
+    
+    // Add keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') {
+            if (currentTabIndex > 0) {
+                showTab(currentTabIndex - 1);
+            }
+        } else if (e.key === 'ArrowRight') {
+            if (currentTabIndex < tabButtons.length - 1) {
+                showTab(currentTabIndex + 1);
+            }
+        }
+    });
+    
+    // Initialize tabs
+    showTab(0);
+    
+    // Override the original file list show/hide behavior
+    const originalUpdateFileList = window.updateFileList;
+    if (typeof originalUpdateFileList === 'function') {
+        window.updateFileList = function() {
+            originalUpdateFileList();
+            if (uploadedFiles.length > 0) {
+                // Don't hide/show the container, just switch tabs
+                showTab(1); // Switch to Files tab
+            }
+        };
+    }
+    
+    // Override the processing complete handler to switch to result tab
+    const originalHandleProcessingComplete = window.handleProcessingComplete;
+    if (typeof originalHandleProcessingComplete === 'function') {
+        window.handleProcessingComplete = function(data) {
+            originalHandleProcessingComplete(data);
+            showTab(3); // Switch to Result tab
+        };
+    }
+</script>
+{% endblock %}

@@ -1,0 +1,59 @@
+<div id="youtube-options" class="bg-white rounded-lg shadow-lg p-6 hidden card">
+    <h2 class="text-2xl font-bold mb-4 gradient-text"><i class="fab fa-youtube mr-2 text-red-500"></i>YouTube Upload Options</h2>
+    <form id="youtube-form">
+        <div class="mb-4">
+            <label for="youtube-title" class="block text-gray-700 font-bold mb-2">Video Title</label>
+            <input type="text" id="youtube-title" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter video title">
+        </div>
+        
+        <div class="mb-4">
+            <label for="youtube-description" class="block text-gray-700 font-bold mb-2">Description</label>
+            <textarea id="youtube-description" rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter video description"></textarea>
+            <p class="text-sm text-gray-500 mt-1">Timestamps will be automatically added to your description.</p>
+        </div>
+        
+        <div class="mb-6">
+            <label class="block text-gray-700 font-bold mb-2">Privacy Setting</label>
+            <div class="flex items-center space-x-4">
+                <label class="inline-flex items-center">
+                    <input type="radio" name="privacy" value="private" class="form-radio" checked>
+                    <span class="ml-2">Private</span>
+                </label>
+                <label class="inline-flex items-center">
+                    <input type="radio" name="privacy" value="unlisted" class="form-radio">
+                    <span class="ml-2">Unlisted</span>
+                </label>
+                <label class="inline-flex items-center">
+                    <input type="radio" name="privacy" value="public" class="form-radio">
+                    <span class="ml-2">Public</span>
+                </label>
+            </div>
+        </div>
+        
+        <div class="flex justify-between items-center mt-6">
+            <button id="youtube-upload-btn" type="submit" class="flex-1 bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-4 rounded transition duration-200 flex items-center justify-center">
+                <i class="fab fa-youtube mr-2"></i>Upload to YouTube
+            </button>
+            <button id="youtube-cancel-btn" type="button" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-4 rounded transition duration-200">
+                Cancel
+            </button>
+        </div>
+    </form>
+    <div id="youtube-upload-status" class="mt-4 p-3 rounded hidden"></div>
+</div>
+
+<div id="youtube-success" class="bg-white rounded-lg shadow-lg p-6 hidden card">
+    <div class="text-center">
+        <i class="fas fa-check-circle text-green-500 text-5xl mb-4"></i>
+        <h2 class="text-2xl font-bold mb-2">Upload Successful!</h2>
+        <p class="text-gray-600 mb-4">Your video has been successfully uploaded to YouTube.</p>
+        <p class="mb-6">
+            <a id="youtube-link" href="#" class="text-blue-500 hover:underline text-lg break-all" target="_blank"></a>
+        </p>
+        <div class="flex justify-center">
+            <button id="youtube-done-btn" class="btn-primary text-white font-bold py-3 px-8 rounded transition duration-200">
+                Done
+            </button>
+        </div>
+    </div>
+</div>
