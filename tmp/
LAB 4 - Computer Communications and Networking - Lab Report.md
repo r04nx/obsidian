@@ -1,4 +1,4 @@
-![USB Port Configuration in Registry](Pasted%20image%2020231017150057.png)
+1![USB Port Configuration in Registry](Pasted%20image%2020231017150057.png)
 *Even in modern Windows systems, USB security is managed through registry settings*
 ## Locking Down the Gates: USB Port Control
 

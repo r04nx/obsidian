@@ -1,13 +1,23 @@
-# Steganography Laboratory Report
+---
+share_link: https://share.note.sx/ihoqqjey#rSAmHsrRzfCs1Ud+KoF1IbLnUxulOu8puOe5Lz/ujnM
+share_updated: 2025-04-18T23:31:18+05:30
+---
+### To provide confidentiality using Steganography: a professional tool
 
-> [!abstract] Overview
-> This laboratory report documents experiments with three different steganography techniques: text-in-text, text-in-image, and image-in-image. All experiments were conducted in a Linux Ubuntu environment using various steganography tools.
+**Student Name:** Rohan Pawar  
+**UID:** 2023201020  
+**Batch:** C  
+**Branch:** EXTC  
+**Course:** CCN
+
+> [!abstract] AIM:
+>experiments with three different steganography techniques: text-in-text, text-in-image, and image-in-image. All experiments were conducted in a Linux Ubuntu environment using various steganography tools.
 
 ## Introduction
 Steganography is the practice of concealing information within other non-secret data or a physical object to avoid detection. Unlike encryption, which focuses on making data unreadable, steganography aims to hide the very existence of the secret communication. 
 
 ![[obsidian_images/cover_image.jpg|300]]
-*Cover image used in our steganography experiments*
+*Cover image used in this steganography experiments*
 
 ## Objective
 To demonstrate and evaluate three different steganography techniques:
@@ -428,22 +438,8 @@ Our enhanced experiment demonstrated the following key results:
 
 3. **Image-in-Image Steganography**: This technique requires careful consideration of capacity. Our initial attempt with Outguess failed due to capacity constraints, but Steghide succeeded with a smaller secret image. This highlights the importance of payload size in steganography. Our enhanced experiment demonstrated that even with complex images, approximately 67% of pixels needed modification to hide a secret image that was 1/16th the size of the cover image in terms of pixel count.
 
-### Limitations and Challenges
-- **Capacity**: There's a limit to how much data can be hidden without causing noticeable artifacts. Our pixel-level analysis showed that even when 67% of pixels were modified (in their least significant bits), the changes remained imperceptible to the human eye.
-- **Tool Limitations**: Different tools have different capabilities and constraints, as seen with Outguess vs. Steghide. Outguess was more limited in capacity, while Steghide could accommodate larger secret data.
-- **Password Protection**: All methods used require a password for extraction, adding a layer of security but also creating a potential point of failure if the password is forgotten. The password also influences the distribution pattern of the hidden data within the cover medium.
-- **Pixel Modification Patterns**: The distribution of modified pixels follows a pseudorandom pattern determined by the password, which helps resist detection but may be vulnerable to sophisticated statistical analysis techniques.
-
 ## Conclusion
 This lab demonstrated three different steganography techniques, each with its own strengths and applications. Text-in-text steganography is simple but limited, while image-based techniques offer greater capacity and security at the cost of complexity.
 
-The key advantage of steganography over encryption is that it hides the very existence of secret communication. For maximum security in real-world applications, it would be advisable to combine steganography with strong encryption.
-
 The experiments highlighted the importance of considering payload size relative to the capacity of the carrier medium, and demonstrated that tools like Steghide can effectively hide information with no visible artifacts when used correctly. Our pixel-level analysis revealed that even when a significant percentage of pixels are modified (67% in our enhanced experiment), the changes remain imperceptible because they only affect the least significant bits of pixel values.
 
-## References
-1. Steghide documentation: [https://steghide.sourceforge.net/documentation.php](https://steghide.sourceforge.net/documentation.php)
-2. Outguess documentation: [https://outguess.sourceforge.net/](https://outguess.sourceforge.net/)
-3. Johnson, N. F., & Jajodia, S. (1998). Exploring steganography: Seeing the unseen. Computer, 31(2), 26-34.
-4. Cox, I. J., Miller, M. L., Bloom, J. A., Fridrich, J., & Kalker, T. (2007). Digital watermarking and steganography. Morgan Kaufmann.
-5. Fridrich, J., Goljan, M., & Du, R. (2001). Detecting LSB steganography in color, and gray-scale images. IEEE multimedia, 8(4), 22-28.

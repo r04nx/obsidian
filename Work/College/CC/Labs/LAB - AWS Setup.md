@@ -1,6 +1,6 @@
 ---
-share_link: https://share.note.sx/wfxf0h8f#ffg97s3iFqD+u27j3MytR5P0rxOr5f1LlKR6BvrpKJ8
-share_updated: 2025-03-02T01:12:05+05:30
+share_link: https://share.note.sx/gz35qv2m#ffg97s3iFqD+u27j3MytR5P0rxOr5f1LlKR6BvrpKJ8
+share_updated: 2025-04-18T23:57:10+05:30
 ---
 # AWS Setup and Free Tier Exploration
 
