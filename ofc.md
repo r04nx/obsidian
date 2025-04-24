@@ -1,6 +1,6 @@
 ---
 share_link: https://share.note.sx/tn0r8qrg#7gkyMiE+N79s1YHszvczbQYTZ/QugkDQu3CqFPbgp2k
-share_updated: 2025-04-24T00:13:31+05:30
+share_updated: 2025-04-24T13:07:06+05:30
 ---
 # Free Space Optical Communication: Technical Overview
 
@@ -63,7 +63,7 @@ graph TD
 > FSO systems typically use intensity modulation with direct detection (IM/DD) due to its simplicity, though coherent detection is emerging for improved sensitivity.
 
 ```mermaid
-graph LR
+graph TD
     subgraph "Transmitter"
         A[Data Input] --> B[Encoder]
         B --> C[Modulator]
@@ -123,7 +123,7 @@ FSO systems are vulnerable to various error sources that impact Bit Error Rate (
 - **Background Radiation**: Solar and artificial light sources
 
 ```mermaid
-graph TD
+graph LR
     A[FSO Error Sources] --> B[Atmospheric Effects]
     A --> C[Pointing Errors]
     A --> D[Signal Processing]
@@ -300,7 +300,7 @@ Despite its advantages, FSO faces several technical and operational limitations.
 - **Maintenance Considerations**: Optical surfaces require regular cleaning
 
 ```mermaid
-graph TD
+graph LR
     A[FSO Limitations] --> B[Environmental]
     A --> C[Operational]
     A --> D[Economic]
@@ -355,7 +355,7 @@ FSO technology finds applications across diverse domains, leveraging its unique 
 > "Enterprise adoption of FSO has grown at 34% CAGR since 2020, driven primarily by cost savings of 60-80% compared to fiber trenching in urban environments." — [Free Space Optics Market](https://www.vynzresearch.com/semiconductor-electronics/free-space-optics-market)
 
 ```mermaid
-graph TD
+graph LR
     A[FSO Applications] --> B[Telecommunications]
     A --> C[Enterprise Solutions]
     A --> D[Emergency Response]
@@ -423,7 +423,7 @@ Space-based FSO represents one of the most promising frontiers for the technolog
 - **Telesat Lightspeed**: Designing global network with optical backbones
 
 ```mermaid
-graph TD
+graph LR
     A[Satellite FSO] --> B[Inter-Satellite Links]
     A --> C[Ground-to-Satellite]
     A --> D[Constellation Networks]
@@ -494,7 +494,7 @@ FSO technology continues to evolve rapidly, with several emerging trends shaping
 - **FSO/Quantum Technologies**: Quantum key distribution over free space links
 
 ```mermaid
-graph TD
+graph LR
     A[Future FSO Trends] --> B[Advanced Photonics]
     A --> C[Signal Processing]
     A --> D[Hybrid Technologies]
@@ -574,7 +574,7 @@ Current research is addressing fundamental challenges and expanding FSO capabili
 - **Anti-Jamming Techniques**: Methods to detect and mitigate optical interference
 
 ```mermaid
-graph TD
+graph LR
     A[Research Frontiers] --> B[Turbulence Mitigation]
     A --> C[Advanced Modulation/Coding]
     A --> D[Physical Layer Security]
