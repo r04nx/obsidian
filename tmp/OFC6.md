@@ -139,10 +139,5 @@ Understanding BER helps enhance the performance and reliability of fiber optic s
 
 > [!summary] Conclusion Through this study:
 > 
-> - Higher noise levels increased bit errors.
->     
-> - Faster clock rates led to synchronization issues.
->     
-> - Managing noise and clock frequency improves system reliability.
->     
+![[Pasted image 20250427133455.png]]
 
