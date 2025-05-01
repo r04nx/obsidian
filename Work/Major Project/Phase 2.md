@@ -3,13 +3,6 @@ share_link: https://share.note.sx/ud8uqj17#J26EGTCe5bEiXWoCewOKQUyw41GyCbcGxQIQk
 share_updated: 2025-05-01T11:42:49+05:30
 ---
 ---
-aliases: [Phase 2, ML Optimization Framework]
-tags: [major-project, lora, tinyml, optimization]
-created: 2025-05-01
-modified: 2025-05-01
-status: in-progress
----
-
 # 🚀 Phase 2: Advanced Optimization Framework
 
 > [!quote] Project Milestone
@@ -93,11 +86,11 @@ To validate our approach, we created a specialized benchmarking tool that:
 
 ### Initial Hardware Specifications
 
-| Board     | LoRa TTGO T1 | Lora TTGO |
-| --------- | ------------ | --------- |
-| RAM       | 520 KB       | 520KB     |
-| Flash     | 4MB          | 4MB       |
-| ROM       | 448 KB       | 448 KB    |
+| Board | LoRa TTGO T1 | Lora TTGO T3 |
+| ----- | ------------ | ------------ |
+| RAM   | 520 KB       | 520KB        |
+| Flash | 4MB          | 4MB          |
+| ROM   | 448 KB       | 448 KB       |
 
 
 tab-item: Challenges
