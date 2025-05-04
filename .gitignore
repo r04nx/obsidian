@@ -1,21 +1,88 @@
-# Obsidian internal files
-.obsidian/workspace
+# -----------------------------------------------------
+# Obsidian specific files to ignore
+# -----------------------------------------------------
+
+# Obsidian workspace files (changes frequently with each use)
 .obsidian/workspace.json
-.obsidian/cache
+.obsidian/workspace
+.obsidian/workspace-mobile.json
+
+# Obsidian cache and sync folders
+.obsidian/cache/
+.obsidian/plugins/sync*/
+
+# Obsidian app settings - consider tracking these for consistency across devices
+# Comment out if you want to track your Obsidian settings
+# .obsidian/app.json
+# .obsidian/appearance.json
+# .obsidian/core-plugins.json
+# .obsidian/core-plugins-migration.json
+# .obsidian/daily-notes.json
+# .obsidian/community-plugins.json
+# .obsidian/hotkeys.json
+# .obsidian/graph.json
+
+# Obsidian deleted files location
 .trash/
 
-# Hugo generated files
+# -----------------------------------------------------
+# Git recovery - from previously fixed corruption
+# -----------------------------------------------------
+.git_corrupted/
+
+# -----------------------------------------------------
+# Hugo generated files (from existing .gitignore)
+# -----------------------------------------------------
 myblog/public/
 myblog/resources/
 
-# Node modules
+# -----------------------------------------------------
+# Node.js dependencies (from existing .gitignore)
+# -----------------------------------------------------
 myblog/node_modules/
 
+# -----------------------------------------------------
 # System files
+# -----------------------------------------------------
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
 Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.fuse_hidden*
+.Trash-*
+.nfs*
+
+# -----------------------------------------------------
+# Temporary and sensitive files
+# -----------------------------------------------------
+# Temp notes
+tmp/
+temporary/
+scratch/
 
 # Private or sensitive content
 private/
 .env
-.obsidian/
+credentials/
+secrets/
+
+# -----------------------------------------------------
+# Misc files that shouldn't be in version control
+# -----------------------------------------------------
+*.log
+.vscode/
+*.bak
