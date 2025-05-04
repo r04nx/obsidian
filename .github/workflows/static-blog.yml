@@ -15,7 +15,29 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Set up and configure GitHub Pages
+  setup_pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v4
+        with:
+          # Force the configuration to use the root directory (/)
+          path: "/"
+          
+      - name: Set CNAME directly through GitHub API
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method PUT /repos/${{ github.repository }}/pages --field cname="rohanpawar.me"
+          echo "CNAME updated through GitHub API"
+
+  # Build and deploy content to GitHub Pages
   deploy:
+    needs: setup_pages
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -24,28 +46,41 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      
-      - name: Create docs directory and copy Blog content
+      - name: Prepare content for obsidian subdirectory
         run: |
-          # Create docs directory if it doesn't exist
-          mkdir -p docs
+          # Create a temporary directory for the final structure
+          mkdir -p _site/obsidian
           
-          # Copy all content from Blog to docs
-          cp -r Blog/* docs/ || echo "No files in Blog directory"
+          # Copy all content from Blog to obsidian subdirectory
+          cp -r Blog/* _site/obsidian/ || echo "No files in Blog directory"
           
-          # Create CNAME file in docs directory
-          echo "rohanpawar.me" > docs/CNAME
+          # Create CNAME file at the root level
+          echo "rohanpawar.me" > _site/CNAME
+          
+          # Create a basic index.html at the root to redirect to the obsidian subdirectory
+          cat > _site/index.html << 'EOL'
+          <!DOCTYPE html>
+          <html>
+            <head>
+              <meta http-equiv="refresh" content="0; url=/obsidian/" />
+              <title>Redirecting to Obsidian Blog</title>
+            </head>
+            <body>
+              <p>Redirecting to <a href="/obsidian/">Obsidian Blog</a>...</p>
+            </body>
+          </html>
+          EOL
           
           # List contents to verify
-          echo "Contents of docs directory:"
-          ls -la docs/
+          echo "Contents of the _site directory:"
+          ls -la _site/
+          echo "Contents of the obsidian subdirectory:"
+          ls -la _site/obsidian/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './docs'
+          path: './_site'
 
       - name: Deploy to GitHub Pages
         id: deployment
