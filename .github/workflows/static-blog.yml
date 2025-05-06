@@ -29,37 +29,74 @@ jobs:
 
       - name: Prepare content for deployment
         run: |
-          # Create a temporary directory structure
-          mkdir -p _site/obsidian
+          # Create the root directory for our site
+          mkdir -p _site
           
-          # Copy Blog content to the obsidian subdirectory
-          cp -r Blog/* _site/obsidian/ || echo "No files in Blog directory"
+          # Create the docs directory (GitHub Pages is configured to use /docs)
+          # This will be available at rohanpawar.me/obsidian/
+          mkdir -p docs
           
-          # Create CNAME file (this will be used when you configure custom domain in GitHub Pages settings)
-          echo "rohanpawar.me" > _site/CNAME
+          # Copy all Blog content directly to docs directory
+          cp -r Blog/* docs/ || echo "No files in Blog directory"
           
-          # Create a root index.html that redirects to /obsidian/
-          cat > _site/index.html << 'EOL'
-          <!DOCTYPE html>
-          <html>
-            <head>
-              <meta http-equiv="refresh" content="0; url=/obsidian/" />
-              <title>Redirecting to Obsidian Blog</title>
-            </head>
-            <body>
-              <p>Redirecting to <a href="/obsidian/">Obsidian Blog</a>...</p>
-            </body>
-          </html>
-          EOL
+          # Create a simple index.html in docs directory to avoid redirect loops
+          # Only create it if it doesn't already exist
+          if [ ! -f docs/index.html ]; then
+            cat > docs/index.html << 'EOL'
+            <!DOCTYPE html>
+            <html>
+              <head>
+                <title>Obsidian Blog</title>
+              </head>
+              <body>
+                <h1>Obsidian Blog</h1>
+                <p>Welcome to the Obsidian Blog. Please navigate using the links below:</p>
+                <ul id="file-list"></ul>
+                
+                <script>
+                  // Simple script to list available files
+                  fetch('.')
+                    .then(response => response.text())
+                    .then(text => {
+                      const parser = new DOMParser();
+                      const doc = parser.parseFromString(text, 'text/html');
+                      const links = Array.from(doc.querySelectorAll('a'));
+                      const fileList = document.getElementById('file-list');
+                      
+                      links.forEach(link => {
+                        if (link.href && !link.href.endsWith('/') && !link.href.includes('?')) {
+                          const li = document.createElement('li');
+                          const a = document.createElement('a');
+                          a.href = link.href;
+                          a.textContent = link.textContent;
+                          li.appendChild(a);
+                          fileList.appendChild(li);
+                        }
+                      });
+                    })
+                    .catch(err => console.error('Error fetching files:', err));
+                </script>
+              </body>
+            </html>
+            EOL
+          fi
+          
+          # Create CNAME file at repository root
+          echo "rohanpawar.me" > CNAME
           
           # Create an empty .nojekyll file to disable Jekyll processing
-          touch _site/.nojekyll
+          touch .nojekyll
+          
+          # Copy these files to _site directory
+          cp -r docs _site/
+          cp CNAME _site/
+          cp .nojekyll _site/
           
           # Verify the directory structure
           echo "Contents of _site directory:"
           ls -la _site/
-          echo "Contents of _site/obsidian directory:"
-          ls -la _site/obsidian/
+          echo "Contents of _site/docs directory:"
+          ls -la _site/docs/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
