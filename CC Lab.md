@@ -39,4 +39,6 @@ select the boot source, and and then volume size as shown below
 ![[Pasted image 20250507011946.png]]
 and then select the instance type like m1.nano , m1.micro, m1.tiny etc.
 
+
+
 ![[Pasted image 20250507012019.png]]
