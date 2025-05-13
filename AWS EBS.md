@@ -58,3 +58,10 @@ let us test it by putting some data in, via curl request
 the data is being successfully submitted via exposed api, 
 and also the data is being reflected in the frontend application as shown below screenshot
 ![[Pasted image 20250514000158.png]]
+
+let us investigate what resources are being used to run this application
+let us run
+```
+eb config
+```
+
