@@ -1,0 +1,14 @@
+\title{LoRaID Connect: Enhancing LoRa Communication\\
+\large Sardar Patel Institute of Technology, Mumbai}
+
+\author{\IEEEauthorblockN{Rohan Pawar\textsuperscript{1}, Sarthak Bhosale\textsuperscript{1}, Atharva Kotwal\textsuperscript{1}}
+\IEEEauthorblockA{\textit{Department of Electronics and Telecommunication Engineering} \\
+\textit{Sardar Patel Institute of Technology, Mumbai, India} \\
+Email: \{2023201020, 2023201002, 2023201022\}@spit.ac.in}
+\and
+\IEEEauthorblockN{Prof. Anand Mane\textsuperscript{2}, Prof. Deepak Karia\textsuperscript{2}}
+\IEEEauthorblockA{\textit{Department of Electronics and Telecommunication Engineering} \\
+\textit{Sardar Patel Institute of Technology, Mumbai, India} \\
+Email: \{anand\_mane, deepak\_karia\}@spit.ac.in \\
+\textsuperscript{1}Student, \textsuperscript{2}Faculty Guide}
+}
