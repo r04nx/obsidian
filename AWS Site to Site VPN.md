@@ -72,6 +72,25 @@ You can connect to your instance using SSH:
 
  ssh -i my-vpc-key.pem ec2-user@13.126.132.2
 
+let us clone this repo for generating the certificates and keys required for the client vpn setup in the AWS
+![[Pasted image 20250519045555.png]]
+then run the following commands  
+![[Pasted image 20250519045628.png]]
+![[Pasted image 20250519045657.png]]
+
+![[Pasted image 20250519045723.png]]
+
+type yes wherever necessary
+![[Pasted image 20250519045759.png]]
+
+now make the directory to store all the creds related files
+
+copyall the important files in that dir
+![[Pasted image 20250519045915.png]]
+then run the following command
+![[Pasted image 20250519045938.png]]
+
+
 
 
 
