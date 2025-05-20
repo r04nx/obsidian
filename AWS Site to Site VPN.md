@@ -94,6 +94,8 @@ then run the following command
 ![[Pasted image 20250519045938.png]]
 
 
+after this in the OS we enabled the VPN connection and connected with the VPC in AWS availability zone, and then, we are able to have access to the private network   of the   
+
 
 
 
