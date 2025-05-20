@@ -8,6 +8,9 @@ our use case will be, Onprem application will connect to the Database on cloud w
 let us begin 
 to simulte the on prem application we will use the Notu a note taking app in the python flask developed and designed by me which will be using the postgres database running in the aws cloud on ec2 and we will establish a vpn connection between these microservice
 
+the following are some screenshots of the application 
+
+
 let us check if there are any available vpc in my aws account 
 there are none as shown in the following screenshot when i runthe commnd
 aws ec2 describe-vpcs
