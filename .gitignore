@@ -70,7 +70,7 @@ $RECYCLE.BIN/
 # Temporary and sensitive files
 # -----------------------------------------------------
 # Temp notes
-tmp/
+#tmp/
 temporary/
 scratch/
 

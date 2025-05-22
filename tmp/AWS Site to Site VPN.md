@@ -9,8 +9,10 @@ let us begin
 to simulte the on prem application we will use the Notu a note taking app in the python flask developed and designed by me which will be using the postgres database running in the aws cloud on ec2 and we will establish a vpn connection between these microservice
 
 the following are some screenshots of the application 
+![[Pasted image 20250522161728.png]]
 
-
+and this is the following database running 
+![[Pasted image 20250522161849.png]]
 let us check if there are any available vpc in my aws account 
 there are none as shown in the following screenshot when i runthe commnd
 aws ec2 describe-vpcs
@@ -95,6 +97,80 @@ then run the following command
 
 
 after this in the OS we enabled the VPN connection and connected with the VPC in AWS availability zone, and then, we are able to have access to the private network   of the   
+
+Now i have copied the codebase by cloning from the github.com/r04nx/notu.git
+
+following are the commands to setup on the vpc
+1. Clone the repository:
+
+```shell
+git clone https://github.com/r04nx/notu.git
+cd notu
+```
+
+2. Create a virtual environment and activate it:
+
+```shell
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install the dependencies:
+
+```shell
+pip install -r requirements.txt
+```
+
+4. Set up the PostgreSQL database:
+    
+    - Create a new PostgreSQL database named `notu_db`
+    - Update the `.env` file with your database credentials
+5. Initialize the database:
+    
+
+```shell
+flask db init
+flask db migrate -m "Initial migration"
+flask db upgrade
+```
+
+6. Create an admin user (optional):
+
+```shell
+python create_admin.py
+```
+
+## ⚙️ Configuration
+
+[](https://github.com/r04nx/notu#%EF%B8%8F-configuration)
+
+A `.env.example` file is provided in the repository. Copy it to create your own `.env` file:
+
+```shell
+cp .env.example app/.env
+```
+
+Then edit the `.env` file with your specific configuration:
+
+```
+FLASK_APP=app
+FLASK_ENV=development
+SECRET_KEY=your_secret_key_here
+DATABASE_URL=postgresql://username:password@localhost:5432/notu_db
+UNSPLASH_ACCESS_KEY=your_unsplash_access_key_here
+TINYMCE_API_KEY=your_tinymce_api_key_here
+```
+
+- Replace `your_secret_key_here` with a secure random string
+- Update the database URL with your PostgreSQL credentials
+- (Optional) Add your Unsplash API key to enable dynamic background images
+- (Optional) Add your TinyMCE API key for enhanced editor featur
+  
+  then, now we will put the database address as the local private ip of the vm which is running locally on my machine and we will make the application connect to the local database, via VPN
+  
+  as u can see i am editing the .env file with nano and using the same address and port which was used for the local setup ![[Pasted image 20250522162526.png]]
+and as shown in the below screen shot the application is still working without fail because it is able to communicate to the local database server which is on premises servr
+![[Pasted image 20250522162854.png]]
 
 
 
