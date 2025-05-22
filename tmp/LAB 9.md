@@ -10,7 +10,7 @@ share_updated: 2025-05-22T16:51:33+05:30
 > [!note] Student Details
 > - **Name:** Rohan Prakash Pawar
 > - **UID:** 2023201020
-> - **Branch:** EE
+> - **Branch:** EXTC
 > - **Date:** May 22, 2025
 > - **Course:** OECS1- Cloud Computing
 > - **Academic Year:** 2024-2025
