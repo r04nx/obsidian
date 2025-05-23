@@ -19,4 +19,7 @@ We got around 4MBs of data and i downloaded in the geojson file
 Now i have built a flask web application which is viewing and displaying the map data in a colorful manner and black grey as the background
 ![[Pasted image 20250523162935.png]]
 
+Now imlpemented the multiple modes from standard, dark theme, light theme, OSM, Streets, Outdoors, Satellite etc
+![[Pasted image 20250523171108.png]]
 
+[]
