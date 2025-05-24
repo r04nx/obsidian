@@ -22,4 +22,4 @@ Now i have built a flask web application which is viewing and displaying the map
 Now imlpemented the multiple modes from standard, dark theme, light theme, OSM, Streets, Outdoors, Satellite etc
 ![[Pasted image 20250523171108.png]]
 
-[]
+
