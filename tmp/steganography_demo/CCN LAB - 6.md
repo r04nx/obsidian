@@ -16,7 +16,7 @@ share_updated: 2025-04-18T23:31:18+05:30
 ## Introduction
 Steganography is the practice of concealing information within other non-secret data or a physical object to avoid detection. Unlike encryption, which focuses on making data unreadable, steganography aims to hide the very existence of the secret communication. 
 
-![[obsidian_images/cover_image.jpg|300]]
+![[tmp/steganography_demo/obsidian_images/cover_image.jpg|300]]
 *Cover image used in this steganography experiments*
 
 ## Objective
@@ -123,10 +123,10 @@ convert -size 64x48 gradient:red-yellow smaller_secret.jpg
 
 Here are the images we created:
 
-![[obsidian_images/cover_image.jpg|300]]
+![[tmp/steganography_demo/obsidian_images/cover_image.jpg|300]]
 *Cover image (512x384 blue-purple gradient)*
 
-![[obsidian_images/smaller_secret.jpg|150]]
+![[tmp/steganography_demo/obsidian_images/smaller_secret.jpg|150]]
 *Smaller secret image (64x48 red-yellow gradient)*
 
 ### Experiment 1: Text-in-Text Steganography
@@ -285,7 +285,7 @@ convert -size 512x384 xc: +noise Random -channel R -fx "sin(a*20)*0.5+0.5" -chan
 
 This command creates a colorful pattern with sine waves applied to different color channels, resulting in a visually rich image:
 
-![[obsidian_images/enhanced_cover_original.jpg|300]]
+![[tmp/steganography_demo/obsidian_images/enhanced_cover_original.jpg|300]]
 *Enhanced cover image with complex pattern*
 
 Next, we created a distinctive secret image that would be hidden:
@@ -296,7 +296,7 @@ convert -size 128x96 xc:black -fill white -draw "circle 64,48 64,24" -draw "text
 
 This creates a black image with a white circle and the text "SECRET":
 
-![[obsidian_images/enhanced_secret.jpg|200]]
+![[tmp/steganography_demo/obsidian_images/enhanced_secret.jpg|200]]
 *Secret image with distinctive visual elements*
 
 #### Performing Enhanced Steganography
@@ -333,7 +333,7 @@ wrote extracted data to "enhanced_extracted.jpg".
 
 To analyze the effects of the steganography process at the pixel level, we created a side-by-side comparison of the original and modified cover images:
 
-![[obsidian_images/comparison_covers.jpg|500]]
+![[tmp/steganography_demo/obsidian_images/comparison_covers.jpg|500]]
 *Side-by-side comparison of original (left) and stego (right) cover images*
 
 Despite containing the entire secret image, the stego image is visually identical to the original cover image. This demonstrates the effectiveness of LSB steganography in hiding data without perceptible changes.
@@ -348,7 +348,7 @@ This command produced an output of `131927`, indicating that 131,927 pixels (out
 
 The resulting difference analysis image highlights the modified pixels in red:
 
-![[obsidian_images/difference_analysis.jpg|400]]
+![[tmp/steganography_demo/obsidian_images/difference_analysis.jpg|400]]
 *Pixel difference analysis showing modified pixels in red*
 
 > [!note] Pixel Modification Pattern
@@ -381,7 +381,7 @@ This line looks normal but has hidden binary data. Each word ends with a space f
 ### Text-in-Image Steganography
 We successfully embedded the secret text file into the cover image. The modified image shows no visible differences from the original.
 
-![[obsidian_images/cover_image.jpg|300]]
+![[tmp/steganography_demo/obsidian_images/cover_image.jpg|300]]
 *Figure 2: The cover image containing hidden text*
 
 We were able to extract the hidden text, confirming the success of this technique:
@@ -395,15 +395,15 @@ This is a secret message that will be hidden.
 #### Initial Experiment
 In our initial experiment, we successfully embedded a smaller image into the cover image using Steghide. The visual appearance of the cover image remained unchanged.
 
-![[obsidian_images/cover_image.jpg|300]]
+![[tmp/steganography_demo/obsidian_images/cover_image.jpg|300]]
 *The cover image before embedding*
 
-![[obsidian_images/smaller_secret.jpg|150]]
+![[tmp/steganography_demo/obsidian_images/smaller_secret.jpg|150]]
 *The smaller secret image that was embedded*
 
 We were able to extract the hidden image, confirming the success of this technique.
 
-![[obsidian_images/extracted_secret_image.jpg|150]]
+![[tmp/steganography_demo/obsidian_images/extracted_secret_image.jpg|150]]
 *The successfully extracted secret image*
 
 #### Enhanced Experiment
@@ -411,20 +411,20 @@ Our enhanced experiment demonstrated the following key results:
 
 1. **Visually Identical Images**: Despite embedding a 128x96 pixel secret image containing distinctive visual elements (circle and text), the resulting stego image showed no perceptible differences from the original when viewed normally.
 
-![[obsidian_images/enhanced_cover_original.jpg|300]]
+![[tmp/steganography_demo/obsidian_images/enhanced_cover_original.jpg|300]]
 *Original enhanced cover image*
 
-![[obsidian_images/enhanced_cover.jpg|300]]
+![[tmp/steganography_demo/obsidian_images/enhanced_cover.jpg|300]]
 *Stego image containing the hidden secret image*
 
 2. **Successful Data Extraction**: We were able to perfectly extract the hidden image using the correct password:
 
-![[obsidian_images/enhanced_extracted.jpg|200]]
+![[tmp/steganography_demo/obsidian_images/enhanced_extracted.jpg|200]]
 *Extracted secret image showing perfect recovery*
 
 3. **Pixel-Level Changes**: Our difference analysis revealed that 131,927 pixels (67.1% of the image) were modified during the embedding process. However, these changes were limited to the least significant bits, resulting in imperceptible visual differences:
 
-![[obsidian_images/difference_analysis.jpg|400]]
+![[tmp/steganography_demo/obsidian_images/difference_analysis.jpg|400]]
 *Difference analysis showing modified pixels in red*
 
 4. **Data Distribution**: The modified pixels were distributed throughout the image rather than concentrated in specific regions, making the steganography more resistant to detection through simple visual inspection or basic statistical analysis.
