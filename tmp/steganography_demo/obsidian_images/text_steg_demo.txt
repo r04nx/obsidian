@@ -1,3 +1,0 @@
-Let's demonstrate text-in-text steganography using whitespace coding.
-The following sentence has hidden data using trailing spaces:
-This line looks normal but has hidden binary data. Each word ends with a space for 1 or no space for 0: Hello  world  this is  a  hidden  message.
