@@ -1,0 +1,108 @@
+digraph protocol_matrix {
+    rankdir=LR;
+    node [shape=box, style=filled];
+    
+    subgraph cluster_power {
+        label="Power & Energy Protocols";
+        style=filled;
+        color=lightblue;
+        
+        dnp3 [label="DNP3", color=lightcyan];
+        iec61850 [label="IEC 61850", color=lightcyan];
+        iec60870 [label="IEC 60870-5-101/104", color=lightcyan];
+        iccp [label="ICCP/TASE.2", color=lightcyan];
+        ieee [label="IEEE C37.118", color=lightcyan];
+        dlms [label="DLMS/COSEM", color=lightcyan];
+    }
+    
+    subgraph cluster_manufacturing {
+        label="Manufacturing Protocols";
+        style=filled;
+        color=lightgreen;
+        
+        modbus [label="Modbus TCP/RTU/ASCII", color=lightgray];
+        ethernet_ip [label="EtherNet/IP", color=lightgray];
+        profinet [label="PROFINET", color=lightgray];
+        profibus [label="PROFIBUS", color=lightgray];
+        ethercat [label="EtherCAT", color=lightgray];
+        cclink [label="CC-Link IE", color=lightgray];
+    }
+    
+    subgraph cluster_process {
+        label="Process Control";
+        style=filled;
+        color=lightyellow;
+        
+        hart [label="HART", color=wheat];
+        foundation [label="Foundation Fieldbus", color=wheat];
+        opcua [label="OPC UA/DA/AE", color=wheat];
+        wireless_hart [label="WirelessHART", color=wheat];
+        isa100 [label="ISA100.11a", color=wheat];
+        wits [label="WITS/WITSML", color=wheat];
+    }
+    
+    subgraph cluster_building {
+        label="Building & IoT";
+        style=filled;
+        color=lightcoral;
+        
+        bacnet [label="BACnet", color=mistyrose];
+        lonworks [label="LonWorks", color=mistyrose];
+        knx [label="KNX", color=mistyrose];
+        mqtt [label="MQTT", color=mistyrose];
+        coap [label="CoAP", color=mistyrose];
+        amqp [label="AMQP", color=mistyrose];
+    }
+    
+    subgraph cluster_network {
+        label="Network Management";
+        style=filled;
+        color=lightsteelblue;
+        
+        snmp [label="SNMP v1/v2c/v3", color=lavender];
+        netconf [label="NETCONF", color=lavender];
+        restconf [label="RESTCONF", color=lavender];
+        sflow [label="sFlow", color=lavender];
+        ipfix [label="IPFIX", color=lavender];
+        openflow [label="OpenFlow", color=lavender];
+    }
+    
+    // Central AEGIS platform
+    aegis [label="AEGIS Platform\nProtocol Intelligence", shape=ellipse, style=filled, color=gold, fontsize=14];
+    
+    // Connect all protocols to AEGIS
+    dnp3 -> aegis;
+    iec61850 -> aegis;
+    iec60870 -> aegis;
+    iccp -> aegis;
+    ieee -> aegis;
+    dlms -> aegis;
+    
+    modbus -> aegis;
+    ethernet_ip -> aegis;
+    profinet -> aegis;
+    profibus -> aegis;
+    ethercat -> aegis;
+    cclink -> aegis;
+    
+    hart -> aegis;
+    foundation -> aegis;
+    opcua -> aegis;
+    wireless_hart -> aegis;
+    isa100 -> aegis;
+    wits -> aegis;
+    
+    bacnet -> aegis;
+    lonworks -> aegis;
+    knx -> aegis;
+    mqtt -> aegis;
+    coap -> aegis;
+    amqp -> aegis;
+    
+    snmp -> aegis;
+    netconf -> aegis;
+    restconf -> aegis;
+    sflow -> aegis;
+    ipfix -> aegis;
+    openflow -> aegis;
+}

@@ -1,0 +1,22 @@
+graph budget_pie {
+    layout=neato;
+    node [shape=box, style=filled];
+    
+    // Create a circular layout for pie chart representation
+    personnel [label="Personnel\n₹210 Lakhs\n(43%)", pos="0,2!", color=lightblue, width=2, height=1];
+    equipment [label="Hardware & Equipment\n₹180 Lakhs\n(37%)", pos="1.73,1!", color=lightgreen, width=2, height=1];
+    software [label="Software & Licenses\n₹35 Lakhs\n(7%)", pos="1.73,-1!", color=lightyellow, width=2, height=1];
+    rd [label="R&D & Innovation\n₹20 Lakhs\n(4%)", pos="0,-2!", color=lightcoral, width=2, height=1];
+    training [label="Training & Certification\n₹12 Lakhs\n(2.5%)", pos="-1.73,-1!", color=plum, width=2, height=1];
+    operations [label="Operations & Overheads\n₹30 Lakhs\n(6%)", pos="-1.73,1!", color=wheat, width=2, height=1];
+    
+    center [label="Total Budget\n₹487 Lakhs\n(4.87 Crores)", pos="0,0!", color=gold, width=2.5, height=1.5, fontsize=14];
+    
+    // Connect all to center
+    personnel -- center;
+    equipment -- center;
+    software -- center;
+    rd -- center;
+    training -- center;
+    operations -- center;
+}

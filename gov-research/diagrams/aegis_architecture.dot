@@ -1,0 +1,109 @@
+digraph aegis_architecture {
+    rankdir=TB;
+    node [shape=box, style=filled, color=lightblue];
+    
+    subgraph cluster_field {
+        label="Field Layer - OT Devices";
+        style=filled;
+        color=lightgray;
+        
+        smart_meters [label="Smart Meters"];
+        rtus [label="RTUs"];
+        plcs [label="PLCs"];
+        ieds [label="IEDs"];
+        sensors [label="Sensors"];
+        actuators [label="Actuators"];
+    }
+    
+    subgraph cluster_protocol {
+        label="Protocol Translation Layer";
+        style=filled;
+        color=lightyellow;
+        
+        dnp3 [label="DNP3 Parser"];
+        iec61850 [label="IEC 61850 Handler"];
+        modbus [label="Modbus Gateway"];
+        mqtt [label="MQTT Broker"];
+        opcua [label="OPC UA Server"];
+        snmp [label="SNMP Collector"];
+    }
+    
+    subgraph cluster_security {
+        label="Security Perimeter";
+        style=filled;
+        color=lightcoral;
+        
+        data_diode [label="Hardware Data Diode"];
+        firewall [label="Protocol Firewall"];
+        anomaly [label="Anomaly Detector"];
+        encryption [label="Encryption Gateway"];
+    }
+    
+    subgraph cluster_processing {
+        label="Core Processing Platform";
+        style=filled;
+        color=lightgreen;
+        
+        asset_discovery [label="Asset Discovery Engine"];
+        event_correlation [label="Event Correlation Engine"];
+        ml_analytics [label="ML Analytics Platform"];
+        threat_intel [label="Threat Intelligence Hub"];
+        incident_response [label="Incident Response System"];
+    }
+    
+    subgraph cluster_data {
+        label="Data Management Layer";
+        style=filled;
+        color=lightsteelblue;
+        
+        timeseries_db [label="Time-Series Database"];
+        graph_db [label="Graph Database"];
+        blockchain [label="Blockchain Ledger"];
+        data_lake [label="Data Lake"];
+        cache [label="Cache Layer"];
+    }
+    
+    subgraph cluster_application {
+        label="Application Services";
+        style=filled;
+        color=plum;
+        
+        dashboard [label="Web Dashboard"];
+        mobile [label="Mobile Apps"];
+        api_gateway [label="API Gateway"];
+        reports [label="Report Generator"];
+        alerts [label="Alert Manager"];
+    }
+    
+    // Connections
+    smart_meters -> dnp3;
+    rtus -> iec61850;
+    plcs -> modbus;
+    ieds -> mqtt;
+    sensors -> opcua;
+    actuators -> snmp;
+    
+    dnp3 -> data_diode;
+    iec61850 -> data_diode;
+    modbus -> firewall;
+    mqtt -> firewall;
+    opcua -> anomaly;
+    snmp -> anomaly;
+    
+    data_diode -> asset_discovery;
+    firewall -> event_correlation;
+    anomaly -> ml_analytics;
+    encryption -> threat_intel;
+    
+    asset_discovery -> timeseries_db;
+    event_correlation -> graph_db;
+    ml_analytics -> blockchain;
+    threat_intel -> data_lake;
+    incident_response -> cache;
+    
+    timeseries_db -> dashboard;
+    graph_db -> mobile;
+    blockchain -> api_gateway;
+    data_lake -> reports;
+    cache -> alerts;
+}

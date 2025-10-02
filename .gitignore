@@ -40,6 +40,12 @@ myblog/resources/
 # Node.js dependencies (from existing .gitignore)
 # -----------------------------------------------------
 myblog/node_modules/
+node_modules
+
+# -----------------------------------------------------
+# Build outputs
+# -----------------------------------------------------
+public/html
 
 # -----------------------------------------------------
 # System files

@@ -1,0 +1,44 @@
+digraph gantt_timeline {
+    rankdir=LR;
+    node [shape=box, style=filled];
+    
+    // Timeline nodes
+    start [label="Project Start\nOct 2024", shape=ellipse, color=lightgreen, fontsize=12];
+    
+    // Year 1 phases
+    phase1_1 [label="Phase 1.1\nFoundation\n(Oct-Dec 2024)", color=lightblue];
+    phase1_2 [label="Phase 1.2\nCore Development\n(Jan-Mar 2025)", color=lightblue];
+    phase1_3 [label="Phase 1.3\nProtocol Integration\n(Apr-Jun 2025)", color=lightblue];
+    phase1_4 [label="Phase 1.4\nTesting & Validation\n(Jul-Sep 2025)", color=lightblue];
+    
+    // Year 2 phases
+    phase2_1 [label="Phase 2.1\nAdvanced Features\n(Oct-Dec 2025)", color=lightyellow];
+    phase2_2 [label="Phase 2.2\nML/AI Integration\n(Jan-Mar 2026)", color=lightyellow];
+    phase2_3 [label="Phase 2.3\nSecurity Enhancement\n(Apr-Jun 2026)", color=lightyellow];
+    phase2_4 [label="Phase 2.4\nSystem Integration\n(Jul-Sep 2026)", color=lightyellow];
+    
+    // Year 3 phases
+    phase3_1 [label="Phase 3.1\nPilot Deployment\n(Oct-Dec 2026)", color=lightcoral];
+    phase3_2 [label="Phase 3.2\nPerformance Tuning\n(Jan-Mar 2027)", color=lightcoral];
+    phase3_3 [label="Phase 3.3\nDocumentation\n(Apr-Jun 2027)", color=lightcoral];
+    phase3_4 [label="Phase 3.4\nProject Completion\n(Jul-Sep 2027)", color=lightcoral];
+    
+    end [label="Project End\nSep 2027", shape=ellipse, color=gold, fontsize=12];
+    
+    // Timeline flow
+    start -> phase1_1 -> phase1_2 -> phase1_3 -> phase1_4;
+    phase1_4 -> phase2_1 -> phase2_2 -> phase2_3 -> phase2_4;
+    phase2_4 -> phase3_1 -> phase3_2 -> phase3_3 -> phase3_4;
+    phase3_4 -> end;
+    
+    // Milestones
+    milestone1 [label="M1: Architecture\nComplete", shape=diamond, color=orange];
+    milestone2 [label="M2: Core Modules\nReady", shape=diamond, color=orange];
+    milestone3 [label="M3: Integration\nComplete", shape=diamond, color=orange];
+    milestone4 [label="M4: Pilot\nSuccess", shape=diamond, color=orange];
+    
+    phase1_2 -> milestone1 [style=dotted];
+    phase2_2 -> milestone2 [style=dotted];
+    phase2_4 -> milestone3 [style=dotted];
+    phase3_2 -> milestone4 [style=dotted];
+}

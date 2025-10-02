@@ -1,0 +1,524 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\usepackage[margin=1in,top=1.2in,headheight=80pt]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{pgf-pie}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{siunitx}
+\usepackage{acronym}
+\usepackage{glossaries}
+\usepackage{pdfpages}
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{afterpage}
+\usepackage{placeins}
+\usepackage{tocloft}
+
+% Font settings
+\setmainfont{Times New Roman}
+
+% Color definitions
+\definecolor{spitblue}{RGB}{0,51,102}
+\definecolor{spitgold}{RGB}{255,204,0}
+\definecolor{darkblue}{RGB}{0,31,63}
+\definecolor{lightblue}{RGB}{173,216,230}
+\definecolor{gray}{RGB}{128,128,128}
+\definecolor{lightgreen}{RGB}{144,238,144}
+\definecolor{lightyellow}{RGB}{255,255,224}
+\definecolor{lightcoral}{RGB}{240,128,128}
+\definecolor{plum}{RGB}{221,160,221}
+\definecolor{wheat}{RGB}{245,222,179}
+\definecolor{titleblue}{RGB}{25,25,112}
+\definecolor{sectiongreen}{RGB}{0,100,0}
+\definecolor{subsectionnavy}{RGB}{72,61,139}
+
+% Custom title formatting
+\titleformat{\section}{\Large\bfseries\color{titleblue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{sectiongreen}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\color{subsectionnavy}}{\thesubsubsection}{1em}{}
+
+% Header and footer setup
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[height=60pt]{SPIT_logo.png}}
+\fancyhead[C]{\textbf{\large AEGIS Research Proposal - Government Format}}
+\fancyhead[R]{\textbf{Page \thepage}}
+\fancyfoot[C]{\textit{Sardar Patel Institute of Technology}}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    urlcolor=darkblue,
+    citecolor=darkblue,
+    pdfborder={0 0 0}
+}
+
+% TOC formatting
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsubsecleader}{\cftdotfill{\cftdotsep}}
+
+\begin{document}
+
+% Title page
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    
+    \includegraphics[width=0.3\textwidth]{SPIT_logo.png}\\[1cm]
+    
+    {\Huge\bfseries\color{titleblue} AEGIS}\\[0.5cm]
+    {\Large Advanced Enterprise Grade Information Security Platform}\\[2cm]
+    
+    {\LARGE\bfseries Research \& Development Proposal}\\[1cm]
+    {\large for}\\[0.5cm]
+    {\Large\bfseries Government of India}\\[2cm]
+    
+    \begin{tabular}{ll}
+        \textbf{Submitted by:} & Sardar Patel Institute of Technology \\
+        \textbf{Principal Investigator:} & Dr. Rajesh Kumar \\
+        \textbf{Co-Investigator:} & Prof. Anita Sharma \\
+        \textbf{Date:} & \today \\
+        \textbf{Duration:} & 36 Months \\
+        \textbf{Total Budget:} & ₹ 15.0 Crores
+    \end{tabular}
+    
+    \vfill
+    
+    {\large Department of Information Technology}\\
+    {\large Sardar Patel Institute of Technology}\\
+    {\large Mumbai, Maharashtra - 400058}
+    
+\end{titlepage}
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+% Executive Summary
+\section*{Executive Summary}
+\addcontentsline{toc}{section}{Executive Summary}
+
+The AEGIS (Advanced Enterprise Grade Information Security) platform represents a groundbreaking approach to cybersecurity for critical infrastructure and enterprise environments. This comprehensive research and development proposal outlines the creation of an integrated cybersecurity solution that addresses the evolving threat landscape facing India's digital infrastructure.
+
+Our proposed solution combines advanced threat detection, real-time monitoring, automated response mechanisms, and comprehensive security analytics in a single, unified platform. The project will span 36 months with a total budget of ₹15.0 crores, delivering cutting-edge cybersecurity capabilities to protect India's critical digital assets.
+
+\newpage
+
+\section{PROJECT TITLE \& GENERAL INFORMATION}
+
+\begin{center}
+\textbf{\large PROFORMA FOR SUBMITTING R\&D PROJECT PROPOSAL}
+\end{center}
+
+\subsection{Project Details}
+
+\begin{longtable}{|p{6cm}|p{8cm}|}
+\hline
+\rowcolor{lightblue}
+\textbf{Field} & \textbf{Details} \\
+\hline
+\textbf{Title of the project:} & Advanced Enterprise Grade Information Security (AEGIS) Platform for Distributed OT/IT Cybersecurity \\
+\hline
+\textbf{Name of Principal Investigator:} & Dr. Rajesh Kumar \\
+\hline
+\textbf{Designation:} & Professor \& Head, Department of Information Technology \\
+\hline
+\textbf{Address:} & SPIT, Munshi Nagar, Andheri (West), Mumbai - 400058 \\
+\hline
+\textbf{Phone No.:} & +91-22-26707440 \\
+\hline
+\textbf{Mobile No.:} & +91-9876543210 \\
+\hline
+\textbf{Email:} & rajesh.kumar@spit.ac.in \\
+\hline
+\textbf{Name of Co-investigator:} & Prof. Anita Sharma \\
+\hline
+\textbf{Total duration of the project:} & 36 months \\
+\hline
+\textbf{Total budget required:} & ₹ 15,00,00,000 (Fifteen Crores) \\
+\hline
+\textbf{Year-wise budget:} & 
+Year 1: ₹ 6,00,00,000 \\
+Year 2: ₹ 5,50,00,000 \\
+Year 3: ₹ 3,50,00,000 \\
+\hline
+\end{longtable}
+
+\section{PROJECT OBJECTIVES}
+
+\subsection{Primary Objectives}
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Unified Security Platform Development:} Create a comprehensive cybersecurity platform that integrates multiple security tools and technologies into a single, cohesive system.
+
+\item \textbf{Advanced Threat Detection:} Develop machine learning and AI-based threat detection capabilities that can identify both known and zero-day threats in real-time.
+
+\item \textbf{OT/IT Convergence Security:} Address the unique challenges of securing converged operational technology (OT) and information technology (IT) environments.
+
+\item \textbf{Automated Response Systems:} Implement intelligent automated response mechanisms that can contain and mitigate threats without human intervention.
+
+\item \textbf{Compliance and Governance:} Ensure the platform meets all relevant Indian and international cybersecurity standards and regulations.
+\end{enumerate}
+
+\subsection{Secondary Objectives}
+\begin{enumerate}[leftmargin=*]
+\item Development of indigenous cybersecurity capabilities
+\item Creation of skilled cybersecurity workforce
+\item Establishment of research partnerships with international institutions
+\item Technology transfer to Indian industry
+\item Publication of research findings in peer-reviewed journals
+\end{enumerate}
+
+\section{TECHNICAL APPROACH \& METHODOLOGY}
+
+\subsection{Architecture Overview}
+
+The AEGIS platform will be built on a microservices architecture to ensure scalability, maintainability, and flexibility. The system will comprise several core components working in harmony to provide comprehensive cybersecurity coverage.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{diagrams/architecture_overview.png}
+\caption{AEGIS Technical Architecture Overview}
+\label{fig:architecture}
+\end{figure}
+
+\subsection{Core Components}
+
+\subsubsection{Threat Detection Engine}
+The threat detection engine will utilize multiple detection methodologies:
+\begin{itemize}
+\item Signature-based detection for known threats
+\item Behavioral analysis for anomaly detection
+\item Machine learning models for pattern recognition
+\item Threat intelligence integration
+\end{itemize}
+
+\subsubsection{Security Analytics Platform}
+Advanced analytics capabilities including:
+\begin{itemize}
+\item Real-time log analysis and correlation
+\item Predictive threat modeling
+\item Risk assessment and scoring
+\item Incident forensics and investigation tools
+\end{itemize}
+
+\subsubsection{Automated Response System}
+Intelligent response mechanisms:
+\begin{itemize}
+\item Automated threat containment
+\item Dynamic policy enforcement
+\item Incident escalation workflows
+\item Recovery and remediation procedures
+\end{itemize}
+
+\section{PROJECT TIMELINE \& MILESTONES}
+
+The project will be executed over 36 months, divided into three main phases:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{diagrams/gantt_chart.png}
+\caption{Project Timeline - Gantt Chart}
+\label{fig:timeline}
+\end{figure}
+
+\subsection{Phase 1: Foundation \& Core Development (Months 1-12)}
+\begin{itemize}
+\item Research and requirements analysis
+\item Core platform architecture design
+\item Basic threat detection engine development
+\item Initial prototype development
+\item Proof of concept demonstrations
+\end{itemize}
+
+\subsection{Phase 2: Advanced Features \& Integration (Months 13-24)}
+\begin{itemize}
+\item Advanced ML/AI algorithm implementation
+\item Security analytics platform development
+\item OT/IT integration capabilities
+\item Automated response system development
+\item Performance testing and optimization
+\end{itemize}
+
+\subsection{Phase 3: Finalization \& Deployment (Months 25-36)}
+\begin{itemize}
+\item System hardening and security testing
+\item Compliance certification preparation
+\item Pilot deployment and field testing
+\item Documentation and training materials
+\item Technology transfer activities
+\end{itemize}
+
+\section{EXPECTED OUTCOMES \& DELIVERABLES}
+
+\subsection{Technical Deliverables}
+\begin{enumerate}
+\item Complete AEGIS cybersecurity platform
+\item Advanced threat detection algorithms
+\item Automated response and remediation tools
+\item Comprehensive security analytics dashboard
+\item Mobile and web-based management interfaces
+\end{enumerate}
+
+\subsection{Research Deliverables}
+\begin{enumerate}
+\item 15+ research papers in international journals
+\item 3+ patents filed for innovative technologies
+\item Technical documentation and user manuals
+\item Training programs and certification courses
+\item Open-source components for community use
+\end{enumerate}
+
+\subsection{Societal Impact}
+The AEGIS platform will significantly enhance India's cybersecurity posture by:
+\begin{itemize}
+\item Protecting critical infrastructure from cyber threats
+\item Reducing the impact of cybersecurity incidents
+\item Creating employment opportunities in cybersecurity
+\item Building indigenous cybersecurity capabilities
+\item Contributing to national digital sovereignty
+\end{itemize}
+
+\section{COLLABORATING ORGANIZATIONS}
+
+\subsection{Academic Partners}
+\begin{itemize}
+\item Indian Institute of Technology, Bombay
+\item Indian Institute of Science, Bangalore
+\item Indian Statistical Institute, Kolkata
+\item Centre for Development of Advanced Computing (C-DAC)
+\end{itemize}
+
+\subsection{Industry Partners}
+\begin{itemize}
+\item Tata Consultancy Services (TCS)
+\item Infosys Limited
+\item Wipro Technologies
+\item HCL Technologies
+\item Tech Mahindra
+\end{itemize}
+
+\subsection{Government Partners}
+\begin{itemize}
+\item Indian Computer Emergency Response Team (CERT-In)
+\item National Critical Information Infrastructure Protection Centre (NCIIPC)
+\item Defence Research and Development Organisation (DRDO)
+\item Centre for Artificial Intelligence and Robotics (CAIR)
+\end{itemize}
+
+\subsection{International Collaborations}
+\begin{itemize}
+\item \textbf{MIT, USA} - Advanced cryptography and security protocols
+\item \textbf{University of Cambridge, UK} - Machine learning for cybersecurity
+\item \textbf{Fraunhofer Institute, Germany} - Industrial cybersecurity standards
+\item \textbf{NIST, USA} - Cybersecurity framework development
+\end{itemize}
+
+\section{BUDGET BREAKDOWN}
+
+\subsection{Total Project Cost: ₹ 15.0 Crores}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{diagrams/budget_pie_chart.png}
+\caption{Budget Distribution Overview}
+\label{fig:budget}
+\end{figure}
+
+\subsection{Detailed Budget Distribution}
+
+\begin{center}
+\begin{tikzpicture}
+\pie[
+    text=legend,
+    color={lightgreen, lightyellow, lightcoral, plum, wheat},
+    radius=3.5,
+    explode=0.1
+]{
+    35/Personnel (₹5.25 Cr),
+    25/Equipment (₹3.75 Cr),
+    20/Infrastructure (₹3.0 Cr),
+    15/Operations (₹2.25 Cr),
+    5/Contingency (₹0.75 Cr)
+}
+\end{tikzpicture}
+\end{center}
+
+\subsection{Year-wise Budget Allocation}
+
+\begin{longtable}{|l|c|c|c|c|}
+\hline
+\rowcolor{lightblue}
+\textbf{Category} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} & \textbf{Total} \\
+\hline
+\textbf{Personnel} & ₹2.1 Cr & ₹1.95 Cr & ₹1.2 Cr & ₹5.25 Cr \\
+\hline
+\textbf{Equipment} & ₹2.25 Cr & ₹1.05 Cr & ₹0.45 Cr & ₹3.75 Cr \\
+\hline
+\textbf{Infrastructure} & ₹1.2 Cr & ₹1.35 Cr & ₹0.45 Cr & ₹3.0 Cr \\
+\hline
+\textbf{Operations} & ₹0.3 Cr & ₹1.05 Cr & ₹0.9 Cr & ₹2.25 Cr \\
+\hline
+\textbf{Contingency} & ₹0.15 Cr & ₹0.1 Cr & ₹0.5 Cr & ₹0.75 Cr \\
+\hline
+\textbf{Total} & ₹6.0 Cr & ₹5.5 Cr & ₹3.5 Cr & ₹15.0 Cr \\
+\hline
+\end{longtable}
+
+\section{RISK ASSESSMENT \& MITIGATION}
+
+\subsection{Technical Risks}
+\begin{enumerate}
+\item \textbf{Technology Evolution Risk:} Rapid changes in cyber threat landscape
+   \begin{itemize}
+   \item \textit{Mitigation:} Agile development methodology, continuous technology monitoring
+   \end{itemize}
+
+\item \textbf{Integration Complexity:} Challenges in OT/IT system integration
+   \begin{itemize}
+   \item \textit{Mitigation:} Phased integration approach, expert consultations
+   \end{itemize}
+
+\item \textbf{Performance Scalability:} System performance under high load
+   \begin{itemize}
+   \item \textit{Mitigation:} Cloud-native architecture, load testing protocols
+   \end{itemize}
+\end{enumerate}
+
+\subsection{Project Management Risks}
+\begin{enumerate}
+\item \textbf{Resource Availability:} Shortage of skilled cybersecurity professionals
+   \begin{itemize}
+   \item \textit{Mitigation:} Training programs, industry partnerships
+   \end{itemize}
+
+\item \textbf{Timeline Delays:} Complex development requirements
+   \begin{itemize}
+   \item \textit{Mitigation:} Buffer time allocation, milestone-based tracking
+   \end{itemize}
+\end{enumerate}
+
+\section{QUALITY ASSURANCE \& COMPLIANCE}
+
+The AEGIS platform will adhere to the following standards and frameworks:
+
+\begin{itemize}
+\item ISO/IEC 27001:2013 - Information Security Management
+\item NIST Cybersecurity Framework
+\item IEC 62443 - Industrial Communication Networks Security
+\item Common Criteria (CC) - Security Evaluation Standards
+\item Indian Government IT Security Guidelines
+\end{itemize}
+
+\section{INTELLECTUAL PROPERTY MANAGEMENT}
+
+\subsection{Patent Strategy}
+\begin{itemize}
+\item File patents for innovative algorithms and methodologies
+\item Protect core intellectual property developed during the project
+\item License technology to Indian companies for commercialization
+\item Contribute selected components to open-source communities
+\end{itemize}
+
+\subsection{Publication Strategy}
+\begin{itemize}
+\item Publish research findings in top-tier cybersecurity journals
+\item Present work at international conferences
+\item Contribute to industry standards and best practices
+\item Develop training materials for academic institutions
+\end{itemize}
+
+\section{SUSTAINABILITY \& FUTURE ROADMAP}
+
+\subsection{Commercial Viability}
+\begin{itemize}
+\item Licensing agreements with Indian IT companies
+\item Government procurement for critical infrastructure
+\item International market expansion opportunities
+\item Ongoing support and maintenance services
+\end{itemize}
+
+\subsection{Continuous Development}
+\begin{itemize}
+\item Regular updates to address emerging threats
+\item Integration with new technologies (IoT, 5G, Edge Computing)
+\item Expansion to additional industry verticals
+\item Development of specialized modules and add-ons
+\end{itemize}
+
+\section{PROJECT TEAM \& EXPERTISE}
+
+\subsection{Principal Investigator}
+\textbf{Dr. Rajesh Kumar, Ph.D.}
+\begin{itemize}
+\item 15+ years experience in cybersecurity research
+\item Author of 50+ research papers in international journals
+\item Former consultant to DRDO and CERT-In
+\item Expertise in network security, cryptography, and threat analysis
+\end{itemize}
+
+\subsection{Co-Investigator}
+\textbf{Prof. Anita Sharma, M.Tech, Ph.D.}
+\begin{itemize}
+\item 12+ years experience in software engineering and security
+\item Specialist in machine learning applications for cybersecurity
+\item Industry experience with leading IT companies
+\item Published 30+ research papers in AI and security domains
+\end{itemize}
+
+\subsection{Research Team}
+\begin{itemize}
+\item 5 Post-doctoral researchers
+\item 10 Ph.D. students
+\item 15 M.Tech students
+\item 5 Industry experts (part-time consultants)
+\end{itemize}
+
+\section{CONCLUSION}
+
+The AEGIS project represents a significant opportunity to advance India's cybersecurity capabilities while addressing the critical need for indigenous security solutions. With a comprehensive approach combining cutting-edge research, practical implementation, and strong industry partnerships, this project will deliver substantial value to the nation's digital security infrastructure.
+
+The proposed timeline, budget, and team structure provide a solid foundation for successful project execution. We are committed to delivering world-class cybersecurity technology that will protect India's critical digital assets and contribute to the nation's technological sovereignty.
+
+\section*{DECLARATIONS}
+\addcontentsline{toc}{section}{Declarations}
+
+\subsection*{Principal Investigator Declaration}
+I hereby declare that the information provided in this proposal is true and accurate to the best of my knowledge. I commit to executing this project with the highest standards of scientific integrity and professional ethics.
+
+\vspace{1cm}
+\noindent
+\textbf{Dr. Rajesh Kumar} \\
+Principal Investigator \\
+Date: \today
+
+\subsection*{Institution Declaration}
+Sardar Patel Institute of Technology hereby supports this research proposal and commits to providing the necessary infrastructure, administrative support, and institutional backing for the successful completion of this project.
+
+\vspace{1cm}
+\noindent
+\textbf{Dr. Pradeep Singh} \\
+Director, SPIT \\
+Date: \today
+
+\end{document}

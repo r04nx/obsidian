@@ -1,0 +1,1004 @@
+mindmap
+  root((AEGIS Innovations))
+    Quantum-Resistant Security
+      Post-quantum cryptography
+      Quantum key distribution
+      Lattice-based algorithms
+    AI-Powered Defense
+      Behavioral analytics
+      Predictive threat modeling
+      Self-healing networks
+    Zero-Trust OT
+      Micro-segmentation
+      Continuous verification
+      Dynamic policy enforcement
+    Blockchain Forensics
+      Immutable audit trails
+      Smart contract automation
+      Distributed consensus
+    Hardware Innovation
+      Custom silicon data diode
+      FPGA accelerators
+      Hardware security modules
+---DIAGRAM_END---
+graph TB
+    subgraph "Field Layer - OT Devices"
+        FD1[Smart Meters]
+        FD2[RTUs]
+        FD3[PLCs]
+        FD4[IEDs]
+        FD5[Sensors]
+        FD6[Actuators]
+    end
+    
+    subgraph "Protocol Translation Layer"
+        PT1[DNP3 Parser]
+        PT2[IEC 61850 Handler]
+        PT3[Modbus Gateway]
+        PT4[MQTT Broker]
+        PT5[OPC UA Server]
+        PT6[SNMP Collector]
+    end
+    
+    subgraph "Security Perimeter"
+        SP1[Hardware Data Diode]
+        SP2[Protocol Firewall]
+        SP3[Anomaly Detector]
+        SP4[Encryption Gateway]
+    end
+    
+    subgraph "Core Processing Platform"
+        CP1[Asset Discovery Engine]
+        CP2[Event Correlation Engine]
+        CP3[ML Analytics Platform]
+        CP4[Threat Intelligence Hub]
+        CP5[Incident Response System]
+    end
+    
+    subgraph "Data Management Layer"
+        DM1[Time-Series Database]
+        DM2[Graph Database]
+        DM3[Blockchain Ledger]
+        DM4[Data Lake]
+        DM5[Cache Layer]
+    end
+    
+    subgraph "Application Services"
+        AS1[Web Dashboard]
+        AS2[Mobile Apps]
+        AS3[API Gateway]
+        AS4[Report Generator]
+        AS5[Alert Manager]
+    end
+    
+    FD1 --> PT1
+    FD2 --> PT2
+    FD3 --> PT3
+    FD4 --> PT4
+    FD5 --> PT5
+    FD6 --> PT6
+    
+    PT1 --> SP1
+    PT2 --> SP1
+    PT3 --> SP2
+    PT4 --> SP2
+    PT5 --> SP3
+    PT6 --> SP3
+    
+    SP1 --> CP1
+    SP2 --> CP2
+    SP3 --> CP3
+    SP4 --> CP4
+    
+    CP1 --> DM1
+    CP2 --> DM2
+    CP3 --> DM3
+    CP4 --> DM4
+    CP5 --> DM5
+    
+    DM1 --> AS1
+    DM2 --> AS2
+    DM3 --> AS3
+    DM4 --> AS4
+    DM5 --> AS5
+---DIAGRAM_END---
+graph LR
+    subgraph "Power & Energy Protocols"
+        PE1[DNP3]
+        PE2[IEC 61850]
+        PE3[IEC 60870-5-101/104]
+        PE4[ICCP/TASE.2]
+        PE5[IEEE C37.118]
+        PE6[DLMS/COSEM]
+    end
+    
+    subgraph "Manufacturing Protocols"
+        MP1[Modbus TCP/RTU/ASCII]
+        MP2[EtherNet/IP]
+        MP3[PROFINET]
+        MP4[PROFIBUS]
+        MP5[EtherCAT]
+        MP6[CC-Link IE]
+    end
+    
+    subgraph "Process Control"
+        PC1[HART]
+        PC2[Foundation Fieldbus]
+        PC3[OPC UA/DA/AE]
+        PC4[WirelessHART]
+        PC5[ISA100.11a]
+        PC6[WITS/WITSML]
+    end
+    
+    subgraph "Building & IoT"
+        BI1[BACnet]
+        BI2[LonWorks]
+        BI3[KNX]
+        BI4[MQTT]
+        BI5[CoAP]
+        BI6[AMQP]
+    end
+    
+    subgraph "Network Management"
+        NM1[SNMP v1/v2c/v3]
+        NM2[NETCONF]
+        NM3[RESTCONF]
+        NM4[sFlow]
+        NM5[IPFIX]
+        NM6[OpenFlow]
+    end
+    
+    subgraph "Proprietary & Legacy"
+        PL1[RP570]
+        PL2[Conitel]
+        PL3[BSAP]
+        PL4[DCP]
+        PL5[UCA]
+        PL6[Custom Serial]
+    end
+---DIAGRAM_END---
+graph TB
+    subgraph "AssetGuard Architecture"
+        AD1[Active Scanner]
+        AD2[Passive Listener]
+        AD3[Protocol Analyzer]
+        AD4[Fingerprint Engine]
+        AD5[Asset Database]
+        AD6[ML Classifier]
+        AD7[Risk Scorer]
+        AD8[Change Detector]
+        
+        AD1 --> AD4
+        AD2 --> AD3
+        AD3 --> AD4
+        AD4 --> AD6
+        AD6 --> AD5
+        AD5 --> AD7
+        AD5 --> AD8
+        
+        subgraph "Discovery Methods"
+            DM1[ARP Scanning]
+            DM2[SNMP Walking]
+            DM3[WMI Queries]
+            DM4[Modbus Discovery]
+            DM5[BACnet Discovery]
+            DM6[OPC Browsing]
+        end
+        
+        subgraph "Asset Classification"
+            AC1[PLC Detection]
+            AC2[HMI Recognition]
+            AC3[SCADA Identification]
+            AC4[RTU Discovery]
+            AC5[IED Classification]
+            AC6[Sensor Mapping]
+        end
+    end
+---DIAGRAM_END---
+graph LR
+    subgraph "ProtoSense Engine"
+        PS1[Protocol Detector]
+        PS2[Parser Factory]
+        PS3[State Machine]
+        PS4[Validation Engine]
+        PS5[Normalization Layer]
+        PS6[Enrichment Service]
+        
+        PS1 --> PS2
+        PS2 --> PS3
+        PS3 --> PS4
+        PS4 --> PS5
+        PS5 --> PS6
+        
+        subgraph "Protocol Parsers"
+            PP1[DNP3 Parser]
+            PP2[IEC 61850 Parser]
+            PP3[Modbus Parser]
+            PP4[OPC UA Parser]
+            PP5[MQTT Parser]
+            PP6[Custom Parser SDK]
+        end
+        
+        subgraph "Analysis Engines"
+            AE1[Command Validator]
+            AE2[Sequence Analyzer]
+            AE3[Timing Validator]
+            AE4[Payload Inspector]
+            AE5[Anomaly Detector]
+        end
+    end
+---DIAGRAM_END---
+graph TB
+    subgraph "ThreatHunter Platform"
+        TH1[Data Ingestion]
+        TH2[Feature Extraction]
+        TH3[ML Models]
+        TH4[Threat Classifier]
+        TH5[Alert Generator]
+        TH6[Response Orchestrator]
+        
+        TH1 --> TH2
+        TH2 --> TH3
+        TH3 --> TH4
+        TH4 --> TH5
+        TH5 --> TH6
+        
+        subgraph "ML Models"
+            ML1[LSTM Networks]
+            ML2[Random Forest]
+            ML3[XGBoost]
+            ML4[Autoencoders]
+            ML5[GANs]
+            ML6[Transformers]
+        end
+        
+        subgraph "Threat Types"
+            TT1[Zero-Day Detection]
+            TT2[APT Detection]
+            TT3[Insider Threats]
+            TT4[Supply Chain Attacks]
+            TT5[Ransomware]
+            TT6[Data Exfiltration]
+        end
+    end
+---DIAGRAM_END---
+graph LR
+    subgraph "ChainAudit Architecture"
+        CA1[Event Collector]
+        CA2[Hash Generator]
+        CA3[Smart Contracts]
+        CA4[Consensus Engine]
+        CA5[Blockchain Network]
+        CA6[Verification API]
+        
+        CA1 --> CA2
+        CA2 --> CA3
+        CA3 --> CA4
+        CA4 --> CA5
+        CA5 --> CA6
+        
+        subgraph "Blockchain Features"
+            BF1[Immutable Logs]
+            BF2[Tamper Detection]
+            BF3[Audit Trail]
+            BF4[Compliance Reports]
+            BF5[Chain of Custody]
+            BF6[Legal Evidence]
+        end
+        
+        subgraph "Smart Contracts"
+            SC1[Access Control]
+            SC2[Alert Rules]
+            SC3[Compliance Checks]
+            SC4[Automated Response]
+            SC5[SLA Monitoring]
+        end
+    end
+---DIAGRAM_END---
+graph TB
+    subgraph "DiodeGuard Hardware Architecture"
+        DG1[OT Network Interface]
+        DG2[FPGA Processor]
+        DG3[Optical Transmitter]
+        DG4[Air Gap]
+        DG5[Optical Receiver]
+        DG6[IT Network Interface]
+        
+        DG1 --> DG2
+        DG2 --> DG3
+        DG3 -.->|One-way optical| DG5
+        DG5 --> DG6
+        
+        subgraph "Hardware Features"
+            HF1[10Gbps Throughput]
+            HF2[Hardware Encryption]
+            HF3[Protocol Validation]
+            HF4[Buffer Management]
+            HF5[Error Correction]
+            HF6[Health Monitoring]
+        end
+        
+        subgraph "Security Layers"
+            SL1[Physical Isolation]
+            SL2[Optical Gap]
+            SL3[Protocol Break]
+            SL4[Crypto Boundary]
+            SL5[Content Inspection]
+        end
+    end
+---DIAGRAM_END---
+graph TB
+    subgraph "VizDash Command Center"
+        VD1[Data Aggregator]
+        VD2[Real-time Engine]
+        VD3[3D Visualizer]
+        VD4[AR/VR Interface]
+        VD5[Video Wall Controller]
+        VD6[Mobile Apps]
+        
+        VD1 --> VD2
+        VD2 --> VD3
+        VD3 --> VD4
+        VD2 --> VD5
+        VD2 --> VD6
+        
+        subgraph "Visualization Types"
+            VT1[Network Topology]
+            VT2[Attack Vectors]
+            VT3[Heat Maps]
+            VT4[Time Series]
+            VT5[Geospatial]
+            VT6[Process Flow]
+        end
+        
+        subgraph "Interactive Features"
+            IF1[Drill-down Analysis]
+            IF2[Predictive Scenarios]
+            IF3[What-if Simulation]
+            IF4[Playback Mode]
+            IF5[Collaboration Tools]
+        end
+    end
+---DIAGRAM_END---
+graph LR
+    subgraph "LogMiner Architecture"
+        LM1[Log Collectors]
+        LM2[Parser Engine]
+        LM3[Normalizer]
+        LM4[Enrichment]
+        LM5[Correlator]
+        LM6[Storage Engine]
+        
+        LM1 --> LM2
+        LM2 --> LM3
+        LM3 --> LM4
+        LM4 --> LM5
+        LM5 --> LM6
+        
+        subgraph "Processing Pipeline"
+            P1[Syslog Receiver]
+            P2[File Monitor]
+            P3[Database Connector]
+            P4[API Collector]
+            P5[Stream Processor]
+        end
+        
+        subgraph "Analytics Features"
+            AF1[Pattern Recognition]
+            AF2[Anomaly Detection]
+            AF3[Trend Analysis]
+            AF4[Root Cause Analysis]
+            AF5[Predictive Analytics]
+        end
+    end
+---DIAGRAM_END---
+graph TB
+    subgraph "AlertStream Engine"
+        AS1[Event Receiver]
+        AS2[Priority Engine]
+        AS3[Workflow Engine]
+        AS4[Automation Engine]
+        AS5[Notification Service]
+        AS6[Ticketing System]
+        
+        AS1 --> AS2
+        AS2 --> AS3
+        AS3 --> AS4
+        AS4 --> AS5
+        AS3 --> AS6
+        
+        subgraph "Response Actions"
+            RA1[Isolate Device]
+            RA2[Block Traffic]
+            RA3[Backup Critical Data]
+            RA4[Initiate Failover]
+            RA5[Execute Playbooks]
+            RA6[Escalate to SOC]
+        end
+    end
+---DIAGRAM_END---
+graph TB
+    subgraph "Development Stack"
+        subgraph "Languages"
+            L1[Rust - System Core]
+            L2[Go - Microservices]
+            L3[Python - ML/AI]
+            L4[C++ - Protocol Parsers]
+            L5[TypeScript - Frontend]
+            L6[Solidity - Smart Contracts]
+        end
+        
+        subgraph "Frameworks"
+            F1[Kubernetes]
+            F2[Istio Service Mesh]
+            F3[Apache Kafka]
+            F4[TensorFlow]
+            F5[PyTorch]
+            F6[React]
+        end
+        
+        subgraph "Databases"
+            D1[TimescaleDB]
+            D2[Neo4j]
+            D3[MongoDB]
+            D4[Redis]
+            D5[InfluxDB]
+            D6[Cassandra]
+        end
+        
+        subgraph "Security Tools"
+            S1[Vault]
+            S2[Falco]
+            S3[OPA]
+            S4[Cilium]
+            S5[Snort]
+            S6[OSSEC]
+        end
+    end
+---DIAGRAM_END---
+graph TB
+    subgraph "Tier 1 - Compute Infrastructure"
+        T1A[10x Dell PowerEdge R750]
+        T1B[5x HPE ProLiant DL380]
+        T1C[4x GPU Servers - A100]
+        T1D[2x Quantum Simulators]
+    end
+    
+    subgraph "Tier 2 - Storage Infrastructure"
+        T2A[NetApp AFF A800 - 1PB]
+        T2B[Dell EMC PowerMax]
+        T2C[Pure Storage FlashArray]
+        T2D[Tape Library - LTO-9]
+    end
+    
+    subgraph "Tier 3 - Network Infrastructure"
+        T3A[Cisco Nexus 9500]
+        T3B[Arista 7280R3]
+        T3C[F5 BIG-IP]
+        T3D[Palo Alto PA-5450]
+    end
+    
+    subgraph "Tier 4 - Security Infrastructure"
+        T4A[HSM Appliances]
+        T4B[Data Diode Hardware]
+        T4C[Forensic Workstations]
+        T4D[Air-gapped Systems]
+    end
+---DIAGRAM_END---
+graph LR
+    subgraph "Generation Simulation"
+        G1[Solar Inverters]
+        G2[Wind Turbine Controllers]
+        G3[Generator Controllers]
+        G4[Battery Management]
+    end
+    
+    subgraph "Transmission Simulation"
+        T1[Phasor Measurement Units]
+        T2[Digital Relays]
+        T3[FACTS Controllers]
+        T4[Substation Automation]
+    end
+    
+    subgraph "Distribution Simulation"
+        D1[Smart Meters]
+        D2[Feeder Automation]
+        D3[Capacitor Banks]
+        D4[Voltage Regulators]
+    end
+    
+    subgraph "Control Systems"
+        C1[SCADA Systems]
+        C2[Energy Management]
+        C3[Distribution Management]
+        C4[Outage Management]
+    end
+---DIAGRAM_END---
+pie title "Total Budget Distribution (₹4 Crores)"
+    "Personnel" : 210
+    "Hardware & Equipment" : 115
+    "Software & Licenses" : 35
+    "R&D & Innovation" : 20
+    "Training & Certification" : 10
+    "Operations & Maintenance" : 10
+---DIAGRAM_END---
+graph LR
+    subgraph "Investment (₹4 Cr)"
+        I1[Development Cost]
+        I2[Infrastructure]
+        I3[Operations]
+    end
+    
+    subgraph "Returns (5 Years)"
+        R1[Cost Savings - ₹10 Cr]
+        R2[Revenue - ₹15 Cr]
+        R3[Strategic Value - Priceless]
+    end
+    
+    I1 --> R1
+    I2 --> R2
+    I3 --> R3
+---DIAGRAM_END---
+graph TD
+    CEO[Chief Executive Officer]
+    CTO[Chief Technology Officer]
+    CSO[Chief Security Officer]
+    PMO[Program Management Office]
+    
+    CEO --> CTO
+    CEO --> CSO
+    CEO --> PMO
+    
+    CTO --> TD1[Platform Development]
+    CTO --> TD2[Protocol Engineering]
+    CTO --> TD3[ML/AI Research]
+    CTO --> TD4[Hardware Design]
+    
+    CSO --> SD1[Security Operations]
+    CSO --> SD2[Threat Intelligence]
+    CSO --> SD3[Compliance & Audit]
+    CSO --> SD4[Incident Response]
+    
+    PMO --> PM1[Project Management]
+    PMO --> PM2[Quality Assurance]
+    PMO --> PM3[Documentation]
+    PMO --> PM4[Training & Support]
+    
+    TD1 --> DEV1[Backend Team - 8]
+    TD1 --> DEV2[Frontend Team - 4]
+    TD1 --> DEV3[DevOps Team - 5]
+    
+    TD2 --> PE1[Protocol Experts - 6]
+    TD2 --> PE2[Parser Developers - 4]
+    
+    TD3 --> ML1[Data Scientists - 5]
+    TD3 --> ML2[ML Engineers - 4]
+    
+    TD4 --> HW1[FPGA Engineers - 3]
+    TD4 --> HW2[Hardware Security - 2]
+    
+    SD1 --> SO1[SOC Analysts - 6]
+    SD1 --> SO2[Security Engineers - 4]
+    
+    SD2 --> TI1[Threat Researchers - 3]
+    SD2 --> TI2[Malware Analysts - 2]
+---DIAGRAM_END---
+graph TB
+    subgraph "Training Curriculum"
+        TC1[OT Security Fundamentals]
+        TC2[Industrial Protocols]
+        TC3[ML/AI for Security]
+        TC4[Blockchain Technology]
+        TC5[Incident Response]
+        TC6[Compliance & Standards]
+        
+        TC1 --> Cert1[ISA/IEC 62443]
+        TC2 --> Cert2[Protocol Certifications]
+        TC3 --> Cert3[AI/ML Certifications]
+        TC4 --> Cert4[Blockchain Developer]
+        TC5 --> Cert5[GCIH, GCFA]
+        TC6 --> Cert6[ISO 27001, NIST]
+    end
+---DIAGRAM_END---
+gantt
+    title AEGIS Development Timeline
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
+    
+    section Phase 1: Foundation
+    Team Formation          :f1, 2024-10-01, 90d
+    Infrastructure Setup    :f2, 2024-11-01, 120d
+    Requirements Analysis   :f3, 2024-12-01, 90d
+    Architecture Design     :f4, 2025-01-01, 60d
+    
+    section Phase 2: Core Development
+    AssetGuard Module       :c1, 2025-02-01, 150d
+    ProtoSense Engine       :c2, 2025-03-01, 180d
+    ThreatHunter Platform   :c3, 2025-04-01, 180d
+    ChainAudit System       :c4, 2025-05-01, 150d
+    DiodeGuard Hardware     :c5, 2025-03-01, 210d
+    
+    section Phase 3: Advanced Features
+    ML Model Training       :a1, 2025-07-01, 180d
+    Blockchain Integration  :a2, 2025-08-01, 150d
+    VizDash Development     :a3, 2025-09-01, 120d
+    LogMiner Implementation :a4, 2025-10-01, 120d
+    AlertStream Engine      :a5, 2025-11-01, 120d
+    
+    section Phase 4: Integration & Testing
+    System Integration      :i1, 2026-01-01, 180d
+    Security Testing        :i2, 2026-03-01, 120d
+    Performance Testing     :i3, 2026-04-01, 90d
+    User Acceptance Testing :i4, 2026-05-01, 90d
+    
+    section Phase 5: Deployment
+    Pilot Deployment        :d1, 2026-07-01, 150d
+    Production Rollout      :d2, 2026-10-01, 120d
+    Documentation           :d3, 2026-09-01, 120d
+    Training & Handover     :d4, 2026-11-01, 90d
+    
+    section Milestones
+    M1 - Architecture Complete  :milestone, m1, 2025-03-01, 0d
+    M2 - Core Modules Ready     :milestone, m2, 2025-09-01, 0d
+    M3 - Integration Complete   :milestone, m3, 2026-06-01, 0d
+    M4 - Pilot Success          :milestone, m4, 2026-12-01, 0d
+    M5 - Project Completion     :milestone, m5, 2027-09-30, 0d
+---DIAGRAM_END---
+graph TB
+    subgraph "Performance KPIs"
+        P1[Throughput: 1M events/sec]
+        P2[Latency: <100ms]
+        P3[Uptime: 99.99%]
+        P4[Storage: 10PB capacity]
+        P5[Scalability: 10,000 nodes]
+    end
+    
+    subgraph "Security KPIs"
+        S1[Detection Rate: 99.5%]
+        S2[False Positives: <0.1%]
+        S3[MTTR: <5 minutes]
+        S4[Zero-Day Detection: 95%]
+        S5[Compliance: 100%]
+    end
+    
+    subgraph "Business KPIs"
+        B1[ROI: 250% in 3 years]
+        B2[Cost Reduction: 40%]
+        B3[Efficiency Gain: 60%]
+        B4[Customer Satisfaction: 95%]
+        B5[Market Share: 30%]
+    end
+---DIAGRAM_END---
+graph TB
+    subgraph "Layer 1: Perimeter Security"
+        PS1[Firewalls]
+        PS2[IDS/IPS]
+        PS3[DDoS Protection]
+        PS4[Web Application Firewall]
+    end
+    
+    subgraph "Layer 2: Network Security"
+        NS1[Network Segmentation]
+        NS2[VLAN Isolation]
+        NS3[Zero Trust Network]
+        NS4[Encrypted Tunnels]
+    end
+    
+    subgraph "Layer 3: Endpoint Security"
+        ES1[EDR Solutions]
+        ES2[Anti-malware]
+        ES3[Device Control]
+        ES4[Patch Management]
+    end
+    
+    subgraph "Layer 4: Application Security"
+        AS1[Secure Coding]
+        AS2[Code Scanning]
+        AS3[Runtime Protection]
+        AS4[API Security]
+    end
+    
+    subgraph "Layer 5: Data Security"
+        DS1[Encryption at Rest]
+        DS2[Encryption in Transit]
+        DS3[Data Loss Prevention]
+        DS4[Rights Management]
+    end
+    
+    subgraph "Layer 6: Identity Security"
+        IS1[Multi-factor Auth]
+        IS2[Privileged Access]
+        IS3[Identity Federation]
+        IS4[Behavioral Analytics]
+    end
+---DIAGRAM_END---
+graph LR
+    subgraph "Trust Zones"
+        TZ1[Untrusted OT Devices]
+        TZ2[Semi-trusted Controllers]
+        TZ3[Trusted Core Systems]
+    end
+    
+    subgraph "Policy Engine"
+        PE1[Device Verification]
+        PE2[User Authentication]
+        PE3[Context Analysis]
+        PE4[Risk Assessment]
+        PE5[Access Decision]
+    end
+    
+    subgraph "Enforcement Points"
+        EP1[Network Access Control]
+        EP2[Micro-segmentation]
+        EP3[Application Gateway]
+        EP4[Data Gateway]
+    end
+    
+    TZ1 --> PE1
+    TZ2 --> PE2
+    PE1 --> PE3
+    PE2 --> PE3
+    PE3 --> PE4
+    PE4 --> PE5
+    PE5 --> EP1
+    PE5 --> EP2
+    PE5 --> EP3
+    PE5 --> EP4
+---DIAGRAM_END---
+mindmap
+  root((Standards Compliance))
+    International
+      ISO/IEC 27001
+      ISO/IEC 62443
+      ISO/IEC 15408
+      ISO 31000
+    Regional
+      NERC CIP (North America)
+      NIS Directive (Europe)
+      ENISA Guidelines
+      ANSSI (France)
+    Industry
+      NIST Framework
+      ISA/IEC 62443
+      IEEE 1686
+      DNP3 Security
+    National
+      NCIIPC Guidelines
+      CERT-In Standards
+      BIS Standards
+      DSCI Framework
+---DIAGRAM_END---
+graph TB
+    subgraph "Patent Categories"
+        PC1[Data Diode Innovations]
+        PC2[ML Algorithms for OT]
+        PC3[Blockchain Integration]
+        PC4[Protocol Analysis]
+        PC5[Zero-Trust Methods]
+    end
+    
+    subgraph "Patent Pipeline"
+        PP1[15 Patents Planned]
+        PP2[5 Filed in Year 1]
+        PP3[5 Filed in Year 2]
+        PP4[5 Filed in Year 3]
+    end
+    
+    PC1 --> PP1
+    PC2 --> PP1
+    PC3 --> PP1
+    PC4 --> PP1
+    PC5 --> PP1
+---DIAGRAM_END---
+pie title "Open Source Contribution Areas"
+    "Protocol Parsers" : 30
+    "Security Tools" : 25
+    "ML Models" : 20
+    "Documentation" : 15
+    "Sample Datasets" : 10
+---DIAGRAM_END---
+graph LR
+    subgraph "Critical Infrastructure Protection"
+        CI1[Power Grid Security]
+        CI2[Water System Safety]
+        CI3[Transportation Security]
+        CI4[Healthcare Protection]
+        CI5[Financial Security]
+    end
+    
+    subgraph "Strategic Benefits"
+        SB1[Reduced Attack Surface]
+        SB2[Rapid Incident Response]
+        SB3[Threat Intelligence]
+        SB4[Regulatory Compliance]
+        SB5[International Cooperation]
+    end
+    
+    CI1 --> SB1
+    CI2 --> SB2
+    CI3 --> SB3
+    CI4 --> SB4
+    CI5 --> SB5
+---DIAGRAM_END---
+graph TB
+    subgraph "Technology Leadership"
+        TL1[Indigenous Innovation]
+        TL2[Patent Portfolio]
+        TL3[Standards Setting]
+        TL4[Global Partnerships]
+    end
+    
+    subgraph "Market Position"
+        MP1[Domestic Market Leader]
+        MP2[Regional Expansion]
+        MP3[Global Player]
+        MP4[Technology Exporter]
+    end
+    
+    TL1 --> MP1
+    TL2 --> MP2
+    TL3 --> MP3
+    TL4 --> MP4
+---DIAGRAM_END---
+graph LR
+    subgraph "Energy Efficiency"
+        EE1[Renewable Power]
+        EE2[Efficient Cooling]
+        EE3[Power Management]
+        EE4[Carbon Neutral]
+    end
+    
+    subgraph "Resource Optimization"
+        RO1[Virtualization]
+        RO2[Container Density]
+        RO3[Edge Computing]
+        RO4[Workload Optimization]
+    end
+---DIAGRAM_END---
+graph TB
+    subgraph "Global Players"
+        GP1[Claroty]
+        GP2[Dragos]
+        GP3[CyberX/Microsoft]
+        GP4[Nozomi Networks]
+    end
+    
+    subgraph "AEGIS Advantages"
+        AA1[Indigenous Development]
+        AA2[Cost-Effective]
+        AA3[Customizable]
+        AA4[Government Support]
+        AA5[Local Expertise]
+    end
+    
+    subgraph "Market Strategy"
+        MS1[Government Sector]
+        MS2[Critical Infrastructure]
+        MS3[Private Industry]
+        MS4[International Markets]
+    end
+---DIAGRAM_END---
+graph TD
+    subgraph "Training Modules"
+        TM1[Basic OT Security - 40 hrs]
+        TM2[Advanced Threat Hunting - 60 hrs]
+        TM3[Incident Response - 40 hrs]
+        TM4[Platform Administration - 80 hrs]
+        TM5[Development & Integration - 100 hrs]
+    end
+    
+    subgraph "Certification Levels"
+        CL1[AEGIS Certified Associate]
+        CL2[AEGIS Certified Professional]
+        CL3[AEGIS Certified Expert]
+        CL4[AEGIS Certified Architect]
+    end
+    
+    TM1 --> CL1
+    TM2 --> CL2
+    TM3 --> CL2
+    TM4 --> CL3
+    TM5 --> CL4
+---DIAGRAM_END---
+graph TB
+    subgraph "High Impact/High Probability"
+        H1[Technology Complexity]
+        H2[Integration Challenges]
+        H3[Skill Shortage]
+    end
+    
+    subgraph "High Impact/Low Probability"
+        L1[Regulatory Changes]
+        L2[Major Security Breach]
+        L3[Technology Obsolescence]
+    end
+    
+    subgraph "Low Impact/High Probability"
+        M1[Timeline Delays]
+        M2[Budget Overruns]
+        M3[Vendor Dependencies]
+    end
+    
+    subgraph "Low Impact/Low Probability"
+        N1[Natural Disasters]
+        N2[Political Changes]
+        N3[Economic Downturn]
+    end
+---DIAGRAM_END---
+graph TB
+    subgraph "Testing Levels"
+        TL1[Unit Testing - 90% coverage]
+        TL2[Integration Testing]
+        TL3[System Testing]
+        TL4[Acceptance Testing]
+        TL5[Security Testing]
+        TL6[Performance Testing]
+    end
+    
+    subgraph "Testing Types"
+        TT1[Functional Testing]
+        TT2[Regression Testing]
+        TT3[Load Testing]
+        TT4[Stress Testing]
+        TT5[Penetration Testing]
+        TT6[Compliance Testing]
+    end
+    
+    subgraph "Testing Tools"
+        TO1[Selenium]
+        TO2[JMeter]
+        TO3[Metasploit]
+        TO4[Burp Suite]
+        TO5[OWASP ZAP]
+        TO6[Custom Tools]
+    end
+---DIAGRAM_END---
+graph LR
+    subgraph "Year 1 Pilots"
+        P1[State Power Grid]
+        P2[Smart City Project]
+        P3[Oil Refinery]
+    end
+    
+    subgraph "Year 2 Deployments"
+        D1[National Grid]
+        D2[Metro Rail Systems]
+        D3[Water Treatment]
+    end
+    
+    subgraph "Year 3 Expansion"
+        E1[Defense Installations]
+        E2[Nuclear Facilities]
+        E3[International Clients]
+    end
+    
+    P1 --> D1
+    P2 --> D2
+    P3 --> D3
+    D1 --> E1
+    D2 --> E2
+    D3 --> E3
+---DIAGRAM_END---
+mindmap
+  root((AEGIS Differentiators))
+    Technical Excellence
+      Quantum-resistant security
+      AI-powered threat detection
+      Hardware data diode
+      Blockchain forensics
+    Market Position
+      First indigenous solution
+      Government backing
+      Cost-effective pricing
+      Local support
+    Innovation
+      15+ patents
+      Open source contributions
+      Academic partnerships
+      Research publications
+    Impact
+      National security
+      Economic growth
+      Job creation
+      Skills development
+---DIAGRAM_END---
