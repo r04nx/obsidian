@@ -1,5 +1,4 @@
-INstitute: Bharatiya Vidya Bhavan's Sardar Patel Institute of Technology (SPIT)
-Authors: Dr. D. D. Ambwade , Prof. Milind Paraye, Mr. Rohan P. Pawar, Mr. Malay Phadke
+Institute: Bharatiya Vidya Bhavan's Sardar Patel Institute of Technology (SPIT)
 Proeject: ASNA
 
 Deployed the container Lab for the enterprise grade network
