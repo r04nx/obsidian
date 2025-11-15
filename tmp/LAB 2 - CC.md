@@ -2,153 +2,106 @@
 share_link: https://share.note.sx/6msh48im#vtej+Fh+8W4KPvH/cd6HCvk4gDym1WUNxw4x+o8FM9Q
 share_updated: 2025-02-25T18:57:27+05:30
 ---
-# Lab 1A: Creating and Running Virtual Machines on Hosted Hypervisors
+
 
 ## Student Details
 - **Name:** Rohan Prakash Pawar
 - **UID:** 2023201020
 - **Branch:** EXTC
 
+### Experiment no. 10 - AIML
 ## Objective
 To create and run virtual machines on hosted hypervisors such as KVM, VMware Workstation, and Oracle VirtualBox.
 
-## Lab Outcomes
-1. Install, configure and use hosted hypervisors
-2. Deploy and manage virtual machines
-3. Configure virtual machine settings
-4. Evaluate the performance of virtual machines on hosted hypervisors
+# Fit Check – AIML Agent Report
 
-## System Requirements
-- Host machine with sufficient resources (minimum 8GB RAM recommended)
-- Installed hypervisors: Oracle VirtualBox
-- ISO images of operating systems (CentOS/AlmaLinux and Ubuntu Server)
-- At least 20GB free disk space for VMs
+> **Design and Implementation of an Autonomous AI Agent**
 
-## Introduction
-VMware and VirtualBox are powerful virtualization software that allow users to create and run multiple virtual machines on a single physical machine. This lab demonstrates the process of creating and configuring virtual machines using Oracle VirtualBox.
+## AIM
+Design and implement an autonomous AI agent that can perceive user inputs (selfie + garment), reason about styling constraints, and act through generative transformations to render photorealistic virtual try-ons powered by Gemini 2.5 Flash.
 
-### Linux Distributions Overview
+## Theory
+An **Autonomous AI Agent** is a self-directed software entity capable of perceiving its environment, making decisions, and performing actions to achieve specific goals without continuous human intervention. These agents underpin modern intelligent systems such as chatbots, self-driving cars, virtual assistants, and recommendation engines. Building such agents blends **Artificial Intelligence (AI)** for decision logic, **Machine Learning (ML)** for pattern generalisation, **Natural Language Processing (NLP)** for instruction following, and **Control Systems** for sequencing perception–reasoning–action loops.
 
-1. Ubuntu Arch
+## Project Overview
+Fit Check is a multimodal virtual try-on experience where users upload a selfie and wardrobe items to see AI-rendered outfits. The orchestrating agent curates prompts, governs Gemini 2.5 Flash (image) calls, validates safety feedback, and streams results to an interactive React canvas with wardrobe management, outfit history, and pose remixing.
 
-2. CentOS
+## Technical Stack & Multimodal LLM
+- **Frontend:** React 19 + Vite, Framer Motion for transitions, custom Canvas/Wardrobe components, Tailwind utilities via `clsx` + `tailwind-merge`.
+- **Agent Runtime:** TypeScript orchestration hooks inside `App.tsx`, Spinner/error handling utilities, and finely scoped async actions.
+- **Generative Core:** `@google/genai` SDK targeting `gemini-2.5-flash-image`, a multimodal LLM that natively consumes & emits text+image modalities with safety filtering.
+- **Media Handling:** FileReader → Base64 conversion, inline `data:` payload management, React state for preview caching.
+- **Experience Glue:** Wardrobe modal, Outfit stack, pose presets, and Footer CTAs create a complete end-to-end autonomous styling agent.
 
-3. Mint Linux
+## Agent Architecture & Chain of Actions
+1. **Perception Layer:** StartScreen collects selfie + garment assets, normalises them into inline `data:` parts, and records context (pose intent, wardrobe metadata).
+2. **Reasoning Layer:** The agent selects the correct system prompt (modeling vs. try-on vs. pose variation) and config instructions, evaluates safety signals, and decides when to branch (e.g., regenerate pose or request reupload).
+3. **Action Layer:** Sequential Gemini calls craft the base model render, overlay garments, and optionally produce pose variations. Each response is validated via `handleApiResponse`, bubbled to the Canvas, and persisted for OutfitStack replay.
+4. **Feedback Loop:** Users can iterate—tweaking wardrobe assets or pose instructions—while the agent maintains stateful context to avoid redundant uploads and accelerate experimentation.
 
-4. Arch Linux
+### System Prompts (from `services/geminiService.ts`)
+1. **Model Creation:** "Transform the person in this image into a full-body fashion model photo... neutral studio backdrop (#f0f0f0)... Return ONLY the final image."
+2. **Virtual Try-On:** "You will be given a 'model image' and a 'garment image'... completely REMOVE and REPLACE the clothing item... Preserve model + background... Return ONLY the final, edited image."
+3. **Pose Variation:** "Regenerate it from a different perspective... pose instruction: \"<POSE>\"... Return ONLY the final image."
 
-5. Peppermint
+## Mermaid Diagrams
+### Agentic Flow
+```mermaid
+flowchart TD
+    U[User Uploads Selfie & Garment] --> P[Perception Layer]
+    P --> R[Reasoning Layer]
+    R -->|Select Prompt + Modality| G[Gemini 2.5 Flash]
+    G -->|Image Response| V[Validation & Safety]
+    V --> C[Canvas Rendering]
+    C --> H[Wardrobe History / Pose Remix]
+    H -->|Adjust Inputs| P
+```
 
-6. Pop OS
+### Multimodal Call Sequence
+```mermaid
+sequenceDiagram
+    participant User
+    participant StartScreen
+    participant AgentCore
+    participant GeminiFlash as Gemini 2.5 Flash
+    participant Canvas
+    User->>StartScreen: Upload selfie + garment
+    StartScreen->>AgentCore: Normalised data URLs
+    AgentCore->>GeminiFlash: Prompt + image parts (model creation)
+    GeminiFlash-->>AgentCore: Base model render
+    AgentCore->>GeminiFlash: Prompt + model + garment (try-on)
+    GeminiFlash-->>AgentCore: Outfit composite
+    AgentCore->>Canvas: Rendered image + metadata
+    Canvas-->>User: Interactive preview & pose options
+```
 
-A Linux distribution (distro) is an open source operating system that is packages with other components, such as an installation programs, management tools and additional software
+## Requirements
+- Node.js 18+
+- Gemini API key stored as `GEMINI_API_KEY` in `.env.local`
+- Modern browser with File API & WebGL support
+- Stable internet connection for multimodal inferences
 
-ok let’s get started!
+## Procedure
+1. Install dependencies with `npm install` (or `pnpm install`).
+2. Configure `GEMINI_API_KEY` in `.env.local`.
+3. Run `npm run dev` and open the Vite server URL.
+4. Upload a selfie on the Home screen; the agent invokes `generateModelImage` to create the neutral studio model.
+5. Upload/select a garment; the agent calls `generateVirtualTryOnImage` to replace attire while preserving pose/background.
+6. Optionally choose a pose instruction to trigger `generatePoseVariation` for dynamic viewpoints.
+7. Use OutfitStack to compare iterations, download renders, or restart the loop.
 
-**How to create a Virtual Machine**
+## Screenshots (placeholders)
+1. **Home Screen**  
+   ![Home Screen Placeholder](assets/screens/home-screen.png)
+2. **Model Display After Creation**  
+   ![Model Creation Placeholder](assets/screens/model-created.png)
+3. **Upload New Outfit Screen**  
+   ![Upload Outfit Placeholder](assets/screens/upload-outfit.png)
+4. **Model Wearing Selected Outfit**  
+   ![Model Wearing Outfit Placeholder](assets/screens/model-wearing-outfit.png)
 
-Creating a VMware is a very easy process.
-
-I will be creating two VMware, one using CentOS and the other one with Ubuntu. I will first use the search bar to look for Oracle VM VirtualBox Manager and click on it
-
-![](https://miro.medium.com/v2/resize:fit:764/1*oHwYWDfIM2ZqcUF-3QP-Eg.png)
-
-The next step is to name it, which i choose to simply call it centOsvm .I will now go down to where it say type to choose the operating system that I want to install your virtual system. I selected Linux and Red Hat (64-Bit) for version.
-
-![](https://miro.medium.com/v2/resize:fit:764/1*unV7mmdMd8wK153WlwpVgA.png)
-
-Next steps
-
-I will make sure that the base memory is a 2048 Mb and the Processors is at 1cpu then click next
-
-![](https://miro.medium.com/v2/resize:fit:764/1*S8dAoUc7FESiFljytGBjEA.png)
-
-![](https://miro.medium.com/v2/resize:fit:764/1*GLeKBOPmWWhBVaxAP9JB-Q.png)
-
-I will then read over the summary and make sure everything is correct then click on finish.
-
-And it should look like that now that I have completed all the steps
-
-![](https://miro.medium.com/v2/resize:fit:764/1*MWwWlvyq_DjCy-Tf8G1j5Q.png)
-
-I will now create one more with Ubuntu
-
-![](https://miro.medium.com/v2/resize:fit:764/1*p8-jdOartRly73ksgLCnbQ.png)
-
-the process is similar, I will follow the same steps as the previous one created. The only change that I will be changing the processor to 2 CPU. Go over the summary and click on finish and it should look like that.
-
-![](https://miro.medium.com/v2/resize:fit:764/1*XtX2L2G5XWGjCPMlBaknHw.png)
-
-Now I will install an operating system for the two VMware I created
-
-For the first VMware, in order to install an operating system, I will first need to go on google and search for **_almalinux 9 iso._** I selected the second one, then select **_almaLinux-9.2-x89_64-boot.iso_** and download it. It will take a few minutes to download .
-
-![](https://miro.medium.com/v2/resize:fit:764/1*SS9EwdlOtDci-i2ozqzn3A.png)
-
-![](https://miro.medium.com/v2/resize:fit:764/1*T0NSTgG-m2K-GwuttcIYvg.png)
-
-once it is completed, I will then follow these steps:
-
-Open the Oracle VM VirtualBox Manager
-
-Go on settings,
-
-Go on storage,
-
-Click on the disk symbol and click on the drop down
-
-Click on “choose a disk file”. There I will see the iso file that I recently downloaded, I selected it then click on open
-
-Go on network, click on Adapter 2, then **_Enable Network Adapter_**, and in the **“_Attached to_**_:_” section, select Bridged Adapter.
-
-Once that is done, click on ok, the power on the Vm and that will start the installation.
-
-![](https://miro.medium.com/v2/resize:fit:764/1*lBSfFU5Jl2-A8cYyKamEag.png)
-
-The next step is to select the language then click continue
-
-![](https://miro.medium.com/v2/resize:fit:764/1*Gg2uvNUk5378krIME8shfQ.png)
-
-this window should appear next then click on installation destination
-
-![](https://miro.medium.com/v2/resize:fit:764/1*nPkE26Cr6pFFVuDq09G95g.png)
-
-click on the virtual hard disk of the VM, click on it and click on done
-
-![](https://miro.medium.com/v2/resize:fit:764/1*6FQKMuUMWmDR8tRruZJR_A.png)
-
-Wait for a moment and once more I will repeat the last two steps
-
-click on Installation Destination, then select the hard disk and click on done
-
-![](https://miro.medium.com/v2/resize:fit:764/1*A7X3PWsD8RBwbF37AgwCUA.png)
-
-Once that is completed, I will then go to Network & Host Name.
-
-There should be two network adapter for the VM. One is NAT and the second one is Bridge Adapter
-
-Give it a host name and hit apply.
-
-I will then go on the root password section and select a custom password, then begin the installation. The installation will take some time to install.
-
-After the installation, I will need to go back to VirtualBox and stop the VM. Once its completed shutdown, I will go to settings- storage- click on the iso and remove disk from virtual drive to avoid the installation to start again.
-
-After the VM is completed up, I will then start setup, give it name, password and I will be able to start using CentOS Stream
-
-![](https://miro.medium.com/v2/resize:fit:764/1*BQamcge0T7NIjLvOpsYWMw.png)
-
-Wow! what a long one. I hope you guys are still with it.
-
-I will now install an operating system for the second VM. I will need to go on google and look ubuntu 22 server iso and select the one that says Jammy Jellyfish
-
-![](https://miro.medium.com/v2/resize:fit:764/1*-Jg_es0170xD6ez_PG3C3g.png)
-
-![](https://miro.medium.com/v2/resize:fit:764/1*8wnatb-Au8aNoiZ58wvZuQ.png)
+## GitHub Link
+[Fit Check Repository](https://github.com/your-org/fit-check)
 
 ## Conclusion
-In this lab, we successfully demonstrated the creation and configuration of virtual machines using Oracle VirtualBox. We created two different virtual machines running CentOS/AlmaLinux and Ubuntu Server respectively. The process involved proper resource allocation, network configuration, and operating system installation. Through this practical exercise, we gained hands-on experience in virtual machine deployment and management, which is crucial for modern cloud computing and server administration.
-
-## References
-1. Oracle VirtualBox Documentation: https://www.virtualbox.org/wiki/Documentation
-2. AlmaLinux Documentation: https://wiki.almalinux.org/
-3. Ubuntu Server Documentation: https://ubuntu.com/server/docs
+By tightly coupling a multimodal LLM (Gemini 2.5 Flash) with a lightweight React orchestrator, Fit Check demonstrates how an autonomous AIML agent can perceive user intent, reason over styling rules, and act through a sequence of generative transformations. The carefully engineered system prompts and validation hooks ensure photorealistic, safe outputs, while the UI keeps users in the loop—showcasing a practical blueprint for agentic fashion experiences.
