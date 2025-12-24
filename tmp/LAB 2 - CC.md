@@ -1,6 +1,6 @@
 ---
 share_link: https://share.note.sx/6msh48im#vtej+Fh+8W4KPvH/cd6HCvk4gDym1WUNxw4x+o8FM9Q
-share_updated: 2025-02-25T18:57:27+05:30
+share_updated: 2025-11-15T18:14:25+05:30
 ---
 
 
@@ -10,8 +10,6 @@ share_updated: 2025-02-25T18:57:27+05:30
 - **Branch:** EXTC
 
 ### Experiment no. 10 - AIML
-## Objective
-To create and run virtual machines on hosted hypervisors such as KVM, VMware Workstation, and Oracle VirtualBox.
 
 # Fit Check – AIML Agent Report
 
@@ -92,16 +90,18 @@ sequenceDiagram
 
 ## Screenshots (placeholders)
 1. **Home Screen**  
-   ![Home Screen Placeholder](assets/screens/home-screen.png)
+![[Pasted image 20251115140246.png]]
+![[Pasted image 20251115140305.png]]
+![[Pasted image 20251115140332.png]]
 2. **Model Display After Creation**  
-   ![Model Creation Placeholder](assets/screens/model-created.png)
+![[Pasted image 20251115140344.png]]
 3. **Upload New Outfit Screen**  
-   ![Upload Outfit Placeholder](assets/screens/upload-outfit.png)
+![[Pasted image 20251115174010.png]]
 4. **Model Wearing Selected Outfit**  
-   ![Model Wearing Outfit Placeholder](assets/screens/model-wearing-outfit.png)
+![[Pasted image 20251115173911.png]]
 
 ## GitHub Link
-[Fit Check Repository](https://github.com/your-org/fit-check)
+[Fit Check Repository](https://github.com/r04nx/fit-check)
 
 ## Conclusion
 By tightly coupling a multimodal LLM (Gemini 2.5 Flash) with a lightweight React orchestrator, Fit Check demonstrates how an autonomous AIML agent can perceive user intent, reason over styling rules, and act through a sequence of generative transformations. The carefully engineered system prompts and validation hooks ensure photorealistic, safe outputs, while the UI keeps users in the loop—showcasing a practical blueprint for agentic fashion experiences.
